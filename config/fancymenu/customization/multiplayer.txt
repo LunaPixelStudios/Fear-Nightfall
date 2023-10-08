@@ -1,0 +1,49 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=658948%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=659972%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=658972%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=660948%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  loop = true
+  channel = music
+  x = 34
+  width = 50
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = 324faea5-6e1b-472c-aaab-7d2ca3c8f8951696216656370
+  y = 44
+  audio_source:ec338749-2e21-4b6f-bbfc-6966790b076f1696216218036 = config/teraphobia/mainmenu.ogg;EXTERNAL_LOCAL;80;0
+  once_per_session = false
+  height = 50
+}
+

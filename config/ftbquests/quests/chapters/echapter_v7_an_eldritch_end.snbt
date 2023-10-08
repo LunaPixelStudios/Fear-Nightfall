@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "echapter_v7_an_eldritch_end"
+	group: "173C7A3FFE3DDF09"
+	id: "59D0CF571BF1F9D2"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "&eChapter V:&7 A New End"
+}

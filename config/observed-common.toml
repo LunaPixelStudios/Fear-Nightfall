@@ -1,0 +1,43 @@
+
+#Modify the rules for Observers
+["Observer Properties"]
+	#Changes how far an observer can notice a player from. Lower values make observers less expensive on system resources.
+	#Range: 10 ~ 64
+	observerRange = 32
+	#How close to the edge of the range can a target get before the observer tries to follow. Higher values make observers move more often towards targets.
+	#Range: 0.0 ~ 60.0
+	observerFollowRange = 7.5
+	#Attempts to prevent observers from spawning in caves when set to false.
+	observerCaves = false
+	#Rate of observation point gain per second when the target is within initial 30% of the observer's range. (for 32, this would be within 9.6 blocks)
+	#Range: 0.25 ~ 2.0
+	closeObserveRate = 1.0
+	#Rate of observation point gain per second when the target is out of 30% range but in 60% range. (for 32, this would be further than 9.6 blocks, but within 19.2 blocks)
+	#Range: 0.1 ~ 1.0
+	nearObserveRate = 0.75
+	#Rate of observation point gain per second when the target is out of 60% range
+	#Range: 0.05 ~ 0.75
+	farObserveRate = 0.375
+	#Rate of observation point drain per second when above 60% observed
+	#Range: 0.0 ~ 1.0
+	highDrainRate = 0.35
+	#Rate of observation point drain per second when below 60% observed, but above 20%
+	#Range: 0.0 ~ 1.0
+	midDrainRate = 0.2
+	#Rate of observation point drain per second below 20% observed
+	#Range: 0.0 ~ 1.0
+	lowDrainRate = 0.1
+	#Does the Observed effect show particles?
+	observedEffectParticles = false
+	#Enables or disables compat with Torment, a fellow SpookyJam 2021 mod. Players with higher level of torment get their observed points gained multiplied by the rate determined in tormentCompatRate per point of torment. This does nothing without the mod installed.
+	observedTormentCompat = true
+	#The multiplier each point of torment provides to the strength of the observed effect.
+	#Range: 0.0 ~ 1.0
+	tormentCompatRate = 0.0125
+	#1 = Reduced visibility through walls (see next item), 2 = full visibility through walls, any other = no visibility through walls
+	#Range: 0 ~ 2
+	wallVisionLevel = 0
+	#If WallVisionLevel is 1, what is the new range? Recommended to be lower than observerRange
+	#Range: 1 ~ 64
+	wallVisionRange = 16
+

@@ -1,0 +1,42 @@
+{
+  "removed_entities": [
+    "mutationcraft:hazmat_helicopter",
+    "mutationcraft:necroptor",
+    "endofherobrine:villager"
+  ],
+  "dayonly_spawns_entity": [
+    "any_mod:example_entity"
+  ],
+  "nightonly_spawns_entity": [
+    "any_mod:example_entity",
+    "mutationcraft:necroptor"
+  ],
+  "dayonly_spawns_modwide": [
+    "some_mods_id"
+  ],
+  "nightonly_spawns_modwide": [
+    "mutationcraft",
+    "kevin_trophy",
+    "skinandbonesremastered",
+    "born_in_chaos_v1",
+    "boh",
+    "mushys_fallen_monsters"
+  ],
+  "mutationcraft_spawn_weight": 0.3,
+  "ryanzombies_spawn_weight": 0.4,
+  "skinandbones_spawn_weight": 1.0,
+  "borninchaos_spawn_weight": 0.4,
+  "theboxofhorrors_spawn_weight": 1.0,
+  "fallenmonsters_spawn_weight": 0.8,
+  "lunar_event_blacklist_entity": [],
+  "lunar_event_blacklist_modwide": [
+    "mutationcraft",
+    "kevin_trophy",
+    "skinandbonesremastered",
+    "born_in_chaos_v1",
+    "boh",
+    "mushys_fallen_monsters"
+  ],
+  "enable_creeper_cena": false,
+  "ender_dragon_max_health": 600.0
+}

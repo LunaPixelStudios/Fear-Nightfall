@@ -1,0 +1,111 @@
+
+["Scale Override"]
+	#
+	#Determines what entities distribution values change to when in a specific the specific biome.
+	#
+	vmhBiomeOverridesScale = ["minecraft:birch_forest;minecraft:skeleton;0.95;1.05;1;0", "minecraft:birch_forest;minecraft:zombie;0.95;1.05;1;0", "minecraft:sunflower_plains;minecraft:zombie;0.95;1.05;1;0"]
+
+["Biome Attack Damage Override"]
+	#
+	#Determines what entities have their values overridden by values set heren
+	#The median only does things for certain distribution values.
+	#
+	#If an entity doesn't work automatically, this list also works as a whitelist. There is also a Blacklist, and an Inverted Entity Whitelist
+	#
+	#Inverted values can be set which invert the Min and Max values of a dataset for a specific.
+	#
+	#**Values must be set as follows: 'minecraft/modId:name;vmhSizeMin;vmhSizeMax;vmhSizeMedian;vmhDistributionType'.**
+	#
+	vmhBiomeOverridesAttackDamage = []
+
+["Biome Attack Speed Override"]
+	#
+	#Determines what entities have their values overridden by values set heren
+	#The median only does things for certain distribution values.
+	#
+	#If an entity doesn't work automatically, this list also works as a whitelist. There is also a Blacklist, and an Inverted Entity Whitelist
+	#
+	#Inverted values can be set which invert the Min and Max values of a dataset for a specific.
+	#
+	#**Values must be set as follows: 'minecraft/modId:name;vmhSizeMin;vmhSizeMax;vmhSizeMedian;vmhDistributionType'.**
+	#
+	vmhBiomeOverridesAttackSpeed = []
+
+["Biome Attack Knockback Override"]
+	#
+	#Determines what entities have their values overridden by values set heren
+	#The median only does things for certain distribution values.
+	#
+	#If an entity doesn't work automatically, this list also works as a whitelist. There is also a Blacklist, and an Inverted Entity Whitelist
+	#
+	#Inverted values can be set which invert the Min and Max values of a dataset for a specific.
+	#
+	#**Values must be set as follows: 'minecraft/modId:name;vmhSizeMin;vmhSizeMax;vmhSizeMedian;vmhDistributionType'.**
+	#
+	vmhBiomeOverridesAttackKnockBack = []
+
+["Biome Defense Override"]
+	#
+	#Determines what entities have their values overridden by values set heren
+	#The median only does things for certain distribution values.
+	#
+	#If an entity doesn't work automatically, this list also works as a whitelist. There is also a Blacklist, and an Inverted Entity Whitelist
+	#
+	#Inverted values can be set which invert the Min and Max values of a dataset for a specific.
+	#
+	#**Values must be set as follows: 'minecraft/modId:name;vmhSizeMin;vmhSizeMax;vmhSizeMedian;vmhDistributionType'.**
+	#
+	vmhBiomeOverridesDefense = []
+
+["Biome Speed Override"]
+	#
+	#Determines what entities have their values overridden by values set heren
+	#The median only does things for certain distribution values.
+	#
+	#If an entity doesn't work automatically, this list also works as a whitelist. There is also a Blacklist, and an Inverted Entity Whitelist
+	#
+	#Inverted values can be set which invert the Min and Max values of a dataset for a specific.
+	#
+	#**Values must be set as follows: 'minecraft/modId:name;vmhSizeMin;vmhSizeMax;vmhSizeMedian;vmhDistributionType'.**
+	#
+	vmhBiomeOverridesSpeed = []
+
+["Biome Jump Height Override"]
+	#
+	#Determines what entities have their values overridden by values set heren
+	#The median only does things for certain distribution values.
+	#
+	#If an entity doesn't work automatically, this list also works as a whitelist. There is also a Blacklist, and an Inverted Entity Whitelist
+	#
+	#Inverted values can be set which invert the Min and Max values of a dataset for a specific.
+	#
+	#**Values must be set as follows: 'minecraft/modId:name;vmhSizeMin;vmhSizeMax;vmhSizeMedian;vmhDistributionType'.**
+	#
+	vmhBiomeOverridesJumpHeight = []
+
+["Biome Horse Jump Height Override"]
+	#
+	#Determines what entities have their values overridden by values set heren
+	#The median only does things for certain distribution values.
+	#
+	#If an entity doesn't work automatically, this list also works as a whitelist. There is also a Blacklist, and an Inverted Entity Whitelist
+	#
+	#Inverted values can be set which invert the Min and Max values of a dataset for a specific.
+	#
+	#**Values must be set as follows: 'minecraft/modId:name;vmhSizeMin;vmhSizeMax;vmhSizeMedian;vmhDistributionType'.**
+	#
+	vmhBiomeOverridesHorseJumpHeight = []
+
+["Biome Health Override"]
+	#
+	#Determines what entities have their values overridden by values set heren
+	#The median only does things for certain distribution values.
+	#
+	#If an entity doesn't work automatically, this list also works as a whitelist. There is also a Blacklist, and an Inverted Entity Whitelist
+	#
+	#Inverted values can be set which invert the Min and Max values of a dataset for a specific.
+	#
+	#**Values must be set as follows: 'minecraft/modId:name;vmhSizeMin;vmhSizeMax;vmhSizeMedian;vmhDistributionType'.**
+	#
+	vmhBiomeOverridesHealth = []
+

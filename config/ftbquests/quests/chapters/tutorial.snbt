@@ -1,0 +1,122 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutorial"
+	group: ""
+	hide_quest_until_deps_visible: true
+	icon: "ftbquests:book"
+	id: "12E0D63BE328F214"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&7Welcome to &cFear Nightfall&7, adventurer."
+				"&7This tutorial questline will teach you the basics of the modpack."
+				""
+				"&7This is a &equest&7, it requires one or more &etasks&7 to be completed, and may give a reward."
+				"&7In this case, this quest will only have a &echeckmark task&7 which you can click, as this is just information."
+				""
+				"&6&oAfter completing a quest, you will unlock more quests, or a new chapter."
+			]
+			icon: "ftbquests:book"
+			id: "6DA90162B361A85D"
+			shape: "square"
+			subtitle: "&8[Click to read information]"
+			tasks: [{
+				id: "5009DDE74895629F"
+				title: "Read the tutorial"
+				type: "checkmark"
+			}]
+			title: "Tutorial: &eStarting Questing"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DA90162B361A85D"]
+			description: ["&7In &cFear Nightfall&7, the player is cursed with the presence of various monsters during night. This means that &cyou can only sleep during the day&7."]
+			icon: "fantasyfurniture:venthyr/bed_single"
+			id: "4991A45261F83F9E"
+			rewards: [{
+				id: "107D8B85DDBC7ADE"
+				item: "minecraft:black_bed"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&8[Click to read information]"
+			tasks: [{
+				id: "31C3DE06552D4B89"
+				title: "Read Sleeping Mechanics"
+				type: "checkmark"
+			}]
+			title: "Information: &eSleeping"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6DA90162B361A85D"]
+			description: [
+				"&7The time cycles differently, with days being &e30 minutes&7 long, and usually safe, and nights being &360 minutes&7 long, and a challenge to survive."
+				""
+				""
+				"&f&lTips:"
+				""
+				"- &7Don't waste time in the day, explore and gather provisions."
+				"- &7Be careful, passive mobs will attack you back!"
+				"- &7Use the &eC&7 key to crawl."
+				"- &7There isn't a minimap or zoom key."
+				"- &7Fear the nightfall."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/info_gray"
+				}
+			}
+			id: "0164FF3EAA38076D"
+			subtitle: "&8[Click to read information]"
+			tasks: [{
+				id: "7C11EC2B4EBEC678"
+				title: "Read New Mechanics"
+				type: "checkmark"
+			}]
+			title: "Information: &eNew Mechanics"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0164FF3EAA38076D"
+				"4991A45261F83F9E"
+				"6DA90162B361A85D"
+			]
+			description: [
+				"&7Now that you've learnt the basics, you can delve into the &cCampaign&7."
+				""
+				"&7To do so, move your mouse to the left panel. This will show the &ecurrent unlocked chapters&7. You will have to progress through them to unlock more chapters."
+				""
+				"&8&oGood luck, and fear the night."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "teraphobia:textures/icon.png"
+				}
+			}
+			id: "3455852556DCCB7D"
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "&8[Click to read information]"
+			tasks: [{
+				id: "7535C6417961261C"
+				title: "&6Starting the campaign"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "&fTutorial"
+}

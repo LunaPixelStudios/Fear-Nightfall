@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_iii"
+	group: "173C7A3FFE3DDF09"
+	icon: "biomancy:creator_mix"
+	id: "04F608FB2194CB5D"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "&eChapter III:&7 Biomancy"
+}

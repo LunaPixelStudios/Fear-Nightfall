@@ -1,0 +1,36 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_1"
+	group: "173C7A3FFE3DDF09"
+	id: "0FFDCEA070C7AE93"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"&7&oYou wake up in the middle of nowhere. A foggy day, looks normal, but feels... weird."
+			""
+			""
+			"&eFinish the tutorial to continue unlocking more quests."
+		]
+		id: "35206AF976C984CC"
+		shape: "rsquare"
+		subtitle: "&8[Click to read lore]"
+		tasks: [{
+			id: "360C277CB48004AA"
+			item: {
+				Count: 1b
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "Make a stone pickaxe"
+			type: "item"
+		}]
+		title: "&7Gathering resources"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "&eChapter I:&7 The Beginning"
+}

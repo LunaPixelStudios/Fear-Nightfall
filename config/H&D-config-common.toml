@@ -1,0 +1,53 @@
+
+["Nutrients in food/modid:name"]
+	#The food in this item may replenish a large amount of water after use
+	large_amount_of_moisture = "Placeholder"
+	#The food in this item may be replenished with an appropriate amount of water after use
+	moderate_moisture_content = "Placeholder"
+	#The food in this item may be supplemented with an appropriate amount of sugar after use
+	moderate_amount_of_carbohydrates = "Placeholder"
+	#The food in this item may be supplemented with an appropriate amount of oil after use
+	moderate_amount_of_oil = "Placeholder"
+	#The food in this item may be supplemented with an appropriate amount of protein after use
+	moderate_amount_of_protein = "Placeholder"
+	#The food in this item may be supplemented with an appropriate amount of inorganic salt after use
+	moderate_amount_of_inorganic_salts = "Placeholder"
+	#The food in this item may be supplemented with an appropriate amount of vitamins after use
+	moderate_amount_of_vitamins = "Placeholder"
+	#The food in this item may be supplemented with a large amount of vitamins after use
+	large_amounts_of_vitamins = "Placeholder"
+	#The food in this item may be supplemented with an appropriate amount of dietary fiber after use
+	moderate_dietary_fiber = "Placeholder"
+	#The food in this item may be supplemented with a large amount of sugar after use
+	large_amounts_of_sugars = "Placeholder"
+
+["Food should not have these nutrients/modid:name"]
+	#food with no large_amount_of_moisture
+	large_amount_of_moisture = "Placeholder"
+	#food with no moderate_moisture_content
+	moderate_moisture_content = "Placeholder"
+	#food with no moderate_amount_of_carbohydrates
+	moderate_amount_of_carbohydrates = "Placeholder"
+	#food with no moderate_amount_of_oil
+	moderate_amount_of_oil = "Placeholder"
+	#food with no moderate_amount_of_protein
+	moderate_amount_of_protein = "Placeholder"
+	#food with no moderate_amount_of_inorganic_salts
+	moderate_amount_of_inorganic_salts = "Placeholder"
+	#food with no moderate_amount_of_vitamins
+	moderate_amount_of_vitamins = "Placeholder"
+	#food with no large_amounts_of_vitamins
+	large_amounts_of_vitamins = "Placeholder"
+	#food with no moderate_dietary_fiber
+	moderate_dietary_fiber = "Placeholder"
+	#food with no large_amounts_of_sugars
+	large_amounts_of_sugars = "Placeholder"
+
+["physical alienation/modid:name"]
+	#for item:The probability is 1/100
+	use_to_increase_the_degree_of_organic_alienation = "placeholder"
+	#for item:The probability is 1/20
+	use_to_decrease_the_degree_of_organic_alienation = "placeholder"
+	#for entity:The probability is 1/50
+	hurt_to_increase_the_degree_of_organic_alienation = "placeholder"
+

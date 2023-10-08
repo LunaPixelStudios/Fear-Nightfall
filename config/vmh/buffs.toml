@@ -1,0 +1,51 @@
+
+["Buff Health"]
+	#
+	#Determines whether or not to buff/debuff entity health by their size value.
+	#
+	vmhBuffHealth = false
+
+["Buff Speed"]
+	#
+	#Determines whether or not to buff/debuff entity movement/flying speed by their size value.
+	#
+	vmhBuffSpeed = false
+
+["Buff Attack Damage"]
+	#
+	#Determines whether or not to buff/debuff entity attack damage by their size value.
+	#
+	vmhBuffAttackDamage = false
+
+["Buff Attack Speed"]
+	#
+	#Determines whether or not to buff/debuff entity attack speed by their size value.
+	#
+	vmhBuffAttackSpeed = false
+
+["Buff Attack Knockback"]
+	#
+	#Determines whether or not to buff/debuff entity knockback by their size value.
+	#
+	vmhBuffKnockback = false
+
+["Buff Defense"]
+	#
+	#Determines whether Aor not to buff/debuff entity defense by their size value.
+	#
+	vmhBuffDefense = false
+
+["Modify Jump/Step Height"]
+	#
+	#Determines whether or not to modify entity jump height/step height by their size value.
+	#
+	#WARNING: Be careful turning this on, it can cause mobs to have serious issues. It depends on the heights.
+	#
+	vmhBuffJumpHeight = false
+
+["Buff Horse Jump Height"]
+	#
+	#Determines whether or not to modify horse jump heights.
+	#
+	vmhBuffHorseJumpHeight = false
+
