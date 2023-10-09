@@ -52,7 +52,7 @@
 	World = true
 	Mobs = false
 	Client = true
-	Experimental = c
+	Experimental = false
 	Oddities = false
 
 [automation]
