@@ -24,3 +24,6 @@ net.minecraftforge.client.gui.ModListScreen {
 net.minecraft.client.gui.screens.OptionsScreen {
 }
 
+com.aetherteam.aether.client.gui.screen.inventory.AccessoriesScreen {
+}
+

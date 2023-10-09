@@ -36,10 +36,15 @@ customization {
 
 customization {
   identifier = %id=376358%
-  orientation = bottom-left
-  x = 6
+  orientation = top-right
+  x = -25
   action = movebutton
-  y = -36
+  y = 5
+}
+
+customization {
+  identifier = %id=9764%
+  action = hidebutton
 }
 
 customization {
@@ -49,6 +54,11 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=97641%
   action = hidebutton
 }
 
@@ -82,6 +92,11 @@ customization {
 }
 
 customization {
+  identifier = %id=976411%
+  action = hidebutton
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-centered
   x = -100
@@ -99,10 +114,10 @@ customization {
 
 customization {
   identifier = %id=604310%
-  orientation = bottom-left
-  x = 29
+  orientation = top-left
+  x = 5
   action = movebutton
-  y = -36
+  y = 5
 }
 
 customization {
@@ -141,11 +156,11 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 423
+  x = 530
   width = 13
   action = deep_customization_element:title_screen_realms_notification
   actionid = 508876c6-9c53-4208-9b14-b2761836dbda1688967666260
-  y = 182
+  y = 214
   height = 13
 }
 
@@ -174,25 +189,6 @@ customization {
 }
 
 customization {
-  orientation = bottom-left
-  enable_scrolling = true
-  shadow = true
-  scale = 1.0
-  source = A Luna Pixel Studios Modpack
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  x = 0
-  width = 152
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = 427ca21f-2363-412c-a352-a85337b8c7581688967929915
-  y = -12
-  alignment = left
-  height = 12
-}
-
-customization {
   path = config/teraphobia/fear_nightfall.png
   orientation = mid-centered
   x = -111
@@ -215,5 +211,19 @@ customization {
   audio_source:ec338749-2e21-4b6f-bbfc-6966790b076f1696216218036 = config/teraphobia/mainmenu.ogg;EXTERNAL_LOCAL;80;0
   once_per_session = false
   height = 50
+}
+
+customization {
+  orientation = bottom-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://github.com/LunaPixelStudios/Better-MC/wiki/Performance-Guide%btnaction_splitter_fm%
+  x = 5
+  width = 120
+  action = addbutton
+  actionid = 4c01482b-d405-4b05-a352-a68f3275129a1696826047306
+  y = -25
+  label = Performance Guide!
+  height = 20
 }
 
