@@ -1,22 +1,17 @@
 {
   "removed_entities": [
-    "mutationcraft:hazmat_helicopter",
-    "mutationcraft:necroptor",
     "endofherobrine:villager"
   ],
   "dayonly_spawns_entity": [
     "any_mod:example_entity"
   ],
   "nightonly_spawns_entity": [
-    "any_mod:example_entity",
-    "mutationcraft:necroptor"
+    "any_mod:example_entity"
   ],
   "dayonly_spawns_modwide": [
     "some_mods_id"
   ],
   "nightonly_spawns_modwide": [
-    "mutationcraft",
-    "kevin_trophy",
     "skinandbonesremastered",
     "born_in_chaos_v1",
     "boh",
@@ -30,8 +25,6 @@
   "fallenmonsters_spawn_weight": 0.8,
   "lunar_event_blacklist_entity": [],
   "lunar_event_blacklist_modwide": [
-    "mutationcraft",
-    "kevin_trophy",
     "skinandbonesremastered",
     "born_in_chaos_v1",
     "boh",
