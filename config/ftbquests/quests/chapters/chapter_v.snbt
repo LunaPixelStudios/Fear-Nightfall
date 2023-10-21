@@ -1,0 +1,200 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_v"
+	group: "173C7A3FFE3DDF09"
+	icon: "minecraft:ender_eye"
+	id: "7AA4DC4713C8D770"
+	order_index: 2
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"123B8BF589E8D74F"
+				"16EB92A6D8C34B08"
+				"77B900FB46A912D3"
+				"0C028A90EB575C5A"
+				"39570C36186F7AE4"
+				"09E49846F4E317D6"
+			]
+			id: "3CFD1D84CB1364D1"
+			rewards: [{
+				id: "6A8C964E31B5548C"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.4d
+			tasks: [{
+				id: "1AC2F443C09C16DB"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			title: "&cCombination &bTime"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CFD1D84CB1364D1"]
+			id: "0CBDBBC7538CE6E0"
+			rewards: [{
+				count: 2
+				id: "2F4DD770C1E00FC7"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "71A9C9CF6F268FEC"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "Finally &cFleshy Eye"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0CBDBBC7538CE6E0"]
+			hide_dependency_lines: false
+			id: "1DCF9A82C51F730B"
+			rewards: [{
+				id: "2641EA50D35A6064"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+				id: "7692B3D38FF58754"
+				title: "&eThe End???"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1DCF9A82C51F730B"]
+			id: "19BA19A20221B4DA"
+			rewards: [
+				{
+					id: "4B8908463A87B136"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "254FB55058BD9A87"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "1DD260036276BB64"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Its Time to Defeat the &dEnder Dragon"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			hide: true
+			hide_dependency_lines: true
+			id: "77B900FB46A912D3"
+			rewards: [{
+				id: "0DAA035F54F473C5"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3F9D89A2AAF3924B"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "Obtain &2Ender Pearl"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			hide: true
+			hide_dependency_lines: true
+			id: "09E49846F4E317D6"
+			rewards: [{
+				id: "1A3D774795AE65B7"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6E039DDAB5BCDA27"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			title: "Obtain &6Blaze Powder"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			hide: true
+			hide_dependency_lines: true
+			id: "16EB92A6D8C34B08"
+			rewards: [{
+				id: "47E9ED026AB8F2D3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 8L
+				id: "51AC6C792F849BE2"
+				item: "biomancy:elastic_fibers"
+				type: "item"
+			}]
+			title: "Obtain &cElastic Fibers"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			hide: true
+			hide_dependency_lines: true
+			id: "0C028A90EB575C5A"
+			rewards: [{
+				id: "28E875243A6FEEA6"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 2L
+				id: "646490C5C17C807B"
+				item: "biomancy:exotic_dust"
+				type: "item"
+			}]
+			title: "Obtain &dExotic Dust"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			hide: true
+			hide_dependency_lines: true
+			id: "39570C36186F7AE4"
+			rewards: [{
+				count: 4
+				id: "6E247152D208A019"
+				item: "biomancy:flesh_bits"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				count: 16L
+				id: "355C8FFBED8EE2CA"
+				item: "biomancy:flesh_bits"
+				type: "item"
+			}]
+			title: "Obtain &4Flesh Bits"
+			x: 2.5d
+			y: 0.5d
+		}
+	]
+	title: " &eChapter III: &7Eyes of Horror"
+}

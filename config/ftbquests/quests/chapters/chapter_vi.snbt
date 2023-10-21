@@ -1,0 +1,787 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_vi"
+	group: "0AF1E24E0154B029"
+	icon: {
+		Count: 1b
+		id: "immersiveengineering:hammer"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "129401263BB22EA9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "5A60751EB3771E5A"
+			size: 1.3d
+			tasks: [{
+				id: "1B70CE3E079B87B9"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
+			title: "raft &6Engineer's Manual"
+			x: -20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A60751EB3771E5A"]
+			id: "33563F1090D5B5A4"
+			rewards: [{
+				id: "075172B6739ABDE1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			size: 1.2d
+			tasks: [{
+				id: "6C2D6F99FE7904C4"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft &8Engineer's Hammer"
+			x: -20.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["33563F1090D5B5A4"]
+			id: "1FDCA470EA86BD01"
+			rewards: [{
+				id: "6EC4C924BB2AF5DE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3378843CECDFB5D4"
+				item: "immersiveengineering:screwdriver"
+				type: "item"
+			}]
+			title: "Craft &8Engineer's Screwdriver"
+			x: -18.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["33563F1090D5B5A4"]
+			id: "72F28B55472BDA33"
+			rewards: [{
+				id: "1451FADDE3AD16CB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "082D7614EC67077A"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:wirecutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft &8Enginner's Wire Cutters"
+			x: -18.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A60751EB3771E5A"]
+			id: "74CD7840FADDE7EE"
+			rewards: [{
+				count: 4
+				id: "50094E30EC7EC99A"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "00B61A125B9A3271"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			title: "Craft &6Engineer's Workbench"
+			x: -18.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A60751EB3771E5A"]
+			id: "1E41BDDCEF3EA1BC"
+			rewards: [{
+				count: 10
+				id: "6CF6E35FC63F0D26"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "6254C12C2F82C57E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Any #forge:ingots/steel"
+				type: "item"
+			}]
+			title: "Craft &8Time to Make Some Steel"
+			x: -23.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1461077EB7358B47"]
+			description: [""]
+			id: "49CA52F24C7A62F8"
+			rewards: [{
+				id: "6DCBB091A867C8E0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "65510C2F56E9B78B"
+				item: "immersiveengineering:cloche"
+				type: "item"
+			}]
+			title: "Craft &8Garden Cloche"
+			x: -15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"74CD7840FADDE7EE"
+				"2FBEFD1AF94468DD"
+			]
+			id: "1461077EB7358B47"
+			rewards: [{
+				count: 5
+				id: "0C3311A9F109B217"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "6132EA68861CE5C0"
+				item: "immersiveengineering:light_bulb"
+				type: "item"
+			}]
+			title: "Craft &8Incadescent Light Bulb"
+			x: -17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74CD7840FADDE7EE"]
+			id: "0FA23DCC58940628"
+			rewards: [{
+				count: 4
+				id: "124CF7D2AA92276A"
+				item: "immersiveengineering:waterwheel_segment"
+				type: "item"
+			}]
+			tasks: [{
+				id: "125D4BC814EB0B31"
+				item: "immersiveengineering:watermill"
+				type: "item"
+			}]
+			title: "Craft &6Water Wheel"
+			x: -18.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0FA23DCC58940628"]
+			description: [""]
+			id: "2FBEFD1AF94468DD"
+			rewards: [{
+				count: 2
+				id: "7C2249BAE0783B41"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40031F27F08CA435"
+				item: "immersiveengineering:dynamo"
+				type: "item"
+			}]
+			title: "Craft &8Kinetic Dynamo"
+			x: -17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33563F1090D5B5A4"]
+			id: "48823BBC2A5BD964"
+			rewards: [{
+				count: 10
+				id: "6F0A7CCC90FBB9F8"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "464C4BD672C19CBD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 23
+						}
+					}
+					id: "immersiveengineering:toolbox"
+				}
+				type: "item"
+			}]
+			title: "Craft &6Engineer's Toolbox"
+			x: -20.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1461077EB7358B47"]
+			id: "4044510266D77027"
+			rewards: [{
+				count: 3
+				id: "6A7F74B6662FFBB9"
+				item: "immersiveengineering:ingot_aluminum"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "2262564C8CC06A53"
+					item: "immersiveengineering:connector_lv"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "21C635CADBA0C549"
+					item: "immersiveengineering:connector_mv"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "34E3F54CF509A5BE"
+					item: "immersiveengineering:connector_hv"
+					type: "item"
+				}
+			]
+			title: "Craft &6LV Wire Connector"
+			x: -17.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E41BDDCEF3EA1BC"]
+			id: "1CCC9AEFE5926066"
+			rewards: [{
+				id: "5E81BFEA64B75B38"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "0FBCCEED04AF8F00"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+				{
+					id: "2045B47793639071"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "39A894262367A53D"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "01985EB360716A5C"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "608C59D933F69F31"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+			]
+			title: "&6The Metal Press"
+			x: -24.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["48823BBC2A5BD964"]
+			id: "15A75E2166B25EF3"
+			tasks: [{
+				id: "5491F361A15708DB"
+				item: "immersiveengineering:voltmeter"
+				type: "item"
+			}]
+			title: "Craft &6Enginner's Multimeter"
+			x: -20.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74CD7840FADDE7EE"]
+			hide_dependency_lines: true
+			id: "19B1D5DFC3D3D7FC"
+			rewards: [{
+				id: "2FE34E83E996EEBB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "28A4B6936AAE7639"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 5
+							}
+						}
+						id: "immersiveengineering:drill"
+					}
+					type: "item"
+				}
+				{
+					id: "304123502C6DF6A2"
+					item: "immersiveengineering:drillhead_steel"
+					type: "item"
+				}
+			]
+			title: "Craft &8Mining Drill"
+			x: -18.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1E41BDDCEF3EA1BC"]
+			id: "315F7691E0BC634D"
+			rewards: [{
+				id: "4AFF6FA2AD38569F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "65689A80E551B8CE"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "360FA5CED5CC2EB8"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "3E81F1B414BEC5A9"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "0513A21B6B005D24"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "13F9CECB92911CF5"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5B6049493B07B50F"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4845B90391565395"
+					item: "immersiveengineering:wooden_barrel"
+					type: "item"
+				}
+			]
+			title: "&6The Squeezer"
+			x: -23.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E41BDDCEF3EA1BC"]
+			id: "037C1DF06DBC7AE9"
+			rewards: [{
+				id: "0C5FCE9DE905BDED"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 10L
+					id: "2CC41CC040096D59"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "647B54FB1EEA46A1"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "2B28E831E2623066"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "230D43D6417F6F4A"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "357CBB97698D72B5"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			title: "&6The Crusher"
+			x: -21.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E41BDDCEF3EA1BC"]
+			description: [""]
+			id: "4AD6B33A9AE57386"
+			rewards: [{
+				id: "6EAC74E7DBD236D4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "34FE540DD48D7EE8"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "49D3C01CA52842CF"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "71AC45EFFAFE1CE2"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					id: "530DB9087CF99DCB"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "08F02D22A893C172"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "03D3435890C26F7C"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "&6The Refinery"
+			x: -21.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E41BDDCEF3EA1BC"]
+			id: "096C3B9CE0C7986E"
+			rewards: [{
+				id: "5FD5E80F3335DA46"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "7F2E93D25B91C1B4"
+					item: "immersiveengineering:generator"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "45471F9B24F2B2C7"
+					item: "immersiveengineering:radiator"
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "110CB38976D6F2E3"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "71FE22F98F51017E"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "42AAFCA893B9F731"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "02ADCDFE7785FDB0"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "&6Diesel Generator"
+			x: -24.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["096C3B9CE0C7986E"]
+			id: "2C638D216128B6E7"
+			tasks: [{
+				id: "37D6F0F6B7AFF9C1"
+				item: "immersiveengineering:biodiesel_bucket"
+				type: "item"
+			}]
+			x: -24.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4044510266D77027"]
+			id: "380008F474E7EAD3"
+			rewards: [{
+				id: "531544E0D5A3C342"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "071DE219A85AD49D"
+					item: "immersiveengineering:capacitor_lv"
+					type: "item"
+				}
+				{
+					id: "0493BABE4E72A5A6"
+					item: "immersiveengineering:capacitor_mv"
+					type: "item"
+				}
+				{
+					id: "2C13BF3E68F5256D"
+					item: "immersiveengineering:capacitor_hv"
+					type: "item"
+				}
+			]
+			title: "Craft &8LV Accumulator"
+			x: -15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4044510266D77027"]
+			id: "31028662117B469A"
+			rewards: [{
+				count: 3
+				id: "6F979E8A970C6E5C"
+				item: "immersiveengineering:ingot_electrum"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0CC0CE847D09DA75"
+					item: "immersiveengineering:connector_lv_relay"
+					type: "item"
+				}
+				{
+					id: "5C02CE50F034515B"
+					item: "immersiveengineering:connector_mv_relay"
+					type: "item"
+				}
+				{
+					id: "0703D9951E4AC030"
+					item: "immersiveengineering:connector_hv_relay"
+					type: "item"
+				}
+			]
+			title: "Craft &6LV Wire Relay"
+			x: -17.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E41BDDCEF3EA1BC"]
+			id: "2456EA21372C816F"
+			rewards: [{
+				id: "165F266E630BC65C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "04E9B264A0B3869D"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "536740A6A78DDE08"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "1F7FBEF65D1EC131"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "6CB877896163B82E"
+					item: "immersiveengineering:steel_scaffolding_grate_top"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "11EE43ADDABB23F2"
+					item: "immersiveengineering:slab_sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "20B77FA9E02FCC32"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+			]
+			title: "&6Assembler"
+			x: -23.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["74CD7840FADDE7EE"]
+			hide_dependency_lines: true
+			id: "715C17C5E049382C"
+			rewards: [{
+				id: "5EEC690833F7E2B8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2C46EDF321D7FAD6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 2
+						}
+					}
+					id: "immersiveengineering:skyhook"
+				}
+				type: "item"
+			}]
+			title: "Craft &8Engineer's Skyhook"
+			x: -21.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["74CD7840FADDE7EE"]
+			hide_dependency_lines: true
+			id: "5A6774C6F00BBBF1"
+			rewards: [{
+				id: "086B4A534DFEDD6F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "77068AA11396FAFB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 5
+						}
+					}
+					id: "immersiveengineering:buzzsaw"
+				}
+				type: "item"
+			}]
+			title: "Craft &8Buzzsaw"
+			x: -21.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1E41BDDCEF3EA1BC"]
+			id: "13BC53BA0A8D0CC6"
+			rewards: [{
+				id: "3D68D3576DF5201E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 6L
+					id: "0E4BBA034E560DB2"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "26380DB4B2D7864F"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "26F7F2C08E53C2FB"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "171B693CC830DF48"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2FCAEF7F8B2840E1"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0D6FF45904370D20"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+			]
+			title: "&6Sawmill"
+			x: -24.5d
+			y: 0.0d
+		}
+	]
+	title: " &eSinister Engineering"
+}

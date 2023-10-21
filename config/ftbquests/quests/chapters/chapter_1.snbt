@@ -3,34 +3,510 @@
 	default_quest_shape: ""
 	filename: "chapter_1"
 	group: "173C7A3FFE3DDF09"
+	icon: "minecraft:torch"
 	id: "0FFDCEA070C7AE93"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		description: [
-			"&7&oYou wake up in the middle of nowhere. A foggy day, looks normal, but feels... weird."
-			""
-			""
-			"&eFinish the tutorial to continue unlocking more quests."
-		]
-		id: "35206AF976C984CC"
-		shape: "rsquare"
-		subtitle: "&8[Click to read lore]"
-		tasks: [{
-			id: "360C277CB48004AA"
-			item: {
-				Count: 1b
-				id: "minecraft:stone_pickaxe"
-				tag: {
-					Damage: 0
+	quests: [
+		{
+			dependencies: ["2F5B7FFBC196A061"]
+			id: "07D72CC3A7E25F72"
+			rewards: [{
+				id: "0887F33719BDAB35"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "34752031EDBA5EF7"
+				item: {
+					Count: 1b
+					id: "travelersbackpack:standard"
+					tag: { }
 				}
-			}
-			title: "Make a stone pickaxe"
-			type: "item"
-		}]
-		title: "&7Gathering resources"
-		x: 0.0d
-		y: 0.0d
-	}]
-	title: "&eChapter I:&7 The Beginning"
+				type: "item"
+			}]
+			title: "Make &6Backpack"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"            &4SURVIVE THE NIGHT!&r"
+				""
+				"Herobrine has corrupted all the dimensions, your world is now more dangerous than ever!"
+			]
+			icon: "born_in_chaos_v1:nightmare_stalker_skull"
+			id: "2F5B7FFBC196A061"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "[Click for more information!]"
+			tasks: [{
+				id: "4B22F365053FC9F8"
+				title: "Stop Herobrine!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"60A2705587F74560"
+				"7276FC7B1590E162"
+			]
+			description: ["                 &4 GOOD LUCK!&r"]
+			id: "4D5D3A38CA390881"
+			shape: "hexagon"
+			tasks: [{
+				icon: "immersiveengineering:voltmeter"
+				id: "53167325D07122D0"
+				stat: "minecraft:play_time"
+				title: "Survive the &cNight"
+				type: "stat"
+				value: 35010
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F5B7FFBC196A061"]
+			hide_dependency_lines: true
+			id: "66AA7428F91AE557"
+			rewards: [{
+				id: "5C768FC34634F15F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "boh:saw_runner"
+				icon: "boh:saw_runner_spawn_egg"
+				id: "663C7B28BFA5CE41"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &2Saw Runner"
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2F5B7FFBC196A061"]
+			hide_dependency_lines: true
+			id: "5E5299A5187309D0"
+			rewards: [{
+				id: "0DDE764382A8CFF5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "graveyard:skeleton_creeper"
+				icon: "graveyard:skeleton_creeper_spawn_egg"
+				id: "2E736C7265B008A3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &8Skeleton Creeper"
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2F5B7FFBC196A061"]
+			hide_dependency_lines: true
+			id: "797AED0FF1430071"
+			rewards: [{
+				id: "67249E27B17F4C71"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "boh:jeff_the_killer"
+				icon: "boh:jeff_the_killer_spawn_egg"
+				id: "70E443790E17CFF5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &cJeff the Killer"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2F5B7FFBC196A061"]
+			hide_dependency_lines: true
+			id: "2AFCF5EF51DE0B62"
+			rewards: [{
+				id: "70D577123310EB84"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "endofherobrine:villager"
+				icon: "endofherobrine:villager_spawn_egg"
+				id: "0FE8F628FF85FB09"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &ePossessed Villager"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2F5B7FFBC196A061"]
+			hide_dependency_lines: true
+			id: "4151947891C21E91"
+			rewards: [{
+				id: "55560E9092D58BFF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "graveyard:ghoul"
+				icon: "graveyard:ghoul_spawn_egg"
+				id: "0C18823FDC0B3A72"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &6Ghoul"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2F5B7FFBC196A061"]
+			hide_dependency_lines: true
+			id: "76B51B909A5FB709"
+			rewards: [{
+				id: "445DA5D0ED112E83"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "skinandbonesremastered:corrupted_villager"
+				icon: "skinandbonesremastered:corrupted_villager_spawn_egg"
+				id: "1411F7432CF140F0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &7Cursed Villager"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2F5B7FFBC196A061"]
+			hide_dependency_lines: true
+			id: "4235CB3CA282DBC3"
+			rewards: [{
+				id: "196902E1A8BE01DC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "skinandbonesremastered:wendigo"
+				icon: "skinandbonesremastered:wendigo_spawn_egg"
+				id: "07B78331EF806E09"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &7Wnedigo"
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2F5B7FFBC196A061"]
+			hide_dependency_lines: true
+			id: "1831E95257E57AA4"
+			rewards: [{
+				id: "1BDF7F2054DA3C8D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:door_knight"
+				icon: "born_in_chaos_v1:door_knight_not_despawn_spawn_egg"
+				id: "0B35A2D234AD4FF1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &cDoor Knight"
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2F5B7FFBC196A061"]
+			hide_dependency_lines: true
+			icon: "born_in_chaos_v1:barrel_zombie_spawn_egg"
+			id: "2ECEC67D04E24D08"
+			rewards: [{
+				id: "410306E3AA3AC026"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:barrel_zombie"
+				icon: "born_in_chaos_v1:barrel_zombie_spawn_egg"
+				id: "1ADB41A73673D8B3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &2Barrel Zombie"
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2F5B7FFBC196A061"]
+			hide_dependency_lines: true
+			id: "61527B36C38396C6"
+			rewards: [{
+				id: "7B427B09C5274D66"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "endofherobrine:zombie"
+				icon: "endofherobrine:zombie_spawn_egg"
+				id: "638C25AB8378A7F4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &2Possessed Zombie"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2F5B7FFBC196A061"]
+			description: [
+				" &4WE DON'T KNOW WHAT IT OUT THERE!&r"
+				""
+				"Your base is the most important part of survival, the mobs are not meant to be underestimated!"
+			]
+			icon: "minecraft:spruce_door"
+			id: "47E544C2A7FF4EC0"
+			rewards: [{
+				count: 2
+				id: "4A81A4D5610EB6E7"
+				item: "minecraft:bamboo"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4E8AEDA39676C779"
+				title: "Build a base before &8Nightfall!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2F5B7FFBC196A061"]
+			id: "1E73E70191461820"
+			rewards: [{
+				id: "0F0EF70D58C70C33"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "476AD400B9E8A5E5"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Obtain &3Diamond"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2F5B7FFBC196A061"]
+			id: "20A2FDD7CB5AFB72"
+			rewards: [{
+				id: "5B5B902EE9BB74E9"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "6A1BE589F2D3CC7F"
+				item: "minecraft:iron_door"
+				type: "item"
+			}]
+			title: "Make &7Iron Door"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2F5B7FFBC196A061"]
+			id: "176D8929B2715ABB"
+			rewards: [{
+				id: "37CB71A36DD20042"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "0D0B3B707E33A501"
+				item: "butchersdelight:roaster"
+				type: "item"
+			}]
+			title: "Craft &eRoaster"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2F5B7FFBC196A061"]
+			id: "4AE2F97E6C289E8F"
+			rewards: [{
+				id: "197BFC130CB5FA0F"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "0199F7DF9DC8FB6C"
+				item: "supplementaries:bamboo_spikes"
+				type: "item"
+			}]
+			title: "Make &eBamboo Spikes"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2F5B7FFBC196A061"]
+			id: "0BE8BCCB8BCC50C1"
+			rewards: [{
+				id: "12EFA1C802D0E8BD"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "1A4CBB001E671540"
+				item: {
+					Count: 1b
+					id: "hexerei:book_of_shadows"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft &6Book of Shadows"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2F5B7FFBC196A061"]
+			id: "32A258F985DE2C6E"
+			rewards: [{
+				id: "3060C0DE464A8532"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "3D00C1E0855B4BAE"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
+			title: "Craft &6Engineer's Manual"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["47E544C2A7FF4EC0"]
+			id: "60A2705587F74560"
+			rewards: [{
+				id: "17314B807A510E52"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "6D6C1D2BFF4C8569"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12312C6713DD44DD"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DEA57FBCB677A66"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "493AA0EB71A15955"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "More &8Protection"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47E544C2A7FF4EC0"]
+			id: "7276FC7B1590E162"
+			rewards: [{
+				count: 2
+				id: "5334B1B017A66C93"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1D7BDE5A6E434B38"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4501352C4EF42985"
+					item: {
+						Count: 1b
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "326A79AA3DCF9399"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			title: "&6Basic's"
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+	title: "&eChapter I:&r &7Aether has Fallen"
 }

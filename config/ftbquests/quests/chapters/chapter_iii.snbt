@@ -5,8 +5,458 @@
 	group: "173C7A3FFE3DDF09"
 	icon: "biomancy:creator_mix"
 	id: "04F608FB2194CB5D"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
-	title: "&eChapter III:&7 Biomancy"
+	quests: [
+		{
+			dependencies: ["4D5D3A38CA390881"]
+			hide: true
+			hide_dependency_lines: true
+			id: "492D0CAE29412213"
+			rewards: [{
+				id: "197B3979D0978A19"
+				item: "biomancy:primordial_core"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "323AA8B7E320C94F"
+				item: {
+					Count: 1b
+					id: "biomancy:despoil_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft &dFlesh Plunderer"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["492D0CAE29412213"]
+			id: "12DA3AE95243DA2F"
+			rewards: [{
+				id: "5A5F3BD1A53ADA4C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "400901474C08B58D"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			title: "Craft &dPrimordial Cradle"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["12DA3AE95243DA2F"]
+			id: "11719F41D574304A"
+			rewards: [{
+				count: 3
+				id: "33FED3853F64F98A"
+				item: "biomancy:living_flesh"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "biomancy:flesh_blob"
+				icon: "born_in_chaos_v1:monster_flesh"
+				id: "21EAD98DCE4D2B53"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &cFlesh Blob"
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["11719F41D574304A"]
+			id: "062F347ED962BB37"
+			shape: "pentagon"
+			size: 1.3d
+			tasks: [{
+				id: "7D43944DDF05EB88"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			title: "Craft &2Bio&r-&cForge"
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["11719F41D574304A"]
+			id: "31FCCDBAF32BA0DB"
+			rewards: [{
+				id: "0B5FAE8E53F0FF4F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "416CDE78A71AE472"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			title: "Craft &cDecomposer"
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["062F347ED962BB37"]
+			id: "0CD750755D5516BF"
+			rewards: [{
+				id: "78BB5248E12CCF20"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "691FA93609D74D91"
+				item: "biomancy:bio_lab"
+				type: "item"
+			}]
+			title: "Craft &2Bio&r-&cLab"
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["062F347ED962BB37"]
+			id: "21005A9FD195F670"
+			rewards: [{
+				id: "3E7429BC37B52095"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D8C7E0D4600AE43"
+				item: "biomancy:digester"
+				type: "item"
+			}]
+			title: "Craft &cDigester"
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0CD750755D5516BF"]
+			id: "6E246CAA04E68BE3"
+			tasks: [{
+				id: "149E582672BF4B4E"
+				item: {
+					Count: 1b
+					id: "biomancy:injector"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Make &cBio-&2Injector"
+			x: -0.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["11719F41D574304A"]
+			id: "6031C1461A912AF0"
+			rewards: [{
+				id: "792E60C6E953CD46"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3E379302ACA3849D"
+				item: "biomancy:tongue"
+				type: "item"
+			}]
+			title: "Make &dTongue"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["11719F41D574304A"]
+			id: "384A9FC08BF63430"
+			rewards: [{
+				id: "071D24E310F899B7"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "796BFD91AB99F6AA"
+				item: "biomancy:maw_hopper"
+				type: "item"
+			}]
+			title: "Make &dMaw Hopper"
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["11719F41D574304A"]
+			id: "05A43ACB9EF0B1CF"
+			rewards: [{
+				id: "124E77F41F6F32D2"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "32172CD4A9A7BC3B"
+				item: "biomancy:fleshkin_chest"
+				type: "item"
+			}]
+			title: "Make &dFleshkin Chest"
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["11719F41D574304A"]
+			id: "4D34A5009E225912"
+			rewards: [{
+				id: "27194FCA5AFBD029"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "74D6233E127ED000"
+				item: {
+					Count: 1b
+					id: "biomancy:storage_sac"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Make &dStorage Sac"
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["062F347ED962BB37"]
+			id: "0FC6CF57B8C88CCB"
+			tasks: [{
+				id: "7D7900042557D5D4"
+				item: {
+					Count: 1b
+					id: "biomancy:ravenous_claws"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft &cRavenous Claws"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["062F347ED962BB37"]
+			icon: "minecraft:netherrack"
+			id: "3AB83B881A41ED3D"
+			rewards: [{
+				id: "0514B5ED4B3A70DC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "Create a &4Nether Portal.&r Mind the intense heat."
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "31A327DE2A36643E"
+				title: "Enter the Nether"
+				type: "dimension"
+			}]
+			title: "Enter the &4Nether"
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3AB83B881A41ED3D"]
+			id: "4AD689342C08D2B3"
+			rewards: [{
+				id: "7B2B76E58CD39F83"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "New Overhauled Nether Fortress"
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "4B559458E655BF9D"
+				title: "Find a &4Fortress"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4AD689342C08D2B3"]
+			id: "67E75C4B6996ABFB"
+			shape: "rsquare"
+			subtitle: "A highly impressive arena of fire and lava. Multifloored with sentries that drop &c&lBurning Ashes."
+			tasks: [{
+				advancement: "cataclysm:find_burning_arena"
+				criterion: ""
+				id: "3B96765157A4D889"
+				title: "Discover the Burning Arena"
+				type: "advancement"
+			}]
+			title: "Discover the &cBurning Arena"
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["67E75C4B6996ABFB"]
+			id: "121291A46C19AF8F"
+			rewards: [
+				{
+					id: "793812EAC58E0660"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "18DA39AC8E478392"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			subtitle: "Found at the Top of the &cBurning Arena&r. Place Burning Ashes in the Altar to Summon &2Ignis"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: {
+					Count: 1b
+					id: "cataclysm:ignitium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5767EE8A365D89F1"
+				title: "Kill Ignis"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &2Ignis"
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4AD689342C08D2B3"]
+			description: [
+				"{@pagebreak}"
+				"{@pagebreak}"
+			]
+			id: "4323E00577155F0D"
+			shape: "rsquare"
+			subtitle: "The Soul Forge is made primarily of blackstone. On the map you will see the boss bar/icon and a big patch of &blight blue soulfire.&r"
+			tasks: [{
+				advancement: "cataclysm:find_soul_black_smith"
+				criterion: ""
+				id: "68D41417806AAE60"
+				title: "Discover the Soul Black Smith"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4323E00577155F0D"]
+			id: "45602FB14B03475D"
+			rewards: [
+				{
+					id: "7C0BA18DB9D2E2D5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "340FC466BE53F9B4"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			subtitle: "Found in Soul Blacksmiths, which rarely spawn in the &cNether&r. &4Fire resist&r is highly recommended."
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1b
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "54AC8B1AE91932C9"
+				title: "Kill the Netherite Monstrosity"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &8Netherite Monstrosity"
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4AD689342C08D2B3"]
+			id: "312F11331927DFD1"
+			shape: "circle"
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				id: "7C38913C40770B35"
+				title: "Discover a Bastion Remenant"
+				type: "advancement"
+			}]
+			title: "Discover a &8Bastion Remnant"
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4AD689342C08D2B3"]
+			id: "123B8BF589E8D74F"
+			rewards: [{
+				id: "7073A129DFFCDC9E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "3451B54311D8FB4E"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Defeat &eBlaze"
+			x: -7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4AD689342C08D2B3"]
+			id: "2610D61A597635B0"
+			rewards: [
+				{
+					id: "16FC3D8000D95D22"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2586310211AD217F"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			subtitle: "Instead of &dSoul Sand&r, you must use &5Soul Stone &rfrom the Bygone Nether mod. Make sure there are no obstructions like snow or grass under the arms when spawning."
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "51F884D504F8D35B"
+				title: "Kill The Wither"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &8&lThe Wither"
+			x: -7.0d
+			y: 9.5d
+		}
+	]
+	title: " &eChapter II:&7 Biomancy Manipulation"
 }
