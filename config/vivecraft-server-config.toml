@@ -16,6 +16,9 @@
 	messageAndKickDelay = 10.0
 	#Gives VR Players fun cakes and drinks at random, when they respawn.
 	vrFun = true
+	#What updates to check for.
+	# r: Release, b: Beta, a: Alpha
+	checkForUpdateType = "r"
 
 [messages]
 	#Enable or disable all messages.
@@ -67,6 +70,8 @@
 	SEATEDVRvsNONVR = true
 	#Allows Standing VR players and Seated VR Players to damage each other.
 	VRvsSEATEDVR = true
+	#Notifies the player that would cause damage, that it was blocked.
+	notifyBlockedDamage = false
 
 #Climbey motion settings
 [climbey]

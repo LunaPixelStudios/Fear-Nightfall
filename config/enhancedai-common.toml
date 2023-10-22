@@ -478,6 +478,7 @@
 	"Enable Movement" = true
 	#Makes mobs be able to use shields.
 	"Enable Shielding" = false
+	#Changes attack range to use the 1.20.2 mechanic
 	"Enable Attacking" = true
 	#Change how mobs target players
 	"Enable Targeting" = true
@@ -496,8 +497,9 @@
 		#Range: 0.0 ~ 4.0
 		"Swim Speed Multiplier" = 2.5
 
+	#Changes attack range to use the 1.20.2 mechanic
 	[Base.Attacking]
-		#If true melee monsters (zombies, etc) will attack based off the forge:attack_range attribute. Increasing it will make mobs attack for farther away. Be aware that the attack doesn't check if there are block between the target and the mob so might result in mobs attacking through walls (like spiders already do in vanilla)
+		#If true melee monsters (zombies, etc) will attack based off the forge:attack_range attribute instead of a fixed ~0.82 blocks. By default, mobs' forge:attack_range is set to 0.82 blocks, like vanilla 1.20.2.
 		"Melee Attacks Attribute Based" = false
 
 	#Change how mobs target players

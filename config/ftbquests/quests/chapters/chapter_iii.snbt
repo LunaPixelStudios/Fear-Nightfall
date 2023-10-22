@@ -9,13 +9,13 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4D5D3A38CA390881"]
+			dependencies: ["3F885B833D45AB12"]
 			hide: true
 			hide_dependency_lines: true
 			id: "492D0CAE29412213"
 			rewards: [{
-				id: "197B3979D0978A19"
-				item: "biomancy:primordial_core"
+				id: "5AEC6BB4A87A97E5"
+				item: "biomancy:living_flesh"
 				type: "item"
 			}]
 			shape: "square"
@@ -42,6 +42,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Offer adequate Tributes to the cradle and summon forth primordial messengers of exquisite flesh"
 			tasks: [{
 				id: "400901474C08B58D"
 				item: "biomancy:primordial_cradle"
@@ -69,7 +70,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat &cFlesh Blob"
+			title: "Kill a &cFlesh Blob"
 			x: -0.5d
 			y: 6.5d
 		}
@@ -78,6 +79,7 @@
 			id: "062F347ED962BB37"
 			shape: "pentagon"
 			size: 1.3d
+			subtitle: "Crafting Station"
 			tasks: [{
 				id: "7D43944DDF05EB88"
 				item: "biomancy:bio_forge"
@@ -95,6 +97,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "A bio-machine that deconstructs items into their base components. The Decomposer consumes nutrients to function."
 			tasks: [{
 				id: "416CDE78A71AE472"
 				item: "biomancy:decomposer"
@@ -112,6 +115,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Bio-alchemical Brewer"
 			tasks: [{
 				id: "691FA93609D74D91"
 				item: "biomancy:bio_lab"
@@ -129,6 +133,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "A machine born from flesh that converts food and plants into extremely bio-available nutrients."
 			tasks: [{
 				id: "4D8C7E0D4600AE43"
 				item: "biomancy:digester"
@@ -165,6 +170,7 @@
 				xp: 100
 			}]
 			shape: "square"
+			subtitle: "Extracts up to 3 items of the same type every 24 ticks from containers it's attached to, and drops themon the ground."
 			tasks: [{
 				id: "3E379302ACA3849D"
 				item: "biomancy:tongue"
@@ -183,6 +189,7 @@
 				xp: 100
 			}]
 			shape: "square"
+			subtitle: "A fleshy sister of the hopper. Transfers up to 16 items at a time."
 			tasks: [{
 				id: "796BFD91AB99F6AA"
 				item: "biomancy:maw_hopper"
@@ -194,6 +201,11 @@
 		}
 		{
 			dependencies: ["11719F41D574304A"]
+			description: [
+				"- Crafted from living flesh, the organic composition of the chest grants it remarkable resilience, ensuring the safety of its precious contents even from explosions."
+				""
+				"- Only its true master can unlock its contents without invoking the wrath of its razor-sharp fangs"
+			]
 			id: "05A43ACB9EF0B1CF"
 			rewards: [{
 				id: "124E77F41F6F32D2"
@@ -201,6 +213,7 @@
 				xp: 100
 			}]
 			shape: "square"
+			subtitle: "&8[Click to Read]"
 			tasks: [{
 				id: "32172CD4A9A7BC3B"
 				item: "biomancy:fleshkin_chest"
@@ -219,6 +232,7 @@
 				xp: 100
 			}]
 			shape: "square"
+			subtitle: "Cheap Shulker-like storage sac that also acts like a bundle."
 			tasks: [{
 				id: "74D6233E127ED000"
 				item: {
@@ -421,11 +435,12 @@
 			size: 1.5d
 			tasks: [{
 				entity: "minecraft:blaze"
+				icon: "minecraft:blaze_rod"
 				id: "3451B54311D8FB4E"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Defeat &eBlaze"
+			title: "Defeat &eBlazes"
 			x: -7.5d
 			y: 8.0d
 		}

@@ -34,7 +34,7 @@
 			description: [
 				"            &4SURVIVE THE NIGHT!&r"
 				""
-				"Herobrine has corrupted all the dimensions, your world is now more dangerous than ever!"
+				"&7The Aether has fallen because of &eHerobrine&r&7, he is corrupting all the dimensions, and its presence will soon arise in the overworld &ewhen the night falls&7."
 			]
 			icon: "born_in_chaos_v1:nightmare_stalker_skull"
 			id: "2F5B7FFBC196A061"
@@ -46,6 +46,7 @@
 				title: "Stop Herobrine!"
 				type: "checkmark"
 			}]
+			title: "&4Dark Times"
 			x: 0.0d
 			y: -3.0d
 		}
@@ -54,222 +55,17 @@
 				"60A2705587F74560"
 				"7276FC7B1590E162"
 			]
-			description: ["                 &4 GOOD LUCK!&r"]
+			description: ["                       &4 Run&r"]
+			icon: "immersiveengineering:voltmeter"
 			id: "4D5D3A38CA390881"
 			shape: "hexagon"
 			tasks: [{
-				icon: "immersiveengineering:voltmeter"
-				id: "53167325D07122D0"
-				stat: "minecraft:play_time"
+				id: "3F885B833D45AB12"
 				title: "Survive the &cNight"
-				type: "stat"
-				value: 35010
+				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 1.5d
-		}
-		{
-			dependencies: ["2F5B7FFBC196A061"]
-			hide_dependency_lines: true
-			id: "66AA7428F91AE557"
-			rewards: [{
-				id: "5C768FC34634F15F"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "circle"
-			tasks: [{
-				entity: "boh:saw_runner"
-				icon: "boh:saw_runner_spawn_egg"
-				id: "663C7B28BFA5CE41"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat &2Saw Runner"
-			x: -0.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["2F5B7FFBC196A061"]
-			hide_dependency_lines: true
-			id: "5E5299A5187309D0"
-			rewards: [{
-				id: "0DDE764382A8CFF5"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "circle"
-			tasks: [{
-				entity: "graveyard:skeleton_creeper"
-				icon: "graveyard:skeleton_creeper_spawn_egg"
-				id: "2E736C7265B008A3"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat &8Skeleton Creeper"
-			x: -1.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["2F5B7FFBC196A061"]
-			hide_dependency_lines: true
-			id: "797AED0FF1430071"
-			rewards: [{
-				id: "67249E27B17F4C71"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				entity: "boh:jeff_the_killer"
-				icon: "boh:jeff_the_killer_spawn_egg"
-				id: "70E443790E17CFF5"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat &cJeff the Killer"
-			x: 0.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["2F5B7FFBC196A061"]
-			hide_dependency_lines: true
-			id: "2AFCF5EF51DE0B62"
-			rewards: [{
-				id: "70D577123310EB84"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				entity: "endofherobrine:villager"
-				icon: "endofherobrine:villager_spawn_egg"
-				id: "0FE8F628FF85FB09"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat &ePossessed Villager"
-			x: -1.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["2F5B7FFBC196A061"]
-			hide_dependency_lines: true
-			id: "4151947891C21E91"
-			rewards: [{
-				id: "55560E9092D58BFF"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				entity: "graveyard:ghoul"
-				icon: "graveyard:ghoul_spawn_egg"
-				id: "0C18823FDC0B3A72"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat &6Ghoul"
-			x: -0.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["2F5B7FFBC196A061"]
-			hide_dependency_lines: true
-			id: "76B51B909A5FB709"
-			rewards: [{
-				id: "445DA5D0ED112E83"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				entity: "skinandbonesremastered:corrupted_villager"
-				icon: "skinandbonesremastered:corrupted_villager_spawn_egg"
-				id: "1411F7432CF140F0"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat &7Cursed Villager"
-			x: 0.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["2F5B7FFBC196A061"]
-			hide_dependency_lines: true
-			id: "4235CB3CA282DBC3"
-			rewards: [{
-				id: "196902E1A8BE01DC"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				entity: "skinandbonesremastered:wendigo"
-				icon: "skinandbonesremastered:wendigo_spawn_egg"
-				id: "07B78331EF806E09"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat &7Wnedigo"
-			x: 1.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["2F5B7FFBC196A061"]
-			hide_dependency_lines: true
-			id: "1831E95257E57AA4"
-			rewards: [{
-				id: "1BDF7F2054DA3C8D"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				entity: "born_in_chaos_v1:door_knight"
-				icon: "born_in_chaos_v1:door_knight_not_despawn_spawn_egg"
-				id: "0B35A2D234AD4FF1"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat &cDoor Knight"
-			x: 0.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["2F5B7FFBC196A061"]
-			hide_dependency_lines: true
-			icon: "born_in_chaos_v1:barrel_zombie_spawn_egg"
-			id: "2ECEC67D04E24D08"
-			rewards: [{
-				id: "410306E3AA3AC026"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				entity: "born_in_chaos_v1:barrel_zombie"
-				icon: "born_in_chaos_v1:barrel_zombie_spawn_egg"
-				id: "1ADB41A73673D8B3"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat &2Barrel Zombie"
-			x: -0.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["2F5B7FFBC196A061"]
-			hide_dependency_lines: true
-			id: "61527B36C38396C6"
-			rewards: [{
-				id: "7B427B09C5274D66"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				entity: "endofherobrine:zombie"
-				icon: "endofherobrine:zombie_spawn_egg"
-				id: "638C25AB8378A7F4"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat &2Possessed Zombie"
-			x: 1.5d
-			y: 4.5d
 		}
 		{
 			dependencies: ["2F5B7FFBC196A061"]
@@ -288,10 +84,18 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "4E8AEDA39676C779"
-				title: "Build a base before &8Nightfall!"
-				type: "checkmark"
+				id: "76B5A1A062DD1EFF"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:doors"
+					}
+				}
+				title: "Make a base"
+				type: "item"
 			}]
+			title: "&eBuild a base before the nightfall"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -322,12 +126,13 @@
 				xp: 200
 			}]
 			shape: "octagon"
+			subtitle: "&7Make an Iron Door to reinforce your base"
 			tasks: [{
 				id: "6A1BE589F2D3CC7F"
 				item: "minecraft:iron_door"
 				type: "item"
 			}]
-			title: "Make &7Iron Door"
+			title: "&eReinforcing"
 			x: 1.5d
 			y: -1.5d
 		}
@@ -340,12 +145,13 @@
 				xp: 200
 			}]
 			shape: "octagon"
+			subtitle: "&8Food is also important. Sometimes you gotta kill to survive."
 			tasks: [{
 				id: "0D0B3B707E33A501"
 				item: "butchersdelight:roaster"
 				type: "item"
 			}]
-			title: "Craft &eRoaster"
+			title: "Craft a &eRoaster"
 			x: 1.5d
 			y: -3.0d
 		}
@@ -358,12 +164,13 @@
 				xp: 200
 			}]
 			shape: "octagon"
+			subtitle: "&7Defense is key. Make &ebamboo spikes&7, they will serve as traps for your base"
 			tasks: [{
 				id: "0199F7DF9DC8FB6C"
 				item: "supplementaries:bamboo_spikes"
 				type: "item"
 			}]
-			title: "Make &eBamboo Spikes"
+			title: "&eMaking traps"
 			x: -1.5d
 			y: -3.0d
 		}
@@ -385,7 +192,7 @@
 				}
 				type: "item"
 			}]
-			title: "Craft &6Book of Shadows"
+			title: "Craft the &6Book of Shadows"
 			x: 1.5d
 			y: -4.5d
 		}
@@ -403,7 +210,7 @@
 				item: "immersiveengineering:manual"
 				type: "item"
 			}]
-			title: "Craft &6Engineer's Manual"
+			title: "Craft the &6Engineer's Manual"
 			x: -1.5d
 			y: -4.5d
 		}
@@ -415,6 +222,7 @@
 				type: "xp"
 				xp: 200
 			}]
+			subtitle: "Craft &fIron Armor Set"
 			tasks: [
 				{
 					id: "6D6C1D2BFF4C8569"
@@ -467,6 +275,7 @@
 		}
 		{
 			dependencies: ["47E544C2A7FF4EC0"]
+			description: [""]
 			id: "7276FC7B1590E162"
 			rewards: [{
 				count: 2
@@ -475,17 +284,6 @@
 				type: "item"
 			}]
 			tasks: [
-				{
-					id: "1D7BDE5A6E434B38"
-					item: {
-						Count: 1b
-						id: "minecraft:diamond_sword"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
 				{
 					id: "4501352C4EF42985"
 					item: {
@@ -502,11 +300,52 @@
 					item: "minecraft:golden_apple"
 					type: "item"
 				}
+				{
+					id: "49FEC06DB45E31F3"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
-			title: "&6Basic's"
+			title: "&6Arming up"
 			x: -1.5d
 			y: 0.0d
 		}
+		{
+			dependencies: [
+				"4AE2F97E6C289E8F"
+				"492D0CAE29412213"
+			]
+			description: ["&7The flesh spikes are deadlier versions of the spikes which can be stacked to increase its lethality."]
+			id: "133C307168A2872A"
+			rewards: [{
+				id: "36CDB0F33E2ECB26"
+				item: {
+					Count: 1b
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:strong_poison"
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "&cRequires Chapter II."
+			tasks: [{
+				id: "07DDBEE630FA73E3"
+				item: "biomancy:flesh_spike"
+				title: "Make a Flesh Spike"
+				type: "item"
+			}]
+			title: "&7A deadlier upgrade"
+			x: -3.0d
+			y: -3.0d
+		}
 	]
-	title: "&eChapter I:&r &7Aether has Fallen"
+	title: " &eChapter I:&r &7Aether has Fallen"
 }

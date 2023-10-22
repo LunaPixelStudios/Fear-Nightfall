@@ -5,21 +5,52 @@
 	group: "173C7A3FFE3DDF09"
 	icon: "aether:aether_portal_frame"
 	id: "097D2D4D2B007CE8"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.875d
+			hover: [ ]
+			image: "fn:textures/quests/herobrine.png"
+			rotation: 0.0d
+			width: 3.9d
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "4295DB3BE4CDFE8D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 3.5d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["19BA19A20221B4DA"]
+			hide: true
+			hide_dependency_lines: true
 			id: "0514B95698C6A9C2"
 			shape: "hexagon"
 			size: 1.3d
+			subtitle: "Make and Enter the &eAether Portal"
 			tasks: [{
 				dimension: "aether:the_aether"
 				icon: "aether:aether_portal_frame"
 				id: "1D6B651541976A61"
-				title: "the... &eAether&r is open again"
+				title: "&eGet to the Aether"
 				type: "dimension"
 			}]
+			title: "&cOnce a beauty..."
 			x: -0.5d
 			y: -0.5d
 		}
@@ -38,7 +69,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat &8Gluttony"
+			title: "Defeat &8The Gluttony"
 			x: 0.5d
 			y: -1.5d
 		}
@@ -103,16 +134,24 @@
 			dependencies: ["0514B95698C6A9C2"]
 			id: "02640B9A1371E6C9"
 			shape: "rsquare"
+			subtitle: "&8[Click to read lore]"
 			tasks: [{
 				id: "1FDBAF3D8E18CB92"
 				title: "lore here"
 				type: "checkmark"
 			}]
+			title: "&eWhat happened"
 			x: -0.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["02640B9A1371E6C9"]
+			description: [
+				""
+				"&7Build a  structure with a &cSinful Totem&7, below it a &cTubular Flesh Block&7, and on top, a &cFlesh Wall&7."
+				""
+				"&7Then right click on the sinful totem with a &ewither star&7."
+			]
 			id: "4295DB3BE4CDFE8D"
 			rewards: [{
 				count: 2
@@ -120,6 +159,8 @@
 				item: "minecraft:golden_apple"
 				type: "item"
 			}]
+			shape: "diamond"
+			subtitle: "&7A sinful totem must be made to summon him."
 			tasks: [
 				{
 					id: "315C2E19A3435773"
@@ -142,26 +183,38 @@
 					type: "item"
 				}
 			]
-			title: "Make &cSinful Totem"
+			title: "&cThe Only Way"
 			x: -0.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["4295DB3BE4CDFE8D"]
 			id: "3106B7FB6C6CABBD"
-			rewards: [{
-				id: "1F558AAC9272395D"
-				item: "minecraft:netherite_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "249C4C304960B3B4"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					id: "7708144F247A74D8"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "&cFight and defeat Herobrine."
 			tasks: [{
 				entity: "endofherobrine:herobrine"
 				icon: "endofherobrine:herobrine_head"
 				id: "3CE59C8F9316A449"
+				title: "&cKill Herobrine"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&3Hero&r and &cEnemy,&r Reunited at last, &dEyes locked."
+			title: "&3The one behind it all"
 			x: -0.5d
 			y: 4.0d
 		}

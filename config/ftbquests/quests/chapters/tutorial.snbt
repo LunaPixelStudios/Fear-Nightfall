@@ -34,7 +34,7 @@
 		}
 		{
 			dependencies: ["6DA90162B361A85D"]
-			description: ["&7In &cFear Nightfall&7, the player is cursed with the presence of various monsters during night. This means that &cyou can only sleep during the day&7."]
+			description: ["&7In &cFear Nightfall&7, you are cursed with permanent insomia. This means that &cyou cannot sleep at all&7.  Beds will only serve as spawn points, and phantoms do not exist."]
 			icon: "fantasyfurniture:venthyr/bed_single"
 			id: "4991A45261F83F9E"
 			rewards: [{

@@ -46,6 +46,11 @@
     "mob_spawner": true,
     "redstone": true
   },
+  "treechop": {
+    "plugin": true,
+    "show_tree_block_counts": true,
+    "show_num_chops_remaining": true
+  },
   "immersiveengineering": {
     "hemp": true,
     "multiblock_icon": true

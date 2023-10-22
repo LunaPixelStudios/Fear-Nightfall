@@ -11,7 +11,6 @@
 	quests: [
 		{
 			dependencies: [
-				"123B8BF589E8D74F"
 				"16EB92A6D8C34B08"
 				"77B900FB46A912D3"
 				"0C028A90EB575C5A"
@@ -25,31 +24,27 @@
 				xp: 100
 			}]
 			size: 1.4d
+			subtitle: "&7Make a &cBio-Forge&7 to harness life"
 			tasks: [{
 				id: "1AC2F443C09C16DB"
 				item: "biomancy:bio_forge"
 				type: "item"
 			}]
-			title: "&cCombination &bTime"
+			title: "&cUsing life as fuel"
 			x: 1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3CFD1D84CB1364D1"]
 			id: "0CBDBBC7538CE6E0"
-			rewards: [{
-				count: 2
-				id: "2F4DD770C1E00FC7"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
 			shape: "square"
+			subtitle: "&7Make the fleshy eyes using a bio forge"
 			tasks: [{
 				id: "71A9C9CF6F268FEC"
 				item: "minecraft:ender_eye"
 				type: "item"
 			}]
-			title: "Finally &cFleshy Eye"
+			title: "The &cFleshy Eyes"
 			x: 1.0d
 			y: 2.0d
 		}
@@ -69,6 +64,7 @@
 				title: "&eThe End???"
 				type: "advancement"
 			}]
+			title: "&eThe End?"
 			x: 1.0d
 			y: 4.0d
 		}
@@ -89,6 +85,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "Defeat the &dEnder Dragon"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_head"
@@ -101,6 +98,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["123B8BF589E8D74F"]
 			hide: true
 			hide_dependency_lines: true
 			id: "77B900FB46A912D3"
@@ -109,6 +107,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			subtitle: "can be Obtain by killing an &2Ender Pearl"
 			tasks: [{
 				id: "3F9D89A2AAF3924B"
 				item: "minecraft:ender_pearl"
@@ -119,6 +118,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["123B8BF589E8D74F"]
 			hide: true
 			hide_dependency_lines: true
 			id: "09E49846F4E317D6"
@@ -127,6 +127,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			subtitle: "can be Obtain by killing a &6Blaze"
 			tasks: [{
 				id: "6E039DDAB5BCDA27"
 				item: "minecraft:blaze_powder"
@@ -137,6 +138,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["123B8BF589E8D74F"]
 			hide: true
 			hide_dependency_lines: true
 			id: "16EB92A6D8C34B08"
@@ -145,6 +147,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			subtitle: "can be Obtain by killing &cmobs"
 			tasks: [{
 				count: 8L
 				id: "51AC6C792F849BE2"
@@ -156,6 +159,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["123B8BF589E8D74F"]
 			hide: true
 			hide_dependency_lines: true
 			id: "0C028A90EB575C5A"
@@ -164,6 +168,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			subtitle: "can be Obtain by killing &cmobs"
 			tasks: [{
 				count: 2L
 				id: "646490C5C17C807B"
@@ -175,6 +180,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["123B8BF589E8D74F"]
 			hide: true
 			hide_dependency_lines: true
 			id: "39570C36186F7AE4"
@@ -185,6 +191,7 @@
 				type: "item"
 			}]
 			shape: "circle"
+			subtitle: "can be Obtain by killing &cmobs"
 			tasks: [{
 				count: 16L
 				id: "355C8FFBED8EE2CA"

@@ -1,0 +1,150 @@
+
+[light_sources]
+	entities = true
+	self = true
+	block_entities = true
+	water_sensitive_check = true
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				player = true
+				bee = true
+				item = true
+				item_frame = true
+				armor_stand = true
+				salmon = true
+				squid = true
+				cod = true
+				chicken = true
+				wolf = true
+				witch = true
+				zombie = true
+				skeleton = true
+				sheep = true
+				creeper = true
+				spider = true
+				bat = true
+				slime = true
+				tnt_minecart = true
+				chest_minecart = true
+				cow = true
+				enderman = true
+				arrow = true
+				drowned = true
+				area_effect_cloud = true
+				experience_orb = true
+				boat = true
+				lightning_bolt = true
+				pig = true
+				glow_squid = true
+				zombie_villager = true
+				wandering_trader = true
+				trader_llama = true
+				guardian = true
+				fox = true
+				rabbit = true
+				donkey = true
+				dolphin = true
+				zombie_horse = true
+				zombified_piglin = true
+				wither_skeleton = true
+				piglin = true
+				hoglin = true
+				piglin_brute = true
+				strider = true
+				magma_cube = true
+				ghast = true
+
+			[light_sources.settings.entities.gothic]
+				scavenger_young = true
+				scavenger = true
+				molerat = true
+				gothic_wolf = true
+				snapper = true
+				warg = true
+				bloodfly = true
+				stone_guardian = true
+				meatbug = true
+				cave_molerat = true
+				molerat_young = true
+				gothic_spawn = true
+				lurker = true
+				npc_oldcamp_hunter = true
+				bloodfly_hornet = true
+				razor = true
+
+			[light_sources.settings.entities.undead_unleashed]
+				shadewraith = true
+				graveriser = true
+				frenzied_knight = true
+				projectile_soul_projectile = true
+				flamebreather = true
+
+			[light_sources.settings.entities.distantfriends]
+				friend = true
+
+			[light_sources.settings.entities.graveyard]
+				ghoul = true
+				revenant = true
+				skeleton_creeper = true
+				nightmare = true
+
+			[light_sources.settings.entities.boh]
+				michael_davies = true
+				jeff_the_killer = true
+				smile_dog = true
+				rake = true
+
+			[light_sources.settings.entities.skinandbonesremastered]
+				skin_walker = true
+				skin_walker_chicken = true
+
+			[light_sources.settings.entities.born_in_chaos_v1]
+				dread_hound = true
+				door_knight = true
+				shy_spirit = true
+				supreme_bonescaller = true
+				decrepit_skeleton = true
+				wither_scuttler = true
+				baby_skeleton_2 = true
+				skeleton_demoman = true
+				fallen_chaos_knight = true
+				bonescaller = true
+				decaying_zombie = true
+				restless_spirit = true
+				baby_skeleton = true
+				phantom_creeper = true
+				projectile_staffof_magic_arrows_2 = true
+				dark_vortex = true
+				zombie_clown = true
+				bone_imp_2 = true
+				firelight = true
+
+			[light_sources.settings.entities.endofherobrine]
+				zombie = true
+				skeleton = true
+				lurker = true
+				pig = true
+
+			[light_sources.settings.entities.hexerei]
+				crow = true
+
+			[light_sources.settings.entities.corpse]
+				corpse = true
+
+			[light_sources.settings.entities.enhancedai]
+				fishing_hook = true
+				thrown_web = true
+
+			[light_sources.settings.entities.fallingtrees]
+				tree = true
+
+			[light_sources.settings.entities.deep_dark_regrowth]
+				vault_chest = true
+
+			[light_sources.settings.entities.cataclysm]
+				deepling = true
+

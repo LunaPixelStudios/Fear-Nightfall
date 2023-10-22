@@ -198,7 +198,7 @@
 				item: "hexerei:blood_bottle"
 				type: "item"
 			}]
-			title: "Make &cBottle of Blood"
+			title: "Obtain &cBottle of Blood"
 			x: -7.5d
 			y: 4.5d
 		}
@@ -243,7 +243,7 @@
 				}
 				type: "item"
 			}]
-			title: "Craft &6Book of Shadows"
+			title: "Obtain the &6Book of Shadows"
 			x: -2.5d
 			y: 2.5d
 		}
@@ -393,7 +393,7 @@
 				}
 				type: "item"
 			}]
-			title: "Craft &3Broom Waterproof"
+			title: "Obtain &3Broom Waterproof"
 			x: 1.0d
 			y: 3.0d
 		}
@@ -416,7 +416,7 @@
 				}
 				type: "item"
 			}]
-			title: "Craft &8Broom Netherite Tip"
+			title: "Obtain &8Broom Netherite Tip"
 			x: -3.0d
 			y: 6.0d
 		}
@@ -446,9 +446,77 @@
 					type: "item"
 				}
 			]
-			title: "Craft &8Satchel"
+			title: "Obtain &8Satchels"
 			x: 1.0d
 			y: 6.0d
+		}
+		{
+			id: "2DEF08221C404D3A"
+			rewards: [{
+				count: 4
+				id: "4B1B67B91945499C"
+				item: "ancient_manuscripts:ancient_manuscript"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1EC596387366A9F0"
+				item: "ancient_manuscripts:ancient_manuscript"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2DEF08221C404D3A"]
+			id: "40E0BFD7654B7300"
+			subtitle: "In order to create enchanted books, you will need to make a binding table. "
+			tasks: [{
+				id: "03C4FB427354FB67"
+				item: "ancient_manuscripts:oak_binding_table"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["40E0BFD7654B7300"]
+			id: "306204B5497EDD19"
+			rewards: [{
+				id: "713A03D20424400C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "27F05F23197FAB15"
+				item: "ancient_manuscripts:empty_glue_bottle"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["40E0BFD7654B7300"]
+			id: "3C94DD5FC3CF2533"
+			rewards: [{
+				id: "001EC76CBAB3A97E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2DEB57508B7F796C"
+				item: {
+					Count: 1b
+					id: "ancient_manuscripts:enchanted_book_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
 		}
 	]
 	title: " &eForbidden Magic"

@@ -23,7 +23,7 @@
 				item: "immersiveengineering:manual"
 				type: "item"
 			}]
-			title: "raft &6Engineer's Manual"
+			title: "Craft the &6Engineer's Manual"
 			x: -20.0d
 			y: 0.0d
 		}
@@ -135,7 +135,7 @@
 				title: "Any #forge:ingots/steel"
 				type: "item"
 			}]
-			title: "Craft &8Time to Make Some Steel"
+			title: "&8Time to Make Some Steel"
 			x: -23.0d
 			y: 0.0d
 		}
@@ -239,7 +239,7 @@
 				}
 				type: "item"
 			}]
-			title: "Craft &6Engineer's Toolbox"
+			title: "Obtain &6Engineer's Toolbox"
 			x: -20.0d
 			y: 3.0d
 		}
@@ -325,7 +325,7 @@
 				item: "immersiveengineering:voltmeter"
 				type: "item"
 			}]
-			title: "Craft &6Enginner's Multimeter"
+			title: "Obtain &6Enginner's Multimeter"
 			x: -20.0d
 			y: 4.5d
 		}

@@ -10,6 +10,9 @@
 	quests: [
 		{
 			dependencies: ["19BA19A20221B4DA"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "minecraft:skeleton_skull"
 			id: "71E95E192F20528B"
 			rewards: [{
 				id: "2A9CEF54006B8CD0"
@@ -29,6 +32,9 @@
 		}
 		{
 			dependencies: ["19BA19A20221B4DA"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "butchersdelight:deadrabbitbrown"
 			id: "348F91C9FF6C7B5B"
 			rewards: [{
 				id: "1228FD28E0652E11"
@@ -48,6 +54,9 @@
 		}
 		{
 			dependencies: ["19BA19A20221B4DA"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "minecraft:rotten_flesh"
 			id: "18FBEEA3DA2195A1"
 			rewards: [{
 				id: "33616CB327E7E619"
@@ -67,6 +76,9 @@
 		}
 		{
 			dependencies: ["19BA19A20221B4DA"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "butchersdelight:deadpig"
 			id: "649FAAE5120543B4"
 			rewards: [{
 				id: "0EEAD9869E0BBA9B"
@@ -86,6 +98,9 @@
 		}
 		{
 			dependencies: ["19BA19A20221B4DA"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "butchersdelight:dead_cow"
 			id: "334655AA4A501434"
 			rewards: [{
 				id: "5B696D19175CDF19"
@@ -105,6 +120,9 @@
 		}
 		{
 			dependencies: ["19BA19A20221B4DA"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "butchersdelight:deadchiken"
 			id: "13D75A0265B5BA1C"
 			rewards: [{
 				id: "02F0C764895FB13F"
@@ -124,6 +142,9 @@
 		}
 		{
 			dependencies: ["19BA19A20221B4DA"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "minecraft:emerald"
 			id: "7E648991B799145E"
 			rewards: [{
 				id: "7058F5C76C833D5E"
@@ -143,6 +164,15 @@
 		}
 		{
 			dependencies: ["19BA19A20221B4DA"]
+			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "minecraft:long_swiftness"
+				}
+			}
 			id: "656337FBDAE9B190"
 			rewards: [{
 				id: "7F55157CC07519DA"
@@ -162,6 +192,9 @@
 		}
 		{
 			dependencies: ["19BA19A20221B4DA"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "butchersdelight:deadsheep"
 			id: "1A3DD43D6236B3F4"
 			rewards: [{
 				id: "173481363BE2F8F4"
@@ -181,6 +214,9 @@
 		}
 		{
 			dependencies: ["19BA19A20221B4DA"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "undead_unleashed:grave_metal_scrap"
 			id: "7EA1837288439E24"
 			rewards: [{
 				id: "608CBE033EBD4DEB"
@@ -200,6 +236,9 @@
 		}
 		{
 			dependencies: ["19BA19A20221B4DA"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "biomancy:bone_fragments"
 			id: "3614B4123BDD456F"
 			rewards: [{
 				id: "3DB7D31595E36F35"
@@ -219,6 +258,9 @@
 		}
 		{
 			dependencies: ["19BA19A20221B4DA"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "gothic:shadowbeast_pelt"
 			id: "5A62C009E9920B01"
 			rewards: [{
 				id: "24672B84D1812A52"
@@ -238,6 +280,15 @@
 		}
 		{
 			dependencies: ["19BA19A20221B4DA"]
+			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "undead_unleashed:grave_metal_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "231F5B2991E8CDF4"
 			rewards: [{
 				id: "67F889EB2323056A"
@@ -257,6 +308,9 @@
 		}
 		{
 			dependencies: ["19BA19A20221B4DA"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "born_in_chaos_v1:evil_carved_pumpkin"
 			id: "4577AB7388260AEF"
 			rewards: [{
 				id: "38F4099AA6899C5B"
@@ -274,6 +328,9 @@
 		}
 		{
 			dependencies: ["19BA19A20221B4DA"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "philipsruins:broken_bone"
 			id: "24FECEB17BEBE8C0"
 			rewards: [{
 				id: "6EFD73C627713855"
