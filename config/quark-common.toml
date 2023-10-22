@@ -150,7 +150,7 @@
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
-		"Replace Worldgen Chests" = false
+		"Replace Worldgen Chests" = true
 		"Enable Reverting Wooden Chests" = true
 		#Chests to put in structures. It's preferred to use worldgen tags for this. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
 		"Structure Chests" = []

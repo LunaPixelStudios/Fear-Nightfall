@@ -57,6 +57,15 @@
 				strider = true
 				magma_cube = true
 				ghast = true
+				villager = true
+				mooshroom = true
+				horse = true
+				iron_golem = true
+				cat = true
+				tropical_fish = true
+				pufferfish = true
+				turtle = true
+				glow_item_frame = true
 
 			[light_sources.settings.entities.gothic]
 				scavenger_young = true
@@ -75,6 +84,8 @@
 				npc_oldcamp_hunter = true
 				bloodfly_hornet = true
 				razor = true
+				npc_farmer = true
+				npc_swamp_camp_hunter = true
 
 			[light_sources.settings.entities.undead_unleashed]
 				shadewraith = true
@@ -128,6 +139,9 @@
 				skeleton = true
 				lurker = true
 				pig = true
+				sheep = true
+				cow = true
+				pigman = true
 
 			[light_sources.settings.entities.hexerei]
 				crow = true
@@ -147,4 +161,29 @@
 
 			[light_sources.settings.entities.cataclysm]
 				deepling = true
+				lionfish = true
+				deepling_angler = true
+
+			[light_sources.settings.entities.difficult_spawners]
+				evil_spirit = true
+
+			[light_sources.settings.entities.aether]
+				whirlwind = true
+				golden_swet = true
+				moa = true
+				cockatrice = true
+				slider = true
+				blue_swet = true
+				sun_spirit = true
+				zephyr = true
+				evil_whirlwind = true
+				aechor_plant = true
+				aerbunny = true
+				valkyrie_queen = true
+
+			[light_sources.settings.entities.sons_of_sins]
+				bloody_driver = true
+				bloody_butcher = true
+				wistiver = true
+				prowler = true
 
