@@ -784,19 +784,19 @@
 
 [world]
 	Corundum = true
-	"Nether Obsidian Spikes" = true
-	"Ancient Wood" = true
+	"Nether Obsidian Spikes" = false
+	"Ancient Wood" = false
 	"Monster Box" = true
-	"New Stone Types" = true
+	"New Stone Types" = false
 	Permafrost = false
 	"Big Stone Clusters" = true
 	"No More Lava Pockets" = false
 	"Glimmering Weald" = true
-	"Blossom Trees" = true
+	"Blossom Trees" = false
 	"Spiral Spires" = true
 	"Chorus Vegetation" = true
 	"Fairy Rings" = false
-	"Azalea Wood" = true
+	"Azalea Wood" = false
 
 	[world.corundum]
 		#Allowed values: [0,1]
