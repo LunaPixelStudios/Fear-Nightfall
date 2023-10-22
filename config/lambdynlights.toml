@@ -207,6 +207,7 @@
 				firelight = true
 				projectile_staffof_blindness = true
 				skeleton_thrasher = true
+				barrel_zombie = true
 
 			[light_sources.settings.entities.endofherobrine]
 				zombie = true

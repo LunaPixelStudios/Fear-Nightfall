@@ -19,20 +19,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
-  orientation = mid-centered
-  x = 4
-  action = movebutton
-  y = 32
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
-  action = setbuttonlabel
-  value = World Sharing
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
   orientation = mid-centered
   x = -102
@@ -46,6 +32,11 @@ customization {
   x = -102
   action = movebutton
   y = 55
+}
+
+customization {
+  identifier = %id=374282%
+  action = hidebutton
 }
 
 customization {
@@ -137,7 +128,10 @@ customization {
 }
 
 customization {
-  identifier = %id=374282%
-  action = hidebutton
+  identifier = %id=504354%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = 32
 }
 
