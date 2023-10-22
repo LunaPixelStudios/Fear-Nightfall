@@ -5,7 +5,7 @@
 	Id = "minecraft"
 	#e.g. mobs which will not attack you
 	#Range: 1 ~ 64
-	MaxPassiveMobsPerPlayer = 4
+	MaxPassiveMobsPerPlayer = 10
 	#Range: 1 ~ 512
 	MaxPassiveMobsPerWorld = 20
 	#Range: 1 ~ 1024
@@ -14,7 +14,7 @@
 	PassiveMobsList = ["minecraft:allay", "minecraft:axolotl", "minecraft:bat", "minecraft:cat", "minecraft:chicken", "minecraft:cow", "minecraft:donkey", "minecraft:fox", "minecraft:frog", "minecraft:horse", "minecraft:mooshroom", "minecraft:mule", "minecraft:ocelot", "minecraft:parrot", "minecraft:pig", "minecraft:rabbit", "minecraft:sheep", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:turtle"]
 	#e.g. mobs which will attack under certain conditions ...
 	#Range: 1 ~ 64
-	MaxNeutralMobsPerPlayer = 4
+	MaxNeutralMobsPerPlayer = 10
 	#Range: 1 ~ 512
 	MaxNeutralMobsPerWorld = 20
 	#Range: 1 ~ 1024
@@ -23,7 +23,7 @@
 	NeutralMobsList = ["minecraft:bee", "minecraft:cave_spider", "minecraft:enderman", "minecraft:goat", "minecraft:iron_golem", "minecraft:llama", "minecraft:panda", "minecraft:polar_bear", "minecraft:spider", "minecraft:trader_llama", "minecraft:wandering_trader", "minecraft:wolf", "minecraft:zombie_horse"]
 	#e.g. mobs which will always attack yon ...
 	#Range: 1 ~ 64
-	MaxHostileMobsPerPlayer = 4
+	MaxHostileMobsPerPlayer = 5
 	#Range: 1 ~ 512
 	MaxHostileMobsPerWorld = 20
 	#Range: 1 ~ 1024
@@ -32,7 +32,7 @@
 	HostileMobsList = ["minecraft:chicken_jockey", "minecraft:creeper", "minecraft:ender_dragon", "minecraft:endermite", "minecraft:evoker", "minecraft:giant", "minecraft:husk", "minecraft:illusioner", "minecraft:phantom", "minecraft:pillager", "minecraft:ravager", "minecraft:ravager_jockey", "minecraft:shulker", "minecraft:silverfish", "minecraft:skeleton", "minecraft:skeleton_horseman", "minecraft:slime", "minecraft:stray", "minecraft:vex", "minecraft:vindicator", "minecraft:warden", "minecraft:witch", "minecraft:wither", "minecraft:zoglin", "minecraft:zombie", "minecraft:zombie_villager"]
 	#e.g. mostly fish
 	#Range: 1 ~ 64
-	MaxWaterPassiveMobsPerPlayer = 4
+	MaxWaterPassiveMobsPerPlayer = 10
 	#Range: 1 ~ 512
 	MaxWaterPassiveMobsPerWorld = 20
 	#Range: 1 ~ 1024
@@ -41,7 +41,7 @@
 	WaterPassiveMobsList = ["minecraft:axolotl", "minecraft:cod", "minecraft:pufferfish", "minecraft:salmon", "minecraft:tropical_fish"]
 	#e.g. squid, dolphin, ...
 	#Range: 1 ~ 64
-	MaxWaterNeutralMobsPerPlayer = 4
+	MaxWaterNeutralMobsPerPlayer = 10
 	#Range: 1 ~ 512
 	MaxWaterNeutralMobsPerWorld = 20
 	#Range: 1 ~ 1024
@@ -52,7 +52,7 @@
 	#Range: 1 ~ 64
 	MaxWaterHostileMobsPerPlayer = 8
 	#Range: 1 ~ 512
-	MaxWaterHostileMobsPerWorld = 40
+	MaxWaterHostileMobsPerWorld = 10
 	#Range: 1 ~ 1024
 	MaxWaterHostileMobsPerServer = 320
 	#List of hostile water Mobs to optimize
