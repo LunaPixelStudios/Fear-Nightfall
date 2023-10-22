@@ -21,9 +21,22 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-centered
-  x = -100
+  x = 100
   action = movebutton
-  y = 25
+  y = 0
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 25
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 
 }
 
 customization {
@@ -89,6 +102,14 @@ customization {
   x = -100
   action = movebutton
   y = 0
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = bottom-right
+  x = -214
+  action = movebutton
+  y = -10
 }
 
 customization {
@@ -225,5 +246,56 @@ customization {
   y = -25
   label = Performance Guide!
   height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/9S5tfrY4Fr%btnaction_splitter_fm%
+  x = 303
+  width = 25
+  action = addbutton
+  actionid = 08756d3c-2736-4a46-a98a-5315b6ce2e911697967499967
+  y = 228
+  label = 
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  hoverlabel = USE CODE: LUNAPIXEL FOR 25% OFF!
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.bisecthosting.com/p/lunapixel%btnaction_splitter_fm%
+  x = -124
+  width = 249
+  action = addbutton
+  actionid = 15ec23e1-9175-49f9-bb37-696c5600645a1697967559875
+  y = 24
+  label = Play with Friends Now on Bisect Hosting!
+  height = 20
+}
+
+customization {
+  path = config/teraphobia/discord.png
+  orientation = mid-centered
+  x = -118
+  width = 12
+  action = addtexture
+  actionid = eb5d61af-2707-4774-8128-0cca04d3ab181697967938453
+  y = 3
+  height = 13
+}
+
+customization {
+  path = config/teraphobia/forge.png
+  orientation = mid-centered
+  x = 106
+  width = 13
+  action = addtexture
+  actionid = 87f6ef2a-c6b5-44ad-82a1-aea1e0303dc51697968427853
+  y = 2
+  height = 13
 }
 

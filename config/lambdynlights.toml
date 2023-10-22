@@ -70,6 +70,10 @@
 				ender_pearl = true
 				axolotl = true
 				trident = true
+				allay = true
+				blaze = true
+				chest_boat = true
+				cave_spider = true
 
 			[light_sources.settings.entities.gothic]
 				scavenger_young = true
@@ -169,6 +173,7 @@
 				deepling = true
 				lionfish = true
 				deepling_angler = true
+				the_harbinger = true
 
 			[light_sources.settings.entities.difficult_spawners]
 				evil_spirit = true
