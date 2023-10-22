@@ -148,6 +148,7 @@
 				razor = true
 				npc_farmer = true
 				npc_swamp_camp_hunter = true
+				dragon_snapper = true
 
 			[light_sources.settings.entities.undead_unleashed]
 				shadewraith = true

@@ -14,7 +14,7 @@
 	#Enable Footprint particle effects
 	"Enable Footprint Particles" = true
 	#Use first person footstep cadence
-	"First Person Cadence" = true
+	"First Person Cadence" = false
 	#Style of footprint to display for a player
 	#Allowed Values: SHOE, SQUARE, HORSESHOE, BIRD, PAW, SQUARE_SOLID, LOWRES_SQUARE
 	"Player Footprint Style" = "LOWRES_SQUARE"
@@ -22,7 +22,7 @@
 	"Footsteps as Quadruped" = false
 	#Footstep master volume scale
 	#Range: 0 ~ 100
-	"Footstep Volume Scale" = 10
+	"Footstep Volume Scale" = 0
 	#Enable armor rustle accents for footstep acoustics
 	"Enable Armor Accents" = false
 	#Enable rain splash accents for footstep acoustics

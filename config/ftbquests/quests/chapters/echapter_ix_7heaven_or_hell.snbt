@@ -132,6 +132,27 @@
 		}
 		{
 			dependencies: ["0514B95698C6A9C2"]
+			description: [
+				"Not long ago, Steve was an ordinary person who lived a peaceful life as an engineer. Steve had a passion for building and mining. "
+				"His world, known as the Overworld, was watched over by the Aether, a dimension guarded by many Gods. "
+				"On an otherwise uneventful day, Steve's village was raided. Among the victims of this raid was Alex - Steve's best friend. Steve believed this attack was influenced by the Gods themselves, and decided that revenge was the only option."
+				""
+				"While visiting a distant bandit camp, a trader mentioned the possibility of harnessing magic to bring Alex back to life. The trader then handed Steve a visibly aged piece of paper and began to pack his bags. Steve repeatedly asked the trader what the paper was, but received no acknowledgement."
+				""
+				"When Steve returned to his tent in the forest, he tried to forget about what happened. The writing on the paper was similar to what witches used to inscribe tomes, and he had heard rumors of dangerous spells being sold to people unknowingly.  That night, Steve was unable to sleep. It was like the paper occupied every corner of his mind. He eventually stood up, opened his backpack, and read the paper out loud. "
+				""
+				"When nothing immediately noticeable happened, Steve went back to sleep. He had only noticed the consequences of his actions several days later, when he saw his reflection in a puddle. The man that looked back at him was not Steve. The person he saw in the reflection had completely white eyes. He did not recognize his own face. "
+				""
+				"Panicked, Steve ran into a nearby village. He was met with weird looks, and storeowners refused to sell to him. Steve felt disgusted with himself, and went into hiding for several years. "
+				""
+				"The man that revisited the village several years later was not Steve. It was a completely different entity occupying Steve's body. Local legend refers to this entity as \"Herobrine\". After Herobrine's visit to the village, there were no survivors. These villagers were far from being Herobrine's only victims. "
+				""
+				"After seeing what Herobrine was capable of, the Gods became worried. Every night, corrupted monsters were appearing throughout The Overworld. This, alongside their awareness that Steve's vengeance against the Gods would carry over to Herobrine, motivated them to contain this corruption. The only solution they could come up with was to capture Herobrine and bring him back to The Overworld. As far as the Gods knew, Herobrine was only powerful due to the evil energy present only in The Overworld. By separating him from The Overworld, he would return to his former self."
+				""
+				"Unfortunately, this hypothesis could not have been further from the truth. As soon as Herobrine entered The Aether, a deep fog began to roll in. Even worse; for the first time in known history, the sun had set in The Aether. "
+				""
+				"The corruption spread throughout The Aether at an unprecedented rate, and Herobrine considered The Aether his new home. The only humans left are solely dedicated to preventing this corruption."
+			]
 			id: "02640B9A1371E6C9"
 			shape: "rsquare"
 			subtitle: "&8[Click to read lore]"
