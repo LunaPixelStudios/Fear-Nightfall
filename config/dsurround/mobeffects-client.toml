@@ -10,7 +10,7 @@
 #Defines footstep effect generation parameters
 ["Footstep Options"]
 	#Enable replacement of footstep sounds with acoustic versions
-	"Enable Footprint Sound Effects" = true
+	"Enable Footprint Sound Effects" = false
 	#Enable Footprint particle effects
 	"Enable Footprint Particles" = true
 	#Use first person footstep cadence
@@ -22,9 +22,9 @@
 	"Footsteps as Quadruped" = false
 	#Footstep master volume scale
 	#Range: 0 ~ 100
-	"Footstep Volume Scale" = 0
+	"Footstep Volume Scale" = 10
 	#Enable armor rustle accents for footstep acoustics
-	"Enable Armor Accents" = true
+	"Enable Armor Accents" = false
 	#Enable rain splash accents for footstep acoustics
 	"Enable Rain Splash Accents" = true
 	#Enable water logged accents for footstep acoustics

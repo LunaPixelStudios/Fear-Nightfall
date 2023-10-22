@@ -58,7 +58,7 @@
 	#Show morning fog that eventually burns off
 	"Morning Fog" = true
 	#Increase fog at bedrock layers
-	"Bedrock Fog" = false
+	"Bedrock Fog" = true
 	#Increase fog based on the strength of rain
 	"Weather Fog" = true
 	#Percentage chance morning fog will occur
@@ -69,13 +69,13 @@
 ["Sound Options"]
 	#Scaling factor to apply to biome sounds
 	#Range: 0 ~ 100
-	"Biome Sound Volume" = 20
+	"Biome Sound Volume" = 50
 	#Scaling factor to apply to spot sounds
 	#Range: 0 ~ 100
-	"Spot Sound Volume" = 20
+	"Spot Sound Volume" = 50
 	#Scaling factor to apply to waterfall sounds
 	#Range: 0 ~ 100
-	"Waterfall Volume" = 20
+	"Waterfall Volume" = 50
 	#Occlude WATERFALL sounds
 	"Occlude WATERFALL sounds" = false
 
