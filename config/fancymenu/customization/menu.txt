@@ -249,15 +249,15 @@ customization {
 }
 
 customization {
-  orientation = top-left
+  orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = openlink;https://discord.gg/9S5tfrY4Fr%btnaction_splitter_fm%
-  x = 303
+  x = -125
   width = 25
   action = addbutton
   actionid = 08756d3c-2736-4a46-a98a-5315b6ce2e911697967499967
-  y = 228
+  y = 0
   label = 
   height = 20
 }
@@ -280,7 +280,7 @@ customization {
 customization {
   path = config/teraphobia/discord.png
   orientation = mid-centered
-  x = -118
+  x = -119
   width = 12
   action = addtexture
   actionid = eb5d61af-2707-4774-8128-0cca04d3ab181697967938453
