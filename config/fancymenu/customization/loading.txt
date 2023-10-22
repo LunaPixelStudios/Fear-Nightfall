@@ -1,0 +1,66 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/teraphobia/image.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  original_pos_size_calculation = true
+  x = 199
+  width = 456
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = 94d21973-246f-4c5f-a228-6faac2d1f5311697965137775
+  y = 171
+  height = 114
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = bbe0ad23-b06a-4086-bca7-fcaead87935e1697965137781
+  y = -1000000
+  height = 0
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  original_pos_size_calculation = true
+  x = 199
+  width = 456
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = c25fade8-f407-47db-afbd-b412e4c12da01697965137781
+  y = 375
+  height = 10
+}
+
+customization {
+  path = config/teraphobia/lps.png
+  orientation = bottom-centered
+  x = -62
+  width = 124
+  action = addtexture
+  actionid = d390bb49-b6a0-4869-a12b-432e90297cef1697965183127
+  y = -27
+  height = 25
+}
+

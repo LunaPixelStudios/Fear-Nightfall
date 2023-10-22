@@ -66,6 +66,10 @@
 				pufferfish = true
 				turtle = true
 				glow_item_frame = true
+				skeleton_horse = true
+				ender_pearl = true
+				axolotl = true
+				trident = true
 
 			[light_sources.settings.entities.gothic]
 				scavenger_young = true
@@ -133,6 +137,8 @@
 				zombie_clown = true
 				bone_imp_2 = true
 				firelight = true
+				projectile_staffof_blindness = true
+				skeleton_thrasher = true
 
 			[light_sources.settings.entities.endofherobrine]
 				zombie = true
