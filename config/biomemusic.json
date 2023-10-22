@@ -1,7 +1,7 @@
 {
   "delayModifier": {
     "desc:": "Modifies the delay between songs, lower = shorter delay (1.0 = vanilla). Default = 0.25",
-    "delayModifier": 0.35
+    "delayModifier": 0.10
   },
   "pitchVariance": {
     "desc:": "Adds randomized pitch variance of up to the given value (e.g. 0.1), makes songs sound slightly different. default = 0",
@@ -21,7 +21,7 @@
   },
   "playonlycustomnightmusic": {
     "desc:": "Plays only custom provided music at night, default = false",
-    "playonlycustomnightmusic": false
+    "playonlycustomnightmusic": true
   },
   "logloadedmusic": {
     "desc:": "Prints the music files getting loaded into the latest.log, default = false",
