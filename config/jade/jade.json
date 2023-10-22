@@ -2,7 +2,7 @@
   "general": {
     "displayTooltip": true,
     "displayBlocks": true,
-    "displayEntities": true,
+    "displayEntities": false,
     "displayMode": "TOGGLE",
     "hideFromDebug": true,
     "enableTextToSpeech": false,
@@ -12,7 +12,7 @@
     "fluidMode": "ANY",
     "reachDistance": 0.0,
     "debug": false,
-    "itemModNameTooltip": true
+    "itemModNameTooltip": false
   },
   "overlay": {
     "overlayPosX": 0.0,
