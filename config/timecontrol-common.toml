@@ -12,7 +12,7 @@
 	day_length_minutes = 40
 	#How long nighttime lasts (12000 - 24000)
 	#Range: 1 ~ 178956
-	night_length_minutes = 30
+	night_length_minutes = 20
 
 [miscellaneous]
 	debugMode = false
