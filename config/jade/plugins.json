@@ -47,9 +47,9 @@
     "redstone": true
   },
   "treechop": {
-    "plugin": true,
-    "show_tree_block_counts": true,
-    "show_num_chops_remaining": true
+    "plugin": false,
+    "show_tree_block_counts": false,
+    "show_num_chops_remaining": false
   },
   "immersiveengineering": {
     "hemp": true,

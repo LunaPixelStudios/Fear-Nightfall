@@ -3,11 +3,13 @@
 	default_quest_shape: ""
 	filename: "edark_delight"
 	group: "0AF1E24E0154B029"
+	icon: "butchersdelight:skullcow"
 	id: "21C441DF14608D9B"
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["188416CC05C20AB6"]
 			id: "323E0E95E74D3D7E"
 			rewards: [
 				{
@@ -34,10 +36,11 @@
 				type: "item"
 			}]
 			title: "Craft &8Cleaver"
-			x: -4.5d
-			y: 1.0d
+			x: -3.5d
+			y: 1.5d
 		}
 		{
+			dependencies: ["0A56AF1930DA94D8"]
 			id: "188416CC05C20AB6"
 			rewards: [
 				{
@@ -58,8 +61,8 @@
 				type: "item"
 			}]
 			title: "Craft &8Meat Hook"
-			x: -3.5d
-			y: 1.0d
+			x: -5.0d
+			y: 1.5d
 		}
 		{
 			id: "0A56AF1930DA94D8"
@@ -76,14 +79,16 @@
 					xp: 50
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "3D2B4D0A325B4004"
 				item: "butchersdelight:rack"
 				type: "item"
 			}]
 			title: "Craft &eLeather Tanner"
-			x: -2.5d
-			y: 1.0d
+			x: -6.5d
+			y: 1.5d
 		}
 		{
 			id: "3C7F504C7E106B4F"
@@ -93,8 +98,8 @@
 				type: "item"
 			}]
 			title: "Obtain &8 Cow Carcass"
-			x: -3.5d
-			y: 4.0d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
 			id: "68EE6A2225479C2F"
@@ -104,8 +109,8 @@
 				type: "item"
 			}]
 			title: "Obtain &cPig Carcass"
-			x: -3.0d
-			y: 3.0d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			id: "70EA53FA169AD3D4"
@@ -115,7 +120,7 @@
 				type: "item"
 			}]
 			title: "Obtain &7Sheep Carcass"
-			x: -4.0d
+			x: -3.5d
 			y: 3.0d
 		}
 		{
@@ -126,446 +131,161 @@
 				type: "item"
 			}]
 			title: "Obtain &7Chiken Carcass"
-			x: -2.5d
-			y: 4.0d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["132D6EB25FD4386A"]
-			id: "05747C2D44F93CD7"
-			rewards: [{
-				count: 5
-				id: "3612443CD100E40C"
-				item: "gothic:magic_ore_nugget"
-				type: "item"
-			}]
+			dependencies: ["3C7F504C7E106B4F"]
+			id: "425185EA1476D3FB"
 			tasks: [{
-				advancement: "gothic:adv_magic_ore"
-				criterion: ""
-				id: "01B10CF45D18A0E9"
-				title: "Obtain &3Magic Ore Nugget"
-				type: "advancement"
+				id: "39AD8EAC0812E5D1"
+				item: "butchersdelightfoods:beefribs"
+				type: "item"
 			}]
 			x: -0.5d
-			y: 2.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["132D6EB25FD4386A"]
-			id: "10CC54181E52BAB0"
-			rewards: [{
-				count: 4
-				id: "05981D30678C0F6F"
-				item: "minecraft:amethyst_shard"
-				type: "item"
-			}]
+			dependencies: ["3C7F504C7E106B4F"]
+			id: "59C37E99C364A281"
 			tasks: [{
-				advancement: "gothic:adv_fear_stone"
-				criterion: ""
-				id: "69C0BCFD05E59C22"
-				title: "Protect your &cBase"
-				type: "advancement"
+				id: "595CC8019BC25F56"
+				item: "butchersdelightfoods:legcow"
+				type: "item"
 			}]
 			x: -0.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["132D6EB25FD4386A"]
-			id: "575E6A1F34F85104"
-			tasks: [{
-				advancement: "gothic:adv_waterpipe"
-				criterion: ""
-				id: "6F5256ADBDE4FBAE"
-				title: "Place &2Waterpipe"
-				type: "advancement"
-			}]
-			x: 3.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["575E6A1F34F85104"]
-			id: "0765B16D15E4FC22"
-			rewards: [{
-				id: "04460DE2753E5489"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				advancement: "gothic:adv_grass_tobacco"
-				criterion: ""
-				id: "42C3F3BEAC33234B"
-				title: "Craft &7Grass Tobacco"
-				type: "advancement"
-			}]
-			x: 5.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["0765B16D15E4FC22"]
-			id: "2D10DA9D43BCFC69"
-			rewards: [{
-				id: "452D10502306A1FA"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				advancement: "gothic:adv_mushroom_tobacco"
-				criterion: ""
-				id: "677715B49DBD56F9"
-				title: "Craft &8Mushroom Tobacco"
-				type: "advancement"
-			}]
-			x: 6.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["575E6A1F34F85104"]
-			id: "15B77CE5BAF45905"
-			rewards: [{
-				count: 2
-				id: "32F3A4A35747FBCE"
-				item: "minecraft:apple"
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "gothic:adv_apple_tobacco"
-				criterion: ""
-				id: "3CC300DF8E251060"
-				title: "Craft &cApple Tobacco"
-				type: "advancement"
-			}]
-			x: 5.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["15B77CE5BAF45905"]
-			id: "011318D7CCC2DDB6"
-			rewards: [{
-				count: 2
-				id: "76E32BC1C0CE0FAF"
-				item: "minecraft:honeycomb"
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "gothic:adv_honey_tobacco"
-				criterion: ""
-				id: "267E10FEB6B17645"
-				title: "Craft &6Honey Tobacco"
-				type: "advancement"
-			}]
-			x: 6.5d
-			y: 0.0d
-		}
-		{
-			id: "132D6EB25FD4386A"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				advancement: "gothic:adv_first_kill"
-				criterion: ""
-				id: "4EA5407A4292F964"
-				title: "Obtain &cMeat from any Gothic Mobs"
-				type: "advancement"
-			}]
-			title: "Obtain &cMeat from any Gothic Mobs"
-			x: 1.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["132D6EB25FD4386A"]
-			id: "03DC496925E7E5ED"
-			rewards: [{
-				id: "34F1D050B2106ED1"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				advancement: "gothic:adv_extract_fangs"
-				criterion: ""
-				id: "35848B0B0A019D4C"
-				title: "Extract &8Fangs"
-				type: "advancement"
-			}]
-			x: 1.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["132D6EB25FD4386A"]
-			hide_dependency_lines: true
-			id: "44F5170F0B3269A4"
-			rewards: [{
-				id: "3DEF93811281CFA1"
-				type: "xp"
-				xp: 100
-			}]
+			dependencies: ["3C7F504C7E106B4F"]
+			id: "4B0CB7D3A24A26E3"
 			tasks: [{
-				advancement: "gothic:adv_extract_claws"
-				criterion: ""
-				id: "0AC493F5AF623224"
-				title: "Extract &eClaws"
-				type: "advancement"
+				id: "686E11208CDB5676"
+				item: "butchersdelightfoods:beeftenderloin"
+				type: "item"
 			}]
-			x: 0.5d
-			y: 4.0d
+			x: -2.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["132D6EB25FD4386A"]
-			id: "19763AC7095EABD7"
-			rewards: [{
-				id: "4351DF81E0C0228C"
-				type: "xp"
-				xp: 100
-			}]
+			dependencies: ["70EA53FA169AD3D4"]
+			id: "359B585E231B9380"
 			tasks: [{
-				advancement: "gothic:adv_extract_pelt"
-				criterion: ""
-				id: "163E9A390D08C874"
-				title: "Extract &8Pelt"
-				type: "advancement"
+				id: "26744F75DA5263F3"
+				item: "butchersdelightfoods:sheepshank"
+				type: "item"
 			}]
-			x: 2.0d
+			x: -5.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["132D6EB25FD4386A"]
-			hide_dependency_lines: true
-			id: "63A73727B8196D40"
-			rewards: [{
-				id: "57FCB90676309265"
-				type: "xp"
-				xp: 100
-			}]
+			dependencies: ["70EA53FA169AD3D4"]
+			id: "37CC5DA36BBB1052"
 			tasks: [{
-				advancement: "gothic:adv_extract_wings"
-				criterion: ""
-				id: "459BF30FDFD8F98C"
-				title: "Extract &cWings"
-				type: "advancement"
+				id: "0190FE3315BFA2B0"
+				item: "butchersdelightfoods:sheeprack"
+				type: "item"
 			}]
-			x: 1.5d
-			y: 4.0d
+			x: -5.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["132D6EB25FD4386A"]
-			hide_dependency_lines: true
-			id: "53F30CB1651DAA3D"
-			rewards: [{
-				id: "0362986809F22C77"
-				type: "xp"
-				xp: 100
-			}]
+			dependencies: ["70EA53FA169AD3D4"]
+			id: "43784385338C78F1"
 			tasks: [{
-				advancement: "gothic:adv_extract_stinger"
-				criterion: ""
-				id: "4813D7C8D2C448DE"
-				title: "Extract &8Stingers"
-				type: "advancement"
+				id: "070731BB0B77EF36"
+				item: "butchersdelightfoods:sheeploin"
+				type: "item"
 			}]
-			x: 2.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["132D6EB25FD4386A"]
-			hide_dependency_lines: true
-			icon: "gothic:book_extract_mandibles"
-			id: "6FEEEB2BC31212C0"
-			rewards: [{
-				id: "7D2E5F39428A7822"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				advancement: "gothic:adv_extract_mandibles"
-				criterion: ""
-				id: "6FFD59CEEDAF5F52"
-				title: "Extract &3Mandibles"
-				type: "advancement"
-			}]
-			x: 2.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["132D6EB25FD4386A"]
-			hide_dependency_lines: true
-			id: "2B325AEA66E71477"
-			rewards: [{
-				id: "273A07599C23C936"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				advancement: "gothic:adv_extract_horns"
-				criterion: ""
-				id: "12AB727E833473F4"
-				title: "Extract &dHorns"
-				type: "advancement"
-			}]
-			x: 0.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["132D6EB25FD4386A"]
-			hide_dependency_lines: true
-			id: "70794211598553E9"
-			rewards: [{
-				id: "2B7EFFAB6DC3CE36"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				advancement: "gothic:adv_read_tablets"
-				criterion: ""
-				id: "72434B34EF0BECA1"
-				title: "Extract &8Ancient Language"
-				type: "advancement"
-			}]
-			x: 1.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["132D6EB25FD4386A"]
-			hide_dependency_lines: true
-			id: "40680AED510720DB"
-			rewards: [{
-				id: "2D2ECBBD78E74963"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				advancement: "gothic:adv_extract_fat"
-				criterion: ""
-				id: "3F1EFC90998371E8"
-				title: "Extract &8Fat"
-				type: "advancement"
-			}]
-			x: 2.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["132D6EB25FD4386A"]
-			hide_dependency_lines: true
-			id: "35C6D1BA4D6000D2"
-			rewards: [{
-				id: "654DE2BCA2CF4F70"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				advancement: "gothic:adv_extract_plates"
-				criterion: ""
-				id: "433137B7A14E348B"
-				title: "Extract &8Plates"
-				type: "advancement"
-			}]
-			x: 0.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["132D6EB25FD4386A"]
-			hide_dependency_lines: true
-			id: "15FAFD5139BBBB7B"
-			rewards: [{
-				id: "5AD6991BC9310F07"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				advancement: "gothic:adv_extract_hearts"
-				criterion: ""
-				id: "3373250FFFB45C97"
-				title: "Extract &cHearts"
-				type: "advancement"
-			}]
-			x: 1.5d
-			y: 6.0d
-		}
-		{
-			id: "030C9658F112C6FB"
-			tasks: [
-				{
-					id: "1BB404C2CFFCBD34"
-					item: "gothic:wolf_fur"
-					type: "item"
-				}
-				{
-					id: "304D779717A3D2D0"
-					item: "gothic:ice_wolf_fur"
-					type: "item"
-				}
-				{
-					id: "27E32236EBA86C2E"
-					item: "gothic:shadowbeast_fur"
-					type: "item"
-				}
-			]
-			title: "Obtain &6Wolf Fur"
 			x: -3.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
-			id: "6E7675149B9AFF11"
+			dependencies: ["68EE6A2225479C2F"]
+			id: "6F795AA89173A99E"
 			tasks: [{
-				id: "22D5C9D0B63664D9"
-				item: "gothic:ice_wolf_trophy"
+				id: "55786B4826039A0A"
+				item: "butchersdelightfoods:ham"
 				type: "item"
 			}]
-			title: "Obtain &7Ice Wolf Trophy"
-			x: -4.5d
-			y: 6.0d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
-			id: "1B9032AD73FF0586"
+			dependencies: ["68EE6A2225479C2F"]
+			id: "409C4969B2C11F85"
 			tasks: [{
-				id: "7DBE4C96C88994A5"
-				item: "gothic:shadowbeast_trophy"
+				id: "34BC2AFDFF5E02F1"
+				item: "butchersdelightfoods:porkloin"
 				type: "item"
 			}]
-			title: "Obtain &8Shadowbeast Trophy"
-			x: -4.5d
-			y: 5.0d
+			x: -0.5d
+			y: 0.0d
 		}
 		{
-			id: "32B9F52A1B1A8668"
+			dependencies: ["68EE6A2225479C2F"]
+			id: "6474EC11BF6ADC8A"
 			tasks: [{
-				id: "204979BBB3EEA36F"
-				item: "gothic:wolf_trophy"
+				id: "465019E16553EFD7"
+				item: "butchersdelightfoods:porkribs"
 				type: "item"
 			}]
-			title: "Obtain &6Wolf Trophy"
-			x: -2.5d
-			y: 5.0d
+			x: -2.0d
+			y: -1.5d
 		}
 		{
-			id: "20B7535EB26A7F30"
+			dependencies: ["52D8550E0B958F46"]
+			id: "751933ACFDE7A4A3"
 			tasks: [{
-				id: "5E16BAD03DDBAA51"
-				item: "gothic:warg_trophy"
+				id: "0B5A9833122C7135"
+				item: "butchersdelightfoods:goat_shank"
 				type: "item"
 			}]
-			title: "Obtain &8Warg Trophy"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52D8550E0B958F46"]
+			id: "32B160E42275C2FB"
+			tasks: [{
+				id: "40B5F20B92F378E7"
+				item: "butchersdelightfoods:goatrack"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52D8550E0B958F46"]
+			id: "7863C0D05541491B"
+			tasks: [{
+				id: "06682493C654EB19"
+				item: "butchersdelightfoods:goat_loin"
+				type: "item"
+			}]
 			x: -3.5d
-			y: 6.0d
+			y: -1.5d
 		}
 		{
-			id: "391BE050055BF512"
+			id: "52D8550E0B958F46"
 			tasks: [{
-				id: "3C836E4255C897F9"
-				item: "gothic:scavenger_grilled"
+				id: "5DA08BF6381AAABE"
+				item: "butchersdelight:deadgoat"
 				type: "item"
 			}]
-			title: "Obtain &6Grilled Scavenger"
-			x: -2.5d
-			y: 6.0d
+			x: -3.5d
+			y: 0.0d
 		}
 		{
-			id: "59E73BDA2153C686"
+			id: "7E95A63EE90EFC1D"
 			tasks: [{
-				id: "566CF36CE2E123F1"
-				item: "gothic:scavenger_hanging"
+				id: "1638CA33477E6F99"
+				item: "butchersdelight:deadrabbitbrown"
 				type: "item"
 			}]
-			title: "Obtain &6Smoked Scavenger"
-			x: -4.5d
-			y: 4.0d
+			x: -0.5d
+			y: 1.5d
 		}
 	]
-	title: " &eDark Delight"
+	title: " &eButcher's Delight"
 }
