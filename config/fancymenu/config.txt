@@ -17,13 +17,13 @@ I:defaultguiscale = '-1';
 ##[customization]
 
 B:advancedmode = 'false';
-B:showcustomizationbuttons = 'false';
 
 
 ##[loading]
 
 B:allowgameintroskip = 'true';
 B:showanimationloadingstatus = 'true';
+B:showcustomizationbuttons = 'false';
 S:gameintroanimation = '';
 B:preloadanimations = 'false';
 S:customgameintroskiptext = '';

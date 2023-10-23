@@ -56,22 +56,12 @@ customization {
 }
 
 customization {
-  identifier = %id=9764%
-  action = hidebutton
-}
-
-customization {
   identifier = %id=604334%
   action = hidebutton
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=97641%
   action = hidebutton
 }
 
@@ -110,11 +100,6 @@ customization {
   x = -214
   action = movebutton
   y = -10
-}
-
-customization {
-  identifier = %id=976411%
-  action = hidebutton
 }
 
 customization {
@@ -221,20 +206,6 @@ customization {
 }
 
 customization {
-  orientation = top-left
-  loop = true
-  channel = music
-  x = 33
-  width = 50
-  action = custom_layout_element:fancymenu_extension:audio_item
-  actionid = f710ff35-f5d1-443d-a237-8cea935d039b1696216212527
-  y = 44
-  audio_source:ec338749-2e21-4b6f-bbfc-6966790b076f1696216218036 = config/teraphobia/mainmenu.ogg;EXTERNAL_LOCAL;80;0
-  once_per_session = false
-  height = 50
-}
-
-customization {
   orientation = bottom-left
   loopbackgroundanimations = true
   restartbackgroundanimations = true
@@ -297,5 +268,25 @@ customization {
   actionid = 87f6ef2a-c6b5-44ad-82a1-aea1e0303dc51697968427853
   y = 2
   height = 13
+}
+
+customization {
+  identifier = %id=914411%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=9384%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=91441%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=9144%
+  action = hidebutton
 }
 
