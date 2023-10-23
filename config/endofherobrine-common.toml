@@ -1,0 +1,29 @@
+
+["Common configs for The End of Herobrine Mod"]
+	#Should the Builder build the 1.7.10 structures?
+	legacyStructures = false
+	#
+	### Possession ###
+	#
+	#Should mobs get possessed?
+	mobPossession = true
+	#Should possessed animals convert back?
+	convertBack = true
+	#Time in ticks mobs will remain possessed #Default: 1/2 minecraft day
+	#Range: > 0
+	remainPossessed = 12000
+	#
+	### Herobrine Spawn Rate ###
+	#
+	#Minimum time in ticks the mod will wait to try to execute herobrine spawn logic
+	#Range: > 0
+	tickDelay = 600
+	#Time in ticks herobrine will wait to try to spawn again
+	#Range: > 0
+	spawnDelay = 3600
+	#The chance out of a hundred that herobrine will spawn
+	#Range: 0 ~ 100
+	spawnChance = 10
+	#Should spawn herobrine builder?
+	spawnBuilder = false
+
