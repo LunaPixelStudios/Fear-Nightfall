@@ -260,7 +260,7 @@
 			dependencies: ["19BA19A20221B4DA"]
 			hide: true
 			hide_dependency_lines: true
-			icon: "gothic:shadowbeast_pelt"
+			icon: "undead_unleashed:ghost_pepper"
 			id: "5A62C009E9920B01"
 			rewards: [{
 				id: "24672B84D1812A52"
