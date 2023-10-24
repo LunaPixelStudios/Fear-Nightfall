@@ -9,10 +9,10 @@
 [arbitrary_time]
 	#How long daytime lasts (0 - 12000)
 	#Range: 1 ~ 178956
-	day_length_minutes = 20
+	day_length_minutes = 40
 	#How long nighttime lasts (12000 - 24000)
 	#Range: 1 ~ 178956
-	night_length_minutes = 10
+	night_length_minutes = 20
 
 [miscellaneous]
 	debugMode = false
