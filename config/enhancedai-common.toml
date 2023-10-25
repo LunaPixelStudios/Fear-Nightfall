@@ -8,7 +8,7 @@
 "Enable Skeletons" = true
 "Enable Spiders" = true
 "Enable Villagers" = true
-"Enable Witches" = true
+"Enable Witches" = false
 "Enable Zombies" = true
 
 [Zombies]
@@ -411,12 +411,12 @@
 		[Creepers."Creeper Swell".Cena]
 			#AND HIS NAME IS ...
 			#Range: 0.0 ~ 1.0
-			Chance = 0.02
+			Chance = 0.0
 			#If true, Creeper Cena explosion will generate fire
 			"Generates fire" = false
 			#Explosion power of Creeper Cena
 			#Range: 0.0 ~ 12.0
-			"Explosion power" = 6.0
+			"Explosion power" = 0.0
 
 [Blazes]
 	#Make blazes fire faster/more fireballs
