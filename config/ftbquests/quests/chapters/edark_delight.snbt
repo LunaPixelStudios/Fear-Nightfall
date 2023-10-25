@@ -36,11 +36,10 @@
 				type: "item"
 			}]
 			title: "Craft &8Cleaver"
-			x: -3.5d
+			x: -5.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["0A56AF1930DA94D8"]
 			id: "188416CC05C20AB6"
 			rewards: [
 				{
@@ -61,7 +60,7 @@
 				type: "item"
 			}]
 			title: "Craft &8Meat Hook"
-			x: -5.0d
+			x: -6.5d
 			y: 1.5d
 		}
 		{
@@ -79,15 +78,13 @@
 					xp: 50
 				}
 			]
-			shape: "hexagon"
-			size: 1.5d
 			tasks: [{
 				id: "3D2B4D0A325B4004"
 				item: "butchersdelight:rack"
 				type: "item"
 			}]
 			title: "Craft &eLeather Tanner"
-			x: -6.5d
+			x: -3.5d
 			y: 1.5d
 		}
 		{
