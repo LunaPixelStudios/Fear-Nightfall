@@ -7,10 +7,10 @@
   "handlers": {
     "explosion": {
       "enabled": true,
-      "opacity": 0.5,
+      "opacity": 1.0,
       "dust": {
         "disabled": false,
-        "opacity": 0.5,
+        "opacity": 1.0,
         "animationSpeed": 0,
         "scale": {
           "min": 0.2,
@@ -36,7 +36,7 @@
       },
       "blur": {
         "disabled": false,
-        "opacity": 0.5
+        "opacity": 1.0
       },
       "maxBlur": {
         "min": 0,
@@ -60,13 +60,13 @@
       },
       "potion": {
         "disabled": false,
-        "opacity": 0.5,
+        "opacity": 1.0,
         "animationSpeed": 0
       }
     },
     "sand": {
       "enabled": true,
-      "opacity": 0.5,
+      "opacity": 1.0,
       "duration": {
         "min": 100,
         "max": 100
@@ -74,7 +74,7 @@
       "sprintModifier": 1.5,
       "sand": {
         "disabled": false,
-        "opacity": 0.5,
+        "opacity": 1.0,
         "animationSpeed": 0,
         "scale": {
           "min": 0.1,
@@ -84,7 +84,7 @@
     },
     "splash": {
       "enabled": true,
-      "opacity": 0.5,
+      "opacity": 1.0,
       "duration": {
         "min": 10,
         "max": 10
@@ -95,15 +95,15 @@
       },
       "blur": {
         "disabled": false,
-        "opacity": 0.5
+        "opacity": 1.0
       }
     },
     "damage": {
       "enabled": true,
-      "opacity": 0.5,
+      "opacity": 1.0,
       "damaged": {
         "disabled": false,
-        "opacity": 0.5,
+        "opacity": 1.0,
         "animationSpeed": 0
       },
       "hitEffectIntensity": 0.0,
@@ -113,7 +113,7 @@
       },
       "splatter": {
         "disabled": false,
-        "opacity": 0.5,
+        "opacity": 1.0,
         "animationSpeed": 0,
         "scale": {
           "min": 0.2,
@@ -122,7 +122,7 @@
       },
       "impact": {
         "disabled": false,
-        "opacity": 0.5,
+        "opacity": 1.0,
         "animationSpeed": 0,
         "scale": {
           "min": 0.2,
@@ -131,7 +131,7 @@
       },
       "slash": {
         "disabled": false,
-        "opacity": 0.5,
+        "opacity": 1.0,
         "animationSpeed": 0,
         "scale": {
           "min": 0.2,
@@ -140,7 +140,7 @@
       },
       "pierce": {
         "disabled": false,
-        "opacity": 0.5,
+        "opacity": 1.0,
         "animationSpeed": 0,
         "scale": {
           "min": 0.2,
@@ -153,7 +153,7 @@
       },
       "fire": {
         "disabled": false,
-        "opacity": 0.5,
+        "opacity": 1.0,
         "animationSpeed": 0,
         "scale": {
           "min": 0.2,
@@ -172,7 +172,7 @@
       },
       "waterDrown": {
         "disabled": false,
-        "opacity": 0.5,
+        "opacity": 1.0,
         "animationSpeed": 0,
         "scale": {
           "min": 0.2,
@@ -190,7 +190,7 @@
       },
       "lightning": {
         "disabled": false,
-        "opacity": 0.5,
+        "opacity": 1.0,
         "animationSpeed": 0,
         "scale": {
           "min": 0.2,
@@ -208,7 +208,7 @@
       },
       "freeze": {
         "disabled": false,
-        "opacity": 0.5,
+        "opacity": 1.0,
         "animationSpeed": 0,
         "scale": {
           "min": 0.2,
@@ -226,7 +226,7 @@
       },
       "flyIntoWall": {
         "disabled": false,
-        "opacity": 0.5,
+        "opacity": 1.0,
         "animationSpeed": 0,
         "scale": {
           "min": 0.2,
@@ -244,7 +244,7 @@
       },
       "heat": {
         "disabled": false,
-        "opacity": 0.5,
+        "opacity": 1.0,
         "animationSpeed": 0,
         "scale": {
           "min": 0.2,
@@ -262,7 +262,7 @@
       },
       "parasites": {
         "disabled": false,
-        "opacity": 0.5,
+        "opacity": 1.0,
         "animationSpeed": 0,
         "scale": {
           "min": 0.2,
@@ -275,7 +275,7 @@
       },
       "wither": {
         "disabled": false,
-        "opacity": 0.5,
+        "opacity": 1.0,
         "animationSpeed": 0,
         "scale": {
           "min": 1.5,
@@ -306,19 +306,19 @@
     },
     "slender": {
       "enabled": true,
-      "opacity": 0.5,
+      "opacity": 1.0,
       "defaultIntensity": 0,
       "maxIntensity": 0.3,
       "distanceFactor": 0.25,
       "slender": {
         "disabled": false,
-        "opacity": 0.5,
+        "opacity": 1.0,
         "animationSpeed": 50
       }
     },
     "saturation": {
       "enabled": true,
-      "opacity": 0.5,
+      "opacity": 1.0,
       "fadeFactor": 0.0005,
       "saturation": {
         "min": 2,
@@ -328,7 +328,7 @@
       },
       "desaturate": {
         "disabled": false,
-        "opacity": 0.5
+        "opacity": 1.0
       }
     },
     "heartbeat": {
@@ -348,8 +348,8 @@
         "animationSpeed": 0
       },
       "blur": {
-        "disabled": false,
-        "opacity": 0.5
+        "disabled": true,
+        "opacity": 1.0
       }
     }
   }
