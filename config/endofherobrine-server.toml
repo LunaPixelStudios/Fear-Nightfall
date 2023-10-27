@@ -1,21 +1,16 @@
 
 ["Common configs for The End of Herobrine Mod"]
+	#Should enable experimental features?
+	experimental = false
 	#Should Herobrine build 1.7.10 structures?
 	legacyStructures = false
+	#Should Herobrine's Wrath progressively raise during gameplay?
+	progressiveWrath = true
 	#
 	### Possession ###
 	#
 	#Should mobs get possessed?
 	mobPossession = true
-	#Chance of a herobrine spawn attempt being successful
-	#Range: 0 ~ 100
-	spawnChance = 10
-	#Should spawn herobrine builder?
-	spawnBuilder = false
-	#Should enable experimental features?
-	experimental = false
-	#Should Herobrine's Wrath raise during gameplay?
-	progressiveWrath = true
 	#Should possessed animals revert to normal?
 	revertPossession = true
 	#Time in ticks mobs will remain possessed  #Default: 1/2 minecraft day
@@ -29,4 +24,9 @@
 	#Time in ticks between Herobrine spawn attempts
 	#Range: > 0
 	spawnCooldown = 3600
+	#Chance of a herobrine spawn attempt being successful
+	#Range: 0 ~ 100
+	spawnChance = 10
+	#Should spawn herobrine builder?
+	spawnBuilder = true
 
