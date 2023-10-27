@@ -56,12 +56,22 @@ customization {
 }
 
 customization {
+  identifier = %id=914411%
+  action = hidebutton
+}
+
+customization {
   identifier = %id=604334%
   action = hidebutton
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=9384%
   action = hidebutton
 }
 
@@ -95,6 +105,11 @@ customization {
 }
 
 customization {
+  identifier = %id=91441%
+  action = hidebutton
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
   orientation = bottom-right
   x = -214
@@ -108,6 +123,11 @@ customization {
   x = -100
   action = movebutton
   y = -24
+}
+
+customization {
+  identifier = %id=9144%
+  action = hidebutton
 }
 
 customization {
@@ -224,7 +244,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = openlink;https://discord.gg/9S5tfrY4Fr%btnaction_splitter_fm%
-  x = -125
+  x = -124
   width = 25
   action = addbutton
   actionid = 08756d3c-2736-4a46-a98a-5315b6ce2e911697967499967
@@ -251,7 +271,7 @@ customization {
 customization {
   path = config/teraphobia/discord.png
   orientation = mid-centered
-  x = -119
+  x = -118
   width = 12
   action = addtexture
   actionid = eb5d61af-2707-4774-8128-0cca04d3ab181697967938453
@@ -268,25 +288,5 @@ customization {
   actionid = 87f6ef2a-c6b5-44ad-82a1-aea1e0303dc51697968427853
   y = 2
   height = 13
-}
-
-customization {
-  identifier = %id=914411%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=9384%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=91441%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=9144%
-  action = hidebutton
 }
 
