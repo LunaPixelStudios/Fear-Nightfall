@@ -16,10 +16,10 @@
     "hintOverlayToggle": true
   },
   "overlay": {
-    "overlayPosX": 0.0,
+    "overlayPosX": 1.0,
     "overlayPosY": 1.0,
     "overlayScale": 1.0,
-    "overlayAnchorX": 0.0,
+    "overlayAnchorX": 1.0,
     "overlayAnchorY": 0.0,
     "overlaySquare": false,
     "flipMainHand": false,
