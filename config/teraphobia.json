@@ -1,6 +1,7 @@
 {
   "removed_entities": [
-    "endofherobrine:villager"
+    "endofherobrine:villager",
+    "fear_the_dark:fever_dream"
   ],
   "dayonly_spawns_entity": [
     "any_mod:example_entity"
