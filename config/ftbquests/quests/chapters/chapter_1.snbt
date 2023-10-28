@@ -104,25 +104,6 @@
 		}
 		{
 			dependencies: ["2F5B7FFBC196A061"]
-			id: "1E73E70191461820"
-			rewards: [{
-				id: "0F0EF70D58C70C33"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "octagon"
-			subtitle: "A very important gem"
-			tasks: [{
-				id: "476AD400B9E8A5E5"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			title: "Obtain &3Diamond"
-			x: 0.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["2F5B7FFBC196A061"]
 			id: "20A2FDD7CB5AFB72"
 			rewards: [{
 				id: "5B5B902EE9BB74E9"
@@ -199,7 +180,7 @@
 			}]
 			title: "Craft the &6Book of Shadows"
 			x: 1.5d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2F5B7FFBC196A061"]
@@ -218,7 +199,7 @@
 			}]
 			title: "Craft the &6Engineer's Manual"
 			x: -1.5d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["47E544C2A7FF4EC0"]
@@ -349,8 +330,80 @@
 				type: "item"
 			}]
 			title: "&7A deadlier upgrade"
-			x: -3.0d
-			y: -3.0d
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2F5B7FFBC196A061"]
+			description: ["Currently the Map does not support the Nether."]
+			id: "0593A4B43B36DCF5"
+			shape: "octagon"
+			subtitle: "Will be important on helping you traverse the Overworld"
+			tasks: [{
+				id: "3E02E1869E155821"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							maps: [I; ]
+						}
+					}
+					id: "map_atlases:atlas"
+				}
+				type: "item"
+			}]
+			title: "Craft a &9Map &6Atlas"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0593A4B43B36DCF5"]
+			description: [
+				"You can put both Filled Maps and Empty Maps with an Atlas in a crafting inventory to insert either Map type into the Atlas."
+				""
+				"A Cartography Table can be used to add Filled Maps and Empty Maps as well."
+				""
+				"There's a maximum of 512 Maps in each Atlas (configurable/togglable)."
+				""
+				"You can use your Atlas and Shears in the Crafting Grid to remove Maps from the Atlas."
+			]
+			id: "3563D691EEB55DD6"
+			shape: "rsquare"
+			subtitle: "Use Maps to expand your Atlas so that Filled Maps inside the Atlas will continue updating your location and world-state."
+			tasks: [{
+				id: "3B8D394C209DD79F"
+				item: "minecraft:cartography_table"
+				type: "item"
+			}]
+			title: "Expanding the &6Atlas"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["176D8929B2715ABB"]
+			id: "37DEE65CAFCF733F"
+			rewards: [
+				{
+					count: 3
+					id: "4489D2DD94784D7D"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "18820107B2B8257F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "659AC69FAC163BC7"
+				item: "butchersdelight:rack"
+				type: "item"
+			}]
+			title: "Craft &eLeather Tanner"
+			x: 1.5d
+			y: -4.5d
 		}
 	]
 	title: " &eChapter I:&r &7Aether has Fallen"

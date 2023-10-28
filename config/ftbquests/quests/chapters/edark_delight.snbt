@@ -36,7 +36,7 @@
 				type: "item"
 			}]
 			title: "Craft &8Cleaver"
-			x: -5.0d
+			x: -3.5d
 			y: 1.5d
 		}
 		{
@@ -60,31 +60,7 @@
 				type: "item"
 			}]
 			title: "Craft &8Meat Hook"
-			x: -6.5d
-			y: 1.5d
-		}
-		{
-			id: "0A56AF1930DA94D8"
-			rewards: [
-				{
-					count: 3
-					id: "3105CC161515FE38"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "150B200E2323CB9C"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [{
-				id: "3D2B4D0A325B4004"
-				item: "butchersdelight:rack"
-				type: "item"
-			}]
-			title: "Craft &eLeather Tanner"
-			x: -3.5d
+			x: -5.0d
 			y: 1.5d
 		}
 		{
