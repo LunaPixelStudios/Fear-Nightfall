@@ -56,7 +56,8 @@
 		{
 			dependencies: ["6DA90162B361A85D"]
 			description: [
-				"&7The time cycles differently, with days being &e40 minutes&7 long, and usually safe, and nights being &320 minutes&7 long, and a challenge to survive. You aslo have &4Sanity&7, be aware of the Dark."
+				""
+				"-=&7The time cycles differently, with days being &e40 minutes&7 long, and usually safe, and nights being &320 minutes&7 long, and a challenge to survive. You aslo have &4Sanity&7, be aware of the Dark."
 				""
 				""
 				"&f&lTips:"
@@ -65,6 +66,7 @@
 				"- &7Be careful, passive mobs will attack you back!"
 				"- &7Use the &eC&7 key to crawl."
 				"- &7There isn't a minimap or zoom key."
+				"- &7 Chopping trees take multiple chops (depending on size), crouching breaks like normal."
 				"- &7Fear the nightfall."
 			]
 			icon: {

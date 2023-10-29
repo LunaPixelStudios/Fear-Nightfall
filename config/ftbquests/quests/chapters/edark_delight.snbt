@@ -24,6 +24,7 @@
 					xp: 50
 				}
 			]
+			subtitle: "Cut up the Carcasses after placing them on a hook (Right Click)"
 			tasks: [{
 				id: "56D0E91E4086BF80"
 				item: {
@@ -54,6 +55,7 @@
 					xp: 50
 				}
 			]
+			subtitle: "Used to hang Carcasses."
 			tasks: [{
 				id: "498C4406B2997F9F"
 				item: "butchersdelight:hook"

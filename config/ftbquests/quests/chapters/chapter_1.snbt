@@ -130,7 +130,7 @@
 				xp: 200
 			}]
 			shape: "octagon"
-			subtitle: "&8Food is also important. Sometimes you gotta kill to survive."
+			subtitle: "&8Food is also important. Sometimes you gotta kill to survive. Needs a Campfire!"
 			tasks: [{
 				id: "0D0B3B707E33A501"
 				item: "butchersdelight:roaster"
