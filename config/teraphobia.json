@@ -1,6 +1,7 @@
 {
   "removed_entities": [
     "endofherobrine:villager",
+    "endofherobrine:sheep",
     "boh:siren_head"
   ],
   "dayonly_spawns_entity": [
