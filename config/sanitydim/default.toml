@@ -8,7 +8,7 @@
 	positive_multiplier = 1.5
 	#For balancing purposes: the effectiveness of all negative sanity sources will be multiplied by this number
 	#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
-	negative_multiplier = 0.5
+	negative_multiplier = 1.0
 
 	#Configuration for passive sanity sources
 	[sanity.passive]
@@ -201,7 +201,7 @@
 			scale = 1.0
 			#Sanity indicator location
 			#Allowed Values: HOTBAR_LEFT, HOTBAR_RIGHT, TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
-			location = "BOTTOM_LEFT"
+			location = "BOTTOM_RIGHT"
 
 		#Inner monologue configuration
 		[sanity.client.hints]
