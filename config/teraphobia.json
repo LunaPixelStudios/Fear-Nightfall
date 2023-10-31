@@ -1,6 +1,8 @@
 {
   "removed_entities": [
-    "endofherobrine:villager"
+    "endofherobrine:villager",
+    "boh:siren_head",
+    "fear_the_dark:leg_spike"
   ],
   "dayonly_spawns_entity": [
     "any_mod:example_entity"
@@ -29,7 +31,8 @@
     "skinandbonesremastered",
     "born_in_chaos_v1",
     "boh",
-    "mushys_fallen_monsters"
+    "mushys_fallen_monsters",
+    "fear_the_dark"
   ],
   "enable_creeper_cena": false,
   "ender_dragon_max_health": 600.0
