@@ -1,7 +1,7 @@
 
 ["Common configs for The End of Herobrine Mod"]
 	#Should Herobrine build 1.7.10 structures?
-	legacyStructures = false
+	legacyStructures = true
 	#
 	### Possession ###
 	#
