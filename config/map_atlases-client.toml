@@ -12,21 +12,21 @@ in_hand_renderer = "NOT_LOCKED"
 	only_show_y_when_has_slices = true
 	#Global scale of entire minimap HUD. Keep at 1 for pixel perfect consistency
 	#Range: 0.0 ~ 20.0
-	scale = 1.0
+	scale = 1.5
 	#If 'true', the Mini-Map of the Active Map will be drawn on the HUD while the Atlas is active.
-	enabled = false
+	enabled = true
 	#How many maps to display in a single minimap. Essentially zoom. Can be a fraction
 	#Range: 0.001 ~ 100.0
 	zoom_multiplier = 1.0
 	#Controls anchor position of mini-map
 	#Allowed Values: UPPER_LEFT, UPPER_RIGHT, LOWER_LEFT, LOWER_RIGHT
-	anchoring = "UPPER_LEFT"
+	anchoring = "UPPER_RIGHT"
 	#An integer which will offset the mini-map horizontally
 	#Range: -4000 ~ 4000
-	horizontal_offset = 5
+	horizontal_offset = -5
 	#An integer which will offset the mini-map vertically
 	#Range: -4000 ~ 4000
-	vertical_offset = 5
+	vertical_offset = -10
 	#The number of pixels to shift vertically when there's an active effect
 	#Range: -4000 ~ 4000
 	active_potion_effects_vertical_offset = 26
@@ -53,6 +53,8 @@ in_hand_renderer = "NOT_LOCKED"
 	only_show_north_cardinal = false
 	#Shows map separation borders
 	map_borders = true
+	#Use sky color for minimap
+	darken_at_night = true
 
 [world_map]
 	#Use bigger book like texture for worldmap view. Makes the view a bit bigger. Recommended to ebe used with map scale 1 (you might want to lower lectern one too if buttons dont show)
@@ -79,4 +81,6 @@ in_hand_renderer = "NOT_LOCKED"
 	compact_slices_indicator = false
 	#Allows minimap to follow player movement instead of only displaying current map
 	follow_player = true
+	#Makes zooming work smoothly instead of in 2 maps increments
+	smooth_zooming = true
 
