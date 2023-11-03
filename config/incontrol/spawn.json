@@ -1,1 +1,62 @@
-[]
+[
+    {
+        "mob": "minecraft:zombie",
+        "mincount": 10,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:skeleton",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:creeper",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:enderman",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:spider",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:cave_spider",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:drowned",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:husk",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:stray",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:witch",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:zombie_villager",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:silver_fish",
+        "mincount": 5,
+        "result": "deny"
+    }
+]
