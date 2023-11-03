@@ -12,7 +12,7 @@ in_hand_renderer = "NOT_LOCKED"
 	only_show_y_when_has_slices = true
 	#Global scale of entire minimap HUD. Keep at 1 for pixel perfect consistency
 	#Range: 0.0 ~ 20.0
-	scale = 1.5
+	scale = 1.75
 	#If 'true', the Mini-Map of the Active Map will be drawn on the HUD while the Atlas is active.
 	enabled = true
 	#How many maps to display in a single minimap. Essentially zoom. Can be a fraction
@@ -26,7 +26,7 @@ in_hand_renderer = "NOT_LOCKED"
 	horizontal_offset = -5
 	#An integer which will offset the mini-map vertically
 	#Range: -4000 ~ 4000
-	vertical_offset = -10
+	vertical_offset = 5
 	#The number of pixels to shift vertically when there's an active effect
 	#Range: -4000 ~ 4000
 	active_potion_effects_vertical_offset = 26
