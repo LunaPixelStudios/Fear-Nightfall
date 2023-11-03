@@ -37,12 +37,13 @@
 	quests: [
 		{
 			dependencies: ["19BA19A20221B4DA"]
+			description: ["Portal is made up of &eglowstone blocks&r and lit by a &bwater bucket.&r"]
 			hide: true
 			hide_dependency_lines: true
 			id: "0514B95698C6A9C2"
 			shape: "hexagon"
 			size: 1.3d
-			subtitle: "Make and Enter the &eAether Portal"
+			subtitle: "Make and Enter the &eAether Portal."
 			tasks: [{
 				dimension: "aether:the_aether"
 				icon: "aether:aether_portal_frame"
@@ -62,6 +63,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Obtain the &eWistiver Jaws."
 			tasks: [{
 				entity: "sons_of_sins:wistiver"
 				icon: "sons_of_sins:wistiver_jaws"
@@ -81,6 +83,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Obtain the &eButcher Carcass."
 			tasks: [{
 				entity: "sons_of_sins:bloody_butcher"
 				icon: "sons_of_sins:butcher_carcass"
@@ -100,6 +103,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Obtain the &eBloody Puddle."
 			tasks: [{
 				entity: "sons_of_sins:bloody_driver"
 				icon: "sons_of_sins:bloody_puddle"
@@ -119,6 +123,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Obtain the &eProwler's Hand."
 			tasks: [{
 				entity: "sons_of_sins:prowler"
 				icon: "sons_of_sins:prowler_s_hand"
@@ -169,9 +174,9 @@
 			dependencies: ["02640B9A1371E6C9"]
 			description: [
 				""
-				"&7Build a  structure with a &cSinful Totem&7, below it a &cTubular Flesh Block&7, and on top, a &cFlesh Wall&7."
+				"&7Build a structure with a &cSinful Totem&7, below it a &cTubular Flesh Block&7, and on top, a &cFlesh Wall&7."
 				""
-				"&7Then right click on the sinful totem with a &ewither star&7."
+				"&7Then right click on the sinful totem with a &eWither Star&7."
 			]
 			id: "4295DB3BE4CDFE8D"
 			rewards: [{
@@ -181,7 +186,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "&7A sinful totem must be made to summon him."
+			subtitle: "A Sinful Totem must be made to summon him. Made in the &2Bio-&r&cForge."
 			tasks: [
 				{
 					id: "315C2E19A3435773"

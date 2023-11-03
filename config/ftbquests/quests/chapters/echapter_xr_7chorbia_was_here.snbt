@@ -23,6 +23,7 @@
 			}]
 			shape: "octagon"
 			size: 1.2d
+			subtitle: "Mixes all sorts of recipes."
 			tasks: [{
 				id: "664036B1D9D3F6AC"
 				item: "hexerei:mixing_cauldron"
@@ -40,6 +41,7 @@
 				item: "hexerei:infused_fabric"
 				type: "item"
 			}]
+			subtitle: "Used to make witch armor."
 			tasks: [{
 				id: "398CF5E325CE5B96"
 				item: "hexerei:infused_fabric"
@@ -58,6 +60,7 @@
 				item: "hexerei:infused_fabric"
 				type: "item"
 			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [
 				{
 					id: "205BC1575BB1757D"
@@ -141,6 +144,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
 				id: "2B0EFEA40F205EAC"
 				item: "hexerei:candle_dipper"
@@ -159,6 +163,7 @@
 				item: "hexerei:candle"
 				type: "item"
 			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
 				id: "412BB61F28F105A1"
 				item: "hexerei:candle"
@@ -176,6 +181,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
 				id: "7C772C08A26CB464"
 				item: "hexerei:blood_sigil"
@@ -193,6 +199,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
 				id: "17AE1093FA04A453"
 				item: "hexerei:blood_bottle"
@@ -211,6 +218,7 @@
 				item: "hexerei:mahogany_log"
 				type: "item"
 			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
 				id: "378D381C6D0C8A8C"
 				item: {
@@ -234,6 +242,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "Your guide to &6Hexerei."
 			tasks: [{
 				id: "5A9376E4A7EE237A"
 				item: {
@@ -258,6 +267,7 @@
 			}]
 			shape: "octagon"
 			size: 1.2d
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
 				id: "23A55ADBA046B042"
 				item: "hexerei:book_of_shadows_altar"
@@ -276,6 +286,7 @@
 				item: "hexerei:mahogany_log"
 				type: "item"
 			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
 				id: "78669B9CB7111805"
 				item: {
@@ -297,6 +308,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
 				id: "7075DF589395CE00"
 				item: {
@@ -313,6 +325,7 @@
 		{
 			dependencies: ["762EE4B4D1B9748E"]
 			id: "388719BFF1F9E38A"
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
 				id: "4086B07B61C930F2"
 				item: "hexerei:pestle_and_mortar"
@@ -331,6 +344,7 @@
 				item: "hexerei:mahogany_log"
 				type: "item"
 			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
 				id: "7A064B84C42B59ED"
 				item: "hexerei:herb_drying_rack"
@@ -348,6 +362,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
 				id: "46505773F3B2B5D4"
 				item: "hexerei:sage_burning_plate"
@@ -366,6 +381,7 @@
 				item: "hexerei:mahogany_log"
 				type: "item"
 			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
 				id: "041D1B0327C361AB"
 				item: {
@@ -382,6 +398,7 @@
 		{
 			dependencies: ["7652FD29DEBD178B"]
 			id: "7BED84C2E93D55C7"
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
 				id: "1C77B584EA15B4D6"
 				item: {
@@ -405,6 +422,7 @@
 				item: "minecraft:netherite_scrap"
 				type: "item"
 			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
 				id: "7C9A380C6D49144D"
 				item: {
@@ -429,6 +447,7 @@
 				item: "minecraft:leather"
 				type: "item"
 			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [
 				{
 					id: "62F657E000310EED"
@@ -460,6 +479,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "Can be obtained by librarian trades."
 			tasks: [{
 				id: "1EC596387366A9F0"
 				item: "ancient_manuscripts:ancient_manuscript"
@@ -470,6 +490,7 @@
 		}
 		{
 			dependencies: ["2DEF08221C404D3A"]
+			description: ["Requires books, enchanted book glue and a material gem and finally a manuscript."]
 			id: "40E0BFD7654B7300"
 			subtitle: "In order to create enchanted books, you will need to make a binding table. "
 			tasks: [{
@@ -488,6 +509,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Holds glue."
 			tasks: [{
 				id: "27F05F23197FAB15"
 				item: "ancient_manuscripts:empty_glue_bottle"
@@ -504,6 +526,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Used in the binding table."
 			tasks: [{
 				id: "2DEB57508B7F796C"
 				item: {

@@ -24,7 +24,7 @@
 				xp: 100
 			}]
 			size: 1.4d
-			subtitle: "&7Make a &cBio-Forge&7 to harness life"
+			subtitle: "&7Make a &cBio-Forge&7 to harness life."
 			tasks: [{
 				id: "1AC2F443C09C16DB"
 				item: "biomancy:bio_forge"
@@ -38,7 +38,7 @@
 			dependencies: ["3CFD1D84CB1364D1"]
 			id: "0CBDBBC7538CE6E0"
 			shape: "square"
-			subtitle: "&7Make the fleshy eyes using a bio forge"
+			subtitle: "&7Make the fleshy eyes using a bio forge."
 			tasks: [{
 				id: "71A9C9CF6F268FEC"
 				item: "minecraft:ender_eye"
@@ -57,6 +57,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "After exploring the new better stronghold, make your way to the portal and slot in the &cFleshy Eyes of Ender."
 			tasks: [{
 				advancement: "minecraft:story/enter_the_end"
 				criterion: ""
@@ -85,7 +86,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Defeat the &dEnder Dragon"
+			subtitle: "Defeat the &dEnder Dragon."
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_head"
@@ -107,7 +108,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "can be Obtain by killing an &2Ender Pearl"
+			subtitle: "Can be obtained by killing &5Endermen."
 			tasks: [{
 				id: "3F9D89A2AAF3924B"
 				item: "minecraft:ender_pearl"
@@ -127,7 +128,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "can be Obtain by killing a &6Blaze"
+			subtitle: "Can be obtained by killing &6Blazes."
 			tasks: [{
 				id: "6E039DDAB5BCDA27"
 				item: "minecraft:blaze_powder"
@@ -147,7 +148,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "can be Obtain by killing &cmobs"
+			subtitle: "Can be obtained by killing &cmobs&r or decomposing."
 			tasks: [{
 				count: 8L
 				id: "51AC6C792F849BE2"
@@ -168,7 +169,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "can be Obtain by killing &cmobs"
+			subtitle: "Can be obtained by killing &cmobs&r or decomposing &dprecious materials."
 			tasks: [{
 				count: 2L
 				id: "646490C5C17C807B"
@@ -191,7 +192,7 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "can be Obtain by killing &cmobs"
+			subtitle: "Can be obtained by killing &cmobs&r or decomposing."
 			tasks: [{
 				count: 16L
 				id: "355C8FFBED8EE2CA"

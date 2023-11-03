@@ -56,28 +56,6 @@
 			dependencies: ["19BA19A20221B4DA"]
 			hide: true
 			hide_dependency_lines: true
-			icon: "minecraft:rotten_flesh"
-			id: "18FBEEA3DA2195A1"
-			rewards: [{
-				id: "33616CB327E7E619"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				entity: "endofherobrine:husk"
-				icon: "endofherobrine:husk_spawn_egg"
-				id: "6DC4DA25AA4028EE"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat &ePossessed Husk"
-			x: 0.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["19BA19A20221B4DA"]
-			hide: true
-			hide_dependency_lines: true
 			icon: "butchersdelight:deadpig"
 			id: "649FAAE5120543B4"
 			rewards: [{
@@ -187,30 +165,8 @@
 				value: 1L
 			}]
 			title: "Defeat &7Possessed Stray"
-			x: 1.5d
+			x: 0.5d
 			y: -1.5d
-		}
-		{
-			dependencies: ["19BA19A20221B4DA"]
-			hide: true
-			hide_dependency_lines: true
-			icon: "butchersdelight:deadsheep"
-			id: "1A3DD43D6236B3F4"
-			rewards: [{
-				id: "173481363BE2F8F4"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				entity: "endofherobrine:sheep"
-				icon: "endofherobrine:sheep_spawn_egg"
-				id: "4FB03BC3F5E2B0D4"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat &7Possessed Sheep"
-			x: 1.5d
-			y: -0.5d
 		}
 		{
 			dependencies: ["19BA19A20221B4DA"]
@@ -253,7 +209,7 @@
 				value: 1L
 			}]
 			title: "Defeat &7Haunter"
-			x: 2.5d
+			x: 1.5d
 			y: -1.5d
 		}
 		{
@@ -275,36 +231,8 @@
 				value: 1L
 			}]
 			title: "Defeat &8Shadewraith"
-			x: 2.5d
+			x: 1.5d
 			y: -0.5d
-		}
-		{
-			dependencies: ["19BA19A20221B4DA"]
-			hide: true
-			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				id: "undead_unleashed:grave_metal_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "231F5B2991E8CDF4"
-			rewards: [{
-				id: "67F889EB2323056A"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				entity: "undead_unleashed:frenzied_knight"
-				icon: "undead_unleashed:frenzied_knight_spawn_egg"
-				id: "6C63B571B566486A"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat &8Frenzied Knight"
-			x: 2.5d
-			y: 0.5d
 		}
 		{
 			dependencies: ["19BA19A20221B4DA"]

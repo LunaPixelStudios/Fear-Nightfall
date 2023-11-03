@@ -24,7 +24,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Cut up the Carcasses after placing them on a hook (Right Click)"
+			subtitle: "Cut up the Carcasses after placing them on a hook (Right Click)."
 			tasks: [{
 				id: "56D0E91E4086BF80"
 				item: {

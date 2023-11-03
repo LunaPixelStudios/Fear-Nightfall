@@ -17,7 +17,7 @@
 				xp: 200
 			}]
 			shape: "octagon"
-			subtitle: "Your best friend"
+			subtitle: "Your best friend. Can craft, hold fluids, extra tools and even have abilites, Neat!"
 			tasks: [{
 				id: "34752031EDBA5EF7"
 				item: {
@@ -60,6 +60,7 @@
 			icon: "immersiveengineering:voltmeter"
 			id: "4D5D3A38CA390881"
 			shape: "hexagon"
+			size: 1.5d
 			subtitle: "[Click for more information!]"
 			tasks: [{
 				id: "3F885B833D45AB12"
@@ -67,12 +68,12 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2F5B7FFBC196A061"]
 			description: [
-				"   &4WE DON'T KNOW WHAT IT OUT THERE!&r"
+				"   &4WE DON'T KNOW WHAT IS OUT THERE!&r"
 				""
 				"Your base is the most important part of survival, the mobs are not meant to be underestimated!"
 			]
@@ -111,7 +112,7 @@
 				xp: 200
 			}]
 			shape: "octagon"
-			subtitle: "&7Make an Iron Door to reinforce your base"
+			subtitle: "&7Make an Iron Door to reinforce your base."
 			tasks: [{
 				id: "6A1BE589F2D3CC7F"
 				item: "minecraft:iron_door"
@@ -130,7 +131,7 @@
 				xp: 200
 			}]
 			shape: "octagon"
-			subtitle: "&8Food is also important. Sometimes you gotta kill to survive. Needs a Campfire!"
+			subtitle: "Food is also important. Sometimes you gotta kill to survive. Needs a Campfire!"
 			tasks: [{
 				id: "0D0B3B707E33A501"
 				item: "butchersdelight:roaster"
@@ -149,7 +150,7 @@
 				xp: 200
 			}]
 			shape: "octagon"
-			subtitle: "&7Defense is key. Make &ebamboo spikes&7, they will serve as traps for your base"
+			subtitle: "&7Defense is key. Make &ebamboo spikes&7, they will serve as traps for your base."
 			tasks: [{
 				id: "0199F7DF9DC8FB6C"
 				item: "supplementaries:bamboo_spikes"
@@ -168,7 +169,7 @@
 				xp: 100
 			}]
 			shape: "octagon"
-			subtitle: "Learn more about the Forbidden Magic"
+			subtitle: "Learn more about the Forbidden Magic."
 			tasks: [{
 				id: "1A4CBB001E671540"
 				item: {
@@ -191,7 +192,7 @@
 				xp: 100
 			}]
 			shape: "octagon"
-			subtitle: "Learn more of the Sinister Machines"
+			subtitle: "Learn more of the Sinister Machines."
 			tasks: [{
 				id: "3D00C1E0855B4BAE"
 				item: "immersiveengineering:manual"
@@ -209,7 +210,7 @@
 				type: "xp"
 				xp: 200
 			}]
-			subtitle: "Prepare yourself"
+			subtitle: "Prepare yourself with decent armor."
 			tasks: [
 				{
 					id: "6D6C1D2BFF4C8569"
@@ -269,7 +270,7 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			subtitle: "Defend yourself"
+			subtitle: "Defend yourself."
 			tasks: [
 				{
 					id: "4501352C4EF42985"
@@ -335,10 +336,9 @@
 		}
 		{
 			dependencies: ["2F5B7FFBC196A061"]
-			description: ["Currently the Map does not support the Nether."]
 			id: "0593A4B43B36DCF5"
 			shape: "octagon"
-			subtitle: "Will be important on helping you traverse the Overworld"
+			subtitle: "Will be important on helping you traverse the Overworld."
 			tasks: [{
 				id: "3E02E1869E155821"
 				item: {
@@ -361,11 +361,7 @@
 			description: [
 				"You can put both Filled Maps and Empty Maps with an Atlas in a crafting inventory to insert either Map type into the Atlas."
 				""
-				"A Cartography Table can be used to add Filled Maps and Empty Maps as well."
-				""
-				"There's a maximum of 512 Maps in each Atlas (configurable/togglable)."
-				""
-				"You can use your Atlas and Shears in the Crafting Grid to remove Maps from the Atlas."
+				"To obtain &cNether Generation&f, you must add Sliced Maps to the Atlas in a Crafting Table!"
 			]
 			id: "3563D691EEB55DD6"
 			shape: "rsquare"
@@ -396,6 +392,7 @@
 				}
 			]
 			shape: "diamond"
+			subtitle: "Place hide or fur on the Tanner and right click with shears to process it."
 			tasks: [{
 				id: "659AC69FAC163BC7"
 				item: "butchersdelight:rack"

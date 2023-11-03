@@ -15,9 +15,9 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [""]
 			id: "5A60751EB3771E5A"
 			size: 1.3d
+			subtitle: "Your guide to Immersive Engineering."
 			tasks: [{
 				id: "1B70CE3E079B87B9"
 				item: "immersiveengineering:manual"
@@ -37,6 +37,7 @@
 			}]
 			shape: "pentagon"
 			size: 1.2d
+			subtitle: "Used to finish building large multiblock machines and flatten metals."
 			tasks: [{
 				id: "6C2D6F99FE7904C4"
 				item: {
@@ -60,6 +61,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Used for fine-tuning specific devices, such as changing the extraction rate on an Extracting Conveyor Belt."
 			tasks: [{
 				id: "3378843CECDFB5D4"
 				item: "immersiveengineering:screwdriver"
@@ -77,6 +79,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Used to cut metal sheets into wire and remove wires from blocks."
 			tasks: [{
 				id: "082D7614EC67077A"
 				item: {
@@ -103,6 +106,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.2d
+			subtitle: "Used to make various items with blueprints which is item efficent."
 			tasks: [{
 				id: "00B61A125B9A3271"
 				item: "immersiveengineering:workbench"
@@ -123,6 +127,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.3d
+			subtitle: "Metal used for mostly everything in Immersive Engineering."
 			tasks: [{
 				id: "6254C12C2F82C57E"
 				item: {
@@ -141,13 +146,13 @@
 		}
 		{
 			dependencies: ["1461077EB7358B47"]
-			description: [""]
 			id: "49CA52F24C7A62F8"
 			rewards: [{
 				id: "6DCBB091A867C8E0"
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Grow crops automatically, takes in water and fertilizer. Requires power."
 			tasks: [{
 				id: "65510C2F56E9B78B"
 				item: "immersiveengineering:cloche"
@@ -169,6 +174,7 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
+			subtitle: "Used to create various machines that utilize light."
 			tasks: [{
 				count: 3L
 				id: "6132EA68861CE5C0"
@@ -188,6 +194,7 @@
 				item: "immersiveengineering:waterwheel_segment"
 				type: "item"
 			}]
+			subtitle: "Early game power generation."
 			tasks: [{
 				id: "125D4BC814EB0B31"
 				item: "immersiveengineering:watermill"
@@ -199,7 +206,6 @@
 		}
 		{
 			dependencies: ["0FA23DCC58940628"]
-			description: [""]
 			id: "2FBEFD1AF94468DD"
 			rewards: [{
 				count: 2
@@ -207,6 +213,7 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
+			subtitle: "Used to harness the power of the Water Wheels."
 			tasks: [{
 				id: "40031F27F08CA435"
 				item: "immersiveengineering:dynamo"
@@ -218,6 +225,11 @@
 		}
 		{
 			dependencies: ["33563F1090D5B5A4"]
+			description: [
+				"Right-clicking it will open it. Each slot can only store a specific type of item/block; \"Food\" can store edibles, \"Tools\" can store tools, \"Wiring\" can store Immersive Engineering coils and similar items, and \"Anything\" can store, as it sounds, any block or item."
+				""
+				"Shift right-clicking it will place it. It can be right-clicked in its block form to be opened. When broken, it will retain all of the items in it. "
+			]
 			id: "48823BBC2A5BD964"
 			rewards: [{
 				count: 10
@@ -225,6 +237,7 @@
 				item: "immersiveengineering:treated_wood_horizontal"
 				type: "item"
 			}]
+			subtitle: "It is used to store tools and other items."
 			tasks: [{
 				id: "464C4BD672C19CBD"
 				item: {
@@ -252,6 +265,7 @@
 				item: "immersiveengineering:ingot_aluminum"
 				type: "item"
 			}]
+			subtitle: "Connect wires from relays to connectors to power machines."
 			tasks: [
 				{
 					count: 2L
@@ -284,6 +298,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Presses metals into swapable molds that are inserted into the top."
 			tasks: [
 				{
 					count: 2L
@@ -320,6 +335,7 @@
 		{
 			dependencies: ["48823BBC2A5BD964"]
 			id: "15A75E2166B25EF3"
+			subtitle: "Right-clicking a Redstone Flux (RF) Capacitor (like the LV Capacitor) will yield to the player its total energy storage."
 			tasks: [{
 				id: "5491F361A15708DB"
 				item: "immersiveengineering:voltmeter"
@@ -338,6 +354,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Mining tool that runs on bio-disel."
 			tasks: [
 				{
 					id: "28A4B6936AAE7639"
@@ -371,6 +388,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Makes plant oil."
 			tasks: [
 				{
 					count: 2L
@@ -425,6 +443,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Crushes items and you if you are not careful."
 			tasks: [
 				{
 					count: 10L
@@ -462,13 +481,13 @@
 		}
 		{
 			dependencies: ["1E41BDDCEF3EA1BC"]
-			description: [""]
 			id: "4AD6B33A9AE57386"
 			rewards: [{
 				id: "6EAC74E7DBD236D4"
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Used to make bio-disel."
 			tasks: [
 				{
 					count: 2L
@@ -518,6 +537,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Runs on bio-disel to make large amounts of power."
 			tasks: [
 				{
 					count: 4L
@@ -562,6 +582,7 @@
 		{
 			dependencies: ["096C3B9CE0C7986E"]
 			id: "2C638D216128B6E7"
+			subtitle: "Fuel for machines and tools."
 			tasks: [{
 				id: "37D6F0F6B7AFF9C1"
 				item: "immersiveengineering:biodiesel_bucket"
@@ -578,6 +599,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Used to store power."
 			tasks: [
 				{
 					id: "071DE219A85AD49D"
@@ -608,6 +630,7 @@
 				item: "immersiveengineering:ingot_electrum"
 				type: "item"
 			}]
+			subtitle: "Can hold multiple wires to attach to connectors."
 			tasks: [
 				{
 					id: "0CC0CE847D09DA75"
@@ -637,6 +660,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Automated Crafter."
 			tasks: [
 				{
 					count: 2L
@@ -688,6 +712,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Enables the player to ride along wires, ropes and cables up to great distances. Using it on a mid-air line connects the player to it, and from there they'll ride down the line with gravity unless they use their movement keys."
 			tasks: [{
 				id: "2C46EDF321D7FAD6"
 				item: {
@@ -715,6 +740,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Tree felling tool that runs on bio-disel. Uses sawblades."
 			tasks: [{
 				id: "77068AA11396FAFB"
 				item: {
@@ -741,6 +767,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Used to cut wood automatically. Produces sawdust as byproduct."
 			tasks: [
 				{
 					count: 6L
