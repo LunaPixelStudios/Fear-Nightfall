@@ -2,8 +2,10 @@
   "schema_version": 1,
   "failed_reloads_per_session": 5,
   "default_packs": [
+    "builtin/fleshy_sinful_totem",
     "file/Scary_Music_Addon.zip",
     "file/FNQuestingResources.zip",
+    "file/Pixelated_v1.3.2_EnhancedVisuals(nox_cgt).zip",
     "file/Alagard Font.zip",
     "black_icons",
     "file/cassette music discs 1.19 - 1.19.2 v1.2.zip",
@@ -52,6 +54,9 @@
       "hidden": true
     },
     "builtin/default_ctm_resources": {
+      "hidden": true
+    },
+    "file/map_atlases_modern_resource_pack+1.19.zip": {
       "hidden": true
     }
   }
