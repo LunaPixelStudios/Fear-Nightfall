@@ -55,8 +55,28 @@
         "result": "deny"
     },
     {
-        "mob": "minecraft:silver_fish",
+        "mob": "minecraft:silverfish",
         "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:slime",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:guardian",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "mob": "undead_unleashed:graveriser",
+        "mincount": 1,
+        "result": "deny"
+    },
+    {
+        "mob": "distantfriends:friend",
+        "mincount": 1,
         "result": "deny"
     }
 ]
