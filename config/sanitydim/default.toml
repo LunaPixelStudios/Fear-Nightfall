@@ -201,7 +201,7 @@
 			scale = 1.0
 			#Sanity indicator location
 			#Allowed Values: HOTBAR_LEFT, HOTBAR_RIGHT, TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
-			location = "BOTTOM_LEFT"
+			location = "BOTTOM_RIGHT"
 
 		#Inner monologue configuration
 		[sanity.client.hints]
