@@ -5,7 +5,7 @@
 	#Range: > 0
 	modpackProjectID = 887839
 	#The name of the modpack
-	modpackName = "Fearn Nightfall"
+	modpackName = "Fear Nightfall"
 	#The version of the modpack
 	modpackVersion = "v7"
 	#Use the metadata.json to determine the modpack version

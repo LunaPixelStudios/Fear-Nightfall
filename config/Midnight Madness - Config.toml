@@ -1,0 +1,35 @@
+
+[Souls]
+	#Chance for entity to drop Soul/Dark Soul [default=0.06, max=1.0]
+	"Souls drop chance" = 0.06
+	#Chance for entity to drop Soul/Dark Soul during Soul Harvest [default=0.13, max=1.0]
+	"Soul Harvest - Souls drop chance" = 0.13
+	#Chance for Souls to escape player [every tick, default=0.005, max=1.0]
+	"Soul escape chance" = 0.005
+	#Chance for Souls to escape player during Soul Harvest [every tick, default=0.009, max=1.0]
+	"Soul Harvest - Soul escape chance" = 0.009
+	#Chance for Dark Souls to escape player [every tick, default=0.003, max=1.0]
+	"Dark Soul escape chance" = 0.0025
+	#Chance for Dark Souls to escape player during Soul Harvest [every tick, default=0.005, max=1.0]
+	"Soul Harvest - Dark Soul escape chance" = 0.005
+	#Chance for Horrifying Souls to escape player [every tick, default=0.001, max=1.0]
+	"Horrifying Soul escape chance" = 0.001
+	#Chance for Horrifying Souls to escape player during Soul Harvest [every tick, default=0.002, max=1.0]
+	"Soul Harvest - Horrifying Soul escape chance" = 0.002
+	#Chance for Dragon Souls to escape player [every tick, default=0.001, max=1.0]
+	"Dragon Soul escape chance" = 0.001
+	#Chance for Dragon Souls to escape player during Soul Harvest [every tick, default=0.002, max=1.0]
+	"Soul Harvest - Dragon Soul escape chance" = 0.002
+
+[Demons]
+	#Chance for Fiend to spawn when Dark Soul escapes player [default=0.5, max=1.0]
+	"Fiend spawn chance" = 0.5
+	#Chance for Fiend to spawn when Dark Soul escapes player during Soul Harvest [default=0.5, max=1.0]
+	"Soul Harvest - Fiend spawn chance" = 0.5
+
+[Effects]
+	#Value of attack speed reduction from Fear [default=0.3]
+	"Fear attack speed reduction" = 0.3
+	#Value of movement speed reduction from Fear [default=0.01]
+	"Fear movement speed reduction" = 0.01
+

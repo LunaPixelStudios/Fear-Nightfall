@@ -117,8 +117,57 @@
 				title: "&6Starting the campaign"
 				type: "checkmark"
 			}]
-			x: 2.0d
+			x: 1.875d
 			y: 0.0d
+		}
+		{
+			dependencies: ["0164FF3EAA38076D"]
+			description: [
+				"&aPositive interactions:&r"
+				"    Staying fed"
+				"    Being near your pet or sane player"
+				"    Listening to calming melodies"
+				"    Walking on dirt paths and carpets"
+				"    Being near campfires"
+				"    &mSleeping&r"
+				"    Fishing"
+				"    Spawning chickens from eggs"
+				"    Wearing a garland"
+				"    Earning advancements"
+				"    Breeding and shearing animals"
+				"    Trading with villagers"
+				"    Eating healthy food"
+				"    Potting flowers"
+				""
+				"&4Negative Interactions:&r"
+				"    Being hungry"
+				"    Consuming unhealthy food"
+				"    Getting wet"
+				"    Being near insane players"
+				"    Getting hurt"
+				"    Staying in the dark"
+				"    Being around monsters"
+				"    Having your movement restrained"
+				"    Listening to unsettling melodies"
+				"    Breaking infested blocks"
+				"    Trampling farmlands"
+				"    Hurting animals"
+				"    Letting your pet pass away"
+				"    Teleporting between dimensions"
+				"    Getting struck by lightning"
+				"    Provoking an enderman"
+			]
+			icon: "minecraft:sunflower"
+			id: "53920D8926D77BA7"
+			subtitle: "Sanity if affected in many ways here is a list."
+			tasks: [{
+				id: "33129C89379328D6"
+				title: "Sanity"
+				type: "checkmark"
+			}]
+			title: "Information: &eSanity"
+			x: 0.0d
+			y: 3.0d
 		}
 	]
 	title: " &fTutorial"

@@ -211,6 +211,13 @@
 				projectile_staffof_blindness = true
 				skeleton_thrasher = true
 				barrel_zombie = true
+				corpse_fish = true
+				zombie_bruiser = true
+				maggot = true
+				phantom_creeper_copy = true
+				dire_hound_leader = true
+				glutton_fish = true
+				corpse_fly = true
 
 			[light_sources.settings.entities.endofherobrine]
 				zombie = true
@@ -304,4 +311,34 @@
 
 			[light_sources.settings.entities.tht]
 				random_tree = true
+
+			[light_sources.settings.entities.spore]
+				inf_villager = true
+				inf_human = true
+				inf_player = true
+				inf_witch = true
+				inf_pillager = true
+				inf_drowned = true
+				inf_wanderer = true
+				scent = true
+				inf_vindicator = true
+				busser = true
+				inf_evoker = true
+				knight = true
+				howler = true
+				scamper = true
+
+			[light_sources.settings.entities.tenebrous_lands]
+				tartarus = true
+				abaddon = true
+				demogon = true
+				scarecrow = true
+				wendigo = true
+				eynelvoonge = true
+				skinwalker = true
+				shiva = true
+
+			[light_sources.settings.entities.midnight_madness]
+				fallen_king = true
+				necromancer = true
 

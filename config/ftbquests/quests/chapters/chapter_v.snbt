@@ -19,12 +19,12 @@
 			]
 			id: "3CFD1D84CB1364D1"
 			rewards: [{
-				id: "6A8C964E31B5548C"
-				type: "xp"
-				xp: 100
+				id: "1C237D66F9CB38EC"
+				type: "xp_levels"
+				xp_levels: 10
 			}]
 			size: 1.4d
-			subtitle: "&7Make a &cBio-Forge&7 to harness life."
+			subtitle: "&7Make a &2Bio&r-&cForge&7 to harness life."
 			tasks: [{
 				id: "1AC2F443C09C16DB"
 				item: "biomancy:bio_forge"
@@ -37,8 +37,13 @@
 		{
 			dependencies: ["3CFD1D84CB1364D1"]
 			id: "0CBDBBC7538CE6E0"
+			rewards: [{
+				id: "44FD0D6A576667C5"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
 			shape: "square"
-			subtitle: "&7Make the fleshy eyes using a bio forge."
+			subtitle: "&7Make the fleshy eyes using a bio-forge."
 			tasks: [{
 				id: "71A9C9CF6F268FEC"
 				item: "minecraft:ender_eye"
@@ -53,9 +58,9 @@
 			hide_dependency_lines: false
 			id: "1DCF9A82C51F730B"
 			rewards: [{
-				id: "2641EA50D35A6064"
-				type: "xp"
-				xp: 100
+				id: "33F8036C5899B9A3"
+				type: "xp_levels"
+				xp_levels: 10
 			}]
 			subtitle: "After exploring the new better stronghold, make your way to the portal and slot in the &cFleshy Eyes of Ender."
 			tasks: [{
@@ -72,18 +77,12 @@
 		{
 			dependencies: ["1DCF9A82C51F730B"]
 			id: "19BA19A20221B4DA"
-			rewards: [
-				{
-					id: "4B8908463A87B136"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-				{
-					id: "254FB55058BD9A87"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "4B8908463A87B136"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "Defeat the &dEnder Dragon."
@@ -104,11 +103,11 @@
 			hide_dependency_lines: true
 			id: "77B900FB46A912D3"
 			rewards: [{
-				id: "0DAA035F54F473C5"
-				type: "xp"
-				xp: 50
+				id: "05A3DAACB3F54CE6"
+				item: "minecraft:ender_pearl"
+				type: "item"
 			}]
-			subtitle: "Can be obtained by killing &5Endermen."
+			subtitle: "Can be obtained by killing &5Endermen.&r Clerics will trade for &2emeralds."
 			tasks: [{
 				id: "3F9D89A2AAF3924B"
 				item: "minecraft:ender_pearl"
@@ -124,9 +123,9 @@
 			hide_dependency_lines: true
 			id: "09E49846F4E317D6"
 			rewards: [{
-				id: "1A3D774795AE65B7"
-				type: "xp"
-				xp: 50
+				id: "0C3415E8C1BF1B2F"
+				item: "minecraft:blaze_powder"
+				type: "item"
 			}]
 			subtitle: "Can be obtained by killing &6Blazes."
 			tasks: [{
@@ -144,9 +143,10 @@
 			hide_dependency_lines: true
 			id: "16EB92A6D8C34B08"
 			rewards: [{
-				id: "47E9ED026AB8F2D3"
-				type: "xp"
-				xp: 50
+				count: 8
+				id: "7494F31A60D6644A"
+				item: "biomancy:elastic_fibers"
+				type: "item"
 			}]
 			subtitle: "Can be obtained by killing &cmobs&r or decomposing."
 			tasks: [{
@@ -165,9 +165,10 @@
 			hide_dependency_lines: true
 			id: "0C028A90EB575C5A"
 			rewards: [{
-				id: "28E875243A6FEEA6"
-				type: "xp"
-				xp: 50
+				count: 2
+				id: "1F2D9333B87B6FA1"
+				item: "biomancy:exotic_dust"
+				type: "item"
 			}]
 			subtitle: "Can be obtained by killing &cmobs&r or decomposing &dprecious materials."
 			tasks: [{
@@ -186,7 +187,7 @@
 			hide_dependency_lines: true
 			id: "39570C36186F7AE4"
 			rewards: [{
-				count: 4
+				count: 16
 				id: "6E247152D208A019"
 				item: "biomancy:flesh_bits"
 				type: "item"

@@ -41,6 +41,18 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "0514B95698C6A9C2"
+			rewards: [{
+				count: 2
+				id: "2657BBFF250921FC"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_night_vision"
+					}
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.3d
 			subtitle: "Make and Enter the &eAether Portal."
@@ -59,9 +71,9 @@
 			dependencies: ["0514B95698C6A9C2"]
 			id: "3EA1296CDAE22E0B"
 			rewards: [{
-				id: "13649523E5132914"
-				type: "xp"
-				xp: 100
+				id: "266C520C7A60F90D"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 			subtitle: "Obtain the &eWistiver Jaws."
 			tasks: [{
@@ -79,9 +91,9 @@
 			dependencies: ["0514B95698C6A9C2"]
 			id: "75D8D8A8EF26ACD0"
 			rewards: [{
-				id: "1C8723427FD179D9"
-				type: "xp"
-				xp: 100
+				id: "526C7B1816536294"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 			subtitle: "Obtain the &eButcher Carcass."
 			tasks: [{
@@ -99,9 +111,9 @@
 			dependencies: ["0514B95698C6A9C2"]
 			id: "285F1686BD0C81EF"
 			rewards: [{
-				id: "452A932E62FAEDD0"
-				type: "xp"
-				xp: 100
+				id: "16143895E9CE31E6"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 			subtitle: "Obtain the &eBloody Puddle."
 			tasks: [{
@@ -119,9 +131,9 @@
 			dependencies: ["0514B95698C6A9C2"]
 			id: "191ECB65AB8598A6"
 			rewards: [{
-				id: "323E38E17E9CBA78"
-				type: "xp"
-				xp: 100
+				id: "3F78A3FE1CF867A3"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 			subtitle: "Obtain the &eProwler's Hand."
 			tasks: [{
@@ -176,11 +188,11 @@
 				""
 				"&7Build a structure with a &cSinful Totem&7, below it a &cTubular Flesh Block&7, and on top, a &cFlesh Wall&7."
 				""
-				"&7Then right click on the sinful totem with a &eWither Star&7."
+				"&7Then right click on the sinful totem with a &eNether Star&7."
 			]
 			id: "4295DB3BE4CDFE8D"
 			rewards: [{
-				count: 2
+				count: 4
 				id: "68AB13CB00D0EC8A"
 				item: "minecraft:golden_apple"
 				type: "item"
@@ -226,7 +238,7 @@
 				{
 					id: "7708144F247A74D8"
 					type: "xp_levels"
-					xp_levels: 15
+					xp_levels: 25
 				}
 			]
 			shape: "hexagon"

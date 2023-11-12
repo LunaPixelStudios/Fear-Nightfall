@@ -3,7 +3,7 @@
 	#will print clients that connect with vivecraft, and what version they are using, to the log.
 	debug = false
 	#will check for a newer version and alert any OP when they login to the server.
-	checkForUpdate = true
+	checkForUpdate = false
 	#Set to true to only allow VR players to play.
 	# If enabled, VR hotswitching will be automatically disabled.
 	vr_only = false

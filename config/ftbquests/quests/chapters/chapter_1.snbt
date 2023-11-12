@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["2F5B7FFBC196A061"]
+			description: ["Upgrade storage in smithing table. To obtain leather-tier open the backpack at least once. Now you will be able to upgrade to iron-tier."]
 			id: "07D72CC3A7E25F72"
 			rewards: [{
 				id: "0887F33719BDAB35"
@@ -27,7 +28,7 @@
 				}
 				type: "item"
 			}]
-			title: "Make &6Backpack"
+			title: "Make a &6Backpack"
 			x: -1.5d
 			y: -1.5d
 		}
@@ -59,6 +60,12 @@
 			description: ["                 &4Run and Hide!&r"]
 			icon: "immersiveengineering:voltmeter"
 			id: "4D5D3A38CA390881"
+			rewards: [{
+				count: 16
+				id: "7B2731AF7C36ABA3"
+				item: "minecraft:torch"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "[Click for more information!]"
@@ -80,7 +87,7 @@
 			icon: "minecraft:spruce_door"
 			id: "47E544C2A7FF4EC0"
 			rewards: [{
-				count: 2
+				count: 4
 				id: "4A81A4D5610EB6E7"
 				item: "minecraft:bamboo"
 				type: "item"
@@ -107,9 +114,10 @@
 			dependencies: ["2F5B7FFBC196A061"]
 			id: "20A2FDD7CB5AFB72"
 			rewards: [{
-				id: "5B5B902EE9BB74E9"
-				type: "xp"
-				xp: 200
+				count: 16
+				id: "468DDB1F42841835"
+				item: "minecraft:iron_bars"
+				type: "item"
 			}]
 			shape: "octagon"
 			subtitle: "&7Make an Iron Door to reinforce your base."
@@ -118,7 +126,7 @@
 				item: "minecraft:iron_door"
 				type: "item"
 			}]
-			title: "&eReinforcing"
+			title: "&eReinforcing your base"
 			x: 1.5d
 			y: -1.5d
 		}
@@ -128,7 +136,7 @@
 			rewards: [{
 				id: "37CB71A36DD20042"
 				type: "xp"
-				xp: 200
+				xp: 100
 			}]
 			shape: "octagon"
 			subtitle: "Food is also important. Sometimes you gotta kill to survive. Needs a Campfire!"
@@ -145,9 +153,10 @@
 			dependencies: ["2F5B7FFBC196A061"]
 			id: "4AE2F97E6C289E8F"
 			rewards: [{
-				id: "197BFC130CB5FA0F"
-				type: "xp"
-				xp: 200
+				count: 8
+				id: "0E7823F097408BD9"
+				item: "supplementaries:bamboo_spikes"
+				type: "item"
 			}]
 			shape: "octagon"
 			subtitle: "&7Defense is key. Make &ebamboo spikes&7, they will serve as traps for your base."
@@ -206,9 +215,10 @@
 			dependencies: ["47E544C2A7FF4EC0"]
 			id: "60A2705587F74560"
 			rewards: [{
-				id: "17314B807A510E52"
-				type: "xp"
-				xp: 200
+				count: 8
+				id: "2945B1BC73BB99BE"
+				item: "minecraft:iron_ingot"
+				type: "item"
 			}]
 			subtitle: "Prepare yourself with decent armor."
 			tasks: [
@@ -265,7 +275,7 @@
 			dependencies: ["47E544C2A7FF4EC0"]
 			id: "7276FC7B1590E162"
 			rewards: [{
-				count: 2
+				count: 4
 				id: "5334B1B017A66C93"
 				item: "minecraft:iron_ingot"
 				type: "item"
@@ -362,8 +372,16 @@
 				"You can put both Filled Maps and Empty Maps with an Atlas in a crafting inventory to insert either Map type into the Atlas."
 				""
 				"To obtain &cNether Generation&f, you must add Sliced Maps to the Atlas in a Crafting Table!"
+				""
+				"You can add waypoints by right clicking banners like regular maps."
 			]
 			id: "3563D691EEB55DD6"
+			rewards: [{
+				count: 8
+				id: "1F807379576112FA"
+				item: "minecraft:map"
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "Use Maps to expand your Atlas so that Filled Maps inside the Atlas will continue updating your location and world-state."
 			tasks: [{
@@ -378,19 +396,17 @@
 		{
 			dependencies: ["176D8929B2715ABB"]
 			id: "37DEE65CAFCF733F"
-			rewards: [
-				{
-					count: 3
-					id: "4489D2DD94784D7D"
-					item: "minecraft:iron_ingot"
-					type: "item"
+			rewards: [{
+				id: "4E51138BE00B6747"
+				item: {
+					Count: 1b
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
 				}
-				{
-					id: "18820107B2B8257F"
-					type: "xp"
-					xp: 50
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Place hide or fur on the Tanner and right click with shears to process it."
 			tasks: [{

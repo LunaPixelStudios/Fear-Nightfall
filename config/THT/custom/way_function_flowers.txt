@@ -1,0 +1,6 @@
+place feature minecraft:flower_default
+place feature minecraft:flower_flower_forest
+place feature minecraft:flower_meadow
+place feature minecraft:flower_plains
+place feature minecraft:flower_swamp
+place feature minecraft:forest_flowers

@@ -169,7 +169,7 @@
 			]
 			id: "1461077EB7358B47"
 			rewards: [{
-				count: 5
+				count: 6
 				id: "0C3311A9F109B217"
 				item: "minecraft:copper_ingot"
 				type: "item"
@@ -208,7 +208,7 @@
 			dependencies: ["0FA23DCC58940628"]
 			id: "2FBEFD1AF94468DD"
 			rewards: [{
-				count: 2
+				count: 4
 				id: "7C2249BAE0783B41"
 				item: "minecraft:iron_ingot"
 				type: "item"

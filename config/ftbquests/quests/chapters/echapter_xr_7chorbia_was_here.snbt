@@ -235,7 +235,7 @@
 		{
 			id: "5A4A2AD67F66718C"
 			rewards: [{
-				count: 2
+				count: 4
 				id: "1AA4D0F7DCE99F50"
 				item: "minecraft:iron_ingot"
 				type: "item"
@@ -410,7 +410,7 @@
 				}
 				type: "item"
 			}]
-			title: "Obtain &3Broom Waterproof"
+			title: "Obtain &3Broom Waterproof Tip"
 			x: 1.0d
 			y: 3.0d
 		}

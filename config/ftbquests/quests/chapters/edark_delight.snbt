@@ -72,7 +72,7 @@
 				item: "butchersdelight:dead_cow"
 				type: "item"
 			}]
-			title: "Obtain &8 Cow Carcass"
+			title: "Obtain &8Cow Carcass"
 			x: -2.0d
 			y: 3.0d
 		}
@@ -102,10 +102,10 @@
 			id: "7DADF62D01F91406"
 			tasks: [{
 				id: "3DE73C13EC4C318C"
-				item: "butchersdelight:deadchickenblock"
+				item: "butchersdelight:deadchiken"
 				type: "item"
 			}]
-			title: "Obtain &7Chiken Carcass"
+			title: "Obtain &7Chicken Carcass"
 			x: -2.0d
 			y: 1.5d
 		}
@@ -248,6 +248,7 @@
 				item: "butchersdelight:deadgoat"
 				type: "item"
 			}]
+			title: "Obtain Goat Carcass"
 			x: -3.5d
 			y: 0.0d
 		}
@@ -258,6 +259,7 @@
 				item: "butchersdelight:deadrabbitbrown"
 				type: "item"
 			}]
+			title: "Obtain Rabbit Carcass"
 			x: -0.5d
 			y: 1.5d
 		}

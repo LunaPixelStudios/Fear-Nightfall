@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ air unless block ~ ~ ~ void_air unless block ~ ~ ~ cave_air unless block ~ ~ ~ snow run setblock ~ ~1 ~ snow keep

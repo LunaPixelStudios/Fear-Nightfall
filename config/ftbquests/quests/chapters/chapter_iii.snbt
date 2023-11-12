@@ -15,7 +15,16 @@
 			id: "492D0CAE29412213"
 			rewards: [{
 				id: "5AEC6BB4A87A97E5"
-				item: "biomancy:living_flesh"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+					}
+				}
 				type: "item"
 			}]
 			shape: "square"
@@ -37,12 +46,13 @@
 		}
 		{
 			dependencies: ["492D0CAE29412213"]
-			description: ["After offering flesh and other items, finish the offering with a &dRegeneration 2 Potion.&r"]
+			description: ["After offering flesh and other items, finish the offering with a &dRegeneration/Healing 2 Potion.&r"]
 			id: "12DA3AE95243DA2F"
 			rewards: [{
-				id: "5A5F3BD1A53ADA4C"
-				type: "xp"
-				xp: 100
+				count: 4
+				id: "0D88ADB5AD582F9E"
+				item: "minecraft:glistering_melon_slice"
+				type: "item"
 			}]
 			subtitle: "Offer adequate Tributes to the cradle and summon forth primordial messengers of exquisite flesh."
 			tasks: [{
@@ -58,30 +68,34 @@
 			dependencies: ["12DA3AE95243DA2F"]
 			id: "11719F41D574304A"
 			rewards: [{
-				count: 3
+				count: 4
 				id: "33FED3853F64F98A"
-				item: "biomancy:living_flesh"
+				item: "biomancy:nutrient_bar"
 				type: "item"
 			}]
 			shape: "octagon"
-			size: 1.5d
+			subtitle: "Note: Regular food can be used as your first bio-fuel instead of nutrient paste or bars."
 			tasks: [{
-				entity: "biomancy:flesh_blob"
-				icon: "born_in_chaos_v1:monster_flesh"
-				id: "21EAD98DCE4D2B53"
-				type: "kill"
-				value: 1L
+				count: 4L
+				id: "6E09A6120613668F"
+				item: "biomancy:living_flesh"
+				type: "item"
 			}]
-			title: "Kill a &cFlesh Blob"
+			title: "Obtain &cLiving Flesh"
 			x: -0.5d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["11719F41D574304A"]
 			description: ["When you have all the materials and nutrients needed, click the object above you want to craft."]
 			id: "062F347ED962BB37"
-			shape: "pentagon"
-			size: 1.3d
+			rewards: [{
+				id: "089301BBF4FEF6F5"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gear"
+			size: 1.5d
 			subtitle: "Crafting Station for your biomancy needs. Consumes &2nutrients&r to function."
 			tasks: [{
 				id: "7D43944DDF05EB88"
@@ -89,16 +103,17 @@
 				type: "item"
 			}]
 			title: "Craft &2Bio&r-&cForge"
-			x: -1.5d
+			x: -0.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["11719F41D574304A"]
 			id: "31FCCDBAF32BA0DB"
 			rewards: [{
-				id: "0B5FAE8E53F0FF4F"
-				type: "xp"
-				xp: 100
+				count: 8
+				id: "09809AE02B1AA581"
+				item: "biomancy:nutrient_paste"
+				type: "item"
 			}]
 			subtitle: "A bio-machine that deconstructs items into their base components. The Decomposer consumes &2nutrients&r to function."
 			tasks: [{
@@ -107,16 +122,19 @@
 				type: "item"
 			}]
 			title: "Craft &cDecomposer"
-			x: 0.5d
+			x: 1.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["062F347ED962BB37"]
+			dependencies: [
+				"062F347ED962BB37"
+				"31FCCDBAF32BA0DB"
+			]
 			id: "0CD750755D5516BF"
 			rewards: [{
-				id: "78BB5248E12CCF20"
-				type: "xp"
-				xp: 100
+				id: "5D23FD29EA4787AA"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 			subtitle: "Bio-Alchemical Brewer. Can make various useful concoctions."
 			tasks: [{
@@ -125,16 +143,17 @@
 				type: "item"
 			}]
 			title: "Craft &2Bio&r-&cLab"
-			x: -0.5d
-			y: 10.0d
+			x: 1.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["062F347ED962BB37"]
 			id: "21005A9FD195F670"
 			rewards: [{
-				id: "3E7429BC37B52095"
-				type: "xp"
-				xp: 100
+				count: 2
+				id: "4F79D31A8CCD59EA"
+				item: "minecraft:dried_kelp_block"
+				type: "item"
 			}]
 			subtitle: "A machine born from flesh that converts food and plants into extremely bio-available nutrients."
 			tasks: [{
@@ -144,11 +163,17 @@
 			}]
 			title: "Craft &cDigester"
 			x: -2.0d
-			y: 10.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["0CD750755D5516BF"]
 			id: "6E246CAA04E68BE3"
+			rewards: [{
+				count: 4
+				id: "286C4E039DD30E22"
+				item: "biomancy:absorption_boost"
+				type: "item"
+			}]
 			subtitle: "Bio-Tool used to inject the serums to mobs and yourself."
 			tasks: [{
 				id: "149E582672BF4B4E"
@@ -162,8 +187,8 @@
 				type: "item"
 			}]
 			title: "Make &cBio-&2Injector"
-			x: -0.5d
-			y: 12.0d
+			x: 1.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["11719F41D574304A"]
@@ -253,6 +278,20 @@
 		{
 			dependencies: ["062F347ED962BB37"]
 			id: "0FC6CF57B8C88CCB"
+			rewards: [{
+				id: "6675C88379D95DFE"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "A useful Bio-Weapon that has a special ability when its bloodlust has been sated."
 			tasks: [{
 				id: "7D7900042557D5D4"
@@ -264,17 +303,23 @@
 				type: "item"
 			}]
 			title: "Craft &cRavenous Claws"
-			x: 0.0d
-			y: 9.0d
+			x: -0.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["062F347ED962BB37"]
 			icon: "minecraft:netherrack"
 			id: "3AB83B881A41ED3D"
 			rewards: [{
-				id: "0514B5ED4B3A70DC"
-				type: "xp"
-				xp: 100
+				id: "36BDA4BF3ACC264C"
+				item: {
+					Count: 1b
+					id: "minecraft:golden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			shape: "rsquare"
 			subtitle: "Create a &4Nether Portal.&r Mind the intense heat."
@@ -293,13 +338,20 @@
 			dependencies: ["3AB83B881A41ED3D"]
 			id: "4AD689342C08D2B3"
 			rewards: [{
-				id: "7B2B76E58CD39F83"
-				type: "xp"
-				xp: 100
+				count: 2
+				id: "362D658DE72DA43A"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 1.2d
-			subtitle: "New Overhauled Nether Fortress"
+			subtitle: "New Overhauled Nether Fortress."
 			tasks: [{
 				advancement: "minecraft:nether/find_fortress"
 				criterion: ""
@@ -323,24 +375,18 @@
 				type: "advancement"
 			}]
 			title: "Discover the &cBurning Arena"
-			x: -5.0d
+			x: -5.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["67E75C4B6996ABFB"]
 			id: "121291A46C19AF8F"
-			rewards: [
-				{
-					id: "793812EAC58E0660"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "18DA39AC8E478392"
-					item: "minecraft:netherite_scrap"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "18DA39AC8E478392"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
 			subtitle: "Found at the Top of the &cBurning Arena&r. Place Burning Ashes in the Altar to Summon &2Ignis"
 			tasks: [{
 				entity: "cataclysm:ignis"
@@ -357,7 +403,7 @@
 				value: 1L
 			}]
 			title: "Defeat &2Ignis"
-			x: -5.0d
+			x: -5.5d
 			y: 11.0d
 		}
 		{
@@ -376,24 +422,18 @@
 				title: "Discover the Soul Black Smith"
 				type: "advancement"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["4323E00577155F0D"]
 			id: "45602FB14B03475D"
-			rewards: [
-				{
-					id: "7C0BA18DB9D2E2D5"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "340FC466BE53F9B4"
-					item: "minecraft:netherite_scrap"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "340FC466BE53F9B4"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
 			subtitle: "Found in Soul Blacksmiths, which rarely spawn in the &cNether&r. &4Fire resist&r is highly recommended."
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
@@ -410,12 +450,18 @@
 				value: 1L
 			}]
 			title: "Defeat the &8Netherite Monstrosity"
-			x: -5.0d
+			x: -5.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["4AD689342C08D2B3"]
 			id: "312F11331927DFD1"
+			rewards: [{
+				count: 16
+				id: "32552DD56B5BC070"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				advancement: "minecraft:nether/find_bastion"
@@ -432,12 +478,13 @@
 			dependencies: ["4AD689342C08D2B3"]
 			id: "123B8BF589E8D74F"
 			rewards: [{
-				id: "7073A129DFFCDC9E"
-				type: "xp"
-				xp: 100
+				id: "6D14B4C67E904923"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 			shape: "octagon"
 			size: 1.5d
+			subtitle: "Material used in the crafting of &cFleshy Eyes."
 			tasks: [{
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_rod"
@@ -451,17 +498,19 @@
 		}
 		{
 			dependencies: ["4AD689342C08D2B3"]
+			description: ["The &eNether Star&r is used in the ritual to summon &cHerobrine.&r"]
 			id: "2610D61A597635B0"
 			rewards: [
 				{
-					id: "16FC3D8000D95D22"
-					type: "xp"
-					xp: 100
-				}
-				{
+					count: 4
 					id: "2586310211AD217F"
 					item: "minecraft:diamond"
 					type: "item"
+				}
+				{
+					id: "4EB6E5AA8C6E3087"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 			]
 			subtitle: "Instead of &dSoul Sand&r, you must use &5Soul Stone &rfrom the Bygone Nether mod. Make sure there are no obstructions like snow or grass under the arms when spawning."
