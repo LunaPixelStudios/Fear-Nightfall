@@ -8,7 +8,7 @@
 	positive_multiplier = 1.5
 	#For balancing purposes: the effectiveness of all negative sanity sources will be multiplied by this number
 	#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
-	negative_multiplier = 1.0
+	negative_multiplier = 0.5
 
 	#Configuration for passive sanity sources
 	[sanity.passive]
