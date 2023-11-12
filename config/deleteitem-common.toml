@@ -1,9 +1,0 @@
-
-#General configuration settings
-[General]
-	#Use F3+H to show tooltips and get the name of the item, place it here. It get delete. Example: ["minecraft:stone"]
-	#or if you need to ban multiple ["minecraft:stone", "minecraft:dirt"]
-	"Items To Delete" = ["fear_the_dark:leg_spike"]
-	#Enables/Disables the constant removal of items.
-	"Is it on?" = true
-
