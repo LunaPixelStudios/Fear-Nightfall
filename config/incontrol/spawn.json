@@ -93,5 +93,30 @@
         "mob": "skinandbonesremastered:wendigo",
         "mincount": 2,
         "result": "deny"
+    },
+    {
+        "mod": "graveyard",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "mod": "deep_dark_regrowth",
+        "mincount": 2,
+        "result": "deny"
+    },
+    {
+        "mod": "boh",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "mod": "tenebrous_lands",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "mod": "midnight_madness",
+        "mincount": 5,
+        "result": "deny"
     }
 ]
