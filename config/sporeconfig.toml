@@ -46,7 +46,7 @@
 		#Default 150
 		"Evolution Timer in seconds" = 300
 		#Default 1
-		"Minimum amount of kills to start the evolution" = 1
+		"Minimum amount of kills to start the evolution" = 2
 
 	["Mob Evolutions and Infection System".Infections]
 		#Default true
@@ -460,9 +460,9 @@
 
 [Spawns]
 	#Default false
-	"Should mobs spawn after a few days?" = false
+	"Should mobs spawn after a few days?" = true
 	#Default 30
-	MobCap = 30
+	MobCap = 10
 	#Default minecraft:is_overworld
 	"Dictates in what biome the infected spawn" = ["minecraft:is_overworld"]
 	#Default 3
