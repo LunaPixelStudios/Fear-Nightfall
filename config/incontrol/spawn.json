@@ -118,5 +118,10 @@
         "mod": "midnight_madness",
         "mincount": 5,
         "result": "deny"
+    },
+    {
+        "mod": "spore",
+        "mincount": 5,
+        "result": "deny"
     }
 ]
