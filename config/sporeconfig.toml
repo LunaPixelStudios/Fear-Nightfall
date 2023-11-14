@@ -19,7 +19,7 @@
 
 [TargetingTasks]
 	#Default true
-	"Should attack other mobs?" = true
+	"Should attack other mobs?" = false
 	#Default false
 	"Should attack Animals?" = false
 	"Mobs Not Targeted" = ["minecraft:creeper", "minecraft:squid", "minecraft:bat"]
