@@ -1,7 +1,7 @@
 [
     {
         "mob": "minecraft:zombie",
-        "mincount": 10,
+        "mincount": 5,
         "result": "deny"
     },
     {
