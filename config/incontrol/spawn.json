@@ -70,23 +70,8 @@
         "result": "deny"
     },
     {
-        "mob": "undead_unleashed:graveriser",
-        "mincount": 1,
-        "result": "deny"
-    },
-    {
         "mob": "distantfriends:friend",
         "mincount": 1,
-        "result": "deny"
-    },
-    {
-        "mob": "skinandbonesremastered:skin_walker",
-        "mincount": 1,
-        "result": "deny"
-    },
-    {
-        "mob": "skinandbonesremastered:wendigo",
-        "mincount": 2,
         "result": "deny"
     },
     {
@@ -121,6 +106,11 @@
     },
     {
         "mod": "fear_the_dark",
+        "mincount": 1,
+        "result": "deny"
+    },
+    {
+        "mod": "undead_unleashed",
         "mincount": 1,
         "result": "deny"
     }
