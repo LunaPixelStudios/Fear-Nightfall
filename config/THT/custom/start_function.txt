@@ -1,3 +1,3 @@
-tellraw @a ["",{"text":"THT : ","color":"gray"},{"text":"","extra":[{"selector":"@e[type=tht:random_tree,limit=1,sort=nearest]"}]},{"text":" ?","color":"aqua"}]
+tellraw x@a ["",{"text":"THT : ","color":"gray"},{"text":"","extra":[{"selector":"@e[type=tht:random_tree,limit=1,sort=nearest]"}]},{"text":" ?","color":"aqua"}]
 
-execute as @a[distance=..3] at @s run tp @s ^ ^ ^-10
+execute as x@a[distance=..3] at @s run tp @s ^ ^ ^-10
