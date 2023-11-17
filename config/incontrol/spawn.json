@@ -118,5 +118,10 @@
         "mod": "endofherobrine",
         "mincount": 5,
         "result": "deny"
+    },
+    {
+        "mod": "mushys_fallen_monsters",
+        "mincount": 5,
+        "result": "deny"
     }
 ]

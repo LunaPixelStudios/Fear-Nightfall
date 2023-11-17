@@ -18,12 +18,14 @@
     "some_mods_id"
   ],
   "nightonly_spawns_modwide": [
-    "skinandbonesremastered",
+    "born_in_chaos_v1",
     "boh",
     "mushys_fallen_monsters",
-    "fear_the_dark",
-    "man",
-    "spore"
+    "undead_unleashed",
+    "endofherobrine",
+    "midnight_madness",
+    "tenebrous_lands",
+    "fear_the_dark"
   ],
   "mutationcraft_spawn_weight": 0.3,
   "ryanzombies_spawn_weight": 0.4,
@@ -33,10 +35,15 @@
   "fallenmonsters_spawn_weight": 0.8,
   "lunar_event_blacklist_entity": [],
   "lunar_event_blacklist_modwide": [
-    "skinandbonesremastered",
     "born_in_chaos_v1",
     "boh",
     "mushys_fallen_monsters",
+    "undead_unleashed",
+    "endofherobrine",
+    "spore",
+    "midnight_madness",
+    "tenebrous_lands",
+    "deep_dark_regrowth",
     "fear_the_dark"
   ],
   "enable_creeper_cena": false,
