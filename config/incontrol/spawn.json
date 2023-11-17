@@ -70,56 +70,133 @@
         "result": "deny"
     },
     {
-        "mob": "distantfriends:friend",
+        "dimension": "minecraft:overworld",
+        "mod": "distantfriends:friend",
         "mincount": 1,
         "result": "deny"
     },
     {
+        "dimension": "minecraft:overworld",
         "mod": "graveyard",
         "mincount": 5,
         "result": "deny"
     },
     {
+        "dimension": "minecraft:overworld",
         "mod": "deep_dark_regrowth",
         "mincount": 2,
         "result": "deny"
     },
     {
+        "dimension": "minecraft:overworld",
         "mod": "boh",
         "mincount": 5,
         "result": "deny"
     },
     {
+        "dimension": "minecraft:overworld",
         "mod": "tenebrous_lands",
         "mincount": 5,
         "result": "deny"
     },
     {
+        "dimension": "minecraft:overworld",
         "mod": "midnight_madness",
         "mincount": 5,
         "result": "deny"
     },
     {
+        "dimension": "minecraft:overworld",
         "mod": "spore",
         "mincount": 5,
         "result": "deny"
     },
     {
+        "dimension": "minecraft:overworld",
         "mod": "fear_the_dark",
         "mincount": 1,
         "result": "deny"
     },
     {
+        "dimension": "minecraft:overworld",
         "mod": "undead_unleashed",
         "mincount": 1,
         "result": "deny"
     },
     {
+        "dimension": "minecraft:overworld",
         "mod": "endofherobrine",
         "mincount": 5,
         "result": "deny"
     },
     {
+        "dimension": "minecraft:overworld",
+        "mod": "mushys_fallen_monsters",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:nether",
+        "mod": "distantfriends:friend",
+        "mincount": 1,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:nether",
+        "mod": "graveyard",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:nether",
+        "mod": "deep_dark_regrowth",
+        "mincount": 2,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:nether",
+        "mod": "boh",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:nether",
+        "mod": "tenebrous_lands",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:nether",
+        "mod": "midnight_madness",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:nether",
+        "mod": "spore",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:nether",
+        "mod": "fear_the_dark",
+        "mincount": 1,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:nether",
+        "mod": "undead_unleashed",
+        "mincount": 1,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:nether",
+        "mod": "endofherobrine",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:nether",
         "mod": "mushys_fallen_monsters",
         "mincount": 5,
         "result": "deny"
