@@ -23,9 +23,9 @@
 
 [Demons]
 	#Chance for Fiend to spawn when Dark Soul escapes player [default=0.5, max=1.0]
-	"Fiend spawn chance" = 0.5
+	"Fiend spawn chance" = 0.05
 	#Chance for Fiend to spawn when Dark Soul escapes player during Soul Harvest [default=0.5, max=1.0]
-	"Soul Harvest - Fiend spawn chance" = 0.5
+	"Soul Harvest - Fiend spawn chance" = 0.05
 
 [Effects]
 	#Value of attack speed reduction from Fear [default=0.3]

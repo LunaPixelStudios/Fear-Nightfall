@@ -123,5 +123,10 @@
         "mod": "spore",
         "mincount": 5,
         "result": "deny"
+    },
+    {
+        "mod": "fear_the_dark",
+        "mincount": 1,
+        "result": "deny"
     }
 ]
