@@ -113,5 +113,10 @@
         "mod": "undead_unleashed",
         "mincount": 1,
         "result": "deny"
+    },
+    {
+        "mod": "endofherobrine",
+        "mincount": 5,
+        "result": "deny"
     }
 ]
