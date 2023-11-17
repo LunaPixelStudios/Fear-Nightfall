@@ -3,20 +3,5 @@
     "mob": "fear_the_dark:fever_dream",
     "player": true,
     "remove": "fear_the_dark:leg_spike"
-    },
-    {
-    "mob": "midnight_madness:fallen_king",
-    "player": true,
-    "item": "midnight_madness:midnight_necromonicon"
-    },
-    {
-    "mob": "midnight_madness:fallen_king",
-    "player": true,
-    "item": "midnight_madness:necromonicon_page_other_rituals_page_1"
-    },
-    {
-    "mob": "midnight_madness:fallen_king",
-    "player": true,
-    "item": "midnight_madness:necromonicon_page_other_rituals_page_2"
     }
 ]
