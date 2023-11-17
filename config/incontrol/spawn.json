@@ -80,11 +80,6 @@
         "result": "deny"
     },
     {
-        "mob": "skinandbonesremastered:antelered_wendigo",
-        "mincount": 1,
-        "result": "deny"
-    },
-    {
         "mob": "skinandbonesremastered:skin_walker",
         "mincount": 1,
         "result": "deny"
