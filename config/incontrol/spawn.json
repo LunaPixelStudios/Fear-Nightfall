@@ -194,20 +194,5 @@
         "mod": "mushys_fallen_monsters",
         "mincount": 5,
         "result": "deny"
-    },
-    {
-        "mod": "the_one_who_watches:toww_stare",
-        "mincount": 5,
-        "result": "deny"
-    },
-    {
-        "mod": "the_one_who_watches:toww_running",
-        "mincount": 5,
-        "result": "deny"
-    },
-    {
-        "mod": "the_one_who_watches:toww_hanging",
-        "mincount": 5,
-        "result": "deny"
     }
 ]
