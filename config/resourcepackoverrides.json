@@ -2,6 +2,7 @@
   "schema_version": 1,
   "failed_reloads_per_session": 5,
   "default_packs": [
+    "file/Ashen_Simple_Foliage_FN.zip",
     "builtin/fleshy_sinful_totem",
     "file/Scary_Music_Addon.zip",
     "file/FNQuestingResources.zip",
