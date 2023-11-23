@@ -101,12 +101,6 @@
     },
     {
         "dimension": "minecraft:overworld",
-        "mod": "midnight_madness",
-        "mincount": 5,
-        "result": "deny"
-    },
-    {
-        "dimension": "minecraft:overworld",
         "mod": "spore",
         "mincount": 5,
         "result": "deny"
