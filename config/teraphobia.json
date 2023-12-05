@@ -1,14 +1,17 @@
 {
   "removed_entities": [
+    "minecraft:phantom",
     "endofherobrine:villager",
     "endofherobrine:sheep",
     "endofherobrine:husk",
     "endofherobrine:pig",
+    "endofherobrine:rabbit",
     "tenebrous_lands:shiva",
     "tenebrous_lands:abaddon",
     "horror_elements_mod:predator",
     "fear_the_dark:rock_worm",
-    "boh:siren_head"
+    "boh:siren_head",
+    "spore:inf_evoker"
   ],
   "dayonly_spawns_entity": [
     "any_mod:example_entity"

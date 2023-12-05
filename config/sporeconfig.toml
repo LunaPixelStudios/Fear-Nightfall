@@ -29,10 +29,10 @@
 
 ["MobRoles ,decides some of the interactions between the infected mobs"]
 	Basic_Infected = ["spore:inf_human", "spore:inf_villager", "spore:inf_wanderer", "spore:inf_witch", "spore:inf_pillager", "spore:inf_player"]
-	Evolved_Infected = ["spore:braiomil", "spore:knight", "spore:griefer", "spore:busser", "spore:spitter", "spore:leaper", "spore:slasher", "spore:howler", "spore:stalker", "spore:brute", "spore:inf_evoker", "spore:inf_vindicator"]
+	Evolved_Infected = ["spore:braiomil", "spore:knight", "spore:griefer", "spore:busser", "spore:spitter", "spore:leaper", "spore:slasher", "spore:howler", "spore:stalker", "spore:brute" "spore:inf_vindicator"]
 	Support = ["spore:inf_witch", "spore:braiomil", "spore:howler", "spore:busser"]
 	Disposable = ["spore:inf_human", "spore:inf_villager", "spore:inf_wanderer", "spore:knight", "spore:griefer", "spore:slasher", "spore:inf_vindicator", "minecraft:creeper"]
-	Ranged = ["spore:spitter", "spore:inf_pillager", "spore:braiomil", "spore:inf_evoker"]
+	Ranged = ["spore:spitter", "spore:inf_pillager", "spore:braiomil"]
 
 ["Mob Evolutions and Infection System"]
 
@@ -51,7 +51,7 @@
 	["Mob Evolutions and Infection System".Infections]
 		#Default true
 		"Should the player be infected on death?" = true
-		"Mobs and their infected counterparts" = ["minecraft:zombie|spore:inf_human", "minecraft:husk|spore:inf_human", "minecraft:drowned|spore:inf_drowned", "minecraft:pillager|spore:inf_pillager", "minecraft:villager|spore:inf_villager", "guardvillagers:guard|spore:inf_villager", "recruits:recruit|spore:inf_villager", "recruits:bowman|spore:inf_villager", "recruits:recruit_shieldman|spore:inf_villager", "recruits:nomad|spore:inf_villager", "recruits:horseman|spore:inf_villager", "minecraft:witch|spore:inf_witch", "minecraft:wandering_trader|spore:inf_wanderer", "minecraft:evoker|spore:inf_evoker", "minecraft:vindicator|spore:inf_vindicator", "hunterillager:hunterillager|spore:inf_vindicator", "roamers:roamer|spore:inf_player", "roamers:bandit|spore:inf_player"]
+		"Mobs and their infected counterparts" = ["minecraft:zombie|spore:inf_human", "minecraft:husk|spore:inf_human", "minecraft:drowned|spore:inf_drowned", "minecraft:pillager|spore:inf_pillager", "minecraft:villager|spore:inf_villager", "guardvillagers:guard|spore:inf_villager", "recruits:recruit|spore:inf_villager", "recruits:bowman|spore:inf_villager", "recruits:recruit_shieldman|spore:inf_villager", "recruits:nomad|spore:inf_villager", "recruits:horseman|spore:inf_villager", "minecraft:witch|spore:inf_witch", "minecraft:wandering_trader|spore:inf_wanderer", "minecraft:vindicator|spore:inf_vindicator", "hunterillager:hunterillager|spore:inf_vindicator", "roamers:roamer|spore:inf_player", "roamers:bandit|spore:inf_player"]
 
 [Effects]
 	"Mobs that are immune to the mycelium infection" = ["deep_dark_regrowth:*", "graveyard:*", "boh:*", "tenebrous_lands:*", "midnight_madness:*", "born_in_chaos_v1:*", "minecraft:ghast", "minecraft:iron_golem", "minecraft:magma_cube", "minecraft:mooshroom", "minecraft:phantom", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:stray", "minecraft:wither", "minecraft:skeleton"]
@@ -125,9 +125,9 @@
 		#The base wave of infected a vigil can summon
 		"Vigil min wave" = ["spore:inf_human", "spore:inf_villager", "spore:inf_pillager", "spore:inf_drowned"]
 		#The mixed wave of infected a vigil can summon
-		"Vigil mix wave" = ["spore:inf_human", "spore:inf_villager", "spore:inf_pillager", "spore:inf_wanderer", "spore:knight", "spore:griefer", "spore:leaper", "spore:inf_evoker", "spore:spitter"]
+		"Vigil mix wave" = ["spore:inf_human", "spore:inf_villager", "spore:inf_pillager", "spore:inf_wanderer", "spore:knight", "spore:griefer", "spore:leaper", "spore:spitter"]
 		#The max wave of infected a vigil can summon
-		"Vigil max wave" = ["spore:inf_vindicator", "spore:busser", "spore:inf_witch", "spore:brute", "spore:knight", "spore:griefer", "spore:leaper", "spore:inf_evoker", "spore:spitter", "spore:stalker", "spore:howler", "spore:braiomil"]
+		"Vigil max wave" = ["spore:inf_vindicator", "spore:busser", "spore:inf_witch", "spore:brute", "spore:knight", "spore:griefer", "spore:leaper", "spore:spitter", "spore:stalker", "spore:howler", "spore:braiomil"]
 
 	[Mobs.Sieger]
 		#Default 300
@@ -223,7 +223,7 @@
 		#Default 1.0
 		#Range: 0.1 ~ 1.7976931348623157E308
 		"Sets The chance for a raid to start" = 1.0
-		"Sentient Mobs targeted by the hivemind" = ["minecraft:villager", "minecraft:pillager", "guardvillagers:guard", "minecraft:evoker", "minecraft:vindicator", "recruits:recruit", "recruits:bowman", "recruits:recruit_shieldman", "recruits:nomad", "recruits:horseman", "roamers:roamer"]
+		"Sentient Mobs targeted by the hivemind" = ["minecraft:pillager", "guardvillagers:guard", "minecraft:vindicator", "recruits:recruit", "recruits:bowman", "recruits:recruit_shieldman", "recruits:nomad", "recruits:horseman", "roamers:roamer"]
 
 	[Mobs.Howler]
 		#Default 32
@@ -467,7 +467,7 @@
 	"Dictates in what biome the infected spawn" = ["minecraft:is_overworld"]
 	#Default 3
 	"Days before infected start spawning" = 3
-	"mob|weight|minimum|maximum" = ["spore:inf_human|80|2|5", "spore:inf_drowned|10|1|2", "spore:inf_pillager|40|1|3", "spore:inf_villager|70|1|3", "spore:inf_player|20|1|2", "spore:inf_wanderer|25|1|2", "spore:inf_witch|25|1|2", "spore:inf_vindicator|1|1|2", "spore:inf_evoker|5|1|2"]
+	"mob|weight|minimum|maximum" = ["spore:inf_human|80|2|5", "spore:inf_drowned|10|1|2", "spore:inf_pillager|40|1|3", "spore:inf_villager|70|1|3", "spore:inf_player|20|1|2", "spore:inf_wanderer|25|1|2", "spore:inf_witch|25|1|2", "spore:inf_vindicator|1|1|2"]
 
 ["Weapons and Tools OwO"]
 
