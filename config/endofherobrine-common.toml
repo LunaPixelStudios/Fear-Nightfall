@@ -6,10 +6,10 @@
 	### Possession ###
 	#
 	#Should mobs get possessed?
-	mobPossession = true
+	mobPossession = false
 	#The chance out of a hundred that herobrine will spawn
 	#Range: 0 ~ 100
-	spawnChance = 10
+	spawnChance = 1
 	#Should spawn herobrine builder?
 	spawnBuilder = false
 	#Should possessed animals convert back?
