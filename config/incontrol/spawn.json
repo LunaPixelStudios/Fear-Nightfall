@@ -2,197 +2,197 @@
     {
         "mob": "minecraft:zombie",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "mob": "minecraft:skeleton",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "mob": "minecraft:creeper",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "mob": "minecraft:enderman",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "mob": "minecraft:spider",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "mob": "minecraft:cave_spider",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "mob": "minecraft:drowned",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "mob": "minecraft:husk",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "mob": "minecraft:stray",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "mob": "minecraft:witch",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "mob": "minecraft:zombie_villager",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "mob": "minecraft:silverfish",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "mob": "minecraft:slime",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "mob": "minecraft:guardian",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": "minecraft:overworld",
         "mod": "distantfriends:friend",
         "mincount": 1,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": "minecraft:overworld",
         "mod": "graveyard",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": "minecraft:overworld",
         "mod": "deep_dark_regrowth",
         "mincount": 2,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": "minecraft:overworld",
         "mod": "boh",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": "minecraft:overworld",
         "mod": "tenebrous_lands",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": "minecraft:overworld",
         "mod": "spore",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": "minecraft:overworld",
         "mod": "fear_the_dark",
         "mincount": 1,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": "minecraft:overworld",
         "mod": "undead_unleashed",
         "mincount": 1,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": "minecraft:overworld",
         "mod": "endofherobrine",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": "minecraft:overworld",
         "mod": "mushys_fallen_monsters",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": "minecraft:nether",
         "mod": "distantfriends:friend",
         "mincount": 1,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": "minecraft:nether",
         "mod": "graveyard",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": "minecraft:nether",
         "mod": "deep_dark_regrowth",
         "mincount": 2,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": "minecraft:nether",
         "mod": "boh",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": "minecraft:nether",
         "mod": "tenebrous_lands",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": "minecraft:nether",
         "mod": "midnight_madness",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": "minecraft:nether",
         "mod": "spore",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": "minecraft:nether",
         "mod": "fear_the_dark",
         "mincount": 1,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": "minecraft:nether",
         "mod": "undead_unleashed",
         "mincount": 1,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": "minecraft:nether",
         "mod": "endofherobrine",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": "minecraft:nether",
         "mod": "mushys_fallen_monsters",
         "mincount": 5,
-        "result": "deny"
+        "result": "allow"
     }
 ]
