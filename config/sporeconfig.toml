@@ -3,7 +3,7 @@
 	#Default false
 	"Should the infected attack mobs from FAW?" = false
 	#Default false
-	"Should the infected attack mobs from Sculk Infection?" = false
+	"Should the infected attack mobs from Sculk Infection?" = true
 
 ["Global Variables"]
 	"Global Damage Modifier" = 1.0
@@ -23,7 +23,7 @@
 	#Default false
 	"Should attack Animals?" = false
 	"Mobs Not Targeted" = ["minecraft:creeper", "minecraft:squid", "minecraft:bat"]
-	"Mobs ALWAYS Targeted" = ["minecraft:villager", "minecraft:wandering_trader", "minecraft:iron_golem", "roamers:roamer", "roamers:bandit"]
+	"Mobs ALWAYS Targeted" = []
 	"Mobs that will target infected" = ["minecraft:iron_golem", "guardvillagers:guard", "roamers:roamer"]
 	"Mobs that will run from infected" = ["minecraft:villager", "minecraft:wandering_trader", "roamers:bandit"]
 
@@ -40,13 +40,13 @@
 		"Infected Human Evolutions" = ["spore:knight", "spore:griefer", "spore:braiomil", "spore:busser"]
 		"Infected Villager Evolutions" = ["spore:slasher", "spore:leaper", "spore:spitter"]
 		"Infected Pillager Evolutions" = ["spore:howler", "spore:stalker", "spore:brute"]
-		"Mobs that won't despawn after being created from assimilation" = ["spore:inf_villager", "spore:inf_pillager", "spore:inf_witch"]
+		"Mobs that won't despawn after being created from assimilation" = []
 		#Default true
 		"Should mobs with no kills starve?" = true
 		#Default 150
-		"Evolution Timer in seconds" = 300
+		"Evolution Timer in seconds" = 1000
 		#Default 1
-		"Minimum amount of kills to start the evolution" = 2
+		"Minimum amount of kills to start the evolution" = 3
 
 	["Mob Evolutions and Infection System".Infections]
 		#Default true
@@ -462,7 +462,7 @@
 	#Default false
 	"Should mobs spawn after a few days?" = true
 	#Default 30
-	MobCap = 10
+	MobCap = 5
 	#Default minecraft:is_overworld
 	"Dictates in what biome the infected spawn" = ["minecraft:is_overworld"]
 	#Default 3
