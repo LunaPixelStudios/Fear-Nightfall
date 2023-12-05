@@ -16,7 +16,7 @@
 			dependencies: ["5A4A2AD67F66718C"]
 			id: "0C60D0AD2D841E41"
 			rewards: [{
-				count: 4
+				count: 5
 				id: "71636F2E3658EED9"
 				item: "minecraft:iron_ingot"
 				type: "item"
@@ -37,6 +37,7 @@
 			dependencies: ["7652FD29DEBD178B"]
 			id: "377608AF5E3210FF"
 			rewards: [{
+				count: 4
 				id: "6FBCD5ECBBD6B753"
 				item: "hexerei:infused_fabric"
 				type: "item"
@@ -56,8 +57,8 @@
 			id: "1EA5DD6640AC769B"
 			rewards: [{
 				count: 4
-				id: "32A0A689788CF10D"
-				item: "hexerei:infused_fabric"
+				id: "0AD46CB55B12C4AA"
+				item: "hexerei:selenite_shard"
 				type: "item"
 			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
@@ -140,9 +141,15 @@
 			dependencies: ["762EE4B4D1B9748E"]
 			id: "5D820E30F96098DA"
 			rewards: [{
-				id: "476122A605501DED"
-				type: "xp"
-				xp: 100
+				id: "1DD5866C191D2424"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+				type: "item"
 			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
@@ -158,7 +165,7 @@
 			dependencies: ["5D820E30F96098DA"]
 			id: "38C667ECE48C6A97"
 			rewards: [{
-				count: 2
+				count: 3
 				id: "3A5A82AE786DB0CB"
 				item: "hexerei:candle"
 				type: "item"
@@ -177,9 +184,9 @@
 			dependencies: ["762EE4B4D1B9748E"]
 			id: "4802C3FBE2D801F7"
 			rewards: [{
-				id: "6412F49D0515BD78"
-				type: "xp"
-				xp: 100
+				id: "3DD690FE8AB154E9"
+				item: "hexerei:blood_sigil"
+				type: "item"
 			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
@@ -195,9 +202,10 @@
 			dependencies: ["4802C3FBE2D801F7"]
 			id: "3875CEB20661CA9D"
 			rewards: [{
-				id: "4BF2A169EC11BF6C"
-				type: "xp"
-				xp: 100
+				count: 3
+				id: "05AE58F8CD9BC042"
+				item: "hexerei:blood_bottle"
+				type: "item"
 			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
@@ -304,9 +312,9 @@
 			dependencies: ["762EE4B4D1B9748E"]
 			id: "58E7338AF1A94322"
 			rewards: [{
-				id: "3FC3816EFF991019"
-				type: "xp"
-				xp: 100
+				id: "4064B8FCDF2CBCD5"
+				item: "hexerei:herb_drying_rack_full"
+				type: "item"
 			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
@@ -325,6 +333,12 @@
 		{
 			dependencies: ["762EE4B4D1B9748E"]
 			id: "388719BFF1F9E38A"
+			rewards: [{
+				count: 4
+				id: "7CD66F7DEDB9E816"
+				item: "hexerei:seed_mixture"
+				type: "item"
+			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
 				id: "4086B07B61C930F2"
@@ -358,9 +372,15 @@
 			dependencies: ["762EE4B4D1B9748E"]
 			id: "6F176963EBD6677B"
 			rewards: [{
-				id: "643FCA9149DD202B"
-				type: "xp"
-				xp: 100
+				id: "37AAD94AF2F0A693"
+				item: {
+					Count: 1b
+					id: "hexerei:dried_sage_bundle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
@@ -398,6 +418,17 @@
 		{
 			dependencies: ["7652FD29DEBD178B"]
 			id: "7BED84C2E93D55C7"
+			rewards: [{
+				id: "1C3E068996DD8BB5"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_water_breathing"
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
 				id: "1C77B584EA15B4D6"
@@ -505,9 +536,10 @@
 			dependencies: ["40E0BFD7654B7300"]
 			id: "306204B5497EDD19"
 			rewards: [{
-				id: "713A03D20424400C"
-				type: "xp"
-				xp: 100
+				count: 3
+				id: "082FF7DC17048BD3"
+				item: "ancient_manuscripts:empty_glue_bottle"
+				type: "item"
 			}]
 			subtitle: "Holds glue."
 			tasks: [{
@@ -522,9 +554,15 @@
 			dependencies: ["40E0BFD7654B7300"]
 			id: "3C94DD5FC3CF2533"
 			rewards: [{
-				id: "001EC76CBAB3A97E"
-				type: "xp"
-				xp: 100
+				id: "0C60681C20D83612"
+				item: {
+					Count: 1b
+					id: "ancient_manuscripts:enchanted_book_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			subtitle: "Used in the binding table."
 			tasks: [{

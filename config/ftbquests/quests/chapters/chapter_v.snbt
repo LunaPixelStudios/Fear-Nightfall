@@ -19,9 +19,10 @@
 			]
 			id: "3CFD1D84CB1364D1"
 			rewards: [{
-				id: "1C237D66F9CB38EC"
-				type: "xp_levels"
-				xp_levels: 10
+				count: 2
+				id: "1B7E624A0B772644"
+				item: "biomancy:nutrient_bar"
+				type: "item"
 			}]
 			size: 1.4d
 			subtitle: "&7Make a &2Bio&r-&cForge&7 to harness life."
@@ -58,9 +59,15 @@
 			hide_dependency_lines: false
 			id: "1DCF9A82C51F730B"
 			rewards: [{
-				id: "33F8036C5899B9A3"
-				type: "xp_levels"
-				xp_levels: 10
+				id: "0D0E06E8D3CD7E57"
+				item: {
+					Count: 1b
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:long_slow_falling"
+					}
+				}
+				type: "item"
 			}]
 			subtitle: "After exploring the new better stronghold, make your way to the portal and slot in the &cFleshy Eyes of Ender."
 			tasks: [{
@@ -77,12 +84,19 @@
 		{
 			dependencies: ["1DCF9A82C51F730B"]
 			id: "19BA19A20221B4DA"
-			rewards: [{
-				count: 8
-				id: "4B8908463A87B136"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "4B8908463A87B136"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "66BB39080A0B026F"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "Defeat the &dEnder Dragon."

@@ -71,9 +71,10 @@
 			dependencies: ["0514B95698C6A9C2"]
 			id: "3EA1296CDAE22E0B"
 			rewards: [{
-				id: "266C520C7A60F90D"
-				type: "xp_levels"
-				xp_levels: 5
+				count: 2
+				id: "737AD5B351C69D05"
+				item: "aether:healing_stone"
+				type: "item"
 			}]
 			subtitle: "Obtain the &eWistiver Jaws."
 			tasks: [{
@@ -91,9 +92,10 @@
 			dependencies: ["0514B95698C6A9C2"]
 			id: "75D8D8A8EF26ACD0"
 			rewards: [{
-				id: "526C7B1816536294"
-				type: "xp_levels"
-				xp_levels: 5
+				count: 2
+				id: "0BFE7BEB106D9A69"
+				item: "aether:healing_stone"
+				type: "item"
 			}]
 			subtitle: "Obtain the &eButcher Carcass."
 			tasks: [{
@@ -111,9 +113,10 @@
 			dependencies: ["0514B95698C6A9C2"]
 			id: "285F1686BD0C81EF"
 			rewards: [{
-				id: "16143895E9CE31E6"
-				type: "xp_levels"
-				xp_levels: 5
+				count: 2
+				id: "3DF8CD505D7F4FA4"
+				item: "aether:healing_stone"
+				type: "item"
 			}]
 			subtitle: "Obtain the &eBloody Puddle."
 			tasks: [{
@@ -131,9 +134,10 @@
 			dependencies: ["0514B95698C6A9C2"]
 			id: "191ECB65AB8598A6"
 			rewards: [{
-				id: "3F78A3FE1CF867A3"
-				type: "xp_levels"
-				xp_levels: 5
+				count: 2
+				id: "44B8832F11954142"
+				item: "aether:healing_stone"
+				type: "item"
 			}]
 			subtitle: "Obtain the &eProwler's Hand."
 			tasks: [{
@@ -171,6 +175,20 @@
 				"The corruption spread throughout The Aether at an unprecedented rate, and Herobrine considered The Aether his new home. The only humans left are solely dedicated to preventing this corruption."
 			]
 			id: "02640B9A1371E6C9"
+			rewards: [{
+				id: "79D822FE416643F4"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "endofherobrine:blessing"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "&8[Click to read lore]"
 			tasks: [{
@@ -192,8 +210,8 @@
 			]
 			id: "4295DB3BE4CDFE8D"
 			rewards: [{
-				count: 4
-				id: "68AB13CB00D0EC8A"
+				count: 8
+				id: "505724EA6DE96C44"
 				item: "minecraft:golden_apple"
 				type: "item"
 			}]

@@ -13,9 +13,9 @@
 			description: ["Upgrade storage in smithing table. To obtain leather-tier open the backpack at least once. Now you will be able to upgrade to iron-tier."]
 			id: "07D72CC3A7E25F72"
 			rewards: [{
-				id: "0887F33719BDAB35"
-				type: "xp"
-				xp: 200
+				id: "2297F42A54FAD363"
+				item: "travelersbackpack:hose"
+				type: "item"
 			}]
 			shape: "octagon"
 			subtitle: "Your best friend. Can craft, hold fluids, extra tools and even have abilites, Neat!"
@@ -87,7 +87,7 @@
 			icon: "minecraft:spruce_door"
 			id: "47E544C2A7FF4EC0"
 			rewards: [{
-				count: 4
+				count: 8
 				id: "4A81A4D5610EB6E7"
 				item: "minecraft:bamboo"
 				type: "item"
@@ -114,7 +114,7 @@
 			dependencies: ["2F5B7FFBC196A061"]
 			id: "20A2FDD7CB5AFB72"
 			rewards: [{
-				count: 16
+				count: 24
 				id: "468DDB1F42841835"
 				item: "minecraft:iron_bars"
 				type: "item"
@@ -132,11 +132,12 @@
 		}
 		{
 			dependencies: ["2F5B7FFBC196A061"]
+			description: ["Roasts carcasses."]
 			id: "176D8929B2715ABB"
 			rewards: [{
-				id: "37CB71A36DD20042"
-				type: "xp"
-				xp: 100
+				id: "5E7AEE29220D0F1E"
+				item: "minecraft:campfire"
+				type: "item"
 			}]
 			shape: "octagon"
 			subtitle: "Food is also important. Sometimes you gotta kill to survive. Needs a Campfire!"
@@ -173,9 +174,10 @@
 			dependencies: ["2F5B7FFBC196A061"]
 			id: "0BE8BCCB8BCC50C1"
 			rewards: [{
-				id: "12EFA1C802D0E8BD"
-				type: "xp"
-				xp: 100
+				count: 2
+				id: "3AE53A86AA3A6D53"
+				item: "hexerei:mahogany_sapling"
+				type: "item"
 			}]
 			shape: "octagon"
 			subtitle: "Learn more about the Forbidden Magic."
@@ -196,9 +198,15 @@
 			dependencies: ["2F5B7FFBC196A061"]
 			id: "32A258F985DE2C6E"
 			rewards: [{
-				id: "3060C0DE464A8532"
-				type: "xp"
-				xp: 100
+				id: "51A571797D3CA89F"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			shape: "octagon"
 			subtitle: "Learn more of the Sinister Machines."
@@ -216,7 +224,7 @@
 			id: "60A2705587F74560"
 			rewards: [{
 				count: 8
-				id: "2945B1BC73BB99BE"
+				id: "119D870F158D0648"
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
@@ -276,8 +284,8 @@
 			id: "7276FC7B1590E162"
 			rewards: [{
 				count: 4
-				id: "5334B1B017A66C93"
-				item: "minecraft:iron_ingot"
+				id: "38DC800C2C8A85D4"
+				item: "minecraft:golden_apple"
 				type: "item"
 			}]
 			subtitle: "Defend yourself."
@@ -294,15 +302,21 @@
 					type: "item"
 				}
 				{
-					id: "326A79AA3DCF9399"
-					item: "minecraft:golden_apple"
-					type: "item"
-				}
-				{
 					id: "49FEC06DB45E31F3"
 					item: {
 						Count: 1b
 						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14034B318392B264"
+					item: {
+						Count: 1b
+						id: "minecraft:bow"
 						tag: {
 							Damage: 0
 						}
@@ -322,14 +336,9 @@
 			description: ["&7The flesh spikes are deadlier versions of the spikes which can be stacked to increase its lethality."]
 			id: "133C307168A2872A"
 			rewards: [{
-				id: "36CDB0F33E2ECB26"
-				item: {
-					Count: 1b
-					id: "minecraft:splash_potion"
-					tag: {
-						Potion: "minecraft:strong_poison"
-					}
-				}
+				count: 2
+				id: "5D7E2D3B88CFBD0F"
+				item: "biomancy:flesh_spike"
 				type: "item"
 			}]
 			shape: "diamond"
@@ -346,7 +355,17 @@
 		}
 		{
 			dependencies: ["2F5B7FFBC196A061"]
+			description: ["You can add waypoints by right clicking banners like regular maps."]
 			id: "0593A4B43B36DCF5"
+			rewards: [{
+				id: "2F19186091A0EB8E"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
 			shape: "octagon"
 			subtitle: "Will be important on helping you traverse the Overworld."
 			tasks: [{
@@ -372,8 +391,6 @@
 				"You can put both Filled Maps and Empty Maps with an Atlas in a crafting inventory to insert either Map type into the Atlas."
 				""
 				"To obtain &cNether Generation&f, you must add Sliced Maps to the Atlas in a Crafting Table!"
-				""
-				"You can add waypoints by right clicking banners like regular maps."
 			]
 			id: "3563D691EEB55DD6"
 			rewards: [{

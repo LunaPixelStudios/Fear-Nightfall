@@ -68,7 +68,7 @@
 			dependencies: ["12DA3AE95243DA2F"]
 			id: "11719F41D574304A"
 			rewards: [{
-				count: 4
+				count: 2
 				id: "33FED3853F64F98A"
 				item: "biomancy:nutrient_bar"
 				type: "item"
@@ -90,9 +90,10 @@
 			description: ["When you have all the materials and nutrients needed, click the object above you want to craft."]
 			id: "062F347ED962BB37"
 			rewards: [{
-				id: "089301BBF4FEF6F5"
-				type: "xp_levels"
-				xp_levels: 10
+				count: 2
+				id: "2568F8471FBA82D3"
+				item: "biomancy:nutrient_bar"
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -132,9 +133,10 @@
 			]
 			id: "0CD750755D5516BF"
 			rewards: [{
-				id: "5D23FD29EA4787AA"
-				type: "xp_levels"
-				xp_levels: 5
+				count: 4
+				id: "3EA271A978C7F16E"
+				item: "biomancy:breeding_stimulant"
+				type: "item"
 			}]
 			subtitle: "Bio-Alchemical Brewer. Can make various useful concoctions."
 			tasks: [{
@@ -194,9 +196,10 @@
 			dependencies: ["11719F41D574304A"]
 			id: "6031C1461A912AF0"
 			rewards: [{
-				id: "792E60C6E953CD46"
-				type: "xp"
-				xp: 100
+				count: 3
+				id: "73D05C9C6422E842"
+				item: "biomancy:living_flesh"
+				type: "item"
 			}]
 			shape: "square"
 			subtitle: "Extracts up to 3 items of the same type every 24 ticks from containers it's attached to, and drops them on the ground."
@@ -213,9 +216,10 @@
 			dependencies: ["11719F41D574304A"]
 			id: "384A9FC08BF63430"
 			rewards: [{
-				id: "071D24E310F899B7"
-				type: "xp"
-				xp: 100
+				count: 3
+				id: "49CB0F22A9571C99"
+				item: "biomancy:living_flesh"
+				type: "item"
 			}]
 			shape: "square"
 			subtitle: "A fleshy sister of the hopper. Transfers up to 16 items at a time."
@@ -237,9 +241,10 @@
 			]
 			id: "05A43ACB9EF0B1CF"
 			rewards: [{
-				id: "124E77F41F6F32D2"
-				type: "xp"
-				xp: 100
+				count: 3
+				id: "03BB0A129F1B6F1F"
+				item: "biomancy:living_flesh"
+				type: "item"
 			}]
 			shape: "square"
 			subtitle: "&8[Click to Read]"
@@ -256,9 +261,10 @@
 			dependencies: ["11719F41D574304A"]
 			id: "4D34A5009E225912"
 			rewards: [{
-				id: "27194FCA5AFBD029"
-				type: "xp"
-				xp: 100
+				count: 3
+				id: "0C5B92F1548D60A2"
+				item: "biomancy:living_flesh"
+				type: "item"
 			}]
 			shape: "square"
 			subtitle: "Cheap Shulker-like storage sac that also acts like a bundle."
@@ -311,14 +317,8 @@
 			icon: "minecraft:netherrack"
 			id: "3AB83B881A41ED3D"
 			rewards: [{
-				id: "36BDA4BF3ACC264C"
-				item: {
-					Count: 1b
-					id: "minecraft:golden_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "39238FD2A80A3FEB"
+				item: "minecraft:soul_lantern"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -338,13 +338,12 @@
 			dependencies: ["3AB83B881A41ED3D"]
 			id: "4AD689342C08D2B3"
 			rewards: [{
-				count: 2
 				id: "362D658DE72DA43A"
 				item: {
 					Count: 1b
 					id: "minecraft:potion"
 					tag: {
-						Potion: "minecraft:fire_resistance"
+						Potion: "minecraft:long_fire_resistance"
 					}
 				}
 				type: "item"
@@ -478,9 +477,10 @@
 			dependencies: ["4AD689342C08D2B3"]
 			id: "123B8BF589E8D74F"
 			rewards: [{
-				id: "6D14B4C67E904923"
-				type: "xp_levels"
-				xp_levels: 5
+				count: 2
+				id: "3127326741A2D4B2"
+				item: "minecraft:ender_pearl"
+				type: "item"
 			}]
 			shape: "octagon"
 			size: 1.5d
@@ -502,15 +502,16 @@
 			id: "2610D61A597635B0"
 			rewards: [
 				{
-					count: 4
+					count: 8
 					id: "2586310211AD217F"
 					item: "minecraft:diamond"
 					type: "item"
 				}
 				{
-					id: "4EB6E5AA8C6E3087"
-					type: "xp_levels"
-					xp_levels: 10
+					count: 4
+					id: "2530813125566FE4"
+					item: "hexerei:milk_bottle"
+					type: "item"
 				}
 			]
 			subtitle: "Instead of &dSoul Sand&r, you must use &5Soul Stone &rfrom the Bygone Nether mod. Make sure there are no obstructions like snow or grass under the arms when spawning."

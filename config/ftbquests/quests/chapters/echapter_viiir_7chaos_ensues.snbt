@@ -56,7 +56,7 @@
 			dependencies: ["19BA19A20221B4DA"]
 			hide: true
 			hide_dependency_lines: true
-			icon: "butchersdelight:deadpig"
+			icon: "minecraft:husk_spawn_egg"
 			id: "649FAAE5120543B4"
 			rewards: [{
 				id: "0EEAD9869E0BBA9B"
@@ -64,13 +64,13 @@
 				xp: 100
 			}]
 			tasks: [{
-				entity: "endofherobrine:pig"
-				icon: "endofherobrine:pig_spawn_egg"
+				entity: "endofherobrine:husk"
+				icon: "endofherobrine:husk_spawn_egg"
 				id: "10293073D4464F4D"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat &cPossessed Pig"
+			title: "Defeat &fPossesed Husk"
 			x: -1.5d
 			y: -0.5d
 		}

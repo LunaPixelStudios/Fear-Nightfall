@@ -16,6 +16,12 @@
 	quests: [
 		{
 			id: "5A60751EB3771E5A"
+			rewards: [{
+				count: 9
+				id: "28B43EDB1AFB5096"
+				item: "immersiveengineering:blastbrick"
+				type: "item"
+			}]
 			size: 1.3d
 			subtitle: "Your guide to Immersive Engineering."
 			tasks: [{
@@ -31,9 +37,15 @@
 			dependencies: ["5A60751EB3771E5A"]
 			id: "33563F1090D5B5A4"
 			rewards: [{
-				id: "075172B6739ABDE1"
-				type: "xp"
-				xp: 100
+				id: "7F0D2E78A4D4EB68"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			shape: "pentagon"
 			size: 1.2d
@@ -57,9 +69,9 @@
 			dependencies: ["33563F1090D5B5A4"]
 			id: "1FDCA470EA86BD01"
 			rewards: [{
-				id: "6EC4C924BB2AF5DE"
-				type: "xp"
-				xp: 100
+				id: "293580C1C5758FD7"
+				item: "immersiveengineering:screwdriver"
+				type: "item"
 			}]
 			subtitle: "Used for fine-tuning specific devices, such as changing the extraction rate on an Extracting Conveyor Belt."
 			tasks: [{
@@ -75,9 +87,15 @@
 			dependencies: ["33563F1090D5B5A4"]
 			id: "72F28B55472BDA33"
 			rewards: [{
-				id: "1451FADDE3AD16CB"
-				type: "xp"
-				xp: 100
+				id: "7E3C96E58DC0D652"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:wirecutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			subtitle: "Used to cut metal sheets into wire and remove wires from blocks."
 			tasks: [{
@@ -99,7 +117,7 @@
 			dependencies: ["5A60751EB3771E5A"]
 			id: "74CD7840FADDE7EE"
 			rewards: [{
-				count: 4
+				count: 10
 				id: "50094E30EC7EC99A"
 				item: "immersiveengineering:treated_wood_horizontal"
 				type: "item"
@@ -120,9 +138,9 @@
 			dependencies: ["5A60751EB3771E5A"]
 			id: "1E41BDDCEF3EA1BC"
 			rewards: [{
-				count: 10
-				id: "6CF6E35FC63F0D26"
-				item: "immersiveengineering:ingot_steel"
+				count: 9
+				id: "41719EA71CA39870"
+				item: "immersiveengineering:plate_steel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -148,9 +166,10 @@
 			dependencies: ["1461077EB7358B47"]
 			id: "49CA52F24C7A62F8"
 			rewards: [{
-				id: "6DCBB091A867C8E0"
-				type: "xp"
-				xp: 100
+				count: 32
+				id: "1C0F840AFCC073AF"
+				item: "minecraft:bone_meal"
+				type: "item"
 			}]
 			subtitle: "Grow crops automatically, takes in water and fertilizer. Requires power."
 			tasks: [{
@@ -208,7 +227,7 @@
 			dependencies: ["0FA23DCC58940628"]
 			id: "2FBEFD1AF94468DD"
 			rewards: [{
-				count: 4
+				count: 6
 				id: "7C2249BAE0783B41"
 				item: "minecraft:iron_ingot"
 				type: "item"
@@ -260,32 +279,18 @@
 			dependencies: ["1461077EB7358B47"]
 			id: "4044510266D77027"
 			rewards: [{
-				count: 3
+				count: 6
 				id: "6A7F74B6662FFBB9"
 				item: "immersiveengineering:ingot_aluminum"
 				type: "item"
 			}]
 			subtitle: "Connect wires from relays to connectors to power machines."
-			tasks: [
-				{
-					count: 2L
-					id: "2262564C8CC06A53"
-					item: "immersiveengineering:connector_lv"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "21C635CADBA0C549"
-					item: "immersiveengineering:connector_mv"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "34E3F54CF509A5BE"
-					item: "immersiveengineering:connector_hv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 2L
+				id: "2262564C8CC06A53"
+				item: "immersiveengineering:connector_lv"
+				type: "item"
+			}]
 			title: "Craft &6LV Wire Connector"
 			x: -17.0d
 			y: 1.5d
@@ -294,9 +299,9 @@
 			dependencies: ["1E41BDDCEF3EA1BC"]
 			id: "1CCC9AEFE5926066"
 			rewards: [{
-				id: "5E81BFEA64B75B38"
-				type: "xp"
-				xp: 100
+				id: "3D720C77E1F040BF"
+				item: "immersiveengineering:storage_steel"
+				type: "item"
 			}]
 			subtitle: "Presses metals into swapable molds that are inserted into the top."
 			tasks: [
@@ -350,32 +355,25 @@
 			hide_dependency_lines: true
 			id: "19B1D5DFC3D3D7FC"
 			rewards: [{
-				id: "2FE34E83E996EEBB"
-				type: "xp"
-				xp: 100
+				id: "4737A7D960FA84B5"
+				item: "immersiveengineering:drillhead_steel"
+				type: "item"
 			}]
 			subtitle: "Mining tool that runs on bio-disel."
-			tasks: [
-				{
-					id: "28A4B6936AAE7639"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							Parent: {
-								Items: [ ]
-								Size: 5
-							}
+			tasks: [{
+				id: "28A4B6936AAE7639"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 5
 						}
-						id: "immersiveengineering:drill"
 					}
-					type: "item"
+					id: "immersiveengineering:drill"
 				}
-				{
-					id: "304123502C6DF6A2"
-					item: "immersiveengineering:drillhead_steel"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "Craft &8Mining Drill"
 			x: -18.5d
 			y: 4.5d
@@ -384,9 +382,9 @@
 			dependencies: ["1E41BDDCEF3EA1BC"]
 			id: "315F7691E0BC634D"
 			rewards: [{
-				id: "4AFF6FA2AD38569F"
-				type: "xp"
-				xp: 100
+				id: "1804701E231A9604"
+				item: "immersiveengineering:storage_steel"
+				type: "item"
 			}]
 			subtitle: "Makes plant oil."
 			tasks: [
@@ -439,9 +437,9 @@
 			dependencies: ["1E41BDDCEF3EA1BC"]
 			id: "037C1DF06DBC7AE9"
 			rewards: [{
-				id: "0C5FCE9DE905BDED"
-				type: "xp"
-				xp: 100
+				id: "4B27356B75FFF6C4"
+				item: "immersiveengineering:storage_steel"
+				type: "item"
 			}]
 			subtitle: "Crushes items and you if you are not careful."
 			tasks: [
@@ -483,9 +481,9 @@
 			dependencies: ["1E41BDDCEF3EA1BC"]
 			id: "4AD6B33A9AE57386"
 			rewards: [{
-				id: "6EAC74E7DBD236D4"
-				type: "xp"
-				xp: 100
+				id: "6A86A806E76F2A83"
+				item: "immersiveengineering:storage_steel"
+				type: "item"
 			}]
 			subtitle: "Used to make bio-disel."
 			tasks: [
@@ -533,9 +531,9 @@
 			dependencies: ["1E41BDDCEF3EA1BC"]
 			id: "096C3B9CE0C7986E"
 			rewards: [{
-				id: "5FD5E80F3335DA46"
-				type: "xp"
-				xp: 100
+				id: "4B88ADF9210574D0"
+				item: "immersiveengineering:storage_steel"
+				type: "item"
 			}]
 			subtitle: "Runs on bio-disel to make large amounts of power."
 			tasks: [
@@ -582,6 +580,11 @@
 		{
 			dependencies: ["096C3B9CE0C7986E"]
 			id: "2C638D216128B6E7"
+			rewards: [{
+				id: "68536D878AAE4FE5"
+				item: "immersiveengineering:jerrycan"
+				type: "item"
+			}]
 			subtitle: "Fuel for machines and tools."
 			tasks: [{
 				id: "37D6F0F6B7AFF9C1"
@@ -595,28 +598,25 @@
 			dependencies: ["4044510266D77027"]
 			id: "380008F474E7EAD3"
 			rewards: [{
-				id: "531544E0D5A3C342"
-				type: "xp"
-				xp: 100
+				id: "78978A93BD76A887"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 4
+						}
+					}
+					id: "immersiveengineering:powerpack"
+				}
+				type: "item"
 			}]
 			subtitle: "Used to store power."
-			tasks: [
-				{
-					id: "071DE219A85AD49D"
-					item: "immersiveengineering:capacitor_lv"
-					type: "item"
-				}
-				{
-					id: "0493BABE4E72A5A6"
-					item: "immersiveengineering:capacitor_mv"
-					type: "item"
-				}
-				{
-					id: "2C13BF3E68F5256D"
-					item: "immersiveengineering:capacitor_hv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "071DE219A85AD49D"
+				item: "immersiveengineering:capacitor_lv"
+				type: "item"
+			}]
 			title: "Craft &8LV Accumulator"
 			x: -15.5d
 			y: 1.5d
@@ -625,7 +625,7 @@
 			dependencies: ["4044510266D77027"]
 			id: "31028662117B469A"
 			rewards: [{
-				count: 3
+				count: 6
 				id: "6F979E8A970C6E5C"
 				item: "immersiveengineering:ingot_electrum"
 				type: "item"
@@ -656,9 +656,9 @@
 			dependencies: ["1E41BDDCEF3EA1BC"]
 			id: "2456EA21372C816F"
 			rewards: [{
-				id: "165F266E630BC65C"
-				type: "xp"
-				xp: 100
+				id: "3297B1FA50D9A0E7"
+				item: "immersiveengineering:storage_steel"
+				type: "item"
 			}]
 			subtitle: "Automated Crafter."
 			tasks: [
@@ -708,9 +708,10 @@
 			hide_dependency_lines: true
 			id: "715C17C5E049382C"
 			rewards: [{
-				id: "5EEC690833F7E2B8"
-				type: "xp"
-				xp: 100
+				count: 4
+				id: "79A0C38BAACC42AF"
+				item: "immersiveengineering:wirecoil_copper"
+				type: "item"
 			}]
 			subtitle: "Enables the player to ride along wires, ropes and cables up to great distances. Using it on a mid-air line connects the player to it, and from there they'll ride down the line with gravity unless they use their movement keys."
 			tasks: [{
@@ -736,9 +737,15 @@
 			hide_dependency_lines: true
 			id: "5A6774C6F00BBBF1"
 			rewards: [{
-				id: "086B4A534DFEDD6F"
-				type: "xp"
-				xp: 100
+				id: "7D0B6C547E9CCEB5"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:sawblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			subtitle: "Tree felling tool that runs on bio-disel. Uses sawblades."
 			tasks: [{
@@ -763,9 +770,9 @@
 			dependencies: ["1E41BDDCEF3EA1BC"]
 			id: "13BC53BA0A8D0CC6"
 			rewards: [{
-				id: "3D68D3576DF5201E"
-				type: "xp"
-				xp: 100
+				id: "6DD4DCE6902270D4"
+				item: "immersiveengineering:storage_steel"
+				type: "item"
 			}]
 			subtitle: "Used to cut wood automatically. Produces sawdust as byproduct."
 			tasks: [

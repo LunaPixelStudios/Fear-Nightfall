@@ -34,7 +34,7 @@
 		}
 		{
 			dependencies: ["6DA90162B361A85D"]
-			description: ["&7In &cFear Nightfall&7, you are cursed with permanent insomia. This means that &cyou cannot sleep at all&7.  Beds will only serve as spawn points, and phantoms do not exist."]
+			description: ["&7In &cFear Nightfall&7, you are cursed with permanent insomia. This means that &cyou cannot sleep at all&7. Beds will only serve as spawn points, and phantoms do not exist."]
 			icon: "fantasyfurniture:venthyr/bed_single"
 			id: "4991A45261F83F9E"
 			rewards: [{
@@ -50,8 +50,8 @@
 				type: "checkmark"
 			}]
 			title: "Information: &eSleeping"
-			x: 0.0d
-			y: -1.5d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6DA90162B361A85D"]
@@ -85,14 +85,16 @@
 				type: "checkmark"
 			}]
 			title: "Information: &eNew Mechanics"
-			x: 0.0d
-			y: 1.5d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"0164FF3EAA38076D"
 				"4991A45261F83F9E"
 				"6DA90162B361A85D"
+				"338C326D77B53421"
+				"53920D8926D77BA7"
 			]
 			description: [
 				"&7Now that you've learnt the basics, you can delve into the &cCampaign&7."
@@ -109,16 +111,16 @@
 				}
 			}
 			id: "3455852556DCCB7D"
-			shape: "hexagon"
-			size: 1.25d
+			shape: "gear"
+			size: 1.5d
 			subtitle: "&8[Click to read information]"
 			tasks: [{
 				id: "7535C6417961261C"
 				title: "&6Starting the campaign"
 				type: "checkmark"
 			}]
-			x: 1.875d
-			y: 0.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0164FF3EAA38076D"]
@@ -129,10 +131,8 @@
 				"    Listening to calming melodies"
 				"    Walking on dirt paths and carpets"
 				"    Being near campfires"
-				"    &mSleeping&r"
 				"    Fishing"
 				"    Spawning chickens from eggs"
-				"    Wearing a garland"
 				"    Earning advancements"
 				"    Breeding and shearing animals"
 				"    Trading with villagers"
@@ -159,14 +159,40 @@
 			]
 			icon: "minecraft:sunflower"
 			id: "53920D8926D77BA7"
-			subtitle: "Sanity if affected in many ways here is a list."
+			subtitle: "Sanity if affected in many ways, here is a list:"
 			tasks: [{
 				id: "33129C89379328D6"
 				title: "Sanity"
 				type: "checkmark"
 			}]
 			title: "Information: &eSanity"
-			x: 0.0d
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4991A45261F83F9E"]
+			icon: {
+				Count: 1b
+				id: "tarotcards:the_sun"
+				tag: { }
+			}
+			id: "338C326D77B53421"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamerule doInsomnia false"
+				icon: "minecraft:campfire"
+				id: "2E145ECEE622B9F1"
+				silent: true
+				title: "Disappearing Phantoms"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4ACCD4A21FFB7B92"
+				title: "Click to Disable Phantoms"
+				type: "checkmark"
+			}]
+			title: "Command: &eDisabling Phantoms"
+			x: -2.0d
 			y: 3.0d
 		}
 	]
