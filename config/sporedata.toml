@@ -31,7 +31,7 @@
 	Innards = ["minecraft:bone_meal|50|1|2", "minecraft:rotten_flesh|40|1|1", "minecraft:wheat_seeds|40|1|1"]
 
 [Others]
-	"Infected Player possible names" = ["The_Harbinger69", "ABucketOfFriedChicken", "LoneGuy", "cheesepuff", "Sire_AwfulThe1st", "Azami", "Deyvid", "Dany_Why", "Technoblade", "Ike", "Hypnotizd", "SaDrOcK:(", "JhonOK22", "hacie", "WhisperFire26", "Pajera", "Gistique", "Demonid", "Bowser", "Mad_Dog", "Ripley", "Kraken", "Zero", "Joker_de_Coeur", "bartsek009 ", "xXFuryXx", "Nova69", "Belladonna", "Entity", "Keymind", "Whisper", "Helldwin", "Mademoiselle2016"]
+	"Infected Player possible names" = ["The_Harbinger69", "ABucketOfFriedChicken", "LoneGuy", "cheesepuff", "Sire_AwfulThe1st", "Azami", "Deyvid", "Dany_Why", "Technoblade", "Ike", "Hypnotizd", "SaDrOcK:", "JhonOK22", "hacie", "WhisperFire26", "Pajera", "Gistique", "Demonid", "Bowser", "Mad_Dog", "Ripley", "Kraken", "Zero", "Joker_de_Coeur", "bartsek009 ", "xXFuryXx", "Nova69", "Belladonna", "Entity", "Keymind", "Whisper", "Helldwin", "Mademoiselle2016"]
 	#Items|chance of giving
 	"Head Slot" = ["minecraft:leather_helmet|50", "minecraft:iron_helmet|20", "minecraft:chainmail_helmet|20"]
 	"Chest Slot" = ["minecraft:leather_chestplate|50", "minecraft:iron_chestplate|20", "minecraft:chainmail_chestplate|20"]
