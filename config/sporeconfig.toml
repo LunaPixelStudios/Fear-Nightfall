@@ -29,7 +29,7 @@
 
 ["MobRoles ,decides some of the interactions between the infected mobs"]
 	Basic_Infected = ["spore:inf_human", "spore:inf_villager", "spore:inf_wanderer", "spore:inf_witch", "spore:inf_pillager", "spore:inf_player"]
-	Evolved_Infected = ["spore:braiomil", "spore:knight", "spore:griefer", "spore:busser", "spore:spitter", "spore:leaper", "spore:slasher", "spore:howler", "spore:stalker", "spore:brute" "spore:inf_vindicator"]
+	Evolved_Infected = ["spore:braiomil", "spore:knight", "spore:griefer", "spore:busser", "spore:spitter", "spore:leaper", "spore:slasher", "spore:howler", "spore:stalker", "spore:brute", "spore:inf_vindicator"]
 	Support = ["spore:inf_witch", "spore:braiomil", "spore:howler", "spore:busser"]
 	Disposable = ["spore:inf_human", "spore:inf_villager", "spore:inf_wanderer", "spore:knight", "spore:griefer", "spore:slasher", "spore:inf_vindicator", "minecraft:creeper"]
 	Ranged = ["spore:spitter", "spore:inf_pillager", "spore:braiomil"]
