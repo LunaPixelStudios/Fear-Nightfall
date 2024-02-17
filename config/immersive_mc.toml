@@ -58,7 +58,7 @@ written_book_immersion = true
 #Whether immersives for cauldrons should be allowed.
 cauldron_immersion = true
 #Allow users to crouch + right-click to bypass immersives.
-crouch_bypass_immersion = true
+crouch_bypass_immersion =false
 #Do controller rumble for ImmersiveMC actions.
 do_rumble = true
 #Return items to oneself when walking away from immersives that items tend to not be stored in.
