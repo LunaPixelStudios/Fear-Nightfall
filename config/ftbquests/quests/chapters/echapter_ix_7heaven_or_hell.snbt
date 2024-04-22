@@ -216,7 +216,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "A Sinful Totem must be made to summon him. Made in the &2Bio-&r&cForge."
+			subtitle: "A Sinful Totem must be made to summon him. Made in the &cBio-Forge."
 			tasks: [
 				{
 					id: "315C2E19A3435773"
