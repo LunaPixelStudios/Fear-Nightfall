@@ -2,7 +2,7 @@
   "schema_version": 1,
   "failed_reloads_per_session": 5,
   "default_packs": [
-    "file/Ashen_Simple_Foliage_FN.zip",
+    "file/Ashen_Simple_Foliage_FN_0.2.zip",
     "builtin/fleshy_sinful_totem",
     "file/Scary_Music_Addon.zip",
     "file/FNQuestingResources.zip",
@@ -13,8 +13,8 @@
     "file/Tarot Cards Colorized 1.19.2.zip",
     "file/Aether Regenerated v1.1.2.zip",
     "file/immersive 1.19.zip",
-    "file/boss-refreshed-v1.1.0.zip",
-    "file/Ashen_1.4.1_1.19.2.zip",
+    "file/boss-refreshed-v1.2.zip",
+    "file/Ashen_1.4.3_1.19.2.zip",
     "builtin/default_ctm_resources"
   ],
   "default_overrides": {
