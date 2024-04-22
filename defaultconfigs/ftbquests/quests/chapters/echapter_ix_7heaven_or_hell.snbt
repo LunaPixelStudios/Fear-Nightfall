@@ -1,0 +1,279 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "echapter_ix_7heaven_or_hell"
+	group: "173C7A3FFE3DDF09"
+	icon: "aether:aether_portal_frame"
+	id: "097D2D4D2B007CE8"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.875d
+			hover: [ ]
+			image: "fn:textures/quests/herobrine.png"
+			rotation: 0.0d
+			width: 3.9d
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "4295DB3BE4CDFE8D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 3.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["19BA19A20221B4DA"]
+			description: ["Portal is made up of &eglowstone blocks&r and lit by a &bwater bucket.&r"]
+			hide: true
+			hide_dependency_lines: true
+			id: "0514B95698C6A9C2"
+			rewards: [{
+				count: 2
+				id: "2657BBFF250921FC"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_night_vision"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			subtitle: "Make and Enter the &eAether Portal."
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "aether:aether_portal_frame"
+				id: "1D6B651541976A61"
+				title: "&eGet to the Aether"
+				type: "dimension"
+			}]
+			title: "&cOnce a beauty..."
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0514B95698C6A9C2"]
+			id: "3EA1296CDAE22E0B"
+			rewards: [{
+				count: 2
+				id: "737AD5B351C69D05"
+				item: "aether:healing_stone"
+				type: "item"
+			}]
+			subtitle: "Obtain the &eWistiver Jaws."
+			tasks: [{
+				entity: "sons_of_sins:wistiver"
+				icon: "sons_of_sins:wistiver_jaws"
+				id: "75B18B2FBC1630CE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &8The Gluttony"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0514B95698C6A9C2"]
+			id: "75D8D8A8EF26ACD0"
+			rewards: [{
+				count: 2
+				id: "0BFE7BEB106D9A69"
+				item: "aether:healing_stone"
+				type: "item"
+			}]
+			subtitle: "Obtain the &eButcher Carcass."
+			tasks: [{
+				entity: "sons_of_sins:bloody_butcher"
+				icon: "sons_of_sins:butcher_carcass"
+				id: "18A65882933DE8F2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &8Wrath"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0514B95698C6A9C2"]
+			id: "285F1686BD0C81EF"
+			rewards: [{
+				count: 2
+				id: "3DF8CD505D7F4FA4"
+				item: "aether:healing_stone"
+				type: "item"
+			}]
+			subtitle: "Obtain the &eBloody Puddle."
+			tasks: [{
+				entity: "sons_of_sins:bloody_driver"
+				icon: "sons_of_sins:bloody_puddle"
+				id: "1554F71855B970B4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &cGreed"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0514B95698C6A9C2"]
+			id: "191ECB65AB8598A6"
+			rewards: [{
+				count: 2
+				id: "44B8832F11954142"
+				item: "aether:healing_stone"
+				type: "item"
+			}]
+			subtitle: "Obtain the &eProwler's Hand."
+			tasks: [{
+				entity: "sons_of_sins:prowler"
+				icon: "sons_of_sins:prowler_s_hand"
+				id: "4F0A0AF4211FDCB5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &8Pride"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0514B95698C6A9C2"]
+			description: [
+				"Not long ago, Steve was an ordinary person who lived a peaceful life as an engineer. Steve had a passion for building and mining. "
+				"His world, known as the Overworld, was watched over by the Aether, a dimension guarded by many Gods. "
+				"On an otherwise uneventful day, Steve's village was raided. Among the victims of this raid was Alex - Steve's best friend. Steve believed this attack was influenced by the Gods themselves, and decided that revenge was the only option."
+				""
+				"While visiting a distant bandit camp, a trader mentioned the possibility of harnessing magic to bring Alex back to life. The trader then handed Steve a visibly aged piece of paper and began to pack his bags. Steve repeatedly asked the trader what the paper was, but received no acknowledgement."
+				""
+				"When Steve returned to his tent in the forest, he tried to forget about what happened. The writing on the paper was similar to what witches used to inscribe tomes, and he had heard rumors of dangerous spells being sold to people unknowingly.  That night, Steve was unable to sleep. It was like the paper occupied every corner of his mind. He eventually stood up, opened his backpack, and read the paper out loud. "
+				""
+				"When nothing immediately noticeable happened, Steve went back to sleep. He had only noticed the consequences of his actions several days later, when he saw his reflection in a puddle. The man that looked back at him was not Steve. The person he saw in the reflection had completely white eyes. He did not recognize his own face. "
+				""
+				"Panicked, Steve ran into a nearby village. He was met with weird looks, and storeowners refused to sell to him. Steve felt disgusted with himself, and went into hiding for several years. "
+				""
+				"The man that revisited the village several years later was not Steve. It was a completely different entity occupying Steve's body. Local legend refers to this entity as \"Herobrine\". After Herobrine's visit to the village, there were no survivors. These villagers were far from being Herobrine's only victims. "
+				""
+				"After seeing what Herobrine was capable of, the Gods became worried. Every night, corrupted monsters were appearing throughout The Overworld. This, alongside their awareness that Steve's vengeance against the Gods would carry over to Herobrine, motivated them to contain this corruption. The only solution they could come up with was to capture Herobrine and bring him back to The Overworld. As far as the Gods knew, Herobrine was only powerful due to the evil energy present only in The Overworld. By separating him from The Overworld, he would return to his former self."
+				""
+				"Unfortunately, this hypothesis could not have been further from the truth. As soon as Herobrine entered The Aether, a deep fog began to roll in. Even worse; for the first time in known history, the sun had set in The Aether. "
+				""
+				"The corruption spread throughout The Aether at an unprecedented rate, and Herobrine considered The Aether his new home. The only humans left are solely dedicated to preventing this corruption."
+			]
+			id: "02640B9A1371E6C9"
+			rewards: [{
+				id: "79D822FE416643F4"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "endofherobrine:blessing"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&8[Click to read lore]"
+			tasks: [{
+				id: "1FDBAF3D8E18CB92"
+				title: "lore here"
+				type: "checkmark"
+			}]
+			title: "&eWhat happened"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["02640B9A1371E6C9"]
+			description: [
+				""
+				"&7Build a structure with a &cSinful Totem&7, below it a &cTubular Flesh Block&7, and on top, a &cFlesh Wall&7."
+				""
+				"&7Then right click on the sinful totem with a &eNether Star&7."
+			]
+			id: "4295DB3BE4CDFE8D"
+			rewards: [{
+				count: 8
+				id: "505724EA6DE96C44"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "A Sinful Totem must be made to summon him. Made in the &2Bio-&r&cForge."
+			tasks: [
+				{
+					id: "315C2E19A3435773"
+					item: "biomancy:flesh_wall"
+					type: "item"
+				}
+				{
+					id: "02397C76160E876C"
+					item: "endofherobrine:blackstone_totem"
+					type: "item"
+				}
+				{
+					id: "3AAE64D1E75E6E1B"
+					item: "biomancy:tubular_flesh"
+					type: "item"
+				}
+				{
+					id: "044675F4195BCB91"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "&cThe Only Way"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4295DB3BE4CDFE8D"]
+			id: "3106B7FB6C6CABBD"
+			rewards: [
+				{
+					count: 32
+					id: "249C4C304960B3B4"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					id: "7708144F247A74D8"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "&cFight and defeat Herobrine."
+			tasks: [{
+				entity: "endofherobrine:herobrine"
+				icon: "endofherobrine:herobrine_head"
+				id: "3CE59C8F9316A449"
+				title: "&cKill Herobrine"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&3The one behind it all"
+			x: -0.5d
+			y: 4.0d
+		}
+	]
+	title: " &eChapter V: &7Heaven or Hell?"
+}

@@ -1,0 +1,370 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "edark_delight"
+	group: "0AF1E24E0154B029"
+	icon: "butchersdelight:skullcow"
+	id: "21C441DF14608D9B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["188416CC05C20AB6"]
+			id: "323E0E95E74D3D7E"
+			rewards: [{
+				id: "1B02025DBB6BFA08"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Cut up the Carcasses after placing them on a hook (Right Click)."
+			tasks: [{
+				id: "56D0E91E4086BF80"
+				item: {
+					Count: 1b
+					id: "butchersdelight:cleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft &8Cleaver"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "188416CC05C20AB6"
+			rewards: [{
+				count: 5
+				id: "122925556A3A2049"
+				item: "butchersdelight:hook"
+				type: "item"
+			}]
+			subtitle: "Used to hang Carcasses."
+			tasks: [{
+				id: "498C4406B2997F9F"
+				item: "butchersdelight:hook"
+				type: "item"
+			}]
+			title: "Craft &8Meat Hook"
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			id: "3C7F504C7E106B4F"
+			rewards: [{
+				count: 2
+				id: "7B67D3B11D9F05FC"
+				item: "butchersdelight:dead_cow"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43526365A4FBB67C"
+				item: "butchersdelight:dead_cow"
+				type: "item"
+			}]
+			title: "Obtain &8Cow Carcass"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "68EE6A2225479C2F"
+			rewards: [{
+				count: 2
+				id: "7A4DB211FD4374A8"
+				item: "butchersdelight:deadpig"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0221E8353C5E0F7B"
+				item: "butchersdelight:deadpig"
+				type: "item"
+			}]
+			title: "Obtain &cPig Carcass"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "70EA53FA169AD3D4"
+			rewards: [{
+				count: 2
+				id: "18E2EE41B0F95A1B"
+				item: "butchersdelight:deadsheep"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15831AFA8EBA52D3"
+				item: "butchersdelight:deadsheep"
+				type: "item"
+			}]
+			title: "Obtain &7Sheep Carcass"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			id: "7DADF62D01F91406"
+			rewards: [{
+				count: 2
+				id: "13DBC0EED657A049"
+				item: "butchersdelight:deadchiken"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DE73C13EC4C318C"
+				item: "butchersdelight:deadchiken"
+				type: "item"
+			}]
+			title: "Obtain &7Chicken Carcass"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C7F504C7E106B4F"]
+			id: "425185EA1476D3FB"
+			rewards: [{
+				count: 4
+				id: "34D2B409B9512C8E"
+				item: "butchersdelightfoods:beefribs"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39AD8EAC0812E5D1"
+				item: "butchersdelightfoods:beefribs"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C7F504C7E106B4F"]
+			id: "59C37E99C364A281"
+			rewards: [{
+				count: 4
+				id: "69642F16B128C3B3"
+				item: "butchersdelightfoods:legcow"
+				type: "item"
+			}]
+			tasks: [{
+				id: "595CC8019BC25F56"
+				item: "butchersdelightfoods:legcow"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C7F504C7E106B4F"]
+			id: "4B0CB7D3A24A26E3"
+			rewards: [{
+				count: 4
+				id: "093F105BF765794D"
+				item: "butchersdelightfoods:beeftenderloin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "686E11208CDB5676"
+				item: "butchersdelightfoods:beeftenderloin"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["70EA53FA169AD3D4"]
+			id: "359B585E231B9380"
+			rewards: [{
+				count: 4
+				id: "47FF0F69A6DBFEB4"
+				item: "butchersdelightfoods:sheepshank"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26744F75DA5263F3"
+				item: "butchersdelightfoods:sheepshank"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["70EA53FA169AD3D4"]
+			id: "37CC5DA36BBB1052"
+			rewards: [{
+				count: 4
+				id: "13765FE698366032"
+				item: "butchersdelightfoods:sheeprack"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0190FE3315BFA2B0"
+				item: "butchersdelightfoods:sheeprack"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["70EA53FA169AD3D4"]
+			id: "43784385338C78F1"
+			rewards: [{
+				count: 4
+				id: "187C4EAE3B6BF21E"
+				item: "butchersdelightfoods:sheeploin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "070731BB0B77EF36"
+				item: "butchersdelightfoods:sheeploin"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["68EE6A2225479C2F"]
+			id: "6F795AA89173A99E"
+			rewards: [{
+				count: 4
+				id: "5AD76F8D915517B6"
+				item: "butchersdelightfoods:ham"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55786B4826039A0A"
+				item: "butchersdelightfoods:ham"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["68EE6A2225479C2F"]
+			id: "409C4969B2C11F85"
+			rewards: [{
+				count: 4
+				id: "5C98B2A0A85A5FA5"
+				item: "butchersdelightfoods:porkloin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34BC2AFDFF5E02F1"
+				item: "butchersdelightfoods:porkloin"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68EE6A2225479C2F"]
+			id: "6474EC11BF6ADC8A"
+			rewards: [{
+				count: 4
+				id: "33AA854459DD0576"
+				item: "butchersdelightfoods:porkribs"
+				type: "item"
+			}]
+			tasks: [{
+				id: "465019E16553EFD7"
+				item: "butchersdelightfoods:porkribs"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52D8550E0B958F46"]
+			id: "751933ACFDE7A4A3"
+			rewards: [{
+				count: 4
+				id: "0E5F1F539E2A2E82"
+				item: "butchersdelightfoods:goat_shank"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B5A9833122C7135"
+				item: "butchersdelightfoods:goat_shank"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52D8550E0B958F46"]
+			id: "32B160E42275C2FB"
+			rewards: [{
+				count: 4
+				id: "2BB5618B61888F30"
+				item: "butchersdelightfoods:goatrack"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40B5F20B92F378E7"
+				item: "butchersdelightfoods:goatrack"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52D8550E0B958F46"]
+			id: "7863C0D05541491B"
+			rewards: [{
+				count: 4
+				id: "63799364E743DB14"
+				item: "butchersdelightfoods:goat_loin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06682493C654EB19"
+				item: "butchersdelightfoods:goat_loin"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "52D8550E0B958F46"
+			rewards: [{
+				count: 2
+				id: "73B32C8506E9054C"
+				item: "butchersdelight:deadgoat"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DA08BF6381AAABE"
+				item: "butchersdelight:deadgoat"
+				type: "item"
+			}]
+			title: "Obtain Goat Carcass"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "7E95A63EE90EFC1D"
+			rewards: [{
+				count: 2
+				id: "77539DFFFD58250B"
+				item: "butchersdelight:deadrabbitbrown"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1638CA33477E6F99"
+				item: "butchersdelight:deadrabbitbrown"
+				type: "item"
+			}]
+			title: "Obtain Rabbit Carcass"
+			x: -0.5d
+			y: 1.5d
+		}
+	]
+	title: " &eButcher's Delight"
+}

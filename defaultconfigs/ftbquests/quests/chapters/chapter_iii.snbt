@@ -1,0 +1,532 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_iii"
+	group: "173C7A3FFE3DDF09"
+	icon: "biomancy:creator_mix"
+	id: "04F608FB2194CB5D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3F885B833D45AB12"]
+			hide: true
+			hide_dependency_lines: true
+			id: "492D0CAE29412213"
+			rewards: [{
+				id: "5AEC6BB4A87A97E5"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Plunders extra body parts from mobs but breaks easily."
+			tasks: [{
+				id: "323AA8B7E320C94F"
+				item: {
+					Count: 1b
+					id: "biomancy:despoil_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft &dFlesh Plunderer"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["492D0CAE29412213"]
+			description: ["After offering flesh and other items, finish the offering with a &dRegeneration/Healing 2 Potion.&r"]
+			id: "12DA3AE95243DA2F"
+			rewards: [{
+				count: 4
+				id: "0D88ADB5AD582F9E"
+				item: "minecraft:glistering_melon_slice"
+				type: "item"
+			}]
+			subtitle: "Offer adequate Tributes to the cradle and summon forth primordial messengers of exquisite flesh."
+			tasks: [{
+				id: "400901474C08B58D"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			title: "Craft &dPrimordial Cradle"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["12DA3AE95243DA2F"]
+			id: "11719F41D574304A"
+			rewards: [{
+				count: 2
+				id: "33FED3853F64F98A"
+				item: "biomancy:nutrient_bar"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Note: Regular food can be used as your first bio-fuel instead of nutrient paste or bars."
+			tasks: [{
+				count: 4L
+				id: "6E09A6120613668F"
+				item: "biomancy:living_flesh"
+				type: "item"
+			}]
+			title: "Obtain &cLiving Flesh"
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["11719F41D574304A"]
+			description: ["When you have all the materials and nutrients needed, click the object above you want to craft."]
+			id: "062F347ED962BB37"
+			rewards: [{
+				count: 2
+				id: "2568F8471FBA82D3"
+				item: "biomancy:nutrient_bar"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Crafting Station for your biomancy needs. Consumes &2nutrients&r to function."
+			tasks: [{
+				id: "7D43944DDF05EB88"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			title: "Craft &2Bio&r-&cForge"
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["11719F41D574304A"]
+			id: "31FCCDBAF32BA0DB"
+			rewards: [{
+				count: 8
+				id: "09809AE02B1AA581"
+				item: "biomancy:nutrient_paste"
+				type: "item"
+			}]
+			subtitle: "A bio-machine that deconstructs items into their base components. The Decomposer consumes &2nutrients&r to function."
+			tasks: [{
+				id: "416CDE78A71AE472"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			title: "Craft &cDecomposer"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"062F347ED962BB37"
+				"31FCCDBAF32BA0DB"
+			]
+			id: "0CD750755D5516BF"
+			rewards: [{
+				count: 4
+				id: "3EA271A978C7F16E"
+				item: "biomancy:breeding_stimulant"
+				type: "item"
+			}]
+			subtitle: "Bio-Alchemical Brewer. Can make various useful concoctions."
+			tasks: [{
+				id: "691FA93609D74D91"
+				item: "biomancy:bio_lab"
+				type: "item"
+			}]
+			title: "Craft &2Bio&r-&cLab"
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["062F347ED962BB37"]
+			id: "21005A9FD195F670"
+			rewards: [{
+				count: 2
+				id: "4F79D31A8CCD59EA"
+				item: "minecraft:dried_kelp_block"
+				type: "item"
+			}]
+			subtitle: "A machine born from flesh that converts food and plants into extremely bio-available nutrients."
+			tasks: [{
+				id: "4D8C7E0D4600AE43"
+				item: "biomancy:digester"
+				type: "item"
+			}]
+			title: "Craft &cDigester"
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0CD750755D5516BF"]
+			id: "6E246CAA04E68BE3"
+			rewards: [{
+				count: 4
+				id: "286C4E039DD30E22"
+				item: "biomancy:absorption_boost"
+				type: "item"
+			}]
+			subtitle: "Bio-Tool used to inject the serums to mobs and yourself."
+			tasks: [{
+				id: "149E582672BF4B4E"
+				item: {
+					Count: 1b
+					id: "biomancy:injector"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Make &cBio-&2Injector"
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["11719F41D574304A"]
+			id: "6031C1461A912AF0"
+			rewards: [{
+				count: 3
+				id: "73D05C9C6422E842"
+				item: "biomancy:living_flesh"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Extracts up to 3 items of the same type every 24 ticks from containers it's attached to, and drops them on the ground."
+			tasks: [{
+				id: "3E379302ACA3849D"
+				item: "biomancy:tongue"
+				type: "item"
+			}]
+			title: "Make &dTongue"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["11719F41D574304A"]
+			id: "384A9FC08BF63430"
+			rewards: [{
+				count: 3
+				id: "49CB0F22A9571C99"
+				item: "biomancy:living_flesh"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "A fleshy sister of the hopper. Transfers up to 16 items at a time."
+			tasks: [{
+				id: "796BFD91AB99F6AA"
+				item: "biomancy:maw_hopper"
+				type: "item"
+			}]
+			title: "Make &dMaw Hopper"
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["11719F41D574304A"]
+			description: [
+				"- Crafted from living flesh, the organic composition of the chest grants it remarkable resilience, ensuring the safety of its precious contents even from explosions."
+				""
+				"- Only its true master can unlock its contents without invoking the wrath of its razor-sharp fangs"
+			]
+			id: "05A43ACB9EF0B1CF"
+			rewards: [{
+				count: 3
+				id: "03BB0A129F1B6F1F"
+				item: "biomancy:living_flesh"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&8[Click to Read]"
+			tasks: [{
+				id: "32172CD4A9A7BC3B"
+				item: "biomancy:fleshkin_chest"
+				type: "item"
+			}]
+			title: "Make &dFleshkin Chest"
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["11719F41D574304A"]
+			id: "4D34A5009E225912"
+			rewards: [{
+				count: 3
+				id: "0C5B92F1548D60A2"
+				item: "biomancy:living_flesh"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Cheap Shulker-like storage sac that also acts like a bundle."
+			tasks: [{
+				id: "74D6233E127ED000"
+				item: {
+					Count: 1b
+					id: "biomancy:storage_sac"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Make &dStorage Sac"
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["062F347ED962BB37"]
+			id: "0FC6CF57B8C88CCB"
+			rewards: [{
+				id: "6675C88379D95DFE"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "A useful Bio-Weapon that has a special ability when its bloodlust has been sated."
+			tasks: [{
+				id: "7D7900042557D5D4"
+				item: {
+					Count: 1b
+					id: "biomancy:ravenous_claws"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft &cRavenous Claws"
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["062F347ED962BB37"]
+			icon: "minecraft:netherrack"
+			id: "3AB83B881A41ED3D"
+			rewards: [{
+				id: "39238FD2A80A3FEB"
+				item: "minecraft:soul_lantern"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Create a &4Nether Portal.&r Mind the intense heat."
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "31A327DE2A36643E"
+				title: "Enter the Nether"
+				type: "dimension"
+			}]
+			title: "Enter the &4Nether"
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3AB83B881A41ED3D"]
+			id: "4AD689342C08D2B3"
+			rewards: [{
+				id: "362D658DE72DA43A"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "New Overhauled Nether Fortress."
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "4B559458E655BF9D"
+				title: "Find a &4Fortress"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4AD689342C08D2B3"]
+			id: "67E75C4B6996ABFB"
+			shape: "rsquare"
+			subtitle: "A highly impressive arena of fire and lava. Multifloored with sentries that drop &c&lBurning Ashes."
+			tasks: [{
+				advancement: "cataclysm:find_burning_arena"
+				criterion: ""
+				id: "3B96765157A4D889"
+				title: "Discover the Burning Arena"
+				type: "advancement"
+			}]
+			title: "Discover the &cBurning Arena"
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["67E75C4B6996ABFB"]
+			id: "121291A46C19AF8F"
+			rewards: [{
+				count: 4
+				id: "18DA39AC8E478392"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			subtitle: "Found at the Top of the &cBurning Arena&r. Place Burning Ashes in the Altar to Summon &2Ignis"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: {
+					Count: 1b
+					id: "cataclysm:ignitium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5767EE8A365D89F1"
+				title: "Kill Ignis"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &2Ignis"
+			x: -5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4AD689342C08D2B3"]
+			description: [
+				"{@pagebreak}"
+				"{@pagebreak}"
+			]
+			id: "4323E00577155F0D"
+			shape: "rsquare"
+			subtitle: "The Soul Forge is made primarily of blackstone. On the map you will see the boss bar/icon and a big patch of &blight blue soulfire.&r"
+			tasks: [{
+				advancement: "cataclysm:find_soul_black_smith"
+				criterion: ""
+				id: "68D41417806AAE60"
+				title: "Discover the Soul Black Smith"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4323E00577155F0D"]
+			id: "45602FB14B03475D"
+			rewards: [{
+				count: 4
+				id: "340FC466BE53F9B4"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			subtitle: "Found in Soul Blacksmiths, which rarely spawn in the &cNether&r. &4Fire resist&r is highly recommended."
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1b
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "54AC8B1AE91932C9"
+				title: "Kill the Netherite Monstrosity"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &8Netherite Monstrosity"
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4AD689342C08D2B3"]
+			id: "312F11331927DFD1"
+			rewards: [{
+				count: 16
+				id: "32552DD56B5BC070"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				id: "7C38913C40770B35"
+				title: "Discover a Bastion Remenant"
+				type: "advancement"
+			}]
+			title: "Discover a &8Bastion Remnant"
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4AD689342C08D2B3"]
+			id: "123B8BF589E8D74F"
+			rewards: [{
+				count: 2
+				id: "3127326741A2D4B2"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Material used in the crafting of &cFleshy Eyes."
+			tasks: [{
+				entity: "minecraft:blaze"
+				icon: "minecraft:blaze_rod"
+				id: "3451B54311D8FB4E"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Defeat &eBlazes"
+			x: -7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4AD689342C08D2B3"]
+			description: ["The &eNether Star&r is used in the ritual to summon &cHerobrine.&r"]
+			id: "2610D61A597635B0"
+			rewards: [
+				{
+					count: 8
+					id: "2586310211AD217F"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2530813125566FE4"
+					item: "hexerei:milk_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Instead of &dSoul Sand&r, you must use &5Soul Stone &rfrom the Bygone Nether mod. Make sure there are no obstructions like snow or grass under the arms when spawning."
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "51F884D504F8D35B"
+				title: "Kill The Wither"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &8&lThe Wither"
+			x: -7.0d
+			y: 9.5d
+		}
+	]
+	title: " &eChapter II:&7 Biomancy Manipulation"
+}

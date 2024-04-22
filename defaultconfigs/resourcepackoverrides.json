@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "failed_reloads_per_session": 5,
+  "default_packs": [
+    "file/Ashen_Simple_Foliage_FN_0.2.zip",
+    "builtin/fleshy_sinful_totem",
+    "file/Scary_Music_Addon.zip",
+    "file/FNQuestingResources.zip",
+    "file/Pixelated_v1.3.2_EnhancedVisuals(nox_cgt).zip",
+    "file/Alagard Font.zip",
+    "black_icons",
+    "file/cassette music discs 1.19 - 1.19.2 v1.2.zip",
+    "file/Tarot Cards Colorized 1.19.2.zip",
+    "file/Aether Regenerated v1.1.2.zip",
+    "file/immersive 1.19.zip",
+    "file/boss-refreshed-v1.2.zip",
+    "file/Ashen_1.4.3_1.19.2.zip",
+    "builtin/default_ctm_resources"
+  ],
+  "default_overrides": {
+    "force_compatible": true
+  },
+  "pack_overrides": {
+    "quark:emote_resources": {
+      "hidden": true
+    },
+    "white_icons": {
+      "hidden": true
+    },
+    "classic_icons": {
+      "hidden": true
+    },
+    "builtin/aether_125_art": {
+      "hidden": true
+    },
+    "builtin/aether_b173_art": {
+      "hidden": true
+    },
+    "builtin/aether_colorblind": {
+      "hidden": true
+    },
+    "builtin/glass_pane_fix_resources": {
+      "hidden": true
+    },
+    "file/Quark Programmer Art.zip": {
+      "hidden": true
+    },
+    "programer_art": {
+      "hidden": true
+    },
+    "supplementaries:darker_ropes": {
+      "hidden": true
+    },
+    "Supplementaries Generated Pack": {
+      "hidden": true
+    },
+    "builtin/default_ctm_resources": {
+      "hidden": true
+    },
+    "file/map_atlases_modern_resource_pack+1.19.zip": {
+      "hidden": true
+    }
+  }
+}

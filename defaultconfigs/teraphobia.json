@@ -1,0 +1,56 @@
+{
+  "removed_entities": [
+    "minecraft:phantom",
+    "endofherobrine:villager",
+    "endofherobrine:sheep",
+    "endofherobrine:husk",
+    "endofherobrine:pig",
+    "endofherobrine:rabbit",
+    "tenebrous_lands:shiva",
+    "tenebrous_lands:abaddon",
+    "horror_elements_mod:predator",
+    "fear_the_dark:rock_worm",
+    "boh:siren_head",
+    "spore:inf_evoker"
+  ],
+  "dayonly_spawns_entity": [
+    "any_mod:example_entity"
+  ],
+  "nightonly_spawns_entity": [
+    "any_mod:example_entity"
+  ],
+  "dayonly_spawns_modwide": [
+    "some_mods_id"
+  ],
+  "nightonly_spawns_modwide": [
+    "born_in_chaos_v1",
+    "boh",
+    "mushys_fallen_monsters",
+    "undead_unleashed",
+    "endofherobrine",
+    "midnight_madness",
+    "tenebrous_lands",
+    "fear_the_dark"
+  ],
+  "mutationcraft_spawn_weight": 0.3,
+  "ryanzombies_spawn_weight": 0.4,
+  "skinandbones_spawn_weight": 1.0,
+  "borninchaos_spawn_weight": 0.4,
+  "theboxofhorrors_spawn_weight": 1.0,
+  "fallenmonsters_spawn_weight": 0.8,
+  "lunar_event_blacklist_entity": [],
+  "lunar_event_blacklist_modwide": [
+    "born_in_chaos_v1",
+    "boh",
+    "mushys_fallen_monsters",
+    "undead_unleashed",
+    "endofherobrine",
+    "spore",
+    "midnight_madness",
+    "tenebrous_lands",
+    "deep_dark_regrowth",
+    "fear_the_dark"
+  ],
+  "enable_creeper_cena": false,
+  "ender_dragon_max_health": 600.0
+}
