@@ -24,6 +24,7 @@
 	#Enable or disable all messages.
 	enabled = false
 	#set message to nothing to not send. ex: leaveMessage = ""
+	# put '%s' in any message for the player name
 	welcomeVR = "%s has joined with standing VR!"
 	welcomeNonVR = "%s has joined with Non-VR companion!"
 	welcomeSeated = "%s has joined with seated VR!"
@@ -33,6 +34,15 @@
 	KickViveOnly = "This server is configured for Vivecraft players only."
 	#The message to show kicked non VR players.
 	KickVROnly = "This server is configured for VR players only."
+	deathVR = "%s died in standing VR!"
+	deathNonVR = "%s died in Non-VR companion!"
+	deathSeated = "%s died in seated VR!"
+	deathVanilla = "%s died as a Muggle!"
+	#death by mob messages use '%1$s' for the player name and '%2$s' for the mob name
+	deathByMobVR = "%1$s was slain by %2$s in standing VR!"
+	deathByMobNonVR = "%1$s was slain by %2$s in Non-VR companion!"
+	deathByMobSeated = "%1$s was slain by %2$s in seated VR!"
+	deathByMobVanilla = "%1$s was slain by %2$s as a Muggle!"
 
 #Vanilla modifications for VR players
 [vrChanges]
@@ -122,4 +132,9 @@
 	#Allows players to switch between VR and NONVR on the fly.
 	# If disabled, they will be locked to the mode they joined with.
 	enabled = true
+
+#Other client settings to override
+[settingOverrides]
+	#Forces players to use the raw item position setting
+	thirdPersonItems = false
 

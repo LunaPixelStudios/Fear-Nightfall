@@ -337,8 +337,16 @@
 				eynelvoonge = true
 				skinwalker = true
 				shiva = true
+				stalker = true
 
 			[light_sources.settings.entities.midnight_madness]
 				fallen_king = true
 				necromancer = true
+
+			[light_sources.settings.entities.mushys_fallen_monsters]
+				endercuttle = true
+
+			[light_sources.settings.entities.cotw]
+				reaper = true
+				pietor = true
 

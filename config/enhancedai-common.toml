@@ -398,13 +398,13 @@
 		"Walking Fuse Chance" = 0.1
 		#Percentage chance for a Creeper to ignore walls while targeting a player. This means that a creeper will be able to explode if it's in the correct range from a player even if there's a wall between.
 		#Range: 0.0 ~ 1.0
-		"Ignore Walls Chance" = 0.1
+		"Ignore Walls Chance" = 0.050
 		#Launching creepers will try ignite and throw themselves at the player.
 		#Range: 0.0 ~ 1.0
-		"Launch Chance" = 0.05
+		"Launch Chance" = 0.0005
 		#Breaching creepers will try to open an hole in the wall to let mobs in.
 		#Range: 0.0 ~ 1.0
-		"Breach Chance" = 0.075
+		"Breach Chance" = 0.035
 		#If true creepers will ignite if damaged by an explosion.
 		"TNT Like" = false
 

@@ -16,6 +16,8 @@
 	#Default true
 	"Should some infected have higher thinking such as opening doors or trying to break certain blocks?" = true
 	"Hunger in ticks" = 6000
+	#Default true
+	"Should certain mobs wear costumes on occasions?" = true
 
 [TargetingTasks]
 	#Default true
@@ -47,6 +49,7 @@
 		"Evolution Timer in seconds" = 1000
 		#Default 1
 		"Minimum amount of kills to start the evolution" = 3
+		"Infected Witch Evolutions" = ["spore:volatile"]
 
 	["Mob Evolutions and Infection System".Infections]
 		#Default true
@@ -145,7 +148,7 @@
 		#Default 5
 		#Range: > 1
 		"Sets Sieger maximum hardness for a block to be broken" = 5
-		#Default values: minecraft:speed|600|0 ,minecraft:mycelium|600|0 ,minecraft:resistance|600|1
+		#Default values: minecraft:speed|600|0 ,minecraft:strength|600|0 ,minecraft:resistance|600|1
 		"Sieger buffs" = ["minecraft:speed|600|0", "minecraft:strength|600|0", "minecraft:resistance|600|1"]
 		#Default values: minecraft:weakness|600|1 ,spore:mycelium|600|1 ,minecraft:slowness|600|1
 		"Sieger debuffs" = ["minecraft:weakness|600|1", "spore:mycelium_ef|600|1", "minecraft:slowness|600|1"]
@@ -224,6 +227,7 @@
 		#Range: 0.1 ~ 1.7976931348623157E308
 		"Sets The chance for a raid to start" = 1.0
 		"Sentient Mobs targeted by the hivemind" = ["minecraft:pillager", "guardvillagers:guard", "minecraft:vindicator", "recruits:recruit", "recruits:bowman", "recruits:recruit_shieldman", "recruits:nomad", "recruits:horseman", "roamers:roamer"]
+		"Mobs that the proto can summon to defend itself" = ["spore:mound", "spore:vigil", "spore:umarmed"]
 
 	[Mobs.Howler]
 		#Default 32
@@ -288,6 +292,8 @@
 		"Should scent summon entities?" = true
 		#Default 300
 		"The average amount of time it will take for a mob to be summoned" = 300
+		#Default 5
+		"The average amount of scents that can spawn in an area" = 5
 
 	[Mobs."Infected Villager"]
 		#Default 20
@@ -457,6 +463,76 @@
 		"Explosion Radius" = 2
 		#Default true
 		"Should explosion break blocks ?" = true
+
+	[Mobs.Umarmed]
+		#Default 70
+		#Range: 1.0 ~ 1.7976931348623157E308
+		"Sets Umarmed Max health" = 70.0
+		#Default 8
+		#Range: 1.0 ~ 1.7976931348623157E308
+		"Sets Umarmed Damage" = 8.0
+		#Default 6
+		#Range: 1.0 ~ 1.7976931348623157E308
+		"Sets Umarmed Armor" = 6.0
+
+	[Mobs.GazenBreacher]
+		#Default 350
+		#Range: 1.0 ~ 1.7976931348623157E308
+		"Sets GazenBreacher Max health" = 350.0
+		#Default 20
+		#Range: 1.0 ~ 1.7976931348623157E308
+		"Sets GazenBreacher Damage" = 20.0
+		#Default 15
+		#Range: 1.0 ~ 1.7976931348623157E308
+		"Sets GazenBreacher Armor" = 15.0
+		#Default 100
+		#Range: 1.0 ~ 1.7976931348623157E308
+		"Sets GazenBreacher Damage Cap , set to 0 to disable" = 100.0
+		#Default 5
+		#Range: > 1
+		"Sets GazenBreacher maximum hardness for a block to be broken" = 5
+		#Default 10
+		#Range: 1.0 ~ 1.7976931348623157E308
+		"Sets GazenBreacher bile damage" = 10.0
+		#Default values: minecraft:speed|600|0 ,minecraft:conduit_power|600|0 ,minecraft:resistance|600|1
+		"Sieger buffs" = ["minecraft:speed|600|0", "minecraft:conduit_power|600|0", "minecraft:resistance|600|1"]
+		#Default values: minecraft:darkness|600|0 ,spore:mycelium|600|1 ,minecraft:hunger|600|1
+		"Sieger debuffs" = ["minecraft:darkness|600|0", "spore:mycelium_ef|600|1", "minecraft:hunger|600|1"]
+
+	[Mobs."Infected Hazmat"]
+		#Default 20
+		#Range: 1.0 ~ 1.7976931348623157E308
+		"Sets Infected Hazmat Max health" = 20.0
+		#Default 6
+		#Range: 1.0 ~ 1.7976931348623157E308
+		"Sets Infected Hazmat Damage" = 6.0
+		#Default 1
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Sets Infected Hazmat Armor" = 6.0
+
+	[Mobs."Infected Husk"]
+		#Default 21
+		#Range: 1.0 ~ 1.7976931348623157E308
+		"Sets Infected Husk Max health" = 21.0
+		#Default 6
+		#Range: 1.0 ~ 1.7976931348623157E308
+		"Sets Infected Husk Damage" = 6.0
+		#Default 3
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Sets Infected Husk Armor" = 3.0
+
+	[Mobs."Volatile "]
+		#Default 60
+		#Range: 1.0 ~ 1.7976931348623157E308
+		"Sets Volatile Max health" = 60.0
+		#Default 10
+		#Range: 1.0 ~ 1.7976931348623157E308
+		"Sets Volatile Damage" = 10.0
+		#Default 4
+		#Range: 1.0 ~ 1.7976931348623157E308
+		"Sets Volatile Armor" = 4.0
+		"Buffs the Volatile might get when hurt" = ["minecraft:regeneration", "minecraft:speed", "minecraft:resistance", "minecraft:fire_resistance"]
+		"Buffs the Volatile might give to its target" = ["minecraft:poison", "minecraft:weakness", "minecraft:hunger", "spore:marker"]
 
 [Spawns]
 	#Default false

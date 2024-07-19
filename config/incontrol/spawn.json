@@ -90,7 +90,7 @@
     {
         "dimension": "minecraft:overworld",
         "mod": "boh",
-        "mincount": 5,
+        "mincount": 3,
         "result": "allow"
     },
     {
@@ -102,7 +102,7 @@
     {
         "dimension": "minecraft:overworld",
         "mod": "spore",
-        "mincount": 5,
+        "mincount": 2,
         "result": "allow"
     },
     {
@@ -126,7 +126,7 @@
     {
         "dimension": "minecraft:overworld",
         "mod": "mushys_fallen_monsters",
-        "mincount": 5,
+        "mincount": 2,
         "result": "allow"
     },
     {
@@ -150,7 +150,7 @@
     {
         "dimension": "minecraft:nether",
         "mod": "boh",
-        "mincount": 5,
+        "mincount": 1,
         "result": "allow"
     },
     {
@@ -168,7 +168,7 @@
     {
         "dimension": "minecraft:nether",
         "mod": "spore",
-        "mincount": 5,
+        "mincount": 2,
         "result": "allow"
     },
     {
