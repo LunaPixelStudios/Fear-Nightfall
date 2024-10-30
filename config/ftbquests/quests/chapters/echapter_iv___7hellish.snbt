@@ -1,0 +1,429 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "echapter_iv___7hellish"
+	group: "173C7A3FFE3DDF09"
+	icon: "minecraft:blaze_powder"
+	id: "6E6A0DBCE290AF84"
+	images: [
+		{
+			height: 1.5d
+			image: "teraphobia:item/chaos_essence"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0491071428571388d
+			y: -5.5d
+		}
+		{
+			height: 1.5d
+			image: "teraphobia:item/chaos_essence"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.754464285714292d
+			y: -5.651785714285715d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:textures/map_marker/nether_portal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.377232142857153d
+			y: -1.1964285714285694d
+		}
+		{
+			height: 1.0d
+			image: "incendium:item/piglin_sword"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.6629464285714377d
+			y: -4.160714285714285d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/netherite_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.7343750000000142d
+			y: -2.4464285714285694d
+		}
+		{
+			height: 1.8d
+			image: "eeeabsmobs:textures/particle/crimson_eye_4.png"
+			rotation: 0.0d
+			width: 1.8d
+			x: -1.627232142857146d
+			y: -3.375d
+		}
+		{
+			height: 1.0d
+			image: "ancientcurses:item/golden_amulet"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.484375000000007d
+			y: -4.3035714285714235d
+		}
+		{
+			height: 1.0d
+			image: "butcher:item/wither_bone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5915178571428683d
+			y: -2.482142857142854d
+		}
+		{
+			height: 1.0d
+			image: "antique_atlas:textures/atlas/marker/custom/pickaxe_accent.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.5d
+			y: -4.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["062F347ED962BB37"]
+			description: [
+				"&7With the dark arts of the flesh now mastered, it's time to travel to another realm. The hellish lands of The Nether."
+				""
+				"&7This land is ruled by two Great Chaos Beings."
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_marker/nether_portal.png"
+				}
+			}
+			id: "1C91BFB66532A969"
+			shape: "diamond"
+			subtitle: "&8[Click to read instructions]"
+			tasks: [{
+				id: "1E1C71A337135072"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "&eTraveling to the Hellish Lands"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["457E13BDD6D9EEA6"]
+			description: ["&7Found on its Bloody Altar, this warlock uses chaos to control the power of the undead, and can summon and sacrifice its minions using the chaotic magic it controls."]
+			id: "5D1A2698AE2F7863"
+			rewards: [{
+				id: "79B5102F9EDA5E81"
+				item: "teraphobia:chaos_essence"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&eNether's second Greater Chaos Being"
+			tasks: [{
+				entity: "eeeabsmobs:corpse_warlock"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "born_in_chaos_v1:item/exorcism"
+					}
+				}
+				id: "17CFF639E29D1C9C"
+				title: "Defeat the &4Corpse Warlock"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.75d
+			y: -5.25d
+		}
+		{
+			dependencies: [
+				"519D20AC93E5B1D5"
+				"53056FD679C18A8C"
+				"413F60DD4B22B88F"
+			]
+			id: "4F138512532143D6"
+			rewards: [{
+				id: "1D96B3D1952A620C"
+				item: "teraphobia:chaos_essence"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&eNether's first Greater Chaos Being"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "minecraft:textures/mob_effect/wither.png"
+					}
+				}
+				id: "3679A811C66A4B88"
+				title: "Kill the Wither"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cThe Wither"
+			x: 1.0491071428571388d
+			y: -5.142857142857139d
+		}
+		{
+			dependencies: ["7AFC30EC53A7A733"]
+			id: "53056FD679C18A8C"
+			shape: "diamond"
+			subtitle: "&7Obtained from Wither Skeletons"
+			tasks: [{
+				count: 3L
+				id: "243069B9FBE25D8D"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			title: "&eThird Skull"
+			x: 2.5d
+			y: -4.232142857142854d
+		}
+		{
+			dependencies: ["5084F7591639039F"]
+			id: "519D20AC93E5B1D5"
+			shape: "diamond"
+			subtitle: "&7Obtained from Wither Skeletons"
+			tasks: [{
+				count: 2L
+				id: "1DDCCA69F6222104"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			title: "&eSecond Skull"
+			x: 1.5d
+			y: -3.732142857142854d
+		}
+		{
+			dependencies: ["2B7350F17D7FA6CC"]
+			id: "413F60DD4B22B88F"
+			shape: "diamond"
+			subtitle: "&7Obtained from Wither Skeletons"
+			tasks: [{
+				id: "126577856669C220"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			title: "&eFirst Skull"
+			x: 0.5d
+			y: -3.232142857142854d
+		}
+		{
+			dependencies: ["40C8753FA7DF076E"]
+			id: "5084F7591639039F"
+			shape: "diamond"
+			tasks: [{
+				count: 2L
+				id: "0ED000B53EE85D26"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			title: "&eSecond Soul Sand"
+			x: 1.5d
+			y: -2.732142857142854d
+		}
+		{
+			dependencies: ["40C8753FA7DF076E"]
+			id: "2B7350F17D7FA6CC"
+			shape: "diamond"
+			tasks: [{
+				count: 3L
+				id: "63E92065900B0ECE"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			title: "&eThird Soul Sand"
+			x: 0.5d
+			y: -2.232142857142854d
+		}
+		{
+			dependencies: ["40C8753FA7DF076E"]
+			id: "7AFC30EC53A7A733"
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "12F132AFE244EA4E"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			title: "&eFourth Soul Sand"
+			x: 2.5d
+			y: -3.232142857142854d
+		}
+		{
+			dependencies: ["1F245553872F8E06"]
+			id: "40C8753FA7DF076E"
+			shape: "diamond"
+			tasks: [{
+				id: "4328556F1ED70D57"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			title: "&eFirst Soul Sand"
+			x: 1.5d
+			y: -1.732142857142854d
+		}
+		{
+			dependencies: ["1F245553872F8E06"]
+			description: ["&7You can Bio-Forge the Eye of the Bloody Altar, to find the nearest altar in the nether."]
+			id: "457E13BDD6D9EEA6"
+			shape: "diamond"
+			subtitle: "&8[Click to read instructions]"
+			tasks: [{
+				id: "558CE272A1592856"
+				item: "eeeabsmobs:bloody_altar_eye"
+				type: "item"
+			}]
+			title: "&eFinding The Altar"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"38FBD40FBA6AAC88"
+				"02768BBB77B58EF0"
+			]
+			description: ["&7Using the Mark of Chaos on the obsidian portal can open the gateway to the Hellish Lands; The Nether."]
+			id: "1F245553872F8E06"
+			rewards: [{
+				id: "6C9A5A54C97EA1D2"
+				type: "xp"
+				xp: 350
+			}]
+			shape: "square"
+			subtitle: "&8[Click to read instructions]"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "4CEEFC376CEADEAE"
+				title: "Enter The Nether"
+				type: "dimension"
+			}]
+			title: "&eEntering the Hellish Lands"
+			x: -2.377232142857153d
+			y: -0.5178571428571388d
+		}
+		{
+			dependencies: ["1C91BFB66532A969"]
+			description: [
+				"&7This igneous rock known as Obsidian has a direct link with the depths of the Hellish Lands, also known as the Nether."
+				""
+				"&7It's the base for its portal frame."
+				""
+				"{image:supplementaries:textures/map_marker/ruined_portal.png width:18 height:18 align:center}"
+			]
+			id: "02768BBB77B58EF0"
+			shape: "diamond"
+			subtitle: "&8[Click to read instructions]"
+			tasks: [{
+				count: 10L
+				id: "60F3186868180C4A"
+				item: "minecraft:obsidian"
+				title: "Get 10x Obsidian"
+				type: "item"
+			}]
+			title: "&eHellish Rock"
+			x: -1.9285714285714235d
+			y: 1.6785714285714306d
+		}
+		{
+			dependencies: ["1C91BFB66532A969"]
+			description: [
+				"&7A manuscript, also known as the recipe for the Mark of Chaos, can be found buried within Desert Pyramids and Ancient Cities. "
+				""
+				"&7This manuscript allows to harness the horrors of chaos to open gateways to other dimensions."
+			]
+			id: "2E8C309C446A80F3"
+			shape: "diamond"
+			subtitle: "&8[Click to read instructions]"
+			tasks: [{
+				id: "51694B2DCE2B9458"
+				item: "teraphobia:mark_of_chaos_recipe"
+				type: "item"
+			}]
+			title: "&eThe Manuscript of Chaos"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E8C309C446A80F3"]
+			description: [
+				"&7This mark, Bio-Forged out of terrible things, is the key to access other dimensions such as the Nether."
+				""
+				"&7It works just like the Flint and Steel, but is infused with pure chaos that allows it to open gateways to other places."
+				""
+				"{image:teraphobia:textures/quests/recipe_mark_of_chaos.png width:170 height:125 align:center}"
+			]
+			id: "38FBD40FBA6AAC88"
+			rewards: [{
+				id: "5AAA9834B9E395AD"
+				item: "biomancy:living_flesh"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "&8[Click to read instructions]"
+			tasks: [{
+				id: "4883AF1DA24DB6AD"
+				item: {
+					Count: 1
+					id: "teraphobia:mark_of_chaos"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&eThe Mark of Chaos"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4F138512532143D6"
+				"5D1A2698AE2F7863"
+			]
+			description: ["&7The two chaotic beings of the Hellish Lands have fallen. But there are still other dimensions affected by chaos."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_marker/end_crystal.png"
+				}
+			}
+			id: "55A64B9A298D8523"
+			rewards: [{
+				id: "5EE6E76F8C8A1941"
+				item: {
+					Count: 1
+					id: "tarotcards:the_devil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&8[Click to read instructions]"
+			tasks: [
+				{
+					id: "0196F0C0DFBB0159"
+					title: "Continue"
+					type: "checkmark"
+				}
+				{
+					id: "74BDBDF12FE48368"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "&eTo the Abyss"
+			x: -1.5d
+			y: -6.5d
+		}
+	]
+	title: " &eChapter IV:   &7Hellish Lands"
+}

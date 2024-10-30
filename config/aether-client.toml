@@ -45,9 +45,11 @@
 	#The y-coordinate of the accessories button in the accessories menu
 	"Button y-coordinate in accessories menu" = 68
 	#The x-coordinate of the perks button layout when in the pause menu
-	"Layout x-coordinate in pause menu" = -126
+	"Layout x-coordinate in pause menu" = -116
 	#The y-coordinate of the perks button layout when in the pause menu
 	"Layout y-coordinate in pause menu" = 0
+	#Enables the overlay at the top of the screen for the Hammer of Kingbdogz' cooldown
+	"Enables Hammer of Kingbdogz' cooldown overlay" = true
 
 [Audio]
 	#Sets the minimum delay for the Aether's music manager to use if needing to reset the song delay outside the Aether
@@ -66,4 +68,6 @@
 [Miscellaneous]
 	#Disables the Cumulus menu selection screen button on launch
 	"Disable Cumulus button" = false
+	#Enables a direct join button for the official server
+	"Enables server button" = false
 

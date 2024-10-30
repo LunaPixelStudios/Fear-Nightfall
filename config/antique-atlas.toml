@@ -1,0 +1,56 @@
+# Whether to display the map in full-screen
+# The background is slightly less stylish, but more tiles are shown at once
+# default: true
+fullscreen = true
+# Whether to keep scale after closing the map
+# default: false
+keepZoom = false
+# Whether to keep offset after closing the map
+# default: false
+keepOffset = false
+# How to depict player death locations.
+# options: CAUSE, GRAVE, ITEMS, DIED, EUPHEMISMS
+# default: EUPHEMISMS
+graveStyle = "EUPHEMISMS"
+# The maximum number of chunks to represent as a tile, as a power of 2
+# Effectively the 'minimum zoom'
+# 0: 1x1 chunk = 1 tile | 6: 64x64 chunks = 1 tile
+# range: 0 - 6
+# default: 5
+maxTileChunks = 5
+# The maximum size to render a tile at, as a power of 2 multiplier
+# Effectively the 'maximum zoom'
+# 0: 1 tile = 16x16 | 3: 1 tile = 128x128
+# range: 0 - 3
+# default: 1
+maxTilePixels = 1
+# The effective GUI scale for tiles and markers - independent of the overall GUI scale.
+# 0 will match your GUI scale - pixels will be the same size as the background & buttons
+# -1 will use half your GUI scale, rounding up.
+# -2 will use half your GUI scale, rounding down.
+# range: -2 - 10
+# default: 0
+mapScale = 0
+# The maximum number of chunks to load onto the map per tick after entering a world
+# default: 100
+chunkTickLimit = 100
+# How to handle biomes that aren't in any minecraft, conventional, or forge biome tags
+# options: TEST, MISSING, CRASH
+# default: MISSING
+fallbackFailHandling = "MISSING"
+# Whether to show debug information about hovered tiles and markers
+# default: false
+debugRender = false
+
+[structureMarkers]
+	"minecraft:start/bastion_remnant" = true
+	"minecraft:type/ocean_monument" = true
+	"minecraft:type/woodland_mansion" = true
+	"minecraft:start/village_taiga" = true
+	"minecraft:start/village_desert" = true
+	"minecraft:type/end_city" = false
+	"minecraft:tag/village" = true
+	"minecraft:start/village_snowy" = true
+	"minecraft:start/village_savanna" = true
+	"minecraft:start/village_plains" = true
+

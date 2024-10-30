@@ -17,14 +17,16 @@
 	#Range: > -2147483648
 	frequencyOfWanderingHordesPerPlayer = 30
 	#How loud sounds should be when you are alerted that a mob is coming to investigate an area near you
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	soundVolumeInvestigate = 0.5
 	#How loud sounds should be for a mob targetting you
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	soundVolumeAlertTarget = 0.5
-	#A developer of this mod has defined this config option with a blank comment, which causes obscure bugs in Forge's config system and will cause a crash in the future. Please report this to the mod author.
+	#Enhanced mobs will make a sound when they target you
 	soundAlerts = true
-	#A developer of this mod has defined this config option with a blank comment, which causes obscure bugs in Forge's config system and will cause a crash in the future. Please report this to the mod author.
+	#Any hostile mob that targets you will make a sound, even if not enhanced
+	soundAlertsForAllAttackingMobs = false
+	#Enhanced mobs will make a sound when they are investigating a sense near you
 	soundInvestigates = true
 	#Uses a different kind of mob alert noise, might break immersion a bit ;)
 	soundUseAlternateAlertNoise = false

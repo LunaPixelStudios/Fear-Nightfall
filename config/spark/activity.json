@@ -1,0 +1,67 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "ElocinDev",
+      "uniqueId": "e19c70bf-6b43-4345-acce-1891f6b71aae"
+    },
+    "time": 1730187319669,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/XNPQOoAfSl"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ElocinDev",
+      "uniqueId": "e19c70bf-6b43-4345-acce-1891f6b71aae"
+    },
+    "time": 1730092164359,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/eU41rWVniG"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ElocinDev",
+      "uniqueId": "e19c70bf-6b43-4345-acce-1891f6b71aae"
+    },
+    "time": 1727947814409,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/8tCUUZEpQr"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ElocinDev",
+      "uniqueId": "e19c70bf-6b43-4345-acce-1891f6b71aae"
+    },
+    "time": 1727939902262,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/BrfjubWhiw"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "SHXRKIEgg",
+      "uniqueId": "5b9d020f-5865-4cab-a0d0-57996265789e"
+    },
+    "time": 1727835778557,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/dzejpNGb5m"
+    }
+  }
+]

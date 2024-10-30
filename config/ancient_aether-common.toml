@@ -1,0 +1,13 @@
+
+[Worldgen]
+	#The weighting of Ancient Aether Regions in the Aether
+	"Ancient Aether Region Weight" = 30
+
+[Gameplay]
+	#The duration of how long Wind Blows fired by Wind Blowers last in ticks
+	"Wind Blow Duration" = 50
+
+[Experimental]
+	#Enables features of the mod that are work in progress
+	"Experimental Features" = false
+

@@ -1,6 +1,12 @@
 
 #Client-only settings
 [client]
+	#Whether the backpack icon should be visible in player's inventory
+	showBackpackIconInInventory = true
+	#Sends a message to the player on death with backpack coordinates
+	sendBackpackCoordinatesMessage = true
+	#Enables legacy GUI (Blue slots for storage, brown for crafting and green for tools)
+	enableLegacyGui = false
 	#Enables tool cycling via keybind (Default Z) + scroll combination, while backpack is worn
 	enableToolCycling = true
 	#Allows tool cycling using keybinding only (Default Z)
@@ -9,10 +15,6 @@
 	obtainTips = true
 	#Render tools in tool slots on the backpack, while worn
 	renderTools = true
-	#Render backpack if elytra is present
-	renderBackpackWithElytra = true
-	#Disable backpack rendering
-	disableBackpackRender = false
 
 	#The position of the Overlay on the screen
 	[client.overlay]

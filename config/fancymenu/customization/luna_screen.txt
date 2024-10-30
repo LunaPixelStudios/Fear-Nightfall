@@ -1,57 +1,32 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
-  identifier = net.minecraft.client.gui.screens.ShareToLanScreen
-  randomgroup = 1
-  renderorder = foreground
+layout-meta {
+  identifier = share_to_lan_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1725499659443
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:766fb143-6cbf-40a0-a6c2-325e5cc420c4-1725499659443] = [groups:][instances:]
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  identifier = %id=345100%
-  orientation = mid-centered
-  x = 3
-  action = movebutton
-  y = -70
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
 }
 
-customization {
-  identifier = %id=505100%
-  orientation = mid-centered
-  x = -151
-  action = movebutton
-  y = -70
-}
-
-customization {
-  identifier = %id=345972%
-  orientation = mid-centered
-  x = 3
-  action = movebutton
-  y = 40
-}
-
-customization {
-  identifier = %id=345972%
-  action = setbuttonlabel
-  value = Share World
-}
-
-customization {
-  identifier = %id=505972%
-  orientation = mid-centered
-  x = -151
-  action = movebutton
-  y = 40
-}
-
-customization {
+element {
   orientation = mid-centered
   enable_scrolling = true
   shadow = true
@@ -69,19 +44,164 @@ customization {
   alignment = centered
   base_color = f08181
   height = 63
+  element_type = fancymenu_customization_item_text
 }
 
-customization {
-  orientation = mid-centered
-  loopbackgroundanimations = true
+element {
+  button_element_executable_block_identifier = 7ec1c6f8-b8be-490d-94f5-c405e22c9b1e-1725499659443
+  [executable_action_instance:a0d4e1d7-f2f1-4dfa-aebd-c7079179f81f-1725499659443][action_type:openlink] = https://bisecthosting.com/LUNAPIXEL
+  [executable_block:7ec1c6f8-b8be-490d-94f5-c405e22c9b1e-1725499659443][type:generic] = [executables:a0d4e1d7-f2f1-4dfa-aebd-c7079179f81f-1725499659443;]
   restartbackgroundanimations = true
-  buttonaction = openlink;https://bisecthosting.com/LUNAPIXEL%btnaction_splitter_fm%
-  x = -93
-  width = 188
-  action = addbutton
-  actionid = 6b9620e1-3a16-449d-93ab-e44940d57dc41692901824606
-  y = 17
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
   label = Get 25% OFF with Bisect Hosting
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 6b9620e1-3a16-449d-93ab-e44940d57dc41692901824606
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -93
+  y = 17
+  width = 188
   height = 19
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = e56d7f37-628e-4990-b931-457443c41ebe-1725499659443
+  [loading_requirement_container_meta:e56d7f37-628e-4990-b931-457443c41ebe-1725499659443] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = b473e26c-f14f-47a2-9b87-30e55a18e551-1725499659443
+  [executable_block:b473e26c-f14f-47a2-9b87-30e55a18e551-1725499659443][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 345100
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = 3
+  y = -70
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 5acc826a-1b55-477b-9d6b-e3e324a1923e-1725499659443
+  [loading_requirement_container_meta:5acc826a-1b55-477b-9d6b-e3e324a1923e-1725499659443] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 211f1893-5905-4593-b36b-430ba37397eb-1725499659443
+  [executable_block:211f1893-5905-4593-b36b-430ba37397eb-1725499659443][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 505972
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -151
+  y = 40
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = e88ac750-a531-40de-bd51-68ac9399c561-1725499659443
+  [loading_requirement_container_meta:e88ac750-a531-40de-bd51-68ac9399c561-1725499659443] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = e7db911f-23c6-4cc6-82a5-56c34470b17f-1725499659443
+  [executable_block:e7db911f-23c6-4cc6-82a5-56c34470b17f-1725499659443][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 505100
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -151
+  y = -70
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = aafa48b6-3c31-4428-aaf4-afc8f82975d8-1725499659443
+  [loading_requirement_container_meta:aafa48b6-3c31-4428-aaf4-afc8f82975d8-1725499659443] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = c038549c-8ede-46fc-a605-45bff2303d9f-1725499659443
+  [executable_block:c038549c-8ede-46fc-a605-45bff2303d9f-1725499659443][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Share World
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 345972
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = 3
+  y = 40
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = baf10430-9231-492f-a299-a4902a2fde1d-1725499659443
+  [loading_requirement_container_meta:baf10430-9231-492f-a299-a4902a2fde1d-1725499659443] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
 }
 

@@ -1,0 +1,23 @@
+
+[waves]
+	#Default 2500
+	"Sets points required to enter wave 1" = 2500
+	#Default 10000
+	"Sets points required to enter wave 2" = 10000
+	#Default 100000
+	"Sets points required to enter wave 3" = 100000
+	#Default 1000000
+	"Sets points required to enter wave 4" = 1000000
+	#Default 2500000
+	"Sets points required to enter wave 5" = 2500000
+
+["Main Hand Items for the Player Form"]
+	"Main Hand Slot for the Player Form" = ["minecraft:iron_pickaxe|35", "minecraft:stone_pickaxe|25", "minecraft:golden_pickaxe|15"]
+
+["Device Points"]
+	#Default 1000
+	"Sets points that will be added / subtracted by the devices" = 1000
+
+["Player Form Names"]
+	"Player Form Possible Names" = ["ASEStefan", "Nightfox", "Kronoz", "DAKOTA", "JC", "Korben", "Beta", "Renovated", "TeamAbyssal", "XEliteXCraftersX", "TqLxQuanZ", "Ian", "Andy", "Spaghetti", "AnnoyingSrpFan123", "YOASOBI", "Quattro", "NotMilkyCat", "Daralexen", "Chickon98", "ChingChilly", "wRatte", "ivan", "PHO3N1X", "Iwasawa Masami", "kevin", "WinVic", "Wikipedia", "Mr.Lambert", "Dr.Pilot", "Harbinger", "LukeUCraft", "purpleskittle", "Kanade Tachibana", "Adrian", "Isha21", "WitherBean", "Dr.Korpus", "Dr.Simon", "Dr.Robert", "MarioThePlumber", "Lelouch VI Britannia", "Light Yagami", "Mutationcraft", "yorkmousemodz", "Mattias", "entiral", "Chad", "DopeMan", "FlipperIvy", "MR138", "Sen", "SangheiliMan", "Hinata Hideki", "Otonashi Yuzuru", "Yui", "Nakamura Yuri", "existereoracle", "LiSA", "Evan Wingerter", "TechnoTheProtogen", "ScouT2Illustrates", "Jamsteo", "Joe Goldberg", "boodahbob", "Noxus", "FLOW", "C.C", "Kururugi Suzaku", "Tomioka Giyuu", "Guts", "Griffith", "C++", "C#", "Java", "JavaScript", "troubled boys", "Dr.Cal", "Covenant", "Forerunner", "Keyes", "CortanaDude", "Spartan", "Elite", "chadtheradlad", "Tomoya Okazaki", "Masterchief", "John"]
+

@@ -16,9 +16,9 @@
 		canBeTrue = true
 
 	[permissions.sneakBehavior]
+		canBeNone = true
 		canBeInvertChopping = true
 		canBeInvertFelling = true
-		canBeNone = true
 
 	[permissions.treeMustHaveLeaves]
 		canBeFalse = true
@@ -31,6 +31,8 @@
 [general]
 	#If false, log items will be destroyed when chopping
 	dropLootForChoppedBlocks = true
+	#If true, chopped logs will drop a log item immediately instead of waiting for the tree to be felled, restoring legacy behavior. Does nothing if dropLootForChoppedBlocks is false
+	dropLootOnFirstChop = false
 
 [treeDetection]
 	#Maximum number of log blocks that can be detected to belong to one tree
@@ -55,7 +57,7 @@
 		# - You can also specify a mod: "treemod:.*_log"
 		# - To also match stripped versions: ".*_log(_stripped)?", where ? means that the text in the parenthesis is optional
 		#For more help, see https://github.com/hammertater/treechop/wiki/Configuration
-		blocks = ["#treechop:choppables", "#minecraft:logs", "#forge:mushroom_stems"]
+		blocks = ["#treechop:choppables", "#minecraft:logs"]
 		#Blocks that should never be chopped, even if included in the list above
 		#Specify using registry names (mod:block), tags (#mod:tag), and namespaces (@mod)
 		exceptions = ["minecraft:bamboo", "#dynamictrees:branches", "dynamictrees:trunk_shell"]
@@ -63,7 +65,7 @@
 	[treeDetection.leaves]
 		#Blocks that should be considered leaves
 		#Specify using registry names (mod:block), tags (#mod:tag), and namespaces (@mod)
-		blocks = ["#treechop:leaves_like", "#minecraft:leaves", "#minecraft:wart_blocks", "#forge:mushroom_caps", "minecraft:shroomlight"]
+		blocks = ["#treechop:leaves_like", "#minecraft:leaves", "pamhc2trees:pam[a-z]+"]
 		#Blocks that should never be considered leaves, even if included in the list above
 		#Specify using registry names (mod:block), tags (#mod:tag), and namespaces (@mod)
 		exceptions = []
@@ -111,7 +113,10 @@
 	terraformers = true
 	#https://github.com/AtomicStryker/atomicstrykers-minecraft-mods
 	#Fixes bad behavior
-	multiMine = true
+	multiMine = false
+	#https://www.curseforge.com/minecraft/mc-mods/apotheosis
+	#Adds compatibility with the "chainsaw" enchantment.
+	apotheosis = true
 
 	[compatibility.general]
 		#Only chop when using the correct tool for drops, if any (does nothing in vanilla, but some mods add tool requirements to logs
@@ -138,6 +143,27 @@
 			#Felling only matters if chopping is enabled; probably best to leave this on
 			fellingEnabled = true
 			treesMustHaveLeaves = true
+
+	#A set of alternate tree detection strategies for oddly shaped trees
+	#For block lists, specify using registry names (mod:block), tags (#mod:tag), namespaces (@mod), and Java-style regular expressions
+	#Regular expressions must match the whole resource name, including the colon. Some simple examples are:
+	# - To match any block ending in _log: ".*_log", where .* is a wildcard
+	# - You can also specify a mod: "treemod:.*_log"
+	# - To also match stripped versions: ".*_log(_stripped)?", where ? means that the text in the parenthesis is optional
+	#For more help, see https://github.com/hammertater/treechop/wiki/Configuration
+	[compatibility.trees]
+
+		[compatibility.trees.hugeMushrooms]
+			logs = ["#forge:mushroom_stems"]
+			leaves = ["#forge:mushroom_caps"]
+
+		[compatibility.trees.hugeFungi]
+			logs = ["#minecraft:crimson_stems", "#minecraft:warped_stems"]
+			leaves = ["#minecraft:wart_blocks", "minecraft:shroomlight"]
+
+		[compatibility.trees.problematicLeavesTrees]
+			logs = ["tropicraft:.*_log(_.*)?", "mysticbiomes:.*_log", "betternether:.*_bark", "betternether:.*_log"]
+			leaves = ["tropicraft:.*_leaves(_.*)?", "betternether:.*_leaves"]
 
 	[compatibility.silentgear]
 		#https://www.curseforge.com/minecraft/mc-mods/tinkers-construct
@@ -166,25 +192,4 @@
 	[compatibility.API]
 		#Log information about TreeChop API usage. May be useful for debugging mod compatibility issues.
 		verbose = false
-
-	#A set of alternate tree detection strategies for oddly shaped trees
-	#For block lists, specify using registry names (mod:block), tags (#mod:tag), namespaces (@mod), and Java-style regular expressions
-	#Regular expressions must match the whole resource name, including the colon. Some simple examples are:
-	# - To match any block ending in _log: ".*_log", where .* is a wildcard
-	# - You can also specify a mod: "treemod:.*_log"
-	# - To also match stripped versions: ".*_log(_stripped)?", where ? means that the text in the parenthesis is optional
-	#For more help, see https://github.com/hammertater/treechop/wiki/Configuration
-	[compatibility.trees]
-
-		[compatibility.trees.hugeMushrooms]
-			logs = ["#forge:mushroom_stems"]
-			leaves = ["#forge:mushroom_caps"]
-
-		[compatibility.trees.hugeFungi]
-			logs = ["#minecraft:crimson_stems", "#minecraft:warped_stems"]
-			leaves = ["#minecraft:wart_blocks", "minecraft:shroomlight"]
-
-		[compatibility.trees.problematicLeavesTrees]
-			logs = ["tropicraft:.*_log(_.*)?", "mysticbiomes:.*_log", "betternether:.*_bark", "betternether:.*_log"]
-			leaves = ["tropicraft:.*_leaves(_.*)?", "betternether:.*_leaves"]
 

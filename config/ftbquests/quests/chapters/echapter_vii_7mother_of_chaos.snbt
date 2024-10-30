@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "echapter_vii_7mother_of_chaos"
+	group: "173C7A3FFE3DDF09"
+	id: "226A42EE86B35EBF"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: " &eChapter VII:  &7Mother of Chaos"
+}

@@ -1,0 +1,28 @@
+#Disable obtaining the thermal tuning enchantment from normal means #default false
+disable_thermal_tuning = false
+
+#*The game must be restarted for most of these to take effect
+["Minecraft Integrations"]
+	#Enable Minecraft integrations
+	enable_minecraft = true
+	#Lit furnaces act as a heat source #default true
+	furnace_heat = true
+	#Lit blast furnaces act as a heat source #default true
+	blast_furnace_heat = true
+	#Lit smokers act as a heat source #default true
+	smoker_heat = true
+
+["Create Integrations"]
+	#Enable Create integrations
+	enable_create = true
+	#Being on a train will protect players from extreme temperatures #default true
+	trains_prevent_temperatures = true
+	#Lit blaze burners act as a heat source #default true
+	blaze_burner_heat = true
+
+["Farmer's Delight Integrations"]
+	#Enable Farmer's Delight integrations
+	enable_famers_delight = true
+	#Lit stoves act as a heat source #default true
+	stove_heat = true
+

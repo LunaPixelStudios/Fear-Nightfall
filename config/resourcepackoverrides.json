@@ -1,63 +1,133 @@
 {
   "schema_version": 1,
-  "failed_reloads_per_session": 5,
+  "failed_reloads_per_session": 1,
   "default_packs": [
-    "file/Ashen_Simple_Foliage_FN.zip",
-    "builtin/fleshy_sinful_totem",
-    "file/Scary_Music_Addon.zip",
-    "file/FNQuestingResources.zip",
-    "file/Pixelated_v1.3.2_EnhancedVisuals(nox_cgt).zip",
-    "file/Alagard Font.zip",
-    "black_icons",
-    "file/cassette music discs 1.19 - 1.19.2 v1.2.zip",
-    "file/Tarot Cards Colorized 1.19.2.zip",
-    "file/Aether Regenerated v1.1.2.zip",
-    "file/immersive 1.19.zip",
-    "file/boss-refreshed-v1.3.zip",
-    "file/Ashen_1.7.1.zip",
-    "builtin/default_ctm_resources"
+    "file/Ashen_16x.zip",
+    "file/Ashen_FN_Remains_of_Chaos.zip",
+    "builtin/overrides_pack"
   ],
   "default_overrides": {
     "force_compatible": true
   },
   "pack_overrides": {
-    "quark:emote_resources": {
+    "file/LessStructures-SpacingTweaks-1.20.1-2.1.56.zip": {
       "hidden": true
     },
-    "white_icons": {
+    "file/WDA-NoFlyingStructures-1.18.2-1.19.2.zip": {
       "hidden": true
     },
-    "classic_icons": {
-      "hidden": true
-    },
-    "builtin/aether_125_art": {
-      "hidden": true
-    },
-    "builtin/aether_b173_art": {
-      "hidden": true
-    },
-    "builtin/aether_colorblind": {
-      "hidden": true
-    },
-    "builtin/glass_pane_fix_resources": {
-      "hidden": true
-    },
-    "file/Quark Programmer Art.zip": {
-      "hidden": true
-    },
-    "programer_art": {
-      "hidden": true
-    },
-    "supplementaries:darker_ropes": {
+    "file/WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip": {
       "hidden": true
     },
     "Supplementaries Generated Pack": {
       "hidden": true
     },
-    "builtin/default_ctm_resources": {
+    "file/ctov-friends-and-foes-add-on-v2-0.zip": {
       "hidden": true
     },
-    "file/map_atlases_modern_resource_pack+1.19.zip": {
+    "file/ctov-villager-plus-add-on-v2-0.zip": {
+      "hidden": true
+    },
+    "file/BWM_Rebalanced.zip": {
+      "hidden": true
+    },
+    "file/FarmersDelight_ToolFix_1.1+1.20.x.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-VillagersPlus_v1.zip": {
+      "hidden": true
+    },
+    "file/ctov-farmers-delight-add-on-v2-1a.zip": {
+      "hidden": true
+    },
+    "file/ichphilipp-s-endcity-vanilla-v1-1-1-18-1-e640.zip": {
+      "hidden": true
+    },
+    "file/ctov-irons-add-on-v1-2.zip": {
+      "hidden": true
+    },
+    "file/ctov-chefs-delight-add-on-v2-0.zip": {
+      "hidden": true
+    },
+    "builtin/menu_panorama": {
+      "hidden": true
+    },
+    "builtin/aether_125_art": {
+      "hidden": true
+    },
+    "builtin/builtin_resource_packs/legacy_dead_king_resource_pack": {
+      "hidden": true
+    },
+    "programmer_art": {
+      "hidden": true
+    },
+    "builtin/DAGoldenSwetBallFixClient": {
+      "hidden": true
+    },
+    "blue_skies:legacy_pack": {
+      "hidden": true
+    },
+    "Moonlight Mods Dynamic Assets": {
+      "hidden": true
+    },
+    "builtin/towntalk": {
+      "hidden": true
+    },
+    "builtin/deep_aether_additional_assets": {
+      "hidden": true
+    },
+    "builtin/aether_b173_art": {
+      "hidden": true
+    },
+    "builtin/ancient_aether_programmer_art": {
+      "hidden": true
+    },
+    "builtin/classic_blight": {
+      "hidden": true
+    },
+    "builtin/ozzified_textures": {
+      "hidden": true
+    },
+    "builtin/retro_dungeon": {
+      "hidden": true
+    },
+    "builtin/classic_moas": {
+      "hidden": true
+    },
+    "file/Origins_Expanded_Foods_v2.2+1.20.1.zip": {
+      "hidden": true
+    },
+    "lost_aether_content:classic_pack": {
+      "hidden": true
+    },
+    "supplementaries:darker_ropes": {
+      "hidden": true
+    },
+    "builtin/alternate_enchanted_grass": {
+      "hidden": true
+    },
+    "builtin/redux_nature": {
+      "hidden": true
+    },
+    "builtin/name_overrides": {
+      "hidden": true
+    },
+    "builtin/ancient_vaults": {
+      "hidden": true
+    },
+    "file/origins_survive_v2.zip": {
+      "hidden": true
+    },
+    "continuity:default": {
+      "hidden": true
+    },
+    "continuity:glass_pane_culling_fix": {
+      "hidden": true
+    },
+    "file/Quark Programmer Art.zip": {
+      "hidden": true
+    },
+    "lambdabettergrass:default": {
       "hidden": true
     }
   }

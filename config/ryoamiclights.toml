@@ -1,0 +1,231 @@
+
+[light_sources]
+	water_sensitive_check = true
+	block_entities = true
+	entities = true
+	self = true
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.hexerei]
+				crow = true
+
+			[light_sources.settings.entities.sons_of_sins]
+				walking_bed = true
+				betrayed_guzzler = true
+				wistiver = true
+				grub = true
+				butcher = true
+				kelvin = true
+				guzzler = true
+				nibbler = true
+				gulber = true
+				blud = true
+				curse = true
+				prowler = true
+				devourer = true
+
+			[light_sources.settings.entities.minecraft]
+				chicken = true
+				bee = true
+				arrow = true
+				cow = true
+				fox = true
+				chest_minecart = true
+				pig = true
+				pillager = true
+				skeleton = true
+				iron_golem = true
+				bat = true
+				rabbit = true
+				cat = true
+				zombie = true
+				armor_stand = true
+				drowned = true
+				sheep = true
+				experience_orb = true
+				player = true
+				dolphin = true
+				item = true
+				potion = true
+				stray = true
+				turtle = true
+				villager = true
+				salmon = true
+				zombie_villager = true
+				tnt_minecart = true
+				polar_bear = true
+				horse = true
+				cave_spider = true
+				witch = true
+				glow_squid = true
+				cod = true
+				squid = true
+				spider = true
+				creeper = true
+				enderman = true
+
+			[light_sources.settings.entities.theboogeyman]
+				stalking_boogeyman = true
+
+			[light_sources.settings.entities.eidolon]
+				giant_skeleton = true
+				wraith = true
+				slimy_slug = true
+				necromancer = true
+				zombie_brute = true
+
+			[light_sources.settings.entities.intensehorror]
+				fritz_spawn_egg = true
+				witch_spawn_egg = true
+				vampire_bat_spawn_egg = true
+				creature_from_the_deep_spawn_egg = true
+				vampire_spawn_egg = true
+				mad_professor_spawn_egg = true
+				treater_spawn_egg = true
+				frankenstein_spawn_egg = true
+				swamp_thing_spawn_egg = true
+				projectile_toxic_flask_throwable = true
+
+			[light_sources.settings.entities.graveyard]
+				acolyte = true
+				revenant = true
+				corrupted_vindicator = true
+				skeleton_creeper = true
+				corrupted_pillager = true
+				ghoul = true
+				nightmare = true
+
+			[light_sources.settings.entities.born_in_chaos_v1]
+				fallen_chaos_knight = true
+				decaying_zombie = true
+				dark_vortex = true
+				corpse_fish = true
+				skeleton_thrasher = true
+				siamese_skeletons = true
+				zombie_bruiser = true
+				bonescaller_not_despawn = true
+				siamese_skeletonsleft = true
+				bloody_gadfly = true
+				zombie_clown = true
+				door_knight = true
+				siamese_skeletonsright = true
+				maggot = true
+				door_knight_not_despawn = true
+				spiritof_chaos = true
+				skeleton_demoman = true
+				decrepit_skeleton = true
+				firelight_not_despawn = true
+				dread_hound = true
+				supreme_bonescaller_not_despawn = true
+				decaying_zombie_not_despawn = true
+				baby_skeleton = true
+				swarmer = true
+				zombie_lumberjack = true
+				barrel_zombie = true
+				restless_spirit = true
+				bonescaller = true
+				phantom_creeper = true
+				phantom_creeper_copy = true
+				corpse_fly = true
+				skeleton_thrasher_not_despawn = true
+
+			[light_sources.settings.entities.builder_bear]
+				scp_1048_c = true
+
+			[light_sources.settings.entities.cnc]
+				giant_boar = true
+				wolverine = true
+				black_bear = true
+				howler = true
+				bewitched_greywolf = true
+				elk = true
+				goose = true
+				greywolf = true
+				cougar = true
+				wendigo = true
+				whitetail = true
+				coyote = true
+
+			[light_sources.settings.entities.rake_the_arrival]
+				rake_running = true
+
+			[light_sources.settings.entities.the_cuckoo_clock]
+				stalking_chuckoo_clock = true
+
+			[light_sources.settings.entities.the_flesh_that_hates]
+				plaqueincubatorstart = true
+
+			[light_sources.settings.entities.yungscavebiomes]
+				ice_cube = true
+
+			[light_sources.settings.entities.red_sea_object]
+				scp_093 = true
+
+			[light_sources.settings.entities.erie]
+				erie = true
+
+			[light_sources.settings.entities.antlers]
+				wendigomad = true
+
+			[light_sources.settings.entities.endofherobrine]
+				skeleton = true
+				villager = true
+				herobrine = true
+				zombie_villager = true
+				pig = true
+
+			[light_sources.settings.entities.shy_guy]
+				shy_guy = true
+
+			[light_sources.settings.entities.spore]
+				inf_wanderer = true
+				inf_witch = true
+				inf_player = true
+				inf_drowned = true
+				inf_human = true
+				scent = true
+				inf_villager = true
+				inf_pillager = true
+
+			[light_sources.settings.entities.deep_dark_regrowth]
+				vault_chest = true
+
+			[light_sources.settings.entities.the_sculpture]
+				the_sculpture = true
+
+			[light_sources.settings.entities.faded_conquest_2]
+				fcdungeon = true
+
+			[light_sources.settings.entities.fight_or_die]
+				mutated_villager_head = true
+				mutated_villager = true
+				springer = true
+				shiller = true
+
+			[light_sources.settings.entities.derelict]
+				spiderling = true
+
+			[light_sources.settings.entities.distantfriends]
+				friend = true
+
+			[light_sources.settings.entities.scpo]
+				scp_1471_a = true
+				crying_child = true
+				scp_939_biped = true
+				dillager = true
+				scp_0192 = true
+				scp_1507 = true
+				scp_939_quadruped = true
+				cloud_amensia = true
+
+			[light_sources.settings.entities.boh]
+				deer = true
+				deer_mimic = true
+				rat = true
+				simonhenriksson = true
+				raatma = true
+				michael_davies = true
+

@@ -1,0 +1,183 @@
+
+["Gun Settings"]
+	#Default 0.05
+	#Range: 0.01 ~ 1.7976931348623157E308
+	"Sets the chance of the bullet causing a crit hit, doubling the damage of the bullet, 0 05 means 5 percent chance" = 0.05
+	#Default 1.0
+	#Range: 0.0 ~ 1.0
+	"The base chance that a fragile block is broken when impacted by a bullet, the hardness of a block will scale this value, the harder the block, the lower the final calculated chance will be" = 1.0
+	#Default true
+	"If enabled, fragile blocks will drop their loot when broken" = true
+	#Default true
+	"If true, bullets should cause crit hits with a chance" = true
+	#Default 70
+	#Range: 15.0 ~ 1.7976931348623157E308
+	"Sets the distance from where a gun shot can still be heard, works best with sound physics remastered mod" = 70.0
+	#Default 12.6
+	#Range: 3.8 ~ 1.7976931348623157E308
+	"Sets the damage of the sidekick's bullet" = 12.6
+	#Default 1.35
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Sets the recoil of the magnum" = 1.35
+	#Default true
+	"If enabled, allows gAuns to shoot out glass and other fragile objects" = true
+	#Default 0.15
+	#Range: 0.01 ~ 1.7976931348623157E308
+	"Sets the knockback that an entity will take after being hit by a bullet" = 0.15
+	#Default true
+	"If true, guns should cause screen shake effects to the player's camera when he is shooting" = true
+	#Default 13.5
+	#Range: 5.0 ~ 1.7976931348623157E308
+	"Sets the damage of the needler's bullet" = 13.5
+	#Default 12.2
+	#Range: 3.5 ~ 1.7976931348623157E308
+	"Sets the damage of the magnum's bullet" = 12.2
+
+["Mob Stuff"]
+
+	["Mob Stuff"."Base Forms ( Human / Villager / Player )"]
+		#Default true
+		"Should Base Forms regenerate?" = true
+		#Default true
+		"Should Player Forms use Crossbows?" = true
+		#Default true
+		"Should Base Forms cause a screen shake when roaring?" = true
+		#Default 7
+		#Range: 4.0 ~ 1.7976931348623157E308
+		"Sets Base Form's Damage" = 7.0
+		#Default true
+		"Should Base Forms climb?" = true
+		"Potions that are used by the player form to buff the flood forms , NOT effects" = ["minecraft:fire_resistance", "minecraft:regeneration", "minecraft:strength"]
+		#Default 25
+		#Range: 12.0 ~ 1.7976931348623157E308
+		"Sets Base Form's Max health" = 25.0
+		#Default true
+		"Should PLAYER Forms break blocks?" = true
+		#Default 100
+		#Range: > 1
+		"Sets the time before throwing a potion when buffing" = 100
+		#Default true
+		"Should Player Forms use Potions?" = true
+
+	["Mob Stuff".Spawns]
+		"mob|weight|minimum|maximum" = ["dotf:pod_infector|7|1|3", "dotf:human_form|15|1|2", "dotf:player_form|11|1|1", "dotf:villager_form|13|1|2", "dotf:carrier_form|11|1|2|", "dotf:sangheili_form|7|1|1|"]
+		#Default minecraft:is_overworld
+		"Dictates in what biome the flood forms spawn" = ["minecraft:is_overworld"]
+		#Default 60
+		MobCap = 60
+
+	["Mob Stuff"."Illager / Raider"]
+		#Default 3
+		"The wave when the raider alliance will start their common enemy project, stopping all attacks pointed at the human side " = 3
+		#Default true
+		"Should Illager Forms STOP attacking iron golems or players or villagers when they reach a certain stage due to the potential danger that the flood represents?" = true
+
+	["Mob Stuff".Horde]
+		#Default 3
+		"Number of mobs that will be added to the horde each wave" = 3
+		#Default true
+		"Should flood base forms hordes spawn?" = true
+		#Default 2500
+		"Ticks before the horde spawning" = 2500
+		#Default 10
+		"Number of Mobs Spawning in a Horde" = 10
+		#Default 500
+		"Additional horde ticks" = 500
+
+	["Mob Stuff"."Targeting Tasks"]
+		"Mobs Not Targeted" = ["minecraft:squid", "minecraft:bat", "minecraft:armor_stand", "minecraft:creeper", "minecraft:ghast", "minecraft:falling_block", "minecraft:abstract_arrow", "minecraft:arrow", "minecraft:spectral_arrow", "minecraft:trident"]
+
+	["Mob Stuff"."Carrier Forms"]
+		#Default true
+		"Should Carrier Forms NOT despawn after they have seen a target for too long?" = true
+		#Default 2.75
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Sets the damage of the explosion of the carrier form" = 2.25
+		#Default 35
+		#Range: 10.0 ~ 1.7976931348623157E308
+		"Sets Carrier Form's Max health" = 35.0
+		#Default true
+		"Should Base Forms age and turn into carrier forms?" = true
+		#Default 9000
+		"Sets Carrier's time before it should STOP despawning when it has seen a target for too long" = 9000
+		#Default true
+		"Should Carrier Forms cause a screen shake when exploding?" = true
+		#Default 0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Sets Carrier Form's Damage" = 0.0
+		#Default true
+		"Should Carrier Forms regenerate?" = true
+		#Default 20000
+		"Time in ticks until any base form ages and turns into a carrier form" = 20000
+
+	["Mob Stuff"."Pod Infector"]
+		#Default 7
+		#Range: 3.0 ~ 1.7976931348623157E308
+		"Sets Pod Infector's Max health" = 7.0
+		#Default true
+		"Should Pod Infectors cause a screen shake when exploding?" = true
+		#Default true
+		"Should Pod Infectors regenerate?" = true
+		#Default 1.25
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Sets Pod Infector's Explosion's Damage" = 1.25
+		#Default 5
+		#Range: 2.0 ~ 1.7976931348623157E308
+		"Sets Pod Infector's Damage" = 5.0
+		#Default 50
+		MobCap = 50
+
+	["Mob Stuff".Transformations]
+		#Default true
+		"Should Pod Infectors transform villagers?" = true
+		"Mobs that can turn into Human Forms" = ["minecraft:zombie"]
+		#Default true
+		"Should Pod Infectors transform players?" = true
+		#Default true
+		"Should Pod Infectors transform zombies?" = true
+		"Mobs that can turn into Villager Forms" = ["minecraft:villager", "rotted:farmer", "guardvillagers:guard"]
+
+	["Mob Stuff".Effects]
+		"Mobs that are immune to the flood virus" = ["minecraft:ghast", "minecraft:magma_cube", "minecraft:phantom", "minecraft:snow_golem", "minecraft:stray", "minecraft:skeleton"]
+
+	["Mob Stuff"."Sangheili Forms"]
+		#Default 65
+		#Range: 20.0 ~ 1.7976931348623157E308
+		"Sets Sangheili Form's Max health" = 65.0
+		#Default true
+		"Should Sangheili Forms break blocks?" = true
+		#Default true
+		"Should Sangheili Forms use Energy Swords?" = true
+		#Default true
+		"Should Sangheili Forms regenerate?" = true
+		#Default true
+		"Should Sangheili Forms climb?" = true
+		#Default true
+		"Should Sangheili Forms NOT despawn after they have seen a target for too long?" = true
+		#Default true
+		"Should Sangheili Forms use guns?" = true
+		#Default 7500
+		"Sets Sangheili's time before it should STOP despawning when it has seen a target for too long" = 7500
+		#Default true
+		"Should Sangheili Forms make your screen tremble when they walk?" = true
+		#Default 15
+		#Range: 5.0 ~ 1.7976931348623157E308
+		"Sets Sangheili Form's Damage" = 15.0
+
+	["Mob Stuff"."Items & Weapons"]
+
+		["Mob Stuff"."Items & Weapons"."Energy Sword"]
+			#Default 5000
+			Durability = 5000
+			#Default 11
+			#Range: > 3
+			Damage = 11
+
+	["Mob Stuff"."Bodies / Corpses"]
+		#Default true
+		"Should corpses of the base forms have a shake animation applied to their head?" = true
+		#Default true
+		"Should corpses of the base forms have a chance to spawn after they get defeated?" = true
+		#Default true
+		"Should corpses make your screen shake when falling to the ground?" = true
+

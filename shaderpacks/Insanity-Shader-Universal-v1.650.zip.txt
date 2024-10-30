@@ -1,5 +1,2 @@
-#Fri Jul 19 02:52:26 ART 2024
-shadowDistance=128.0
-REFLECTION=1
-shadowMapResolution=1024
+#Thu Oct 03 03:48:49 ART 2024
 ADVANCED_MATERIALS=false

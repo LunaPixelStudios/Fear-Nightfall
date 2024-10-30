@@ -1,29 +1,28 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
-  identifier = net.minecraft.client.gui.screens.worldselection.SelectWorldScreen
-  randomgroup = 1
-  renderorder = foreground
+layout-meta {
+  identifier = select_world_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1725499659481
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:03ed9f03-9770-4da9-99ed-d91703ecb2b5-1725499659481] = [groups:][instances:]
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  orientation = top-left
-  loop = true
-  channel = music
-  x = 34
-  width = 50
-  action = custom_layout_element:fancymenu_extension:audio_item
-  actionid = 8f517e4b-dd08-4828-b60a-c5ffecc6a7861696216641683
-  y = 44
-  audio_source:ec338749-2e21-4b6f-bbfc-6966790b076f1696216218036 = config/teraphobia/mainmenu.ogg;EXTERNAL_LOCAL;80;0
-  once_per_session = false
-  height = 50
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
 }
 

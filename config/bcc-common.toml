@@ -3,11 +3,11 @@
 [general]
 	#The CurseForge project ID for the modpack
 	#Range: > 0
-	modpackProjectID = 887839
+	modpackProjectID = 0
 	#The name of the modpack
-	modpackName = "Fear Nightfall"
+	modpackName = "Fear Nightfall: Remains of Chaos"
 	#The version of the modpack
-	modpackVersion = "v15"
+	modpackVersion = "v1.0.0"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false

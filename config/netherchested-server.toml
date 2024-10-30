@@ -7,9 +7,6 @@ explode_in_nether = false
 #The stack size of already damaged items cannot be increased.
 #Range: 1 ~ 32
 stack_size_multiplier = 8
-#Only increase the stacks size for items that are already stackable, so items like tools will remain unstackable in a nether chest.
-#Note that the stack size of already damaged items cannot be increased.
-increase_stackable_only = false
 #Prevent a nether chest from opening when a block is placed directly above.
 no_block_above = true
 

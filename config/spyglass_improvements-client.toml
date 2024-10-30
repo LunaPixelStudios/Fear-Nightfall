@@ -2,7 +2,7 @@
 ["Configuration file for spyglass Improvements"]
 	#Spyglass Overlay
 	#Allowed Values: Default, Clear, Circle, None
-	overlay = "None"
+	overlay = "Default"
 	#Size of zoom steps
 	#Range: 0.0 ~ 1.0
 	multiplier = 0.1

@@ -5,10 +5,10 @@
 [sanity]
 	#For balancing purposes: the effectiveness of all positive sanity sources will be multiplied by this number
 	#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
-	positive_multiplier = 1.5
+	positive_multiplier = 1.0
 	#For balancing purposes: the effectiveness of all negative sanity sources will be multiplied by this number
 	#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
-	negative_multiplier = 0.5
+	negative_multiplier = 1.0
 
 	#Configuration for passive sanity sources
 	[sanity.passive]
@@ -96,10 +96,10 @@
 		#Players gain this amount of sanity for every point of damage dealt to peaceful animals (incl. neutral ones)
 		#This value is doubled for baby animals
 		#Range: -100.0 ~ 100.0
-		animal_hurt_ratio = -0.25
+		animal_hurt_ratio = -0.5
 		#Players gain this amount of sanity upon their pets' death
 		#Range: -100.0 ~ 100.0
-		pet_death = -30.0
+		pet_death = -60.0
 		#Players gain this amount of sanity upon successfully trading with a villager
 		#Range: -100.0 ~ 100.0
 		villager_trade = 20.0
@@ -135,10 +135,10 @@
 		potting_flower_cd = 300.0
 		#Teleporting to another dimension gives this amount of sanity
 		#Range: -100.0 ~ 100.0
-		changed_dimension = -5.0
+		changed_dimension = -10.0
 		#Players gain this amount of sanity upon being struck by lightning
 		#Range: -100.0 ~ 100.0
-		struck_by_lightning = -15.0
+		struck_by_lightning = -30.0
 		#Define a list of items that will affect sanity upon their usage
 		#An item should be included as follows: item_registry_name;A;B
 		#Where A is how much sanity is gained upon usage and B is a custom category
@@ -171,7 +171,7 @@
 		sane_player_company = 0.05
 		#Being around players with sanity lower than 50% gives this amount of sanity per second
 		#Range: -100.0 ~ 100.0
-		insane_player_company = -0.6
+		insane_player_company = -0.12
 
 	#Entities configuration
 	[sanity.entity]

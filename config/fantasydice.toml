@@ -1,0 +1,49 @@
+
+[die]
+	#Cool down in which Dice can be used
+	#Note: Cool down is in ticks, 20 == 1 second, 0 == No Cool down
+	#Range: > -1
+	cooldown = 20
+	#List of player profile UUID's that are considered Lucky Rollers for 'Fantasy's Lucky Dice'
+	#Example: '43fd393b-879d-45ec-b2d5-ce8c4688ab66' - Would be for 'ApexSPG' (Values must include dashes '-')
+	#Note: Use somewhere like 'https://mcuuid.net/' to obtain profile UUID's
+	lucky_rollers = []
+
+	[die.roll_message]
+		#Range from Dice Thrower Players must be within to see the Roll messages
+		#Note: Range is in Chunks using Chessboard Distancing
+		#Range: > 1
+		range = 4
+		#Whether or not Dice Roll messages will be displayed to Players in different Dimensions than the Thrower
+		#Note: If this is True the Roll Range will be ignored in differing Dimensions
+		cross_dimension = false
+
+	[die.quality]
+		#Quality of 'Wooden Dice' rolls
+		#Range: > -2147483648
+		wooden = -3
+		#Quality of 'Stone Dice' rolls
+		#Range: > -2147483648
+		stone = -2
+		#Quality of 'Bone Dice' rolls
+		#Range: > -2147483648
+		bone = -1
+		#Quality of 'Iron Dice' rolls
+		#Range: > -2147483648
+		iron = 0
+		#Quality of 'Golden Dice' rolls
+		#Range: > -2147483648
+		golden = 1
+		#Quality of 'Diamond Dice' rolls
+		#Range: > -2147483648
+		diamond = 2
+		#Quality of 'Emerald Dice' rolls
+		#Range: > -2147483648
+		emerald = 3
+		#Quality of 'Netherite Dice' rolls
+		#Range: > -2147483648
+		netherite = 4
+		#Quality of 'Copper Dice' rolls
+		#Range: > -2147483648
+		copper = 0
+

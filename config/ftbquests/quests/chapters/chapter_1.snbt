@@ -5,12 +5,20 @@
 	group: "173C7A3FFE3DDF09"
 	icon: "minecraft:torch"
 	id: "0FFDCEA070C7AE93"
+	images: [{
+		height: 1.0d
+		image: "antique_atlas:textures/atlas/marker/custom/sword_accent.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: -8.5d
+		y: -9.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["2F5B7FFBC196A061"]
-			description: ["Upgrade storage in smithing table. To obtain leather-tier open the backpack at least once. Now you will be able to upgrade to iron-tier."]
+			description: ["&7The backpack is an essential item for exploration, as it allows you to carry things that you might find, such as ores and loot."]
 			id: "07D72CC3A7E25F72"
 			rewards: [{
 				id: "2297F42A54FAD363"
@@ -18,46 +26,49 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			subtitle: "Your best friend. Can craft, hold fluids, extra tools and even have abilites, Neat!"
+			subtitle: "Need to carry more things?"
 			tasks: [{
 				id: "34752031EDBA5EF7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "travelersbackpack:standard"
 					tag: { }
 				}
 				type: "item"
 			}]
-			title: "Make a &6Backpack"
-			x: -1.5d
-			y: -1.5d
+			title: "&eHandy Storage"
+			x: 1.0d
+			y: -3.5d
 		}
 		{
+			dependencies: ["3455852556DCCB7D"]
 			description: [
-				"            &4SURVIVE THE NIGHT!&r"
+				"&7You woke up from a &oterrifying&r&7 nightmare."
 				""
-				"&7The Aether has fallen because of &eHerobrine&r&7, he is corrupting all the dimensions, and its presence will soon arise in the overworld &ewhen the night falls&7."
+				"&7There was someone there... a strange human..? with white eyes, that wouldn't stop haunting you."
+				""
+				"&7In this nightmare, you managed to survive the mysterious man chasing you, visiting another dimension and slaying a giant dragon. You continued to visit the Heavens to kill The Sins, and finally... fought Him. The man of white eyes fell."
+				""
+				"&7That's all you remember, and now you're here. Lost in this foggy, unknown land. &7&oWhat is this place?"
 			]
-			icon: "born_in_chaos_v1:nightmare_stalker_skull"
+			hide_until_deps_complete: true
+			icon: "minecraft:black_bed"
 			id: "2F5B7FFBC196A061"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "[Click for more information!]"
+			subtitle: "&8[Click to read lore]"
 			tasks: [{
 				id: "4B22F365053FC9F8"
-				title: "Stop Herobrine!"
+				title: "Continue"
 				type: "checkmark"
 			}]
-			title: "&4Dark Times"
+			title: "&4A Strange Nightmare"
 			x: 0.0d
-			y: -3.0d
+			y: -6.0d
 		}
 		{
-			dependencies: [
-				"60A2705587F74560"
-				"7276FC7B1590E162"
-			]
-			description: ["                 &4Run and Hide!&r"]
+			dependencies: ["20A2FDD7CB5AFB72"]
+			description: ["                 &e&oRun and Hide"]
 			icon: "immersiveengineering:voltmeter"
 			id: "4D5D3A38CA390881"
 			rewards: [{
@@ -68,22 +79,19 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "[Click for more information!]"
+			subtitle: "&8[Click for more information]"
 			tasks: [{
 				id: "3F885B833D45AB12"
-				title: "Survive the &cNight"
+				title: "I'm Ready"
 				type: "checkmark"
 			}]
+			title: "&eSurvive the first night"
 			x: 0.0d
-			y: 0.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["2F5B7FFBC196A061"]
-			description: [
-				"   &4WE DON'T KNOW WHAT IS OUT THERE!&r"
-				""
-				"Your base is the most important part of survival, the mobs are not meant to be underestimated!"
-			]
+			description: ["&7Your base is the most important part of survival, who knows what's out there, what if... that wasn't a nightmare?"]
 			icon: "minecraft:spruce_door"
 			id: "47E544C2A7FF4EC0"
 			rewards: [{
@@ -93,25 +101,18 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "[Click for more information!]"
+			subtitle: "&8[Click for more information]"
 			tasks: [{
-				id: "76B5A1A062DD1EFF"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:doors"
-					}
-				}
-				title: "Make a base"
+				id: "02EBE5C6E88FE964"
+				item: "minecraft:oak_door"
 				type: "item"
 			}]
-			title: "&eBuild a base before the nightfall"
+			title: "&eBuild a Base Before Nightfall"
 			x: 0.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["2F5B7FFBC196A061"]
+			dependencies: ["47E544C2A7FF4EC0"]
 			id: "20A2FDD7CB5AFB72"
 			rewards: [{
 				count: 24
@@ -119,7 +120,7 @@
 				item: "minecraft:iron_bars"
 				type: "item"
 			}]
-			shape: "octagon"
+			shape: "hexagon"
 			subtitle: "&7Make an Iron Door to reinforce your base."
 			tasks: [{
 				id: "6A1BE589F2D3CC7F"
@@ -127,28 +128,8 @@
 				type: "item"
 			}]
 			title: "&eReinforcing your base"
-			x: 1.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["2F5B7FFBC196A061"]
-			description: ["Roasts carcasses."]
-			id: "176D8929B2715ABB"
-			rewards: [{
-				id: "5E7AEE29220D0F1E"
-				item: "minecraft:campfire"
-				type: "item"
-			}]
-			shape: "octagon"
-			subtitle: "Food is also important. Sometimes you gotta kill to survive. Needs a Campfire!"
-			tasks: [{
-				id: "0D0B3B707E33A501"
-				item: "butchersdelight:roaster"
-				type: "item"
-			}]
-			title: "Craft a &eRoaster"
-			x: 1.5d
-			y: -3.0d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2F5B7FFBC196A061"]
@@ -160,18 +141,18 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			subtitle: "&7Defense is key. Make &ebamboo spikes&7, they will serve as traps for your base."
+			subtitle: "&7Defense is key. &eBamboo spikes&7 serve as traps for your base."
 			tasks: [{
 				id: "0199F7DF9DC8FB6C"
 				item: "supplementaries:bamboo_spikes"
 				type: "item"
 			}]
-			title: "&eMaking traps"
-			x: -1.5d
-			y: -3.0d
+			title: "&eBuilding Defenses"
+			x: -1.0d
+			y: -3.5d
 		}
 		{
-			dependencies: ["2F5B7FFBC196A061"]
+			dependencies: ["4D5D3A38CA390881"]
 			id: "0BE8BCCB8BCC50C1"
 			rewards: [{
 				count: 2
@@ -184,23 +165,23 @@
 			tasks: [{
 				id: "1A4CBB001E671540"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hexerei:book_of_shadows"
 					tag: { }
 				}
 				type: "item"
 			}]
-			title: "Craft the &6Book of Shadows"
-			x: 1.5d
-			y: -6.0d
+			title: "&7(Optional)  &6Forbidden Magic"
+			x: 2.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["2F5B7FFBC196A061"]
+			dependencies: ["4D5D3A38CA390881"]
 			id: "32A258F985DE2C6E"
 			rewards: [{
 				id: "51A571797D3CA89F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:iron_pickaxe"
 					tag: {
 						Damage: 0
@@ -215,12 +196,13 @@
 				item: "immersiveengineering:manual"
 				type: "item"
 			}]
-			title: "Craft the &6Engineer's Manual"
-			x: -1.5d
-			y: -6.0d
+			title: "&7(Optional)  &6Sinister Engineering"
+			x: -2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["47E544C2A7FF4EC0"]
+			hide_until_deps_visible: false
 			id: "60A2705587F74560"
 			rewards: [{
 				count: 8
@@ -228,12 +210,13 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
+			shape: "hexagon"
 			subtitle: "Prepare yourself with decent armor."
 			tasks: [
 				{
 					id: "6D6C1D2BFF4C8569"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_helmet"
 						tag: {
 							Damage: 0
@@ -244,7 +227,7 @@
 				{
 					id: "12312C6713DD44DD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_chestplate"
 						tag: {
 							Damage: 0
@@ -255,7 +238,7 @@
 				{
 					id: "6DEA57FBCB677A66"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_leggings"
 						tag: {
 							Damage: 0
@@ -266,7 +249,7 @@
 				{
 					id: "493AA0EB71A15955"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_boots"
 						tag: {
 							Damage: 0
@@ -275,9 +258,9 @@
 					type: "item"
 				}
 			]
-			title: "More &8Protection"
+			title: "&eMore Protection"
 			x: 1.5d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["47E544C2A7FF4EC0"]
@@ -288,12 +271,13 @@
 				item: "minecraft:golden_apple"
 				type: "item"
 			}]
+			shape: "hexagon"
 			subtitle: "Defend yourself."
 			tasks: [
 				{
 					id: "4501352C4EF42985"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:shield"
 						tag: {
 							Damage: 0
@@ -304,7 +288,7 @@
 				{
 					id: "49FEC06DB45E31F3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_sword"
 						tag: {
 							Damage: 0
@@ -315,7 +299,7 @@
 				{
 					id: "14034B318392B264"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:bow"
 						tag: {
 							Damage: 0
@@ -324,16 +308,16 @@
 					type: "item"
 				}
 			]
-			title: "&6Arming up"
+			title: "&eArming Up"
 			x: -1.5d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
 				"4AE2F97E6C289E8F"
-				"492D0CAE29412213"
+				"2F5B7FFBC196A061"
 			]
-			description: ["&7The flesh spikes are deadlier versions of the spikes which can be stacked to increase its lethality."]
+			description: ["&7More powerful variant of spikes. Can be stacked to increase lethality."]
 			id: "133C307168A2872A"
 			rewards: [{
 				count: 2
@@ -349,92 +333,36 @@
 				title: "Make a Flesh Spike"
 				type: "item"
 			}]
-			title: "&7A deadlier upgrade"
-			x: -1.5d
+			title: "&eDeadlier Upgrade"
+			x: -2.5d
 			y: -4.5d
 		}
 		{
-			dependencies: ["2F5B7FFBC196A061"]
-			description: ["You can add waypoints by right clicking banners like regular maps."]
-			id: "0593A4B43B36DCF5"
-			rewards: [{
-				id: "2F19186091A0EB8E"
-				item: {
-					Count: 1b
-					id: "naturescompass:naturescompass"
-					tag: { }
-				}
-				type: "item"
-			}]
-			shape: "octagon"
-			subtitle: "Will be important on helping you traverse the Overworld."
-			tasks: [{
-				id: "3E02E1869E155821"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							maps: [I; ]
-						}
-					}
-					id: "map_atlases:atlas"
-				}
-				type: "item"
-			}]
-			title: "Craft a &9Map &6Atlas"
-			x: 0.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["0593A4B43B36DCF5"]
-			description: [
-				"You can put both Filled Maps and Empty Maps with an Atlas in a crafting inventory to insert either Map type into the Atlas."
-				""
-				"To obtain &cNether Generation&f, you must add Sliced Maps to the Atlas in a Crafting Table!"
+			dependencies: [
+				"07D72CC3A7E25F72"
+				"2F5B7FFBC196A061"
 			]
-			id: "3563D691EEB55DD6"
-			rewards: [{
-				count: 8
-				id: "1F807379576112FA"
-				item: "minecraft:map"
-				type: "item"
-			}]
-			shape: "rsquare"
-			subtitle: "Use Maps to expand your Atlas so that Filled Maps inside the Atlas will continue updating your location and world-state."
-			tasks: [{
-				id: "3B8D394C209DD79F"
-				item: "minecraft:cartography_table"
-				type: "item"
-			}]
-			title: "Expanding the &6Atlas"
-			x: 0.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["176D8929B2715ABB"]
-			id: "37DEE65CAFCF733F"
-			rewards: [{
-				id: "4E51138BE00B6747"
-				item: {
-					Count: 1b
-					id: "minecraft:shears"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
+			description: [
+				"&7Use an Iron Tier Upgrade to upgrade the storage of your backpack."
+				""
+				"&7To do so, obtain leather and use with your first tier backpack on a Smithin Table."
+				""
+				"&7Afterwards you will be able to upgrade to Gold, Diamond and Netherite tiers, in order."
+				""
+				"&cMake sure to open the backpack at least once before upgrading!"
+			]
+			id: "53473CCEAD0D3FC8"
 			shape: "diamond"
-			subtitle: "Place hide or fur on the Tanner and right click with shears to process it."
+			subtitle: "Carry even more things!"
 			tasks: [{
-				id: "659AC69FAC163BC7"
-				item: "butchersdelight:rack"
+				id: "04EDBD6D07CE6422"
+				item: "travelersbackpack:iron_tier_upgrade"
 				type: "item"
 			}]
-			title: "Craft &eLeather Tanner"
-			x: 1.5d
+			title: "&eHandy Upgrade"
+			x: 2.5d
 			y: -4.5d
 		}
 	]
-	title: " &eChapter I:&r &7Aether has Fallen"
+	title: " &eChapter I:&r     &7The Nightmare"
 }

@@ -4,12 +4,12 @@
 	filename: "echapter_xr_7chorbia_was_here"
 	group: "0AF1E24E0154B029"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "hexerei:book_of_shadows"
 		tag: { }
 	}
 	id: "58F71A97BDC71DDA"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -66,7 +66,7 @@
 				{
 					id: "205BC1575BB1757D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "hexerei:witch_helmet"
 						tag: {
 							Damage: 0
@@ -77,7 +77,7 @@
 				{
 					id: "505360FAFEBCAC70"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "hexerei:witch_boots"
 						tag: {
 							Damage: 0
@@ -88,7 +88,7 @@
 				{
 					id: "363C736588A0334E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "hexerei:witch_chestplate"
 						tag: {
 							Damage: 0
@@ -143,7 +143,7 @@
 			rewards: [{
 				id: "1DD5866C191D2424"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:healing"
@@ -230,7 +230,7 @@
 			tasks: [{
 				id: "378D381C6D0C8A8C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hexerei:mahogany_broom"
 					tag: { }
 				}
@@ -254,7 +254,7 @@
 			tasks: [{
 				id: "5A9376E4A7EE237A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hexerei:book_of_shadows"
 					tag: { }
 				}
@@ -298,7 +298,7 @@
 			tasks: [{
 				id: "78669B9CB7111805"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hexerei:coffer"
 					tag: { }
 				}
@@ -320,7 +320,7 @@
 			tasks: [{
 				id: "7075DF589395CE00"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hexerei:herb_jar"
 					tag: { }
 				}
@@ -374,7 +374,7 @@
 			rewards: [{
 				id: "37AAD94AF2F0A693"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hexerei:dried_sage_bundle"
 					tag: {
 						Damage: 0
@@ -405,7 +405,7 @@
 			tasks: [{
 				id: "041D1B0327C361AB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hexerei:crow_flute"
 					tag: { }
 				}
@@ -421,7 +421,7 @@
 			rewards: [{
 				id: "1C3E068996DD8BB5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:long_water_breathing"
@@ -433,7 +433,7 @@
 			tasks: [{
 				id: "1C77B584EA15B4D6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hexerei:broom_waterproof_tip"
 					tag: {
 						Damage: 0
@@ -457,7 +457,7 @@
 			tasks: [{
 				id: "7C9A380C6D49144D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hexerei:broom_netherite_tip"
 					tag: {
 						Damage: 0
@@ -556,7 +556,7 @@
 			rewards: [{
 				id: "0C60681C20D83612"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ancient_manuscripts:enchanted_book_glue"
 					tag: {
 						Damage: 0
@@ -568,7 +568,7 @@
 			tasks: [{
 				id: "2DEB57508B7F796C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ancient_manuscripts:enchanted_book_glue"
 					tag: {
 						Damage: 0

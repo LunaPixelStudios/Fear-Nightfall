@@ -1,0 +1,33 @@
+
+[Structures]
+	#Spawn chance for the Cursed Altar structure
+	#Range: 0.0 ~ 1.0
+	cursedAltarSpawnChance = 1.0
+
+["Trial Modifiers"]
+	#Base chance for player to be cursed with a Tier 1 trial
+	#All values for trials chances should ideally add up to 10 to avoid bugs
+	#Range: 0.0 ~ 10.0
+	cursedTrialTier1Chance = 6.0
+	#Base chance for player to be cursed with a Tier 2 trial
+	#All values for trials chances should ideally add up to 10 to avoid bugs
+	#Range: 0.0 ~ 10.0
+	cursedTrialTier2Chance = 3.0
+	#Base chance for player to be cursed with a Tier 3 trial
+	#All values for trials chances should ideally add up to 10 to avoid bugs
+	#Range: 0.0 ~ 10.0
+	cursedTrialTier3Chance = 1.0
+	#Max amount of trials for player to complete before Tier 3 trials are guaranteed
+	#Range: 1 ~ 256
+	cursedTrialMaxChance = 25
+
+["Curse Modifiers"]
+	#Minimum number of seconds that a Survival Trial can curse the player for
+	#If value is set to 0, all Survival Trials will result in an instant completion
+	#Range: 0 ~ 12000
+	curseTimeMinimum = 180
+	#Maximum number of seconds that a Survival Trial can curse the player for
+	#If value is set to 0, all Survival Trials will result in an instant completion
+	#Range: 0 ~ 18000
+	curseTimeMaximum = 240
+

@@ -23,4 +23,8 @@ font_brightness = 0.75
 #Algorithm selector for darkening interface pixels.
 #Allowed Values: GRAYSCALE_AND_HSP, HSP, GRAYSCALE_AND_HSL, HSL, GRAYSCALE_AND_LINEAR, LINEAR
 darkening_algorithm = "GRAYSCALE_AND_HSP"
+#Print screen identifier to game chat or log file whenever a new screen is opened. Intended for finding screens to be added to "font_color_blacklist".
+debug_all_screens = false
+#Exclude certain screens from being affected by any text color alterations.
+font_color_blacklist = ["chat_screen.title", "sign.edit", "hanging_sign.edit", "book.edit", "book.view"]
 

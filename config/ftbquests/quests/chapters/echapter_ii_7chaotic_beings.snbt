@@ -1,0 +1,384 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "echapter_ii_7chaotic_beings"
+	group: "173C7A3FFE3DDF09"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "biomancy:item/shield/thorn_shield_icon"
+		}
+	}
+	id: "501CF8A75693DB20"
+	images: [
+		{
+			height: 10.76990761108667d
+			image: "teraphobia:textures/quests/chap2.png"
+			rotation: 0.0d
+			width: 18.0d
+			x: 1.8214285714285694d
+			y: -3.5714285714285765d
+		}
+		{
+			height: 1.0d
+			image: "teraphobia:item/chaos_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -5.214285714285715d
+		}
+		{
+			height: 1.0d
+			image: "teraphobia:item/chaos_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -5.178571428571431d
+		}
+		{
+			height: 1.0d
+			image: "teraphobia:item/chaos_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.0357142857142847d
+			y: -3.1785714285714306d
+		}
+		{
+			height: 1.0d
+			image: "teraphobia:item/chaos_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -3.2142857142857153d
+		}
+		{
+			height: 1.0d
+			image: "teraphobia:item/chaos_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -1.2142857142857153d
+		}
+		{
+			height: 1.0d
+			image: "teraphobia:item/chaos_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.25d
+		}
+		{
+			height: 1.0d
+			image: "teraphobia:item/chaos_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -1.25d
+		}
+		{
+			height: 1.0d
+			image: "farmersdelight:item/pumpkin_slice"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.3214285714285623d
+			y: -1.392857142857146d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5056463EC0BCCC4F"]
+			description: ["&7This strange creature tends to morph into the shape of an inoffensive animal to get ahold of their victims when they least expect it."]
+			id: "72768D772C24880A"
+			rewards: [{
+				id: "57489233F5C7C232"
+				item: "teraphobia:chaos_essence"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "&eAppears after the first night."
+			tasks: [{
+				entity: "cnc:skinwalker"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "butcher:item/pig_drained_item_icon"
+					}
+				}
+				id: "7B6AE52748128318"
+				title: "&cThe Skinwalker"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5056463EC0BCCC4F"]
+			description: [
+				"&7A black silloutte, that lurks at night with its wide, glowing smile."
+				""
+				"&7Prophecy says that after 10 nights of chaos, it shall be strong enough to materialize itself into reality."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "quark:textures/emote/exorcist.png"
+				}
+			}
+			id: "2290E80E62FEBF6A"
+			rewards: [{
+				id: "09F738FEDB467869"
+				item: "teraphobia:chaos_essence"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "&eHaunts you after the eleventh night."
+			tasks: [{
+				entity: "apollyon:the_damned"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ancient_aether:item/ancient_rune_eye"
+					}
+				}
+				id: "4FF61A66DE954274"
+				title: "&cThe Damned One"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4D5D3A38CA390881"]
+			description: [
+				"&7Each night chaos spreads further and gets stronger. And with it, more horrid creatures awaken."
+				""
+				"&7The Prophecy of the Demonomicon says there are seven great chaotic beings in the Overworld that were created by the &oMother of Chaos&r&7."
+			]
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
+			id: "5056463EC0BCCC4F"
+			shape: "diamond"
+			subtitle: "&8[Click to read lore]"
+			tasks: [{
+				id: "64A875C58411C6F7"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "&eGreater Chaos Beings"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5056463EC0BCCC4F"]
+			description: [
+				"&cThis being only appears at the darkest times; from October 25 to November 5."
+				""
+				"&7A dark horseman infused by the fel magic. It appears after the third night in the season of Halloween."
+			]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "born_in_chaos_v1:item/pumpkinhead_icon"
+				}
+			}
+			id: "4A2CD4727301A88E"
+			rewards: [{
+				id: "33B4A31B8B3CCC5A"
+				item: "teraphobia:chaos_essence"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "&eAppears after the third night on Halloween."
+			tasks: [{
+				entity: "born_in_chaos_v1:sir_pumpkinhead"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "born_in_chaos_v1:item/pumpkinhead_icon"
+					}
+				}
+				id: "5A3CCB2721140347"
+				title: "Kill the Sir Pumpkinhead"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cSir Pumpkinhead"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5056463EC0BCCC4F"]
+			id: "756E38249FD9C0A6"
+			rewards: [{
+				id: "02B7506B4B337597"
+				item: {
+					Count: 1
+					id: "biomancy:despoil_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "&7An essential material to harnesss chaos."
+			tasks: [{
+				count: 4L
+				id: "0FBC28B15DD6ED26"
+				item: { Count: 4, id: "teraphobia:chaos_essence" }
+				type: "item"
+			}]
+			title: "&eThe Essences of Chaos"
+			x: 2.026785714285708d
+			y: -6.258928571428569d
+		}
+		{
+			dependencies: ["5056463EC0BCCC4F"]
+			id: "1A9ED14AB4C0EA57"
+			rewards: [{
+				id: "75C7A34C91C473B4"
+				item: "teraphobia:chaos_essence"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "&eAppears after the tenth night."
+			tasks: [{
+				entity: "born_in_chaos_v1:lifestealer"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "born_in_chaos_v1:textures/mob_effect/lifesteal.png"
+					}
+				}
+				id: "738FC58F215C623D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cThe Lifestealer"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5056463EC0BCCC4F"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "born_in_chaos_v1:textures/mob_effect/bone_fracture.png"
+				}
+			}
+			id: "35216389676046DB"
+			rewards: [{
+				id: "5565E5DEF536837E"
+				item: "teraphobia:chaos_essence"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "&eFound in the Dark Tower after the first night."
+			tasks: [{
+				entity: "born_in_chaos_v1:supreme_bonescaller"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "born_in_chaos_v1:textures/mob_effect/bone_fracture.png"
+					}
+				}
+				id: "74B51888545F2D3F"
+				title: "Kill the Supreme Bonescaller"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cSupreme Bonescaller"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5056463EC0BCCC4F"]
+			description: ["&7The massive remains of an elder protector. This now giant skeleton is slow but strong, it's best to use fire or axes against it."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "born_in_chaos_v1:item/shattered_skull"
+				}
+			}
+			id: "39E5D7BEFE35EA40"
+			rewards: [{
+				id: "072AC1B7B83552B0"
+				item: "teraphobia:chaos_essence"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "&eAppears after the fourth night."
+			tasks: [{
+				entity: "born_in_chaos_v1:skeleton_thrasher"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "mutantmonsters:item/mutant_skeleton/rib_cage"
+					}
+				}
+				id: "3360F88C1F179A74"
+				title: "Kill the Skeleton Thrasher"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cThe Skeleton Thrasher"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5056463EC0BCCC4F"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "born_in_chaos_v1:item/missionaryicon"
+				}
+			}
+			id: "3D7CCA70385DFC59"
+			rewards: [{
+				id: "728BEC58FF6E61A8"
+				item: "teraphobia:chaos_essence"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "&eAppears after the tenth night"
+			tasks: [{
+				entity: "born_in_chaos_v1:missioner"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "born_in_chaos_v1:item/missionaryicon"
+					}
+				}
+				id: "75F9832C47119141"
+				title: "Kill the Missionary of Death"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cMissionary of Death"
+			x: 4.0d
+			y: -3.0d
+		}
+	]
+	title: " &eChapter II:    &7Chaotic Beings"
+}

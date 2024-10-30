@@ -1,0 +1,18 @@
+{
+  // -----------------------------------------------------------
+  //               Fancy Hotbar by ElocinDev
+  // -----------------------------------------------------------
+  "custom_hotbar": {
+    "enable": true,
+    "x_offset": 0,
+    "y_offset": 0
+  },
+  "custom_experience_number": {
+    "enable": true,
+    "xp_color": 15223378,
+    "xp_outline_color": 0
+  },
+  // -----------------------------------------------------------
+  // No touchy!
+  "config_version": 1
+}

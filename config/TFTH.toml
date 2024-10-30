@@ -1,0 +1,699 @@
+
+#GENERAL SETTINGS FOR THE FLESH THAT HATES MOD
+#1 second = 20 ticks
+["GLOBAL THINGS"]
+	#Enable or disable Incubator spawning
+	#Default values: true
+	enableIncubatorSpawn = true
+	#List of dimension IDs where incubators should not spawn.
+	"Incubator Dimension Blacklist" = ["minecraft:the_nether", "minecraft:the_end"]
+	#Minimum distance from a player's respawn point where incubators cannot spawn.
+	#Range: 0.0 ~ 10000.0
+	"spawnpoint do not spawn" = 80.0
+	#Time (in ticks) after which the incubator will first emerge
+	#Default values: 1800 (20 seconds)
+	#Range: > 0
+	incubatorSleepTime = 1800
+	#Time after killing Incubator until next appearance
+	#Default values: 18000 (5 minutes)
+	#Range: > 1
+	ticksBeforeNextSpawn = 18000
+	#Minimum distance between incubators
+	#Default values: 2000
+	#Range: > 1
+	distancebetweenincubators = 2000
+	#Random range for X coordinate offset for Incubator Spawn
+	#Default values: 200
+	#Range: > 1
+	incubatorSpawnXRandomRange = 200
+	#Fixed offset for X coordinate for Incubator Spawn
+	#Default values: 150
+	#Range: > 0
+	incubatorSpawnXOffset = 150
+	#Random range for Z coordinate offset for Incubator Spawn
+	#Default values: 200
+	#Range: > 1
+	incubatorSpawnZRandomRange = 200
+	#Fixed offset for Z coordinate for Incubator Spawn
+	#Default values: 150
+	#Range: > 0
+	incubatorSpawnZOffset = 150
+	#Interval in ticks for spawning entities near incubators
+	#Default values: 1400
+	#Range: > 20
+	spawnInterval = 1400
+	#Damage multiplier for Flesh Mobs when on fire
+	#2.0 = 2x fire damage, 100.0 = 100x fire damage
+	#Default values: 2.0
+	#Range: 0.0 ~ 100000.0
+	fireDamageMultiplier = 2.0
+	#Points threshold for high spawn chance
+	#Default values: 3000
+	#Range: > 0
+	pointsThresholdHigh = 3000
+	#Points threshold for medium spawn chance
+	#Default values: 1500
+	#Range: > 0
+	pointsThresholdMedium = 1500
+	#Points threshold for low spawn chance
+	#Default values: 500
+	#Range: > 0
+	pointsThresholdLow = 500
+	#Chance for the highest number of points
+	#Default values: 1.0
+	#Range: 0.0 ~ 1.0
+	spawnChanceAt3000Points = 1.0
+	#Chance for the average number of points
+	#Default values: 0.8
+	#Range: 0.0 ~ 1.0
+	spawnChanceAt1500Points = 0.8
+	#Chance of a low number of points
+	#Default values: 0.6
+	#Range: 0.0 ~ 1.0
+	spawnChanceAt500Points = 0.6
+
+	["GLOBAL THINGS"."DAMAGE REDUCTION PER PHASE"]
+		#Damage reduction factor for Embryo Phase
+		#0.10 = 10%, 0.25 = 25% and etc.
+		#Default value = 0.10
+		#Range: 0.0 ~ 1.0
+		germStageDamageReduction = 0.1
+		#Damage reduction factor for Biogenesis Phase
+		#Default value = 0.25
+		#Range: 0.0 ~ 1.0
+		awarenessStageDamageReduction = 0.25
+		#Damage reduction factor for Enlightenment Phase
+		#Default value = 0.50
+		#Range: 0.0 ~ 1.0
+		growthStageDamageReduction = 0.5
+		#Damage reduction factor for Synthesis Stage
+		#Default value = 0.75
+		#Range: 0.0 ~ 1.0
+		synthesisStageDamageReduction = 0.75
+		#Damage reduction factor for Epikulmination Phase
+		#Default value = 1.00
+		#Range: 0.0 ~ 1.0
+		epitasisStageDamageReduction = 1.0
+
+	["GLOBAL THINGS"."PERCENTAGE PHASE HEALING"]
+		#Percent healing every 6 seconds
+		#They can healing only on flesh blocks
+		#Heal percent for Embryo Phase
+		#5%
+		#Default values: 0.05
+		#Range: 0.0 ~ 1.0
+		germStageHealPercent = 0.05
+		#Heal percent for Biogenesis Phase
+		#10%
+		#Default values: 0.1
+		#Range: 0.0 ~ 1.0
+		awarenessStageHealPercent = 0.1
+		#Heal percent for Enlightenment Phase
+		#15%
+		#Default values: 0.15
+		#Range: 0.0 ~ 1.0
+		growthStageHealPercent = 0.15
+		#Heal percent for Synthesis Stage
+		#20%
+		#Default values: 0.2
+		#Range: 0.0 ~ 1.0
+		synthesisStageHealPercent = 0.2
+		#Heal percent for Epikulmination Phase
+		#25%
+		#Default values: 0.25
+		#Range: 0.0 ~ 1.0
+		epitasisStageHealPercent = 0.25
+
+	["GLOBAL THINGS"."FLESH MOBS POINTS SPAWN"]
+		#Spawn thresholds for each entity type
+		#Default values: 0
+		#Range: > 0
+		"Flesh Infector threshold" = 0
+		#Default values: 300
+		#Range: > 0
+		"Flesh Human Threshold" = 300
+		#Default values: 500
+		#Range: > 0
+		"Flesh Pillager Threshold" = 500
+		#Default values: 450
+		#Range: > 0
+		"Flesh ServantThreshold" = 450
+		#Default values: 300
+		#Range: > 0
+		"Flesh Sheep Threshold" = 300
+		#Default values: 300
+		#Range: > 0
+		"Flesh CowThreshold" = 300
+		#Default values: 300
+		#Range: > 0
+		"Flesh PigThreshold" = 300
+		#Default values: 300
+		#Range: > 0
+		"Flesh Villager Threshold" = 300
+		#Default values: 650
+		#Range: > 0
+		"Flesh Brute Threshold" = 650
+		#Default values: 650
+		#Range: > 0
+		"Flesh Mutant Threshold" = 650
+		#Default values: 1000
+		#Range: > 0
+		"Flesh Human Head Threshold" = 1000
+		#Default values: 700
+		#Range: > 0
+		"Flesh Vindicator Threshold" = 700
+		#Default values: 900
+		#Range: > 0
+		"Flesh Dog Threshold" = 900
+		#Default values: 3000
+		#Range: > 0
+		"Flesh Hunter I Threshold" = 3000
+		#Default values: 3000
+		#Range: > 0
+		"Flesh Hysterizer Threshold" = 3000
+		#Default values: 3500
+		#Range: > 0
+		"Flesh Suffer Threshold" = 3500
+		#Default values: 3000
+		#Range: > 0
+		"Flesh Boomer Threshold" = 3000
+		#Default values: 3000
+		#Range: > 0
+		"Flesh Hunter TwoThreshold" = 3000
+		#Default values: 3000
+		#Range: > 0
+		"Flesh Howler Threshold" = 3000
+
+["POINTS CALCULATION"]
+	#Configuration for calculating points for a standard entity. Formula: 'Total Points = (Entity's Max Health / HealthDivisor) + (Entity's Armor Value / ArmorDivisor)'.
+	#Default values: HealthDivisor=4; ArmorDivisor=4
+	entityPointsCalculation = "HealthDivisor=4; ArmorDivisor=4"
+	#Configuration for calculating points for a flesh entity. Formula: 'Total Points = min((Entity's Max Health / HealthDivisor) + (Entity's Armor Value / ArmorDivisor), MaxPoints)'.
+	#Default values: HealthDivisor=6; ArmorDivisor=6; MaxPoints=60
+	fleshEntityPointsCalculation = "HealthDivisor=6; ArmorDivisor=6; MaxPoints=60"
+	#Configuration for calculating points for a despawned flesh entity. Formula: 'Total Points = min((Entity's Max Health / HealthDivisor) + (Entity's Armor Value / ArmorDivisor), MaxPoints)'.
+	#Default values: HealthDivisor=3; ArmorDivisor=3; MaxPoints=120
+	despawnedFleshEntityPointsCalculation = "HealthDivisor=3; ArmorDivisor=3; MaxPoints=120"
+	#Configuration for calculating points for an effect kill. Formula: 'Total Points = (Entity's Max Health / HealthDivisor) + (Entity's Armor Value / ArmorDivisor)'.
+	#Default values: HealthDivisor=4; ArmorDivisor=4
+	effectKillPointsCalculation = "HealthDivisor=4; ArmorDivisor=4"
+
+["MOBS BEHAVIOR SETTINGS"]
+	#Should flesh mobs attack fish? Default: false
+	attackFish = false
+	#List of mod ID that should not attack flesh entities
+	#Add for example this: ["somemodeid"], and all id mobs will not attack flesh entities
+	#If you leave just empty brackets [" "], it will mean that all mods will not attack flesh entities
+	modMobsNonAttackList = []
+	#Blacklisted mobs that should not be targeted by flesh entities
+	blacklistMobs = ["minecraft:creeper", "minecraft:squid"]
+	#Blacklisted mobs that should not be targeted, but id whole mod
+	#Add for example this: ["minecraft"], and all the flesh entities will not attack id mobs
+	#If you leave just empty brackets [" "], it will apply to all mods
+	superBlackList = []
+	#Mobs that will target flesh entities
+	mobsThatAttackInfected = ["minecraft:iron_golem", "minecraft:pillager", "minecraft:evoker", "minecraft:vindicator", "minecraft:vex", "minecraft:witch", "minecraft:ravager", "minecraft:bee", "minecraft:blaze", "minecraft:cave_spider", "minecraft:spider", "minecraft:drowned", "minecraft:elder_guardian", "minecraft:enderman", "minecraft:endermite", "minecraft:husk", "minecraft:skeleton", "minecraft:slime", "minecraft:zombie_villager", "minecraft:stray", "minecraft:wither_skeleton", "minecraft:zombie", "minecraft:zombified_piglin", "minecraft:guardian", "minecraft:hoglin", "minecraft:shulker", "minecraft:zombified_piglin", "minecraft:drowned", "minecraft:elder_guardian", "minecraft:enderman", "minecraft:endermite", "minecraft:wolf", "guardvillagers:guard"]
+	#Mobs that will target flesh entities if previous methods dont work, but id whole mod
+	ultraListAttackInfected = ["fromanotherworld"]
+	#Mobs that will target flesh entities, but id whole mod
+	#Add for example this: ["minecraft"], and all the Minecraft mobs will attack the flesh entities
+	#If you leave just empty brackets [" "], it will apply to all mods
+	superAttackList = []
+	#Mobs that will run from flesh entities
+	mobsThatFleeFromInfected = ["minecraft:villager", "minecraft:wandering_trader"]
+	#Mobs that will run from flesh entities, but id whole mod
+	#Add for example this: ["minecraft"], and all the Minecraft mobs will run from flesh entities
+	#If you leave just empty brackets [" "], it will apply to all mods
+	superFleeList = []
+
+["WHICH MOBS ARE INFECTED"]
+	#List of vanilla entities from which Flesh Human can spawn
+	spawnFleshHumanFrom = ["minecraft:zombie", "minecraft:player"]
+	#List of vanilla entities from which Flesh Sheep can spawn
+	spawnFleshSheepFrom = ["minecraft:sheep"]
+	#List of vanilla entities from which Flesh Cow can spawn
+	spawnFleshCowFrom = ["minecraft:cow"]
+	#List of vanilla entities from which Flesh Pig can spawn
+	spawnFleshPigFrom = ["minecraft:pig"]
+	#List of vanilla entities from which Flesh Dog can spawn
+	spawnFleshDogFrom = ["minecraft:wolf"]
+	#List of vanilla entities from which Flesh Vindicator can spawn
+	spawnFleshVindicatorFrom = ["minecraft:vindicator"]
+	#List of vanilla entities from which Flesh Pillager can spawn
+	spawnFleshPillagerFrom = ["minecraft:pillager"]
+	#List of vanilla entities from which Flesh Villager can spawn
+	spawnFleshVillagerFrom = ["minecraft:villager", "guardvillagers:guard"]
+	#List of vanilla entities from which Flesh Infector can spawn
+	spawnFleshInfectorFrom = []
+	#List of vanilla entities from which Flesh Brute I can spawn
+	spawnFleshBruteIFrom = []
+	#List of vanilla entities from which Flesh Mutant can spawn
+	spawnFleshMutantFrom = []
+	#List of vanilla entities from which Flesh Hunter I can spawn
+	spawnFleshHunterIFrom = []
+	#List of vanilla entities from which Flesh Hunter II can spawn
+	spawnFleshHunterIIFrom = []
+	#List of vanilla entities from which Flesh Hysterizer can spawn
+	spawnFleshHysterizerFrom = []
+	#List of vanilla entities from which Flesh Boomer can spawn
+	spawnFleshBoomerFrom = []
+	#List of vanilla entities from which Flesh Suffer can spawn
+	spawnFleshSufferFrom = []
+	#List of vanilla entities from which Flesh Howler can spawn
+	spawnFleshHowlerFrom = []
+	#List of vanilla entities from which Flesh Servant can spawn
+	spawnFleshServantFrom = []
+	#List of vanilla entities from which Flesh Unseen can spawn
+	spawnFleshUnseenFrom = []
+	#List of vanilla entities from which Flesh Community can spawn
+	spawnFleshCommunityFrom = []
+	#List of vanilla entities from which Flesh Human Head can spawn
+	spawnFleshHumanHeadFrom = []
+	#List of vanilla entities from which Embryo Incubator can spawn
+	spawnEmbryoIncubatorFrom = []
+	#List of vanilla entities from which Biogenesis Incubator can spawn
+	spawnBiogenesisIncubatorFrom = []
+	#List of vanilla entities from which Flesh Piece cannot spawn
+	noSpawnFleshPieceFrom = []
+
+["MOB SETTINGS"]
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Global Damage Modifier" = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Global Health Modifier" = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Global Armor Modifier" = 1.0
+
+	["MOB SETTINGS"."DESPAWN MOBS"]
+		#Despawn time in seconds
+		#Default values 300
+		#Range: > 0
+		"Despawn Timer:" = 300
+		#Maximum Embryo Mobs
+		#Default values 60
+		#Range: > 0
+		"Max Embryo Mobs" = 80
+		#Maximum Enlightened Mobs
+		#Default values 45
+		#Range: > 0
+		"Max Enlightened Mobs" = 60
+
+		["MOB SETTINGS"."DESPAWN MOBS"."EMBRYO DESPAWN PRIORITY"]
+			#This is the priority of the mobs. Lower number mobs will be despawned first
+			#Range: > 0
+			"Flesh Infector priority" = 1
+			#Range: > 0
+			"Flesh Villager priority" = 1
+			#Range: > 0
+			"Flesh Human priority" = 1
+			#Range: > 0
+			"Flesh Pillager priority" = 2
+			#Range: > 1
+			"Flesh Sheep priority" = 1
+			#Range: > 0
+			"Flesh Cow priority" = 1
+			#Range: > 0
+			"Flesh Pig priority" = 1
+			#Range: > 0
+			"Flesh Brute I priority" = 3
+			#Range: > 0
+			"Flesh Mutant priority" = 2
+			#Range: > 0
+			"Flesh Vindicator priority" = 2
+			#Range: > 0
+			"Flesh Dog priority" = 3
+
+		["MOB SETTINGS"."DESPAWN MOBS"."ENLIGHTED DESPAWN PRIORITY"]
+			#This is the priority of the mobs. Lower number mobs will be despawned first
+			#Range: > 0
+			"Flesh Hunter I priority" = 1
+			#Range: > 0
+			"Flesh Hunter II priority" = 1
+			#Range: > 0
+			"Flesh Hysterizer priority" = 3
+			#Range: > 0
+			"Flesh Suffer priority" = 2
+			#Range: > 0
+			"Flesh Boomer priority" = 1
+			#Range: > 0
+			"Flesh Howler priority" = 2
+
+	["MOB SETTINGS"."Embryo mobs buffs"]
+		#Maximum number of clones that can be created at one time
+		#Default values 3
+		#Range: > 0
+		"Max Clones Embryo" = 3
+		#Cooldown period in seconds for germ mob replication.
+		#Default values 45 in seconds
+		#Range: > 0
+		"replication cooldown" = 45
+		#The minimum points required for a Embryo Mob to replicate
+		#Default values 500
+		#Range: > 0
+		"Points for replication" = 500
+
+	["MOB SETTINGS"."Embryo Incubator"]
+		#Default values MaxHealth:60|AttackDamage:0|Armor:5
+		"Embryo Incubator Attributes" = "MaxHealth:75|AttackDamage:0|Armor:5"
+		#The number of ticks before Incubator Embryo Phase to evolution (1 second = 20 ticks)
+		#Default values 10000
+		#Range: > 1
+		ticksBeforeTransform = 10000
+		#Number of mobs that can be spawned at one time Biogenesis Incubator
+		#Default values 2
+		#Range: > 1
+		"Number Bio" = 2
+		#Maximum number of summoned mobs from Incubator Biogenesis stage
+		#Default values 8
+		#Range: > 1
+		maxMobsGermStageAllowed = 8
+		#Points add every minute Embryo
+		#Default values 10
+		#Range: > 1
+		pointsAwardedEmbryo = 10
+
+	["MOB SETTINGS"."Enlightenment Incubator"]
+		#Default values MaxHealth:100|AttackDamage:0|Armor:8
+		"Enlightenment Incubator Attributes" = "MaxHealth:125|AttackDamage:0|Armor:10"
+		#Number of mobs that can be spawned at one time Enlightenment Incubator
+		#Default values 3
+		#Range: > 1
+		"Number Enlight" = 3
+		#Maximum number of summoned mobs from Incubator Enlightenment stage
+		#Default values 14
+		#Range: > 1
+		maxMobsAwarenessStageAllowed = 14
+		#Interval in ticks for summoning Flesh Hunter Three
+		#Default values 6000
+		#Range: > 1
+		fleshHunterThreeSummonInterval = 6000
+		#Maximum number of Flesh Unseen allowed
+		#Default values 2
+		#Range: > 1
+		maxFleshUnseenallowed = 2
+		#Points add every minute
+		#Default values 25
+		#Range: > 1
+		pointsAwardedAwareness = 25
+
+	["MOB SETTINGS"."Flesh Infector"]
+		#Default values MaxHealth:10|AttackDamage:4|Armor:0
+		"Flesh Infector Attributes" = "MaxHealth:10|AttackDamage:4|Armor:0"
+
+	["MOB SETTINGS"."Flesh Human"]
+		#Default values MaxHealth:20|AttackDamage:4|Armor:1
+		"Flesh Human Attributes" = "MaxHealth:20|AttackDamage:4|Armor:1"
+
+	["MOB SETTINGS"."Flesh Villager"]
+		#Default values MaxHealth:22|AttackDamage:4|Armor:1
+		"Flesh Villager Attributes" = "MaxHealth:22|AttackDamage:4|Armor:1"
+
+	["MOB SETTINGS"."Flesh Pig"]
+		#Default values MaxHealth:22|AttackDamage:4|Armor:0
+		"Flesh Pig Attributes" = "MaxHealth:22|AttackDamage:4|Armor:0"
+
+	["MOB SETTINGS"."Flesh Cow"]
+		#Default values MaxHealth:25|AttackDamage:5|Armor:1
+		"Flesh Cow Attributes" = "MaxHealth:25|AttackDamage:5|Armor:1"
+
+	["MOB SETTINGS"."Flesh Sheep"]
+		#Default values MaxHealth:15|AttackDamage:5|Armor:0
+		"Flesh Sheep Attributes" = "MaxHealth:15|AttackDamage:5|Armor:0"
+
+	["MOB SETTINGS"."Flesh Dog"]
+		#Maximum number of dogs in a pack
+		#Range: > 1
+		maxDogsAllowed = 4
+		#Default values MaxHealth:25|AttackDamage:6|Armor:0
+		dogAttributes = "MaxHealth:25|AttackDamage:6|Armor:0"
+
+	["MOB SETTINGS"."Flesh Vindicator"]
+		#Default values MaxHealth:30|AttackDamage:6|Armor:4
+		"Flesh Vindicator Attributes" = "MaxHealth:30|AttackDamage:6|Armor:4"
+
+	["MOB SETTINGS"."Flesh Pillager"]
+		#Default values MaxHealth:25|AttackDamage:3|Armor:0
+		"Flesh Pillager Attributes" = "MaxHealth:25|AttackDamage:3|Armor:0"
+
+	["MOB SETTINGS"."Flesh Mutant"]
+		#Default values MaxHealth:30|AttackDamage:6|Armor:4
+		"Flesh Mutant Attributes" = "MaxHealth:30|AttackDamage:6|Armor:4"
+
+	["MOB SETTINGS"."Flesh Piece"]
+		#Default values MaxHealth:10|AttackDamage:0|Armor:0
+		"Flesh Piece Attributes" = "MaxHealth:10|AttackDamage:0|Armor:0"
+
+		["MOB SETTINGS"."Flesh Piece"."FLESH PIECE FORMULE"]
+			#Configuration for calculating flesh pieces count based on entity's attributes. The formula is: 'Total Count = (Entity's Max Health / HealthDivisor) + (Entity's Armor Value / ArmorDivisor)'. If the total count is zero and the entity's max health is above 'MinHealth', 'MinCount' is used as the total count.
+			#Default values HealthDivisor:25|ArmorDivisor:10|MinHealth:10|MinCount:1
+			fleshPieceCalculation = "HealthDivisor=25; ArmorDivisor=10; MinHealth=10; MinCount=1"
+
+	["MOB SETTINGS"."Flesh Brute I"]
+		#Default values MaxHealth:45|AttackDamage:4|Armor:5
+		"Flesh Brute I Attributes" = "MaxHealth:45|AttackDamage:4|Armor:5"
+
+	["MOB SETTINGS"."Flesh Hunter I"]
+		#Default values MaxHealth:50|AttackDamage:7|Armor:6
+		"Flesh Hunter I Attributes" = "MaxHealth:50|AttackDamage:7|Armor:6"
+
+	["MOB SETTINGS"."Flesh Hunter II"]
+		#Default values MaxHealth:45|AttackDamage:6|Armor:4
+		"Flesh Hunter II Attributes" = "MaxHealth:45|AttackDamage:6|Armor:4"
+
+	["MOB SETTINGS"."Flesh Hysterizer"]
+		#Default values MaxHealth:55|AttackDamage:7|Armor:4
+		"Flesh Hysterizer Attributes" = "MaxHealth:55|AttackDamage:7|Armor:4"
+		#Number of kills before transformation into Flesh Community
+		#Default values 7
+		#Range: > 1
+		transformationThreshold = 7
+
+	["MOB SETTINGS"."Flesh Howler"]
+		#Default values MaxHealth:30|AttackDamage:0|Armor:2
+		"Flesh Howler Attributes" = "MaxHealth:30|AttackDamage:0|Armor:2"
+		#Minimum points required to start spawning mobs
+		#Default values 6000
+		#Range: > 0
+		minPointsForSpawning = 6000
+		#Number of mobs to summon each time
+		#Default values 2
+		#Range: > 1
+		numberOfMobsToSummon = 2
+
+	["MOB SETTINGS"."Flesh Suffer"]
+		#Default values MaxHealth:40|AttackDamage:25|Armor:4
+		"Flesh Suffer Attributes" = "MaxHealth:40|AttackDamage:25|Armor:4"
+
+	["MOB SETTINGS"."Flesh Boomer"]
+		#Default values MaxHealth:20|AttackDamage:0|Armor:0
+		"Flesh Boomer Attributes" = "MaxHealth:20|AttackDamage:0|Armor:0"
+
+	["MOB SETTINGS"."Flesh Unseen"]
+		#Default values MaxHealth:100|AttackDamage:14|Armor:10
+		"Flesh Unseen Attributes" = "MaxHealth:100|AttackDamage:14|Armor:10"
+
+	["MOB SETTINGS"."Flesh Community"]
+		#Default values MaxHealth:50|AttackDamage:8|Armor:0
+		"Flesh Community Attributes" = "MaxHealth:50|AttackDamage:8|Armor:0"
+
+		["MOB SETTINGS"."Flesh Community"."FIRE DAMAGE MULTIPLIERS BY STAGE"]
+			#Fire damage multiplier for Fetal Stage
+			#Range: 0.0 ~ 1.7976931348623157E308
+			fetalStageFireDamageMultiplier = 2.0
+			#Fire damage multiplier for Germ Stage
+			#Range: 0.0 ~ 1.7976931348623157E308
+			germStageFireDamageMultiplier = 3.0
+			#Fire damage multiplier for Awareness Stage
+			#Range: 0.0 ~ 1.7976931348623157E308
+			awarenessStageFireDamageMultiplier = 4.0
+			#Fire damage multiplier for Growth Stage
+			#Range: 0.0 ~ 1.7976931348623157E308
+			growthStageFireDamageMultiplier = 5.0
+			#Fire damage multiplier for Synthesis Stage
+			#Range: 0.0 ~ 1.7976931348623157E308
+			synthesisStageFireDamageMultiplier = 6.0
+			#Fire damage multiplier for Epitasis Stage
+			#Range: 0.0 ~ 1.7976931348623157E308
+			epitasisStageFireDamageMultiplier = 7.0
+
+	["MOB SETTINGS"."Flesh Servant"]
+		#Default values MaxHealth:35|AttackDamage:7|Armor:3
+		"Flesh Servant Attributes" = "MaxHealth:35|AttackDamage:7|Armor:3"
+
+	["MOB SETTINGS"."Flesh Justice"]
+		#Default values MaxHealth:35|AttackDamage:0|Armor:4
+		"Flesh Justice Attributes" = "MaxHealth:35|AttackDamage:0|Armor:4"
+		#Enable or disable Flesh Justice spawn
+		#Default values: true
+		enableFleshJusticeSpawn = true
+
+		["MOB SETTINGS"."Flesh Justice"."FLESH JUSTICE SPAWN CHANCES BY STAGE"]
+			#0.05 = 5% and etc.
+			#Flesh Justice spawn chance for Fetal Stage
+			#Range: 0.0 ~ 1.0
+			fetalStageJusticeSpawnChance = 0.05
+			#Flesh Justice spawn chance for Germ Stage
+			#Range: 0.0 ~ 1.0
+			germStageJusticeSpawnChance = 0.07
+			#Flesh Justice spawn chance for Awareness Stage
+			#Range: 0.0 ~ 1.0
+			awarenessStageJusticeSpawnChance = 0.1
+			#Flesh Justice spawn chance for Growth Stage
+			#Range: 0.0 ~ 1.0
+			growthStageJusticeSpawnChance = 0.12
+			#Flesh Justice spawn chance for Synthesis Stage
+			#Range: 0.0 ~ 1.0
+			synthesisStageJusticeSpawnChance = 0.13
+			#Flesh Justice spawn chance for Epitasis Stage
+			#Range: 0.0 ~ 1.0
+			epitasisStageJusticeSpawnChance = 0.15
+
+	["MOB SETTINGS"."Flesh Cocoon"]
+		#Default values MaxHealth:10|AttackDamage:0|Armor:0
+		"Flesh Cocoon Attributes" = "MaxHealth:10|AttackDamage:0|Armor:0"
+
+	["MOB SETTINGS"."Flesh Human Head"]
+		#Default values MaxHealth:10|AttackDamage:3|Armor:0
+		"Flesh Human Head Attributes" = "MaxHealth:10|AttackDamage:3|Armor:0"
+
+["MOB TYPES"]
+	#List of entity types for Biogenesis Stage Mobs
+	#plaquecreatureone = Flesh Mutant
+	#bruteplaquecreatureone = Flesh Brute I
+	#plaquecreaturebaseone = Flesh Distributor
+	#plaquecontaminator = Flesh Infector
+	#plaquecreaturetwo = Flesh Hunter I
+	#plaquethreelegcreature = Flesh Hysterizer
+	germsStageMobList = ["the_flesh_that_hates:plaquecontaminator", "the_flesh_that_hates:flesh_human", "the_flesh_that_hates:flesh_villager", "the_flesh_that_hates:flesh_sheep", "the_flesh_that_hates:flesh_pig", "the_flesh_that_hates:flesh_cow", "the_flesh_that_hates:plaquecreatureone", "the_flesh_that_hates:flesh_dog", "the_flesh_that_hates:flesh_vindicator", "the_flesh_that_hates:flesh_pillager", "the_flesh_that_hates:bruteplaquecreatureone"]
+	#List of entity types for Enlightenment Stage Mobs
+	awarenessStageMobList = ["the_flesh_that_hates:plaquecreaturetwo", "the_flesh_that_hates:plaquethreelegcreature", "the_flesh_that_hates:flesh_suffer", "the_flesh_that_hates:flesh_boomer", "the_flesh_that_hates:flesh_hunter_two", "the_flesh_that_hates:flesh_howler"]
+
+["BLOCK SETTINGS"]
+	#Number of mobs absorbed for evolution
+	#Default values: 8
+	#Range: > 1
+	"Boil Evolution" = 8
+	#Rate at which mobs spawn from Flesh Boil block (in ticks)
+	#Default values: 1200
+	#Range: > 20
+	fleshBoilSpawnRate = 1600
+	#Rate at which mobs spawn from Flesh Boil Phase Two block (in ticks)
+	#Default values: 1600
+	#Range: > 20
+	fleshBoilTwoSpawnRate = 1600
+	#How many points will be added per minute for Boil
+	#Default values: 5
+	#Range: > 1
+	fleshBoilPoints = 5
+	#How many points will be added per minute for Boil Two
+	#Default values: 15
+	#Range: > 1
+	fleshBoilTwoPoints = 15
+	#How many points will be reduced by destruction Boil
+	#Default values: 25
+	#Range: > 0
+	fleshBoilPointsReduce = 25
+	#How many points will be reduced by destruction Boil Two
+	#Default values: 50
+	#Range: > 0
+	fleshBoilTwoPointsReduce = 50
+
+["BIOME SETTINGS"]
+	#Enable or disable the red fog
+	#Default values: true
+	enableFleshFog = true
+	#Number of points deducted for a burned block
+	#Default values: 1
+	#Range: > 0
+	"Subtract points for blocks:" = 1
+	#Enable or disable Biome Spread
+	#Default values: true
+	enableFleshBlockSpread = true
+	#Enable or disable the spawning of structures in Biome Spread
+	#Default values: true
+	enableStructuresSpawn = true
+	#Duration of the spread process
+	#Default values: 800
+	#Range: > 0
+	spreadDuration = 800
+	#Cooldown time between spread processes
+	#Default values: 150
+	#Range: > 0
+	spreadCooldown = 150
+	#The number of blocks that can be processed simultaneously
+	#Default values: 30
+	#Range: > 0
+	"Number Of Blocks:" = 70
+	#Spread rate in ticks
+	#Default:5
+	#Range: > 0
+	"Spread speed" = 10
+	#Max biome spread range
+	#Default values: 1500
+	#Range: > 1
+	"Range Spread" = 1500
+
+	["BIOME SETTINGS"."BLOCK HARD VALUE INFECT"]
+		#Hard value of the block to be replaced by a Flesh block
+		#default values: 1.5
+		#Range: 0.0 ~ 3.4028234663852886E38
+		"Flesh Block hardvalue" = 1.9
+		#Minimum hard value of the block to be replaced by a Tumor block
+		#Default values: 2.0
+		#Range: 0.0 ~ 3.4028234663852886E38
+		"Tumor Block minimum hardvalue" = 2.0
+		#Maximum hard value of the block to be replaced by a Tumor block
+		#Default values: 2.5
+		#Range: 0.0 ~ 3.4028234663852886E38
+		"Tumror Block maximum hardvalue" = 2.5
+
+	["BIOME SETTINGS"."BLOCK INFECTABILITY SETTINGS"]
+		#Flesh Sand
+		"Flesh Sand infectable Blocks" = ["minecraft:sand", "minecraft:sandstone", "minecraft:sandstone_stairs", "minecraft:sandstone_slab", "minecraft:sandstone_wall", "minecraft:chiseled_sandstone", "minecraft:smooth_sandstone", "minecraft:smooth_sandstone_stairs", "minecraft:smooth_red_sandstone_slab", "minecraft:cut_sandstone", "minecraft:cut_sandstone_slab", "minecraft:red_sand", "minecraft:red_sandstone", "minecraft:red_sandstone_stairs", "minecraft:red_sandstone_slab", "minecraft:red_sandstone_wall", "minecraft:chiseled_red_sandstone", "minecraft:smooth_red_sandstone", "minecraft:smooth_red_sandstone_stairs", "minecraft:smooth_sandstone_slab", "minecraft:cut_red_sandstone", "minecraft:cut_red_sandstone_slab"]
+		#Flesh Plank
+		"Flesh Plank infectable Blocks" = ["minecraft:oak_planks", "minecraft:oak_stairs", "minecraft:oak_slab", "minecraft:oak_fence", "minecraft:oak_fence_gate", "minecraft:oak_trapdoor", "minecraft:oak_pressure_plate", "minecraft:spruce_planks", "minecraft:spruce_stairs", "minecraft:spruce_slab", "minecraft:spruce_fence", "minecraft:spruce_fence_gate", "minecraft:spruce_trapdoor", "minecraft:spruce_pressure_plate", "minecraft:birch_planks", "minecraft:birch_stairs", "minecraft:birch_slab", "minecraft:birch_fence", "minecraft:birch_fence_gate", "minecraft:birch_trapdoor", "minecraft:birch_pressure_plate", "minecraft:jungle_planks", "minecraft:jungle_stairs", "minecraft:jungle_slab", "minecraft:jungle_fence", "minecraft:jungle_fence_gate", "minecraft:jungle_trapdoor", "minecraft:jungle_pressure_plate", "minecraft:acacia_planks", "minecraft:acacia_stairs", "minecraft:acacia_slab", "minecraft:acacia_fence", "minecraft:acacia_fence_gate", "minecraft:acacia_trapdoor", "minecraft:dark_oak_planks", "minecraft:dark_oak_stairs", "minecraft:dark_oak_slab", "minecraft:dark_oak_fence", "minecraft:dark_oak_fence_gate", "minecraft:dark_oak_trapdoor", "minecraft:mangrove_planks", "minecraft:mangrove_stairs", "minecraft:mangrove_slab", "minecraft:mangrove_fence", "minecraft:mangrove_fence_gate", "minecraft:mangrove_trapdoor", "minecraft:cherry_planks", "minecraft:cherry_stairs", "minecraft:cherry_slab", "minecraft:cherry_fence", "minecraft:cherry_fence_gate", "minecraft:cherry_trapdoor", "minecraft:bamboo_planks", "minecraft:bamboo_stairs", "minecraft:bamboo_slab", "minecraft:bamboo_fence", "minecraft:bamboo_fence_gate", "minecraft:bamboo_trapdoor", "minecraft:crimson_planks", "minecraft:crimson_stairs", "minecraft:crimson_slab", "minecraft:crimson_fence", "minecraft:crimson_fence_gate", "minecraft:crimson_trapdoor", "minecraft:warped_planks", "minecraft:warped_stairs", "minecraft:warped_slab", "minecraft:warped_fence", "minecraft:warped_fence_gate", "minecraft:warped_trapdoor"]
+		#Flesh Brick
+		"Flesh Brick infectable Blocks" = ["minecraft:stone_bricks", "minecraft:cracked_stone_bricks", "minecraft:stone_brick_stairs", "minecraft:stone_brick_slab", "minecraft:stone_brick_wall", "minecraft:chiseled_stone_bricks", "minecraft:mossy_stone_bricks", "minecraft:mossy_stone_brick_stairs", "minecraft:mossy_stone_brick_slab", "minecraft:mossy_stone_brick_wall", "minecraft:deepslate_bricks", "minecraft:cracked_deepslate_bricks", "minecraft:deepslate_brick_stairs", "minecraft:deepslate_brick_slab", "minecraft:deepslate_brick_wall", "minecraft:chiseled_deepslate_bricks", "minecraft:mossy_deepslate_bricks", "minecraft:mossy_deepslate_brick_stairs", "minecraft:mossy_deepslate_brick_slab", "minecraft:mossy_deepslate_brick_wall", "minecraft:bricks", "minecraft:cracked_bricks", "minecraft:brick_stairs", "minecraft:brick_slab", "minecraft:brick_wall", "minecraft:chiseled_bricks", "minecraft:mossy_bricks", "minecraft:mossy_brick_stairs", "minecraft:mossy_brick_slab", "minecraft:mossy_brick_wall", "minecraft:mud_brick_slab", "minecraft:mud_brick_wall", "minecraft:chiseled_mud_bricks", "minecraft:mossy_mud_bricks", "minecraft:mossy_mud_brick_stairs", "minecraft:mossy_mud_brick_slab", "minecraft:mossy_mud_brick_wall", "minecraft: prismarine_bricks", "minecraft: prismarine_brick_stairs", "minecraft: prismarine_brick_slab", "minecraft:nether_bricks", "minecraft:cracked_nether_bricks", "minecraft:nether_brick_stairs", "minecraft:nether_brick_slab", "minecraft:nether_brick_wall", "minecraft:chiseled_nether_bricks", "minecraft:mossy_nether_bricks", "minecraft:mossy_nether_brick_stairs", "minecraft:mossy_nether_brick_slab", "minecraft:mossy_nether_brick_wall", "minecraft:polished_blackstone_bricks", "minecraft:cracked_polished_blackstone_bricks", "minecraft:polished_blackstone_brick_stairs", "minecraft:polished_blackstone_brick_slab", "minecraft:polished_blackstone_brick_wall", "minecraft:chiseled_polished_blackstone_bricks", "minecraft:mossy_polished_blackstone_bricks", "minecraft:mossy_polished_blackstone_brick_stairs", "minecraft:mossy_polished_blackstone_brick_slab", "minecraft:mossy_polished_blackstone_brick_wall", "minecraft:mossy_nether_brick_wall", "minecraft:end_stone_bricks", "minecraft:cracked_end_stone_bricks", "minecraft:end_stone_brick_stairs", "minecraft:end_stone_brick_slab", "minecraft:end_stone_brick_wall", "minecraft:chiseled_end_stone_bricks", "minecraft:mossy_end_stone_bricks", "minecraft:mossy_end_stone_brick_stairs", "minecraft:mossy_end_stone_brick_slab", "minecraft:mossy_end_stone_brick_wall", "minecraft:quartz_bricks", "minecraft:infested_stone_bricks", "minecraft:infested_mossy_stone_bricks", "minecraft:infested_cracked_stone_bricks", "minecraft:infested_chiseled_stone_bricks"]
+		#Flesh Cobblestone
+		"Flesh Cobblestone infectable Blocks" = ["minecraft:stone", "minecraft:stone_stairs", "minecraft:stone_slab", "minecraft:stone_pressure_plate", "minecraft:stone_button", "minecraft:cobblestone", "minecraft:cobblestone_stairs", "minecraft:cobblestone_slab", "minecraft:cobblestone_wall", "minecraft:mossy_cobblestone", "minecraft:mossy_cobblestone_stairs", "minecraft:mossy_cobblestone_slab", "mossy_cobblestone_wall", "minecraft:infested_stone", "minecraft:infested_cobblestone", "minecraft:infested_stone_bricks", "minecraft:infested_mossy_stone_bricks", "minecraft:infested_cracked_stone_bricks", "minecraft:infested_chiseled_stone_bricks"]
+		#Flesh Log
+		"Flesh Log infectable Blocks" = ["minecraft:oak_log", "minecraft:stripped_oak_log", "minecraft:spruce_log", "minecraft:stripped_spruce_log", "minecraft:birch_log", "minecraft:stripped_birch_log", "minecraft:stripped_jungle_log", "minecraft:acacia_log", "minecraft:stripped_acacia_log", "minecraft:dark_oak_log", "minecraft:stripped_dark_oak_log", "minecraft:mangrove_log", "minecraft:stripped_mangrove_log", "minecraft:cherry_log", "minecraft:stripped_cherry_log", "minecraft:tag_stripped_logs"]
+		#Flesh Leaves
+		"Flesh Leaves infectable Blocks" = ["minecraft:oak_leaves", "minecraft:spruce_leaves", "minecraft:birch_leaves", "minecraft:jungle_leaves", "minecraft:acacia_leaves", "minecraft:dark_oak_leaves", "minecraft:mangrove_leaves", "minecraft:cherry_leaves", "minecraft:azalea_leaves", "minecraft:flowering_azalea_leaves"]
+		#Pus
+		"Pus infectable liquid" = ["minecraft:water", "minecraft:flowing_water"]
+		#Non-Infectable Blocks
+		#This will only apply to blocks that replace blocks from hardness level
+		#It is highly discouraged to remove blocks: "minecraft:air", "minecraft:cave_air", "minecraft:void_air"
+		nonInfectableBlocks = ["minecraft:air", "minecraft:cave_air", "minecraft:void_air", "minecraft:water", "minecraft:lava"]
+
+	["BIOME SETTINGS"."BIOME SPAWNS"]
+		#This is where random ticks at blocks are used. In simple terms - the higher the number, the slower.The lower the number, the faster
+		#Spawn chance for Embryo Phase Mobs
+		#Default values 7000
+		#Range: > 0
+		mobSpawnChanceGerm = 7000
+		#Spawn chance for Awareness Embryo Phase Mobs
+		#Default values 7000
+		#Range: > 0
+		mobSpawnChanceAwarenessGerm = 7000
+		#Spawn chance for Biogenesis Phase Mobs
+		#Default values 6000
+		#Range: > 0
+		mobSpawnChanceAwareness = 6000
+		#Enable spawning of random vegetation block, like grass or something like that
+		#Default values true
+		enableVegetationBlock = true
+		#Enable spawning of Flesh Terns
+		#Default values true
+		enableFleshTerns = true
+		#Enable spawning of Flesh Spikes
+		#Default values true
+		enableFleshSpikes = true
+		#Enable spawning of Flesh Boil
+		#Default values true
+		enableFleshBoil = true
+		#Enable spawning Flesh mobs
+		#Default values true
+		enableGermStageMobSpawn = true
+

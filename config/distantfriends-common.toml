@@ -2,14 +2,14 @@
 #Friends
 [friends]
 	#A list of users who can be chosen when it spawns a distant friend
-	friends = ["SHXXRKIE", "ElocinDev", "oofmas"]
+	friends = ["ElocinDev"]
 	#Add the players from the whitelist to the Friends list [default: true]
 	addWhitelistPlayers = true
 
 #Compat
 [compat]
 	#Add players from a Player Mobs whitelist to the Friends list [default: false]
-	playerMobsCompat = true
-	#The player mobs Name Links
-	playerMobsWhitelist = [""]
+	playerMobsCompat = false
+	#The player mobs Name Links, must start with https://whitelist.gorymoon.se
+	playerMobsNameLinks = []
 

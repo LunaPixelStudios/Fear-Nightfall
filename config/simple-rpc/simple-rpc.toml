@@ -2,13 +2,13 @@
 #General Config Section. See https://readme.firstdarkdev.xyz/simple-rpc/introduction/
 [general]
 	#The Application ID of the Discord App to use
-	applicationID = 1155430505148338186
+	applicationID = 1292916068616245401
 	#Enable/Disable the mod
 	enabled = true
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
 	debugging = false
 	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
-	configScreen = false
+	configScreen = true
 	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
 	launcherIntegration = false
 	#Internal Version Number. NO TOUCHY!
@@ -19,17 +19,17 @@
 	#Enable/Disable the Game Loading Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Fear Nightfall is loading"
+	description = "Minecraft is loading"
 	#The second line of text under the app name
-	state = "Starting..."
+	state = "Game Starting..."
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["logo"]
+	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Fear Nightfall by Luna Pixel Studios"
+	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "Fear Nightfall: Remains of Chaos"
 	#The buttons to display on Discord
 	buttons = []
 
@@ -38,36 +38,36 @@
 	#Enable/Disable the Main Menu Event
 	enabled = true
 	#The first line of text under the app name
-	description = "In the menus"
+	description = "%player%"
 	#The seconds line of text under the app name
-	state = "Waiting for the horrors"
+	state = "In the main menu"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["logo"]
+	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Fear Nightfall by Luna Pixel Studios"
+	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "Fear Nightfall: Remains of Chaos"
 	#The buttons to display on Discord
 	buttons = []
 
 #The Server List event
 [server_list]
 	#Enable/Disable the Server List Event
-	enabled = false
+	enabled = true
 	#The first line of text under the app name
-	description = "%player% is looking for a server"
+	description = "%player%"
 	#The second line of text under the app name
-	state = "Searching for friends"
+	state = "Searching servers"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["logo"]
+	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Fear Nightfall by Luna Pixel Studios"
+	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "Fear Nightfall: Remains of Chaos"
 	#The buttons to display on Discord
 	buttons = []
 
@@ -80,32 +80,32 @@
 	#The second line of text under the app name
 	state = "Browsing Realms"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["logo"]
+	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Fear Nightfall by Luna Pixel Studios"
+	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "Fear Nightfall: Remains of Chaos"
 	#The buttons to display on Discord
 	buttons = []
 
 #The Join Game Event
 [join_game]
 	#Enable/Disable the Join Game Event
-	enabled = false
+	enabled = true
 	#The first line of text under the app name
-	description = "%player% is joining a game"
+	description = "%player%"
 	#The second line of text under the app name
 	state = "Joining Game"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["logo"]
+	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Fear Nightfall by Luna Pixel Studios"
+	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "Fear Nightfall: Remains of Chaos"
 	#The buttons to display on Discord
 	buttons = []
 
@@ -114,17 +114,17 @@
 	#Enable/Disable the Single Player Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Currently In %world%"
+	description = "Fighting Chaos In %world%"
 	#The second line of text under the app name
-	state = "Alone with the horrors"
+	state = "Playing Alone"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["logo"]
+	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Fear Nightfall by Luna Pixel Studios"
+	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "Fear Nightfall: Remains of Chaos"
 	#The buttons to display on Discord
 	buttons = []
 
@@ -135,30 +135,30 @@
 	#The first line of text under the app name
 	description = "Playing on %servername% with %players% players"
 	#The second line of text under the app name
-	state = ""
+	state = "Playing CO-OP"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["logo"]
+	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Fear Nightfall by Luna Pixel Studios"
+	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "Fear Nightfall: Remains of Chaos"
 	#The buttons to display on Discord
 	buttons = []
 
 #The Realms Game Event
 [realms]
 	#Enable/Disable the Realms Game Event
-	enabled = true
+	enabled = false
 	#The first line of text under the app name
 	description = "Playing on %realmname%"
 	#The second line of text under the app name
 	state = "Playing on a Realm"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["logo"]
+	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Fear Nightfall by Luna Pixel Studios"
+	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -173,13 +173,13 @@
 	#The second line of text under the app name
 	state = ""
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["logo"]
+	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Fear Nightfall by Luna Pixel Studios"
+	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "Fear Nightfall: Remains of Chaos"
 	#The buttons to display on Discord
 	buttons = []
 
@@ -210,7 +210,7 @@
 		#The Asset ID of the image to display as the small image
 		smallImageKey = ["mclogo"]
 		#The text that gets displayed when the small image is hovered
-		smallImageText = "%mods% mods installed"
+		smallImageText = "Fear Nightfall: Remains of Chaos"
 		#The buttons to display on Discord
 		buttons = []
 
@@ -228,7 +228,7 @@
 		#The Asset ID of the image to display as the small image
 		smallImageKey = ["mclogo"]
 		#The text that gets displayed when the small image is hovered
-		smallImageText = "%mods% mods installed"
+		smallImageText = "Fear Nightfall: Remains of Chaos"
 		#The buttons to display on Discord
 		buttons = []
 
@@ -246,7 +246,7 @@
 		#The Asset ID of the image to display as the small image
 		smallImageKey = ["mclogo"]
 		#The text that gets displayed when the small image is hovered
-		smallImageText = "%mods% mods installed"
+		smallImageText = "Fear Nightfall: Remains of Chaos"
 		#The buttons to display on Discord
 		buttons = []
 

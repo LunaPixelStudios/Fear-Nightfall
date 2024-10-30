@@ -1,0 +1,214 @@
+
+["mutated Cow Head"]
+	#Default 3
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets mutated Cow Head's Damage" = 3.0
+	#Default 6
+	#Range: 3.0 ~ 1.7976931348623157E308
+	"Sets mutated Cow Head's Max health" = 6.0
+
+["Hints for Infected Animals"]
+	#Default true
+	"Should certain animals that have mutation forms make stomach growl sounds from time to time if infected with the sickness?" = true
+
+[Mutations]
+	"Mobs that can turn into Mutated Foxes" = ["minecraft:cow"]
+	#Default true
+	"Should villagers convert into their mutated counterpart?" = true
+	"Mobs that the springer will try to infect (Animals only)" = ["minecraft:sheep", "minecraft:cow", "minecraft:fox", "minecraft:pig"]
+	"Mobs that can turn into Mutated Endermans" = ["minecraft:enderman"]
+	#Default true
+	"Should creepers convert into their mutated counterpart?" = true
+	"Mobs that can turn into Mutated Humans" = ["minecraft:zombie"]
+	#Default true
+	"Should cows convert into their mutated counterpart?" = true
+	#Default true
+	"Should foxes convert into their mutated counterpart?" = true
+	"Mobs that can turn into Mutated Villagers" = ["minecraft:villager", "rotted:farmer", "guardvillagers:guard"]
+	#Default true
+	"Should pigs convert into their mutated counterpart?" = true
+	#Default true
+	"Should players convert into their mutated counterpart?" = true
+	#Default true
+	"Should zombies convert into their mutated counterpart?" = true
+	"Mobs that can turn into Mutated Cows" = ["minecraft:cow"]
+	"Mobs that can turn into Mutated Pigs" = ["minecraft:pig"]
+	#Default true
+	"Should sheeps convert into their mutated counterpart?" = true
+	#Default true
+	"Should endermans convert into their mutated counterpart?" = true
+	"Mobs that can turn into Mutated Sheeps" = ["minecraft:sheep"]
+	"Mobs that can turn into Mutated Creepers" = ["minecraft:creeper"]
+
+[Spawns]
+	"mob|weight|minimum|maximum" = ["fight_or_die:shiller|45|1|3", "fight_or_die:springer|30|1|2", "fight_or_die:mutated_human|28|1|2", "fight_or_die:mutated_player|20|1|2", "fight_or_die:mutated_villager|25|1|2", "fight_or_die:mutated_cow|25|1|2", "fight_or_die:mutated_sheep|25|1|2", "fight_or_die:mutated_pig|25|1|2", "fight_or_die:mutated_fox|22|1|2", "fight_or_die:mutated_creeper|9|1|1", "fight_or_die:mutated_enderman|3|1|1"]
+	#Default 60
+	MobCap = 60
+	#Default minecraft:is_overworld
+	"Dictates in what biome the parasites spawn" = ["minecraft:is_overworld"]
+
+["Targeting Tasks"]
+	"Mobs Not Targeted" = ["minecraft:squid", "minecraft:bat", "minecraft:armor_stand", "minecraft:creeper", "minecraft:ghast", "minecraft:falling_block", "minecraft:abstract_arrow", "minecraft:arrow", "minecraft:spectral_arrow", "minecraft:trident"]
+
+[Horde]
+	#Default 36000
+	"Ticks before the horde spawning (not including the random ticks based on chance which add do the horde spawning time)" = 36000
+	#Default true
+	"Should mutation hordes spawn?" = true
+	#Default 30
+	"Approximate Number of Mobs Spawning" = 30
+	#Default 1200
+	"Additional horde ticks" = 1200
+
+["mutated Enderman Head"]
+	#Default true
+	"Should mutated Enderman Heads take damage when in contact with water?" = true
+	#Default true
+	"Should mutated Enderman Heads use teleportation abilities?" = true
+	#Default 5
+	#Range: 2.0 ~ 1.7976931348623157E308
+	"Sets mutated Enderman Head's Damage" = 5.0
+	#Default 13
+	#Range: 7.0 ~ 1.7976931348623157E308
+	"Sets mutated Enderman Head's Max health" = 13.0
+
+["mutated Cow"]
+	#Default 8
+	#Range: 3.0 ~ 1.7976931348623157E308
+	"Sets mutated Cow's Damage" = 8.0
+	#Default 16
+	#Range: 7.0 ~ 1.7976931348623157E308
+	"Sets mutated Cow's Max health" = 16.0
+
+[Effects]
+	"Mobs that are immune to the hive sickness infection" = ["minecraft:ghast", "minecraft:magma_cube", "minecraft:phantom", "minecraft:snow_golem", "minecraft:stray", "minecraft:skeleton"]
+
+["mutated Sheep"]
+	#Default 14
+	#Range: 4.0 ~ 1.7976931348623157E308
+	"Sets mutated Sheep's Max health" = 14.0
+	#Default 7
+	#Range: 3.0 ~ 1.7976931348623157E308
+	"Sets mutated Sheep's Damage" = 7.0
+
+["mutated Pig"]
+	#Default 12
+	#Range: 3.0 ~ 1.7976931348623157E308
+	"Sets mutated Pig's Max health" = 12.0
+	#Default 7
+	#Range: 2.0 ~ 1.7976931348623157E308
+	"Sets mutated Pig's Damage" = 7.0
+
+["mutated Fox"]
+	#Default 7
+	#Range: 2.0 ~ 1.7976931348623157E308
+	"Sets mutated Fox's Damage" = 7.0
+	#Default 10
+	#Range: 3.0 ~ 1.7976931348623157E308
+	"Sets mutated Fox's Max health" = 10.0
+
+["mutated Villager Head"]
+	#Default 8
+	#Range: 4.0 ~ 1.7976931348623157E308
+	"Sets mutated Villager Head's Max health" = 8.0
+	#Default 3
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets mutated Villager Head's Damage" = 3.0
+
+["mutated Creeper"]
+	#Default 5
+	#Range: 2.0 ~ 1.7976931348623157E308
+	"Sets mutated Creeper's Damage" = 5.0
+	#Default 12
+	#Range: 5.0 ~ 1.7976931348623157E308
+	"Sets mutated Creeper's Max health" = 12.0
+	#Default 2.15
+	#Range: 1.1 ~ 1.7976931348623157E308
+	"Sets mutated Creeper's Explosion Radius" = 2.15
+
+["mutated player Head"]
+	#Default 8
+	#Range: 4.0 ~ 1.7976931348623157E308
+	"Sets mutated player Head's Max health" = 8.0
+	#Default 3
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets mutated player Head's Damage" = 3.0
+
+["mutated Enderman"]
+	#Default 0.95
+	#Range: 0.2 ~ 1.7976931348623157E308
+	"Sets the chance of an enderman to bring reinforcements, the lower the number, the smaller the chance" = 0.95
+	#Default 55
+	#Range: 20.0 ~ 1.7976931348623157E308
+	"Sets mutated Enderman's Max health" = 55.0
+	#Default 12
+	#Range: 5.0 ~ 1.7976931348623157E308
+	"Sets mutated Enderman's Damage" = 12.0
+	#Default true
+	"Should mutated Endermans use teleportation abilities?" = true
+	#Default true
+	"Should mutated Endermans take damage when in contact with water?" = true
+	#Default true
+	"Should mutated Endermans bring reinforcements with teleportation?" = true
+
+["mutated Human"]
+	#Default 20
+	#Range: 10.0 ~ 1.7976931348623157E308
+	"Sets mutated Human's Max health" = 20.0
+	#Default 8
+	#Range: 4.0 ~ 1.7976931348623157E308
+	"Sets mutated Human's Damage" = 8.0
+
+["mutated Villager"]
+	#Default 9
+	#Range: 4.0 ~ 1.7976931348623157E308
+	"Sets mutated Villager's Damage" = 9.0
+	#Default 22
+	#Range: 12.0 ~ 1.7976931348623157E308
+	"Sets mutated Villager's Max health" = 22.0
+
+["mutated Creeper Head"]
+	#Default 4
+	#Range: 2.0 ~ 1.7976931348623157E308
+	"Sets mutated Creeper Head's Damage" = 4.0
+	#Default true
+	"Should mutated Creeper Heads explode when in contact when close to it's target?" = true
+	#Default 9
+	#Range: 4.0 ~ 1.7976931348623157E308
+	"Sets mutated Creeper Head's Max health" = 9.0
+
+[Shiller]
+	#Default 6
+	#Range: 2.0 ~ 1.7976931348623157E308
+	"Sets Shiller's Max health" = 6.0
+
+["mutated player"]
+	#Default 10
+	#Range: 5.0 ~ 1.7976931348623157E308
+	"Sets mutated player's Damage" = 10.0
+	#Default true
+	"Should the mutated player break blocks?" = true
+	#Default 20
+	#Range: 10.0 ~ 1.7976931348623157E308
+	"Sets mutated player's Max health" = 20.0
+
+["mutated Human Head"]
+	#Default 7
+	#Range: 4.0 ~ 1.7976931348623157E308
+	"Sets mutated Human Head's Max health" = 7.0
+	#Default 3
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets mutated Human Head's Damage" = 3.0
+
+[Ambience]
+	#Default true
+	"Should players hear disturbing sounds from time to time? (Note: this affects only one random player from the server)" = true
+
+[springer]
+	#Default 5
+	#Range: 2.0 ~ 1.7976931348623157E308
+	"Sets springer's Damage" = 5.0
+	#Default 12
+	#Range: 5.0 ~ 1.7976931348623157E308
+	"Sets springer's Max health" = 12.0
+

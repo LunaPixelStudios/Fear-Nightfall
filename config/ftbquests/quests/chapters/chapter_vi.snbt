@@ -4,14 +4,14 @@
 	filename: "chapter_vi"
 	group: "0AF1E24E0154B029"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "immersiveengineering:hammer"
 		tag: {
 			Damage: 0
 		}
 	}
 	id: "129401263BB22EA9"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -39,7 +39,7 @@
 			rewards: [{
 				id: "7F0D2E78A4D4EB68"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "immersiveengineering:hammer"
 					tag: {
 						Damage: 0
@@ -53,7 +53,7 @@
 			tasks: [{
 				id: "6C2D6F99FE7904C4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "immersiveengineering:hammer"
 					tag: {
 						Damage: 0
@@ -89,7 +89,7 @@
 			rewards: [{
 				id: "7E3C96E58DC0D652"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "immersiveengineering:wirecutter"
 					tag: {
 						Damage: 0
@@ -101,7 +101,7 @@
 			tasks: [{
 				id: "082D7614EC67077A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "immersiveengineering:wirecutter"
 					tag: {
 						Damage: 0
@@ -147,18 +147,11 @@
 			size: 1.3d
 			subtitle: "Metal used for mostly everything in Immersive Engineering."
 			tasks: [{
-				id: "6254C12C2F82C57E"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:ingots/steel"
-					}
-				}
-				title: "Any #forge:ingots/steel"
+				id: "56B1B4F1867448CF"
+				item: "immersiveengineering:ingot_steel"
 				type: "item"
 			}]
-			title: "&8Time to Make Some Steel"
+			title: "&8The Dark Metal"
 			x: -23.0d
 			y: 0.0d
 		}
@@ -260,7 +253,7 @@
 			tasks: [{
 				id: "464C4BD672C19CBD"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Items: [ ]
@@ -363,7 +356,7 @@
 			tasks: [{
 				id: "28A4B6936AAE7639"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Items: [ ]
@@ -600,7 +593,7 @@
 			rewards: [{
 				id: "78978A93BD76A887"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Items: [ ]
@@ -717,7 +710,7 @@
 			tasks: [{
 				id: "2C46EDF321D7FAD6"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Items: [ ]
@@ -739,7 +732,7 @@
 			rewards: [{
 				id: "7D0B6C547E9CCEB5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "immersiveengineering:sawblade"
 					tag: {
 						Damage: 0
@@ -751,7 +744,7 @@
 			tasks: [{
 				id: "77068AA11396FAFB"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Items: [ ]
