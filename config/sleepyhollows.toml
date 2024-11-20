@@ -1,0 +1,98 @@
+#Sleepy Hollows Biome Weight
+#Range: 1 ~ 100
+terrablenderRegionWeight = 2
+
+["Horseman Attributes"]
+	#Max Health
+	#Range: 1.0 ~ 10000.0
+	horsemanMaxHealth = 400.0
+	#Armor
+	#Range: 0.0 ~ 1000.0
+	horsemanArmor = 26.0
+	#Movement Speed
+	#Range: 0.0 ~ 1.0
+	horsemanMovementSpeed = 0.34
+	#Attack Damage
+	#Range: 0.0 ~ 100.0
+	horsemanAttackDamage = 16.0
+	#Attack Knockback
+	#Range: 0.0 ~ 100.0
+	horsemanAttackKnockback = 0.0
+
+["Fleeing Pumpkin Head Attributes"]
+	#Max Health
+	#Range: 0.0 ~ 1000.0
+	fleeingPumpkinheadMaxHealth = 100.0
+	#Armor
+	#Range: 0.0 ~ 1000.0
+	fleeingPumpkinheadArmor = 22.0
+	#Movement Speed
+	#Range: 0.0 ~ 1.0
+	fleeingPumpkinheadMovementSpeed = 0.43
+
+["InfectedZombie Attributes"]
+	#Max Health
+	#Range: 0.0 ~ 1000.0
+	infectedZombieMaxHealth = 30.0
+	#Armor
+	#Range: 0.0 ~ 1000.0
+	infectedZombieArmor = 1.0
+	#Movement Speed
+	#Range: 0.0 ~ 1.0
+	infectedZombieMovementSpeed = 0.23000000417232513
+	#Attack Damage
+	#Range: 0.0 ~ 1000.0
+	infectedZombieAttackDamage = 5.0
+
+["Tool Attributes"]
+	#Spectral Weapons Speed
+	#Range: 0.0 ~ 20.0
+	spectralToolSpeed = 8.0
+	#Spectral Weapons Damage
+	#Range: 0.0 ~ 20.0
+	spectralToolDamage = 5.0
+	#Raubbau Speed
+	#Range: 0.0 ~ 20.0
+	raubbauToolSpeed = 6.0
+	#Raubbau Damage
+	#Range: 0.0 ~ 20.0
+	raubbauToolDamage = 3.0
+
+["Armor Attributes"]
+	#Enable or disable Hauntbound Armor set bonus
+	enableHauntboundSetBonus = true
+	#Hauntbound Helmet Durability
+	#Range: 1 ~ 1000
+	hauntboundHelmetDurability = 13
+	#Hauntbound Chestplate Durability
+	#Range: 1 ~ 1000
+	hauntboundChestplateDurability = 15
+	#Hauntbound Leggings Durability
+	#Range: 1 ~ 1000
+	hauntboundLeggingsDurability = 16
+	#Hauntbound Boots Durability
+	#Range: 1 ~ 1000
+	hauntboundBootsDurability = 11
+	#Hauntbound Helmet Defense
+	#Range: 0 ~ 20
+	hauntboundHelmetDefense = 3
+	#Hauntbound Chestplate Defense
+	#Range: 0 ~ 20
+	hauntboundChestplateDefense = 6
+	#Hauntbound Leggings Defense
+	#Range: 0 ~ 20
+	hauntboundLeggingsDefense = 8
+	#Hauntbound Boots Defense
+	#Range: 0 ~ 20
+	hauntboundBootsDefense = 3
+	#Hauntbound Armor Toughness
+	#Range: 0.0 ~ 10.0
+	hauntboundToughness = 2.0
+	#Hauntbound Armor Knockback Resistance
+	#Range: 0.0 ~ 1.0
+	hauntboundKnockbackResistance = 0.05
+
+["Horseman Loot"]
+	#List of items to drop on Horseman death in the format 'modid:itemid:count'
+	horsemanLootItems = ["sleepy_hollows:lootbag:3"]
+

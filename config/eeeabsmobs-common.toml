@@ -38,31 +38,6 @@
 			#Range: 0.0 ~ 1.7976931348623157E308
 			"Attack multiplier" = 1.0
 
-		[Mobs."Immortal Mobs"."Immortal Boss"]
-			#Set this mob health multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Health multiplier" = 1.0
-			#Set this mob attack multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Attack multiplier" = 1.0
-			#Set this mob damageCap
-			#Range: 0.0 ~ 1024.0
-			DamageCap = 20.0
-
-			[Mobs."Immortal Mobs"."Immortal Boss"."Damage Adapt"]
-				#Set this mob max damage source adapt count
-				#Range: 10 ~ 1024
-				"Max damageSource adapt count" = 100
-				#Set the effective time for a single adapt damage source(second)
-				#Range: 10 ~ 1024
-				"Effective time" = 15
-				#Set the factor of each reduction of the same damage source
-				#Range: 0.0 ~ 1.0
-				"Single adapt factor" = 0.08
-				#Set the max damage reduction factor
-				#Range: 0.0 ~ 1.0
-				"Max adapt factor" = 0.8
-
 		[Mobs."Immortal Mobs"."Immortal Executioner"]
 			#Set this mob health multiplier
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -70,26 +45,57 @@
 			#Set this mob attack multiplier
 			#Range: 0.0 ~ 1.7976931348623157E308
 			"Attack multiplier" = 1.0
-			#Set this mob damageCap
-			#Range: 0.0 ~ 1024.0
-			DamageCap = 22.0
+			#Set the number of times to strengthen this mob
+			#Range: 0 ~ 1024
+			"Ignite Count" = 3
 
-	[Mobs."Structure-Bloody Altar"]
-
-		[Mobs."Structure-Bloody Altar"."Corpse & Corpse Villager"]
+		[Mobs."Immortal Mobs".Immortal]
+			"Frame Damage Protection" = true
+			#Set the effective distance at which projectiles can deal damage
+			#Range: 1.0 ~ 32.0
+			"Set projectile damage range" = 15.0
 			#Set this mob health multiplier
 			#Range: 0.0 ~ 1.7976931348623157E308
 			"Health multiplier" = 1.0
 			#Set this mob attack multiplier
 			#Range: 0.0 ~ 1.7976931348623157E308
 			"Attack multiplier" = 1.0
-			#If 'False', it will not be converted to corpse
+			#Set this mob damageCap
+			#Range: 0.0 ~ 1024.0
+			DamageCap = 25.0
+
+			[Mobs."Immortal Mobs".Immortal."Damage Adapt"]
+				#Set this mob maximum adaptation damage source count
+				#Range: 10 ~ 1024
+				"Maximum adaptation damage source count" = 100
+				#Set the effective time for a single adaptation damage source(second)
+				#Range: 10 ~ 1024
+				"Effective time" = 30
+				#Set the factor of each reduction of the same damage source
+				#Range: 0.0 ~ 1.0
+				"Single adapt factor" = 0.1
+				#Set the max damage reduction factor
+				#Range: 0.0 ~ 1.0
+				"Max adapt factor" = 0.6
+				#If 'False' disable adaptation to out of world and generic kill damage source
+				"Adaptation bypasses damage source" = true
+
+	[Mobs."Corpse Mobs"]
+
+		[Mobs."Corpse Mobs"."Corpse & Corpse Villager"]
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Health multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack multiplier" = 1.0
+			#If 'False', When zombies or villagers are killed by corpses, they will not converted into corpses themselves
 			"Converted to corpse" = true
 
-		[Mobs."Structure-Bloody Altar"."Corpse Warlock"]
-			#Set the distance to take damage from projectiles
+		[Mobs."Corpse Mobs"."Corpse Warlock"]
+			#Set the effective distance at which projectiles can deal damage
 			#Range: 1.0 ~ 32.0
-			"Attack distance" = 12.0
+			"Set projectile damage range" = 12.0
 			#Set this mob health multiplier
 			#Range: 0.0 ~ 1.7976931348623157E308
 			"Health multiplier" = 1.0
@@ -100,11 +106,11 @@
 			#Range: 0.0 ~ 1024.0
 			DamageCap = 22.0
 
-	[Mobs.Structure-Guling]
+	[Mobs."Guling Mobs"]
 
-		[Mobs.Structure-Guling."Guling Sentinel"]
-			#If 'False' disable non-combat heal
-			"Enable non-combat heal" = true
+		[Mobs."Guling Mobs"."Guling Sentinel"]
+			#If 'False' disable out-of-combat heal
+			"Enable out-of-combat healing" = true
 			#Set this mob health multiplier
 			#Range: 0.0 ~ 1.7976931348623157E308
 			"Health multiplier" = 1.0
@@ -112,9 +118,9 @@
 			#Range: 0.0 ~ 1.7976931348623157E308
 			"Attack multiplier" = 1.0
 
-		[Mobs.Structure-Guling."Guling Sentinel-Heavy"]
-			#If 'False' disable non-combat heal
-			"Enable non-combat heal" = true
+		[Mobs."Guling Mobs"."Guling Sentinel-Heavy"]
+			#If 'False' disable out-of-combat heal
+			"Enable out-of-combat healing" = true
 			#Set this mob health multiplier
 			#Range: 0.0 ~ 1.7976931348623157E308
 			"Health multiplier" = 1.0
@@ -122,46 +128,71 @@
 			#Range: 0.0 ~ 1.7976931348623157E308
 			"Attack multiplier" = 1.0
 
-		[Mobs.Structure-Guling."Nameless Guardian"]
-			#If 'False' disable non-combat heal
-			"Enable non-combat heal" = true
-			#If 'False' disable forced suck blood on power status(Does not take effect in Challenge mode)
-			"Enable forced suck blood" = true
-			#Set this mob health multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Health multiplier" = 1.0
-			#Set this mob attack multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Attack multiplier" = 1.0
+		[Mobs."Guling Mobs"."Nameless Guardian"]
 			#Set suck blood multiplier
 			#Range: 0.0 ~ 1024.0
 			"Suck blood multiplier" = 1.0
+			#Set extra invulnerable tick(This setting does not take effect in Challenge Mode)
+			#Range: 0 ~ 1200
+			"Extra invulnerable tick" = 20
+			#If 'False' disable out-of-combat heal
+			"Enable out-of-combat healing" = true
+			#If 'False' disable forced suck blood on power status(This setting does not take effect in Challenge Mode)
+			"Enable forced suck blood" = true
 			#Be careful! It's going to get tricky!
-			"Challenge mode!" = false
+			"Challenge Mode" = false
+			#This setting does not take effect in Challenge Mode
+			"Frame Damage Protection" = true
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Health multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack multiplier" = 1.0
 			#Set this mob damageCap
 			#Range: 0.0 ~ 1024.0
 			DamageCap = 20.0
 
-[Entity]
+	[Mobs."Minion Mobs"]
 
-	[Entity."Guardian Laser"]
-		#If 'False' disable scorch generate on the ground
-		"Enable scorch generate" = true
-		#Set the maximum shooting distance when the user is a player
-		#Range: 1.0 ~ 64.0
-		"Set attack radius" = 16.0
+		[Mobs."Minion Mobs"."Corpse Minion"]
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Health multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack multiplier" = 1.0
+			#Set corpse minion to restore its owner's health
+			#Range: 0.0 ~ 1024.0
+			"Death Heal Amount" = 5.0
 
 [Items]
 
 	[Items."Summoning Soul Necklace"]
-		#Set the maximum amount of damage a player can take while holding this item
-		#Range: 1.0 ~ 3.4028234663852886E38
-		"Set the maximum cumulative damage taken" = 50.0
-		#Set item cool down time after player summons (seconds)
+		#Set item cool down time after player on use (seconds)
 		#Range: > 1
 		"Set item cool down time" = 20
+		#Set maximum amount of damage a player can take while holding this item
+		#Range: 1.0 ~ 3.4028234663852886E38
+		"Set maximum cumulative damage taken" = 50.0
 
-	[Items."Guardian Axe"]
+	[Items."Immortal Staff"]
+		#Set item cool down time after player on use (seconds)
+		#Range: 0.5 ~ 60.0
+		"Set item cool down time" = 1
+
+	[Items.Howitzer]
+		#Set item cool down time after player on use (seconds)
+		#Range: 0.5 ~ 60.0
+		"Set item cool down time" = 5
+		#Set Grenade explosion radius(the bigger the blast radius, the higher the damage)
+		#Range: 1.0 ~ 10.0
+		"Set explosion radius" = 2.5
+		#Set Grenade maximum explosion damage(damage to the center of the explosion)
+		#Range: 1.0 ~ 128.0
+		"Set explosion damage cap" = 10.0
+
+	[Items."Guardian Battleaxe"]
 		#Set tool attack damage
 		#Range: 0.0 ~ 3.4028234663852886E38
 		"Attack damage" = 15.0
@@ -169,14 +200,9 @@
 		#Range: 0.0 ~ 3.4028234663852886E38
 		"Attack speed" = 0.9
 
-	[Items."Immortal Staff"]
-		#Set the cool down time after using the weapon (seconds)
-		#Range: 0.5 ~ 60.0
-		"Set item cool down time" = 1
-
-	[Items."Ghost Warrior Armor & Weapons"]
-		#If 'True' the 'Ghost Warrior Armor' will be damaged due to durability
-		"Enable armor durability" = false
+	[Items."Ghost Warrior Series"]
+		#If 'True' armor or weapon will be depleted
+		"Enable armor or weapon can be depleted" = false
 		#Set tool attack damage
 		#Range: 0.0 ~ 3.4028234663852886E38
 		"Attack damage" = 14.0
@@ -184,30 +210,46 @@
 		#Range: 0.0 ~ 3.4028234663852886E38
 		"Attack speed" = 1.4
 
-	[Items.Howitzer]
-		#Set item cool down time after player on use (seconds)
-		#Range: 0.5 ~ 60.0
-		"Set item cool down time" = 5
-		#Set Grenade maximum explosion damage(damage to the center of the explosion)
-		#Range: 1.0 ~ 128.0
-		"Set damage cap" = 10.0
-		#Set Grenade explosion radius(the bigger the blast radius, the higher the damage)
-		#Range: 1.0 ~ 10.0
-		"Set explosion radius" = 2.5
+[Entities]
 
-[Other]
-	#If 'False' disable camera shake
-	"Enable camera shake" = true
-	#If 'False' disable bosses blood bars
-	"Enable bosses blood bars" = true
-	#If 'False' able inflict damage between mobs of the same type
-	"Mobs of the same type cannot cause harm" = true
-	#If 'False' disable falling block rendering
-	"Enable falling block rendering" = true
-	#If 'False' disable play boss music
-	"Enable play boss music" = true
-	#If 'False' disable frenzy potion destroy block
-	"Enable frenzy potion destroy block" = true
-	#If 'True' enable print illegal animation logs(For developers only)
-	"Enable print illegal logs" = false
+	[Entities."Guardian Laser"]
+		#If 'False' disable scorch generate on the ground
+		"Enable scorch generate" = true
+		#Set the maximum shooting distance when the user is a player
+		#Range: 1.0 ~ 64.0
+		"Set attack radius" = 16.0
+
+	[Entities."Falling Block"]
+		#If 'False' disable falling block spawn
+		"Enable falling block spawn" = true
+		#If 'False' disable falling block rendering
+		"Enable falling block render" = true
+		#Set the maximum range for downward block detection to determine the Y-axis position where the entity spawns
+		#Range: 1 ~ 10
+		"Set below check range" = 3
+
+	[Entities.Tester]
+		#Range: 1.0 ~ 1024.0
+		"Set max health" = 20.0
+		"Enable immune to environmental or status damage" = true
+
+[Others]
+
+	[Others.Camera]
+		#If 'False' disable camera shake
+		"Enable camera shake" = true
+
+	[Others.Bosses]
+		#If 'False' disable bosses blood bars
+		"Enable bosses blood bars" = true
+		#If 'False' disable play boss music
+		"Enable play bosses musics" = true
+		#If 'False' disable bosses breaking blocks drop items
+		"Enable bosses breaking blocks drop items" = false
+
+	[Others.Misc]
+		#If 'False' able inflict damage between mobs of the same team
+		"Friendly fire among allies" = true
+		#If 'False' disable frenzy potion destroy block
+		"Enable frenzy potion destroy block" = false
 

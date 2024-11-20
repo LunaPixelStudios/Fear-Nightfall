@@ -181,3 +181,10 @@
 	# Default: ["#minecraft:is_taiga"]
 	"dungeons_enhanced:witch_tower" = ["#minecraft:is_taiga"]
 
+[black_citadel]
+	#
+	# The biomes this structure should generate in. Use # to define a tag. Use ! to define a blacklist. If no values are set, the structure's default biomes will be used.
+	# Example: ["minecraft:plains, #minecraft:is_forest, !minecraft:birch_forest, !#minecraft:has_structure/woodland_mansion"]
+	# Default: ["#minecraft:is_nether", "!minecraft:basalt_deltas"]
+	"dungeons_enhanced:black_citadel" = ["#minecraft:is_nether", "!minecraft:basalt_deltas"]
+

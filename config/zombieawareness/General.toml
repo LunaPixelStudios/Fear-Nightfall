@@ -8,7 +8,7 @@
 	awareness_Light_OnlyZombies = true
 	#Custom targetting sight range on top of vanilla sight based targetting
 	#Range: > -2147483648
-	sightRange = 16
+	sightRange = 6
 	#Always target closest player [performance sensitive]
 	omniscient = false
 	#skips line of sight check on targetting [performance sensitive]

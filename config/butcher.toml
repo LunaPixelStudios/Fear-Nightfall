@@ -1,6 +1,6 @@
 
 [General]
-	#Drop corpses with any weapon/tool
+	#Only butchery knives cause corpses/carcasses to drop. Disable to allow any tool/weapon to cause them to drop.
 	"Always Drop Corpses" = true
 	#Enable/Disable End Dragon armor
 	"Dragon Armor" = true
@@ -18,6 +18,8 @@
 	"Block Weight" = false
 	#Enable/Disable pillager disguise blending affect
 	"Pillager Disguise" = true
+	"Salt Water" = true
+	"Instant Drain" = false
 
 ["Boss Carcasses"]
 	#Enable/Disable End Dragon carcass

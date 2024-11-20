@@ -8,7 +8,7 @@
 	positive_multiplier = 1.0
 	#For balancing purposes: the effectiveness of all negative sanity sources will be multiplied by this number
 	#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
-	negative_multiplier = 1.0
+	negative_multiplier = 0.8
 
 	#Configuration for passive sanity sources
 	[sanity.passive]
@@ -17,7 +17,7 @@
 		passive = 0.0
 		#Sanity gain per second during rainy weather or in water
 		#Range: -100.0 ~ 100.0
-		raining = -0.2
+		raining = -0.1
 		#Players' sanity will start getting affected with food levels at and below this threshold (in half-drumsticks)
 		#Range: 0 ~ 20
 		hunger_threshold = 8
@@ -117,7 +117,7 @@
 		eating = 0.8
 		#Eating cooldown (see notes above), real time in seconds
 		#Range: 0.0 ~ 3.4028234663852886E38
-		eating_cd = 300.0
+		eating_cd = 200.0
 		#Fishing an item gives this amount of sanity
 		#Range: -100.0 ~ 100.0
 		fishing = 1.3
@@ -171,7 +171,7 @@
 		sane_player_company = 0.05
 		#Being around players with sanity lower than 50% gives this amount of sanity per second
 		#Range: -100.0 ~ 100.0
-		insane_player_company = -0.12
+		insane_player_company = -0.06
 
 	#Entities configuration
 	[sanity.entity]
@@ -198,7 +198,7 @@
 			twitch = true
 			#Sanity indicator scale
 			#Range: 0.0 ~ 3.4028234663852886E38
-			scale = 1.0
+			scale = 1.25
 			#Sanity indicator location
 			#Allowed Values: HOTBAR_LEFT, HOTBAR_RIGHT, TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
 			location = "BOTTOM_LEFT"

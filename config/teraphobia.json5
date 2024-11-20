@@ -2,9 +2,7 @@
   "night_only_spawn": [
     "boh:.*",
     "born_in_chaos_v1:.*",
-    "cnc:.*",
-    "minecraft:zombie",
-    "minecraft:skeleton"
+    "cnc:.*"
   ],
   "timed_spawns": [
     {
@@ -16,11 +14,11 @@
       "entity": "born_in_chaos_v1:sir_pumpkinhead_not_despawn"
     },
     {
-      "minDay": 4,
+      "minDay": 6,
       "entity": "born_in_chaos_v1:skeleton_thrasher"
     },
     {
-      "minDay": 11,
+      "minDay": 16,
       "entity": "apollyon:the_damned"
     }
   ]

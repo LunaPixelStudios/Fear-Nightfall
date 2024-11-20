@@ -70,14 +70,6 @@
 			x: -2.5915178571428683d
 			y: -2.482142857142854d
 		}
-		{
-			height: 1.0d
-			image: "antique_atlas:textures/atlas/marker/custom/pickaxe_accent.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -12.5d
-			y: -4.0d
-		}
 	]
 	order_index: 3
 	quest_links: [ ]

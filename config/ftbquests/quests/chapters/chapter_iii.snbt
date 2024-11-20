@@ -5,14 +5,6 @@
 	group: "173C7A3FFE3DDF09"
 	icon: "biomancy:creator_mix"
 	id: "04F608FB2194CB5D"
-	images: [{
-		height: 1.0d
-		image: "antique_atlas:textures/atlas/marker/custom/stuck_sword_accent.png"
-		rotation: 0.0d
-		width: 1.0d
-		x: -8.0d
-		y: -1.5d
-	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -21,7 +13,7 @@
 			description: [
 				"&7The Dark Arts of Flesh, also known as the Biomancy, is the art of warping the living things to make new things out of it."
 				""
-				"&7This tool, the Flesh Plunderer, plunders extra body parts from mobs, but breaks easily."
+				"&7This tool, the Flesh Plunderer, allows to plunder extra body parts from mobs, but breaks easily."
 				""
 				"&eIt's just the start in this weird journey."
 			]
@@ -61,7 +53,7 @@
 		}
 		{
 			dependencies: ["492D0CAE29412213"]
-			description: ["After offering flesh and other items, finish the offering with a &dRegeneration/Healing 2 Potion.&r"]
+			description: ["&eAfter offering flesh and other items, finish the offering with a &dRegeneration/Healing 2 Potion.&r"]
 			id: "12DA3AE95243DA2F"
 			rewards: [{
 				count: 4
@@ -257,9 +249,9 @@
 		{
 			dependencies: ["11719F41D574304A"]
 			description: [
-				"- Crafted from living flesh, the organic composition of the chest grants it remarkable resilience, ensuring the safety of its precious contents even from explosions."
+				"&7- Crafted from living flesh, the organic composition of the chest grants it remarkable resilience, ensuring the safety of its precious contents even from explosions."
 				""
-				"- Only its true master can unlock its contents without invoking the wrath of its razor-sharp fangs"
+				"&7- Only its true master can unlock its contents without invoking the wrath of its razor-sharp fangs"
 			]
 			id: "05A43ACB9EF0B1CF"
 			rewards: [{

@@ -440,7 +440,7 @@
 	#Prevent players from abusing some game mechanics to stop mobs. Only mobs in the entity type tag enhancedai:can_use_anti_cheese will be affected by this feature.
 	[Mobs.Anti-Cheese]
 		#If true, 'Enemies' will no longer be able to be Boated and Minecarted.
-		"Prevent Boating & Minecarting" = false
+		"Prevent Boating & Minecarting" = true
 		#If true, 'Enemies' will break boats or minecarts if boated or minecarted.
 		"Break trapping vehicles" = true
 
@@ -486,7 +486,7 @@
 		#Mobs with the miner AI will mine only if they have any tool in the off-hand
 		"Can mine with tool only" = true
 		#Mobs with the miner AI will mine only if their off-hand tool can mine targeted blocks (e.g. zombies with shovels will not mine stone). Blocks that require no tool (e.g. planks) will be minable regardless of proper tool or not.
-		"Can mine with proper tool only" = false
+		"Can mine with proper tool only" = true
 		#If 'Can mine with proper tool only' is enabled, mobs with the miner AI will mine blocks that don't require a tool only with the proper tool.
 		"Always require proper tool" = false
 		#Mobs with Miner AI will spawn with a Stone Pickaxe that never drops.

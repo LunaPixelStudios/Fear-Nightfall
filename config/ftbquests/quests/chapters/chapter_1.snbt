@@ -5,14 +5,6 @@
 	group: "173C7A3FFE3DDF09"
 	icon: "minecraft:torch"
 	id: "0FFDCEA070C7AE93"
-	images: [{
-		height: 1.0d
-		image: "antique_atlas:textures/atlas/marker/custom/sword_accent.png"
-		rotation: 0.0d
-		width: 1.0d
-		x: -8.5d
-		y: -9.0d
-	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -104,7 +96,14 @@
 			subtitle: "&8[Click for more information]"
 			tasks: [{
 				id: "02EBE5C6E88FE964"
-				item: "minecraft:oak_door"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:doors)"
+					}
+				}
+				title: "Make a door"
 				type: "item"
 			}]
 			title: "&eBuild a Base Before Nightfall"
@@ -266,7 +265,7 @@
 			dependencies: ["47E544C2A7FF4EC0"]
 			id: "7276FC7B1590E162"
 			rewards: [{
-				count: 4
+				count: 2
 				id: "38DC800C2C8A85D4"
 				item: "minecraft:golden_apple"
 				type: "item"

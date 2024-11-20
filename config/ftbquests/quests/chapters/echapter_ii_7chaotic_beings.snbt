@@ -90,7 +90,7 @@
 	quests: [
 		{
 			dependencies: ["5056463EC0BCCC4F"]
-			description: ["&7This strange creature tends to morph into the shape of an inoffensive animal to get ahold of their victims when they least expect it."]
+			description: ["&7This knight, wielding the chaos-infused dark metal armor, is a strong and resistant enemy. You may have a use for the metal it drops."]
 			id: "72768D772C24880A"
 			rewards: [{
 				id: "57489233F5C7C232"
@@ -100,16 +100,16 @@
 			shape: "pentagon"
 			subtitle: "&eAppears after the first night."
 			tasks: [{
-				entity: "cnc:skinwalker"
+				entity: "born_in_chaos_v1:fallen_chaos_knight"
 				icon: {
 					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
-						Icon: "butcher:item/pig_drained_item_icon"
+						Icon: "born_in_chaos_v1:item/darkcharge"
 					}
 				}
-				id: "7B6AE52748128318"
-				title: "&cThe Skinwalker"
+				id: "6544869F8185A92A"
+				title: "&cFallen Chaos Knight"
 				type: "kill"
 				value: 1L
 			}]
@@ -121,7 +121,7 @@
 			description: [
 				"&7A black silloutte, that lurks at night with its wide, glowing smile."
 				""
-				"&7Prophecy says that after 10 nights of chaos, it shall be strong enough to materialize itself into reality."
+				"&7Prophecy says that after 16 nights of chaos, it shall be strong enough to materialize itself into reality."
 			]
 			icon: {
 				Count: 1
@@ -137,7 +137,7 @@
 				type: "item"
 			}]
 			shape: "pentagon"
-			subtitle: "&eHaunts you after the eleventh night."
+			subtitle: "&eHaunts you after the sixteenth night."
 			tasks: [{
 				entity: "apollyon:the_damned"
 				icon: {
@@ -179,9 +179,9 @@
 		{
 			dependencies: ["5056463EC0BCCC4F"]
 			description: [
-				"&cThis being only appears at the darkest times; from October 25 to November 5."
+				"&7A dark horseman infused by dreadful magic. You can summon it at a Cemetery, in the SLeepy Hollows."
 				""
-				"&7A dark horseman infused by the fel magic. It appears after the third night in the season of Halloween."
+				"&ePlace a Luminous Essence made with the essences of the undead creatures from Sleepy Hollows to summon the dark Horseman."
 			]
 			hide_dependency_lines: false
 			hide_until_deps_visible: true
@@ -189,7 +189,7 @@
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "born_in_chaos_v1:item/pumpkinhead_icon"
+					Icon: "sleepy_hollows:item/reins_of_the_spectral_horse"
 				}
 			}
 			id: "4A2CD4727301A88E"
@@ -199,22 +199,22 @@
 				type: "item"
 			}]
 			shape: "pentagon"
-			subtitle: "&eAppears after the third night on Halloween."
+			subtitle: "&eSummoned in the depths of the Sleepy Hollows."
 			tasks: [{
-				entity: "born_in_chaos_v1:sir_pumpkinhead"
+				entity: "sleepy_hollows:horseman"
 				icon: {
 					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
-						Icon: "born_in_chaos_v1:item/pumpkinhead_icon"
+						Icon: "sleepy_hollows:item/reins_of_the_spectral_horse"
 					}
 				}
 				id: "5A3CCB2721140347"
-				title: "Kill the Sir Pumpkinhead"
+				title: "Kill the Horseman"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&cSir Pumpkinhead"
+			title: "&cThe Horseman"
 			x: 2.0d
 			y: -1.0d
 		}
@@ -256,7 +256,7 @@
 			shape: "pentagon"
 			subtitle: "&eAppears after the tenth night."
 			tasks: [{
-				entity: "born_in_chaos_v1:lifestealer"
+				entity: "born_in_chaos_v1:lifestealer_true_form"
 				icon: {
 					Count: 1
 					id: "ftbquests:custom_icon"
@@ -290,18 +290,11 @@
 			shape: "pentagon"
 			subtitle: "&eFound in the Dark Tower after the first night."
 			tasks: [{
-				entity: "born_in_chaos_v1:supreme_bonescaller"
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "born_in_chaos_v1:textures/mob_effect/bone_fracture.png"
-					}
-				}
-				id: "74B51888545F2D3F"
+				advancement: "born_in_chaos_v1:dismantledto_bones"
+				criterion: ""
+				id: "3201891DD1DA01C7"
 				title: "Kill the Supreme Bonescaller"
-				type: "kill"
-				value: 1L
+				type: "advancement"
 			}]
 			title: "&cSupreme Bonescaller"
 			x: 0.0d
@@ -324,7 +317,7 @@
 				type: "item"
 			}]
 			shape: "pentagon"
-			subtitle: "&eAppears after the fourth night."
+			subtitle: "&eAppears after the sixth night."
 			tasks: [{
 				entity: "born_in_chaos_v1:skeleton_thrasher"
 				icon: {

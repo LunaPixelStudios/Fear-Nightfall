@@ -2,7 +2,7 @@
 #Client-only settings
 [client]
 	#Whether the backpack icon should be visible in player's inventory
-	showBackpackIconInInventory = true
+	showBackpackIconInInventory = false
 	#Sends a message to the player on death with backpack coordinates
 	sendBackpackCoordinatesMessage = true
 	#Enables legacy GUI (Blue slots for storage, brown for crafting and green for tools)

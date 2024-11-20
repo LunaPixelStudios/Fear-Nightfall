@@ -123,8 +123,8 @@
 				"&c&lTips:"
 				"- &7Don't waste time in the day, explore and gather provisions."
 				"- &7Be careful, passive mobs will attack you back!"
-				"- &7Use the &eC&7 key to crawl."
-				"- &7Minimap available when obtaining an Atlas."
+				"- &7Use the &eLeft Alt&7 key to crawl."
+				"- &7Minimap available when crafting a Map Atlas."
 				"- &7 Chopping trees take multiple chops (depending on size), crouching breaks like normal."
 				"- &7Fear the nightfall."
 			]
@@ -190,6 +190,8 @@
 		{
 			dependencies: ["0164FF3EAA38076D"]
 			description: [
+				"Sanity if affected in many ways, here is a list:"
+				""
 				"&aPositive interactions:&r"
 				"    Staying fed"
 				"    Being near your pet or sane player"
@@ -230,8 +232,8 @@
 				}
 			}
 			id: "53920D8926D77BA7"
-			shape: "rsquare"
-			subtitle: "Sanity if affected in many ways, here is a list:"
+			shape: "circle"
+			subtitle: "&8[Click to read information]"
 			tasks: [{
 				id: "33129C89379328D6"
 				title: "Sanity"
@@ -239,6 +241,32 @@
 			}]
 			title: "Information: &eSanity"
 			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0164FF3EAA38076D"]
+			description: [
+				"&eEvery 5 nights a horde of monsters will invade you."
+				""
+				"&7Preparing your base's defenses should be a priority. The campaign will show you certain blocks that are useful to defend your base. These hordes will become stronger with time, so you must prepare yourself well."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "quark:textures/emote/zombie.png"
+				}
+			}
+			id: "416768B6738864C8"
+			shape: "circle"
+			subtitle: "&8[Click to read information]"
+			tasks: [{
+				id: "1071A390F691B612"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "Information: &eHordes"
+			x: -2.5d
 			y: -2.0d
 		}
 	]
