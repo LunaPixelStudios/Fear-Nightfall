@@ -43,8 +43,8 @@
 			image: "minecraft:item/netherite_ingot"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.7343750000000142d
-			y: -2.4464285714285694d
+			x: -1.2142857142857153d
+			y: -2.3392857142857153d
 		}
 		{
 			height: 1.8d
@@ -56,19 +56,11 @@
 		}
 		{
 			height: 1.0d
-			image: "ancientcurses:item/golden_amulet"
-			rotation: 0.0d
-			width: 1.0d
-			x: -2.484375000000007d
-			y: -4.3035714285714235d
-		}
-		{
-			height: 1.0d
 			image: "butcher:item/wither_bone"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.5915178571428683d
-			y: -2.482142857142854d
+			x: -3.0d
+			y: -3.5d
 		}
 	]
 	order_index: 3

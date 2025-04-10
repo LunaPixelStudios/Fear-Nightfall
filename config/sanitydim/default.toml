@@ -17,7 +17,7 @@
 		passive = 0.0
 		#Sanity gain per second during rainy weather or in water
 		#Range: -100.0 ~ 100.0
-		raining = -0.1
+		raining = -0.001
 		#Players' sanity will start getting affected with food levels at and below this threshold (in half-drumsticks)
 		#Range: 0 ~ 20
 		hunger_threshold = 8

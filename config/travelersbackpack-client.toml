@@ -5,8 +5,6 @@
 	showBackpackIconInInventory = false
 	#Sends a message to the player on death with backpack coordinates
 	sendBackpackCoordinatesMessage = true
-	#Enables legacy GUI (Blue slots for storage, brown for crafting and green for tools)
-	enableLegacyGui = false
 	#Enables tool cycling via keybind (Default Z) + scroll combination, while backpack is worn
 	enableToolCycling = true
 	#Allows tool cycling using keybinding only (Default Z)
@@ -15,6 +13,8 @@
 	obtainTips = true
 	#Render tools in tool slots on the backpack, while worn
 	renderTools = true
+	#Only for supporters, option to show/hide the Supporter Star Badge. If you want to receive the Supporter Star Badge, visit my Ko-fi page :)! - https://ko-fi.com/tiviacz1337
+	showSupporterBadge = true
 
 	#The position of the Overlay on the screen
 	[client.overlay]

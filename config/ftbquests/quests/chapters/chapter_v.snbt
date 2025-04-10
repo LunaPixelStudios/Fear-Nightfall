@@ -226,6 +226,7 @@
 				"77B900FB46A912D3"
 				"39570C36186F7AE4"
 				"0C028A90EB575C5A"
+				"5C37D7DBA13C1C19"
 			]
 			description: [
 				""
@@ -246,8 +247,8 @@
 				type: "item"
 			}]
 			title: "&cTwelve Eyes"
-			x: 1.0d
-			y: 0.0d
+			x: 1.0267857142857224d
+			y: 0.040178571428576504d
 		}
 		{
 			dependencies: ["55A64B9A298D8523"]
@@ -341,6 +342,7 @@
 		}
 		{
 			dependencies: ["55A64B9A298D8523"]
+			description: [""]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "39570C36186F7AE4"
@@ -351,7 +353,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Can be obtained by killing mobs or decomposing."
+			subtitle: "Can be obtained by killing mobs or through decomposing."
 			tasks: [{
 				count: 16L
 				id: "355C8FFBED8EE2CA"
@@ -389,22 +391,30 @@
 				type: "structure"
 			}]
 			title: "&eFinding The Stronghold"
-			x: 1.0d
-			y: -3.0d
+			x: 1.0267857142857224d
+			y: -3.28125d
 		}
 		{
 			dependencies: ["633B1DE729F4995B"]
 			description: [
-				"&7To perform this ritual, inside the &9&nPrimordial Abyss&r&7, build the following:"
+				"&7To perform this ritual, inside the &9&nPrimordial Abyss&r&7 biome, build the following:"
 				"{image:eldritch_end:textures/pages/ritual.png width:210 height:145 align:center}"
-				"&eFinally, break an Aberration Heart in the middle block to summon The Faceless."
+				"&eFinally, break an Aberration Heart in the middle pedestal to summon The Faceless."
 			]
 			id: "46F547CE597F27C6"
-			rewards: [{
-				id: "287E6B8EB2CFC136"
-				item: "teraphobia:chaos_essence"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "4084C08BA9C39260"
+					item: "teraphobia:chaos_essence"
+					type: "item"
+				}
+				{
+					id: "759DCEC83DD464A7"
+					item: "teraphobia:infusion_of_chaos_recipe"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "&eThe End's Greater Chaos Being"
@@ -601,6 +611,7 @@
 		}
 		{
 			dependencies: ["4DE48F907C69B9EF"]
+			description: ["&7Travel through the newly open portal to the End."]
 			id: "6B3CEC6FAB8A5C33"
 			shape: "hexagon"
 			size: 1.25d
@@ -617,7 +628,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["291E37173707EF3D"]
+			dependencies: [
+				"291E37173707EF3D"
+				"666BC3D31B8988A6"
+			]
 			description: [
 				"&7The heart of these vile creatures is an essential ingredient to summon the Faceless."
 				""
@@ -653,7 +667,7 @@
 				type: "biome"
 			}]
 			title: "&eThe Primordial Abyss"
-			x: 1.0d
+			x: 0.5d
 			y: -6.0d
 		}
 		{
@@ -676,6 +690,46 @@
 			title: "&eTwisted Mind"
 			x: 0.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["55A64B9A298D8523"]
+			description: [
+				"&7This ancient eternal crystal is your way back home from the End."
+				""
+				"&7It can be used to light up Eternal Portals"
+			]
+			id: "5C37D7DBA13C1C19"
+			shape: "diamond"
+			subtitle: "A powerful crystal that opens the gate to the overworld"
+			tasks: [{
+				count: 6L
+				id: "73B7FAF9C021E949"
+				item: "betterend:eternal_crystal"
+				type: "item"
+			}]
+			title: "&eA way home"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B3CEC6FAB8A5C33"]
+			description: [
+				"&7A structure of a circular portal made out of runic stone. It can be lit with an Eternal Crystal on top of each surrounding Eternal Pedestals, and be used as your way back to the Overworld."
+				""
+				"&7You may craft Runed Flavolite to complete the broken portals found in the End."
+			]
+			id: "666BC3D31B8988A6"
+			shape: "diamond"
+			subtitle: "&8[Click to read instructions]"
+			tasks: [{
+				icon: "betterend:flavolite_runed_eternal"
+				id: "0B939D183D8F1EC6"
+				structure: "betterend:eternal_portal"
+				title: "&eFind the Eternal Portal"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: -6.0d
 		}
 	]
 	title: " &eChapter V:   &7 An Abyssal End"

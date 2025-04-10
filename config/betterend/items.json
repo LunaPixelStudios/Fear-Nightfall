@@ -90,7 +90,8 @@
     "terminite_hoe_head [default: true]": true,
     "terminite_sword_blade [default: true]": true,
     "terminite_sword_handle [default: true]": true,
-    "terminite_forged_plate [default: true]": true
+    "terminite_forged_plate [default: true]": true,
+    "guidebook [default: true]": true
   },
   "musicDiscs": {
     "music_disc_strange_and_alien [default: true]": true,

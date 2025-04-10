@@ -19,6 +19,9 @@
 	messageAndKickDelay = 10.0
 	#Gives VR Players fun cakes and drinks at random, when they respawn.
 	vrFun = true
+	#Sends the player position data also back to the player that sent it, usually not needed.
+	# Enable this to when using replay mod or something similar.
+	sendDataToOwner = false
 
 [messages]
 	#Enable or disable all messages.
@@ -49,6 +52,13 @@
 	#Distance at which creepers swell and explode for VR players. Vanilla: 3
 	# default: 1.75, min: 0.10, max: 10.00
 	creeperSwellDistance = 1.75
+	#Allows vr players to hit with their offhand items
+	dualWielding = true
+	#Melee damage addition for Vivecraft users when hitting with their feet.
+	# This scales with the armor attribute of the boots, doing 1 additional damage per Armor level, times the set multiplier
+	# Set to 0.0 to disable
+	# default: 0.00, min: 0.00, max: 5.00
+	bootsArmorDamage = 0.0
 
 	#Bow damage adjustments
 	[vrChanges.bow]
@@ -139,4 +149,10 @@
 	#Allows players to switch between VR and NONVR on the fly.
 	# If disabled, they will be locked to the mode they joined with.
 	enabled = true
+
+[debug]
+	#will spawn particles at VR players device positions, to indicate the server VR data state.
+	debugParticles = false
+	#will spawn particles at VR players head position, to indicate the server VR data state.
+	debugParticlesHead = false
 

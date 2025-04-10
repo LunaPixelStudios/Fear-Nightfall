@@ -139,49 +139,6 @@
 		}
 		{
 			dependencies: ["762EE4B4D1B9748E"]
-			id: "5D820E30F96098DA"
-			rewards: [{
-				id: "1DD5866C191D2424"
-				item: {
-					Count: 1
-					id: "minecraft:potion"
-					tag: {
-						Potion: "minecraft:healing"
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
-			tasks: [{
-				id: "2B0EFEA40F205EAC"
-				item: "hexerei:candle_dipper"
-				type: "item"
-			}]
-			title: "Craft &8Dipper"
-			x: -4.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["5D820E30F96098DA"]
-			id: "38C667ECE48C6A97"
-			rewards: [{
-				count: 3
-				id: "3A5A82AE786DB0CB"
-				item: "hexerei:candle"
-				type: "item"
-			}]
-			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
-			tasks: [{
-				id: "412BB61F28F105A1"
-				item: "hexerei:candle"
-				type: "item"
-			}]
-			title: "Craft &8Dipper"
-			x: -4.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["762EE4B4D1B9748E"]
 			id: "4802C3FBE2D801F7"
 			rewards: [{
 				id: "3DD690FE8AB154E9"

@@ -3,9 +3,167 @@
 	default_quest_shape: ""
 	filename: "echapter_vii_7mother_of_chaos"
 	group: "173C7A3FFE3DDF09"
+	icon: "derelict:spider_silk_gland"
 	id: "226A42EE86B35EBF"
-	order_index: 6
+	images: [
+		{
+			height: 1.0d
+			image: "derelict:textures/mob_effect/cobwebbed.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.4642857142857153d
+			y: -4.035714285714285d
+		}
+		{
+			height: 1.0d
+			image: "derelict:textures/mob_effect/cobwebbed.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.3928571428571459d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "derelict:item/fancy_cobweb_with_spider"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.6071428571428541d
+			y: -3.25d
+		}
+		{
+			height: 1.0d
+			image: "derelict:item/fancy_cobweb_with_spider_nest"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.3571428571428541d
+			y: -3.142857142857139d
+		}
+		{
+			height: 1.0d
+			image: "geckolib:textures/blank.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			height: 3.7d
+			image: "teraphobia:textures/quests/arachne.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: -4.5d
+		}
+	]
+	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
-	title: " &eChapter VII:  &7Mother of Chaos"
+	quests: [
+		{
+			dependencies: ["46F547CE597F27C6"]
+			hide_until_deps_complete: true
+			id: "050E729D8C676708"
+			subtitle: "&8[Click to read information]"
+			tasks: [{
+				id: "4DF70C5C6DCFDAAC"
+				structure: "derelict:spider_caves/overworld_hint"
+				title: "Eggs of Chaos"
+				type: "structure"
+			}]
+			title: "Overworld's Lair"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0FC87D504016C3D7"]
+			description: [
+				"&7At the core of the world, the Mother of Chaos lies inside her egg, awaiting to be awakened and unleash the rest of chaos to the world."
+				""
+				"&7Her attacks  "
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "derelict:item/spiny_spider_spawn_egg"
+				}
+			}
+			id: "28DF6E5D08719211"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&8[Click to read information]"
+			tasks: [{
+				entity: "derelict:arachne"
+				id: "46B0DF02476064BD"
+				title: "&cDefeat the Mother of Chaos"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cThe Mother of Chaos"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4F6BB25B036E6F4E"]
+			id: "5D0692C38E654CDA"
+			subtitle: "&8[Click to read information]"
+			tasks: [{
+				id: "4FBF6E4A43162E6B"
+				structure: "derelict:spider_caves/boss_arena"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["050E729D8C676708"]
+			id: "3D84F39434E6DDCB"
+			subtitle: "&8[Click to read information]"
+			tasks: [{
+				biome: "derelict:spider_caves"
+				id: "335D6DA47BFABE26"
+				type: "biome"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D84F39434E6DDCB"]
+			description: ["&7Found in Spider Caves"]
+			id: "4F6BB25B036E6F4E"
+			subtitle: "&8[Click to read information]"
+			tasks: [{
+				count: 6L
+				id: "13037E031AD211DB"
+				item: { Count: 6, id: "derelict:spider_egg" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D0692C38E654CDA"]
+			description: [
+				""
+				"{image:teraphobia:textures/quests/recipe_infusion_of_chaos.png width:130 height:100 align:center fit:true}"
+			]
+			id: "0FC87D504016C3D7"
+			shape: "diamond"
+			subtitle: "&8[Click to read information]"
+			tasks: [{
+				id: "14748E7C40E94B76"
+				item: {
+					Count: 1
+					id: "teraphobia:infusion_of_chaos"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&cInfusing Chaos"
+			x: 2.0d
+			y: -1.5d
+		}
+	]
+	title: " &eChapter VI:   &cMother of Chaos"
 }

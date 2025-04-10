@@ -29,6 +29,11 @@
       "entityId": "!boh.*",
       "dimension": "minecraft:overworld",
       "spawn_chance": 0.5
+    },
+    {
+      "entityId": "apollyon:the_damned",
+      "dimension": "!.*",
+      "spawn_chance": 0.2
     }
   ],
   // Don't touch this!

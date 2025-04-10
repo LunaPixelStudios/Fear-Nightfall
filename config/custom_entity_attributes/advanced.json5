@@ -124,6 +124,33 @@
           "operation": "ADDITION"
         }
       ]
+    },
+    {
+      "entity_regex": "derelict:arachne",
+      "apply_chance": 100.0,
+      "time_regex": ".*",
+      "dimension_regex": ".*",
+      "biome_regex": ".*",
+      "difficulty_regex": ".*",
+      "default_hp": -1.0,
+      "only_apply_to_babies": false,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 3,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 416,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10,
+          "operation": "ADDITION"
+        }
+      ]
     }
   ],
   // Don't touch this!

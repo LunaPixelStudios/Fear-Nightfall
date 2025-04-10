@@ -65,20 +65,20 @@
 			DamageCap = 25.0
 
 			[Mobs."Immortal Mobs".Immortal."Damage Adapt"]
-				#Set this mob maximum adaptation damage source count
-				#Range: 10 ~ 1024
-				"Maximum adaptation damage source count" = 100
-				#Set the effective time for a single adaptation damage source(second)
-				#Range: 10 ~ 1024
-				"Effective time" = 30
-				#Set the factor of each reduction of the same damage source
-				#Range: 0.0 ~ 1.0
-				"Single adapt factor" = 0.1
-				#Set the max damage reduction factor
-				#Range: 0.0 ~ 1.0
-				"Max adapt factor" = 0.6
-				#If 'False' disable adaptation to out of world and generic kill damage source
+				#If set to 'False' disable adaptation to out of world and generic kill damage source
 				"Adaptation bypasses damage source" = true
+				#Set max adaptable damage sources for this mob
+				#Range: 10 ~ 1024
+				"Max supported damage types amount" = 100
+				#Set the effective duration for a single adaptation damage source (in seconds)
+				#Range: 10 ~ 1024
+				"Adaptation duration" = 30
+				#Set the reduction factor for each instance of the same damage source
+				#Range: 0.0 ~ 1.0
+				"Single hurt post adaptation value" = 0.1
+				#Set the maximum damage reduction factor
+				#Range: 0.0 ~ 1.0
+				"Same damage max adaptation factor" = 0.7
 
 	[Mobs."Corpse Mobs"]
 
@@ -89,7 +89,7 @@
 			#Set this mob attack multiplier
 			#Range: 0.0 ~ 1.7976931348623157E308
 			"Attack multiplier" = 1.0
-			#If 'False', When zombies or villagers are killed by corpses, they will not converted into corpses themselves
+			#If set to 'False', When zombies or villagers are killed by corpses, they will not converted into corpses themselves
 			"Converted to corpse" = true
 
 		[Mobs."Corpse Mobs"."Corpse Warlock"]
@@ -109,7 +109,7 @@
 	[Mobs."Guling Mobs"]
 
 		[Mobs."Guling Mobs"."Guling Sentinel"]
-			#If 'False' disable out-of-combat heal
+			#If set to 'False' disable out-of-combat heal
 			"Enable out-of-combat healing" = true
 			#Set this mob health multiplier
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -119,7 +119,7 @@
 			"Attack multiplier" = 1.0
 
 		[Mobs."Guling Mobs"."Guling Sentinel-Heavy"]
-			#If 'False' disable out-of-combat heal
+			#If set to 'False' disable out-of-combat heal
 			"Enable out-of-combat healing" = true
 			#Set this mob health multiplier
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -135,9 +135,9 @@
 			#Set extra invulnerable tick(This setting does not take effect in Challenge Mode)
 			#Range: 0 ~ 1200
 			"Extra invulnerable tick" = 20
-			#If 'False' disable out-of-combat heal
+			#If set to 'False' disable out-of-combat heal
 			"Enable out-of-combat healing" = true
-			#If 'False' disable forced suck blood on power status(This setting does not take effect in Challenge Mode)
+			#If set to 'False' disable forced suck blood on power status(This setting does not take effect in Challenge Mode)
 			"Enable forced suck blood" = true
 			#Be careful! It's going to get tricky!
 			"Challenge Mode" = false
@@ -169,21 +169,21 @@
 [Items]
 
 	[Items."Summoning Soul Necklace"]
-		#Set item cool down time after player on use (seconds)
-		#Range: > 1
+		#Set item cool down time after player on use (in seconds)
+		#Range: 0.0 ~ 60.0
 		"Set item cool down time" = 20
 		#Set maximum amount of damage a player can take while holding this item
 		#Range: 1.0 ~ 3.4028234663852886E38
 		"Set maximum cumulative damage taken" = 50.0
 
 	[Items."Immortal Staff"]
-		#Set item cool down time after player on use (seconds)
-		#Range: 0.5 ~ 60.0
+		#Set item cool down time after player on use (in seconds)
+		#Range: 0.0 ~ 60.0
 		"Set item cool down time" = 1
 
 	[Items.Howitzer]
-		#Set item cool down time after player on use (seconds)
-		#Range: 0.5 ~ 60.0
+		#Set item cool down time after player on use (in seconds)
+		#Range: 0.0 ~ 60.0
 		"Set item cool down time" = 5
 		#Set Grenade explosion radius(the bigger the blast radius, the higher the damage)
 		#Range: 1.0 ~ 10.0
@@ -191,6 +191,12 @@
 		#Set Grenade maximum explosion damage(damage to the center of the explosion)
 		#Range: 1.0 ~ 128.0
 		"Set explosion damage cap" = 10.0
+		#Set tool attack damage
+		#Range: 0.0 ~ 3.4028234663852886E38
+		"Attack damage" = 8.0
+		#Set tool attack speed
+		#Range: 0.0 ~ 3.4028234663852886E38
+		"Attack speed" = 1.6
 
 	[Items."Guardian Battleaxe"]
 		#Set tool attack damage
@@ -199,9 +205,15 @@
 		#Set tool attack speed
 		#Range: 0.0 ~ 3.4028234663852886E38
 		"Attack speed" = 0.9
+		#The increase in damage should refer to the Sweeping Edge enchantment
+		#Range: 0 ~ 4
+		"Set sweep attack level" = 1
+		#Set item cool down time after player on use (in seconds)
+		#Range: 0.0 ~ 60.0
+		"Set item cool down time" = 5.0
 
 	[Items."Ghost Warrior Series"]
-		#If 'True' armor or weapon will be depleted
+		#If set to 'True' armor or weapon will be depleted
 		"Enable armor or weapon can be depleted" = false
 		#Set tool attack damage
 		#Range: 0.0 ~ 3.4028234663852886E38
@@ -210,19 +222,31 @@
 		#Range: 0.0 ~ 3.4028234663852886E38
 		"Attack speed" = 1.4
 
+	[Items."Eye Of Structure"]
+		#If set to 'True' eye of structure will be consume item on release
+		"Consume Item On Release" = false
+		#Set item cool down time after player on use (in seconds)
+		#Range: 0.0 ~ 60.0
+		"Set item cool down time" = 4.0
+
 [Entities]
 
 	[Entities."Guardian Laser"]
-		#If 'False' disable scorch generate on the ground
+		#If set to 'False' disable scorch generate on the ground
 		"Enable scorch generate" = true
-		#Set the maximum shooting distance when the user is a player
+		#Set the maximum shooting distance for players
 		#Range: 1.0 ~ 64.0
 		"Set attack radius" = 16.0
+		#If set to 'False' disable block destruction by players
+		"Enable destroy block" = true
+		#Set max block hardness for laser destruction
+		#Range: 1.0 ~ 3.4028234663852886E38
+		"Set laser max hardness" = 1.0
 
 	[Entities."Falling Block"]
-		#If 'False' disable falling block spawn
+		#If set to 'False' disable falling block spawn
 		"Enable falling block spawn" = true
-		#If 'False' disable falling block rendering
+		#If set to 'False' disable falling block rendering
 		"Enable falling block render" = true
 		#Set the maximum range for downward block detection to determine the Y-axis position where the entity spawns
 		#Range: 1 ~ 10
@@ -236,20 +260,22 @@
 [Others]
 
 	[Others.Camera]
-		#If 'False' disable camera shake
+		#If set to 'False' disable camera shake
 		"Enable camera shake" = true
 
 	[Others.Bosses]
-		#If 'False' disable bosses blood bars
+		#If set to 'False' disable bosses blood bars
 		"Enable bosses blood bars" = true
-		#If 'False' disable play boss music
+		#If set to 'False' disable play boss music
 		"Enable play bosses musics" = true
-		#If 'False' disable bosses breaking blocks drop items
+		#If set to 'False' disable bosses breaking blocks drop items
 		"Enable bosses breaking blocks drop items" = false
 
 	[Others.Misc]
-		#If 'False' able inflict damage between mobs of the same team
-		"Friendly fire among allies" = true
-		#If 'False' disable frenzy potion destroy block
+		#If set to 'False' disable frenzy potion destroy block
 		"Enable frenzy potion destroy block" = false
+		#If set to 'False' able inflict damage between mobs of the same team
+		"Enable allied damage protection" = true
+		#If set to 'False' disable showing cooldown time in tooltip
+		"Enable show item cd" = false
 

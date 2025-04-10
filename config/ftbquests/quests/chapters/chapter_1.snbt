@@ -362,6 +362,27 @@
 			x: 2.5d
 			y: -4.5d
 		}
+		{
+			dependencies: ["4D5D3A38CA390881"]
+			description: ["&7Craft a Lantern and equip it in your &eBelt Slot&7 to light up your way at night."]
+			id: "3E2E7A81068CD306"
+			rewards: [{
+				count: 4
+				id: "744E35D900609B13"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "It's hard to see at night"
+			tasks: [{
+				id: "437B047199EE2743"
+				item: "minecraft:lantern"
+				type: "item"
+			}]
+			title: "&eA clearer path"
+			x: 0.0d
+			y: 2.5d
+		}
 	]
 	title: " &eChapter I:&r     &7The Nightmare"
 }

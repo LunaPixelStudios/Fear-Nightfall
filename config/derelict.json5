@@ -12,5 +12,16 @@
 	   Entities that this applies to are defined in the `derelict:entity_types/spawns_spiderlings_on_death` tag.
 	   Value is a percentage, 0.0 - 100.0
 	*/
-	"spiderlingSpawnChance": 10.0
+	"spiderlingSpawnChance": 15.0,
+	/* The ID of the advancement that is necessary to break Arachne's Egg to summon the boss. Not having this
+	   advancement will display a message with the advancement's DESCRIPTION in-game.
+	   
+	   If left empty, no advancement is required.
+	*/
+	"arachneEggAdvancement": "teraphobia:infusion_of_chaos",
+	/* The time it takes for an Arachne's Egg to respawn, in seconds.
+	   Set to -1 to disable respawning (only recommended if you have a proper reason to only allow one fight per 
+	   nest).
+	*/
+	"arachneEggRespawnTime": -1
 }

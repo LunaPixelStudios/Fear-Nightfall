@@ -4,6 +4,7 @@
   "default_packs": [
     "file/Ashen_16x.zip",
     "file/Ashen_FN_Remains_of_Chaos.zip",
+    "file/Fasten_FNRoC_1.20.1.zip",
     "builtin/overrides_pack"
   ],
   "default_overrides": {
