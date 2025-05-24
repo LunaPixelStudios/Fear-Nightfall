@@ -1,2 +1,2 @@
 # Fear Nightfall
-A horror modpack with a storyline.
+For issues join the Discord https://discord.gg/LunaPixel
